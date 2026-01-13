@@ -1,0 +1,92 @@
+# --- Lemon8 — 全面规则（不包含抖音/国内域，也不重复已有 TikTok 域） ---
+
+DOMAIN-SUFFIX,lemon8-app.com
+DOMAIN-SUFFIX,lemon8cdn.com
+
+# 常见 login / api / log 子域（保留具体 host 有助于避免误封）
+DOMAIN,log16-normal-useast1a.lemon8-app.com
+DOMAIN,log19-normal-useast1a.lemon8-app.com
+DOMAIN,log22-normal-useast1a.lemon8-app.com
+DOMAIN,api22-normal.lemon8-app.com
+
+# p16 / sign / 站点签名类（lemon8cdn 的常见子域）
+DOMAIN,p16-sign-va.lemon8cdn.com
+DOMAIN,p16-sign-eu.lemon8cdn.com
+
+# 资源 / static / image 服务（lemon8 专属）
+DOMAIN-SUFFIX,lemon8static.com
+DOMAIN-SUFFIX,lemon8media.com
+
+# App store / webview helpers (lemon8-specific hosts observed in field)
+DOMAIN-SUFFIX,lemon8-analytics.com
+DOMAIN-SUFFIX,lemon8-cdn.com
+
+# 兜底（只针对 lemon8 域名族群，不泛化 byte/tt/tiktok）
+DOMAIN-KEYWORD,lemon8
+DOMAIN-KEYWORD,lemon8-app
+
+
+
+
+
+
+############# TikTok (final merged, no duplicate, no Douyin)
+
+# 表情 / 贴纸 / Web 资源（核心）
+DOMAIN-SUFFIX,lf16-tiktok-web.tiktokcdn-us.com
+DOMAIN-SUFFIX,lf16-tiktok-web.tiktokcdn.com
+DOMAIN-SUFFIX,lf16.tiktokcdn-us.com
+DOMAIN-SUFFIX,lf16.tiktokcdn.com
+DOMAIN-SUFFIX,lf6-cmcc2-tiktokcdn.com
+
+# TikTok CDN（海外）
+DOMAIN-SUFFIX,tiktokcdn-us.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN,p16-tiktokcdn-com.akamaized.net
+
+# ByteDance 海外静态资源（安全，不影响抖音）
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,bytedanceent.com
+
+# TikTok / ByteDance 海外 API
+DOMAIN-SUFFIX,byteintlapi.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,byteoversea.net
+DOMAIN-SUFFIX,bytedapm.com
+DOMAIN-SUFFIX,bytegecko-i18n.com
+
+# TikTok App / Web
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokv.us
+DOMAIN-SUFFIX,tiktokd.net
+DOMAIN-SUFFIX,tiktokd.org
+DOMAIN-SUFFIX,ttwebview.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-KEYWORD,tiktok
+DOMAIN-KEYWORD,musical.ly
+
+# 表情 / 特效 / AI 组件（关键补充）
+DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+DOMAIN-SUFFIX,byteeffecttos-g.com
+DOMAIN-SUFFIX,byteeffecttos.com
+DOMAIN-SUFFIX,effectcdn.bytedance.com
+DOMAIN-SUFFIX,pkgcdn.com
+DOMAIN-SUFFIX,pitaya-clientai.com
+
+# 音乐 / 表情音效（海外）
+DOMAIN-SUFFIX,musicalcdn.com
+DOMAIN-SUFFIX,tiktokmusic.com
+DOMAIN-SUFFIX,tiktokmusic.app
+
+# WebView / H5 / 评论区资源
+DOMAIN-SUFFIX,tiktokcdn-live.com
+DOMAIN-SUFFIX,tiktokcdn-eu.com
+
+# TikTok 海外统计 / SDK
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,sgpstatp.com
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,snssdk.com
