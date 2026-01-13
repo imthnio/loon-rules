@@ -7,7 +7,7 @@ DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,bbb.org
 
 ########################杂乱无章
-DOMAIN-SUFFIX,beiyoujiang.comcom
+DOMAIN-SUFFIX,beiyoujiang.com
 DOMAIN-SUFFIX,beiyoujiang.com
 DOMAIN-SUFFIX,starvm.top
 DOMAIN-SUFFIX,feijipan.com
@@ -28,16 +28,16 @@ DOMAIN-SUFFIX,idaohang123.com
 DOMAIN-SUFFIX,easydown.or
 
 ########################刷粉丝刷粉刷赞
-DOMAIN-SUFFIX,home.ff31.shop,荷兰
-DOMAIN-SUFFIX,2786.3q888.top,荷兰
-DOMAIN-SUFFIX,smm1ok.com,荷兰
-DOMAIN-SUFFIX,kssq.net,荷兰
-DOMAIN-SUFFIX,huosq.top,荷兰
-DOMAIN-SUFFIX,9889.ren,荷兰
+DOMAIN-SUFFIX,home.ff31.shop
+DOMAIN-SUFFIX,2786.3q888.top
+DOMAIN-SUFFIX,smm1ok.com
+DOMAIN-SUFFIX,kssq.net
+DOMAIN-SUFFIX,huosq.top
+DOMAIN-SUFFIX,9889.ren
 
 ########################推特账号购买
 DOMAIN-SUFFIX,tuitezhanghao-goumai.com
-DOMAIN-SUFFIX,tuitezhanghao-goumai.com
+
 
 
 ########################阅后即焚
@@ -47,6 +47,7 @@ DOMAIN-SUFFIX,cryptgeon.org
 DOMAIN-SUFFIX,tuitehao.cc
 DOMAIN-SUFFIX,ww6559.com
 DOMAIN-SUFFIX,easychuan.cn
+DOMAIN-KEYWORD,wenshushu
 
 ########################证件psd
 DOMAIN-SUFFIX,psdstencil.cc
@@ -57,7 +58,6 @@ DOMAIN-SUFFIX,shop.davinci-pay.com
 
 ####################################图床
 DOMAIN-SUFFIX,c.wss.cc
-DOMAIN-KEYWORD,wenshushu
 DOMAIN-SUFFIX,photo.lily.lat
 DOMAIN-SUFFIX,img.xwyue.com
 DOMAIN-SUFFIX,ccgimg.com
