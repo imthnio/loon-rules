@@ -6,6 +6,9 @@ DOMAIN-SUFFIX,lm.licenses.adobe.com,REJECT
 DOMAIN-SUFFIX,diao58jiao.top,REJECT
 DOMAIN-SUFFIX,qp6kf9.cc
 DOMAIN-SUFFIX,woeiijhkshdd.qp6kf9.cc
+DOMAIN-SUFFIX,xg2es8.cc
+
+
 
 #全网最全Adobe监测IP一键屏蔽工具
 0.0.0.0 ic.adobe.io
