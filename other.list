@@ -1,14 +1,4 @@
-#nodseek&数字居民论坛&nodeloc
-DOMAIN-SUFFIX,linux.docom
-DOMAIN-SUFFIX,nodeloc.com
-DOMAIN-SUFFIX,shuzijumin.com
-DOMAIN-SUFFIX,banknav.com
-DOMAIN-SUFFIX,v2ex.com
-DOMAIN-SUFFIX,hostloc.com
-DOMAIN-SUFFIX,apepine.com
-DOMAIN-SUFFIX,legacyvps.com
-DOMAIN-SUFFIX,greasyfork.org
-DOMAIN-SUFFIX,linux.do
+
 ########################ai音乐
 DDOMAIN-SUFFIX,cutcut.top
 DOMAIN-SUFFIX,huggingface.com
