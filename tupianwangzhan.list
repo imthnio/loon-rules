@@ -1,3 +1,4 @@
+#######################################pinterest
 DOMAIN-SUFFIX,pinimg.com
 DOMAIN-SUFFIX,pinterest.at
 DOMAIN-SUFFIX,pinterest.ca
@@ -21,3 +22,12 @@ DOMAIN-SUFFIX,pinterest.ph
 DOMAIN-SUFFIX,pinterest.pt
 DOMAIN-SUFFIX,pinterest.ru
 DOMAIN-SUFFIX,pinterest.se
+#######################################pixiv-p站
+DOMAIN-SUFFIX,booth.pm
+DOMAIN-SUFFIX,fanbox.cc
+DOMAIN-SUFFIX,pixiv.cat
+DOMAIN-SUFFIX,pixiv.co.jp
+DOMAIN-SUFFIX,pixiv.me
+DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,pixiv.org
+DOMAIN-SUFFIX,pximg.net
