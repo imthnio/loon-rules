@@ -19,3 +19,9 @@ DOMAIN-SUFFIX,yahooapis.com
 DOMAIN-SUFFIX,api.login.yahoo.com
 DOMAIN-SUFFIX,yahoo.net
 DOMAIN-SUFFIX,verizonmedia.com
+
+####################################aol邮箱
+DOMAIN-SUFFIX,aol.ca
+DOMAIN-SUFFIX,aol.co.uk
+DOMAIN-SUFFIX,aol.com
+DOMAIN-SUFFIX,aolnews.com
