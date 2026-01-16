@@ -39,25 +39,40 @@ DOMAIN-SUFFIX,s.yimg.com
 DOMAIN-SUFFIX,help.aol.com
 
 ############# Proton Mail
-
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,protonmail.com
-
 DOMAIN-SUFFIX,account.proton.me
 DOMAIN-SUFFIX,account.protonmail.com
 DOMAIN-SUFFIX,login.proton.me
 DOMAIN-SUFFIX,auth.proton.me
-
 DOMAIN-SUFFIX,mail-api.proton.me
 DOMAIN-SUFFIX,mail.proton.me
 DOMAIN-SUFFIX,api.proton.me
 DOMAIN-SUFFIX,keys.proton.me
 DOMAIN-SUFFIX,secure.proton.me
-
 DOMAIN-SUFFIX,static.proton.me
 DOMAIN-SUFFIX,assets.proton.me
-
 DOMAIN-SUFFIX,notifications.proton.me
 DOMAIN-SUFFIX,status.proton.me
 DOMAIN-SUFFIX,support.proton.me
+
+
+############# GMX Mai
+DOMAIN-SUFFIX,gmx.com
+DOMAIN-SUFFIX,gmx.net
+DOMAIN-SUFFIX,mail.gmx.com
+DOMAIN-SUFFIX,mail.gmx.net
+DOMAIN-SUFFIX,login.gmx.com
+DOMAIN-SUFFIX,login.gmx.net
+DOMAIN-SUFFIX,account.gmx.com
+DOMAIN-SUFFIX,account.gmx.net
+DOMAIN-SUFFIX,api.gmx.com
+DOMAIN-SUFFIX,api.gmx.net
+DOMAIN-SUFFIX,gmxcdn.net
+DOMAIN-SUFFIX,static.gmxcdn.net
+DOMAIN-SUFFIX,antispam.gmx.net
+DOMAIN-SUFFIX,security.gmx.com
+DOMAIN-SUFFIX,hilfe.gmx.net
+DOMAIN-SUFFIX,help.gmx.com
+
 
