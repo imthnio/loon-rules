@@ -1,3 +1,17 @@
+########################杂乱无章
+DOMAIN-SUFFIX,beiyoujiang.com
+DOMAIN-SUFFIX,beiyoujiang.com
+DOMAIN-SUFFIX,starvm.top
+DOMAIN-SUFFIX,feijipan.com
+DOMAIN-SUFFIX,xinstore.org
+DOMAIN-SUFFIX,jzbk.net
+DOMAIN-SUFFIX,wiki.repcz.link
+DOMAIN-SUFFIX,baicai.xlog.app
+DOMAIN-SUFFIX,Report.Check.Place
+DOMAIN-SUFFIX,akirabox.com
+DOMAIN-SUFFIX,mediafire.com
+
+
 ################################维基百科
 DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,wikibooks.org
@@ -18,17 +32,6 @@ DOMAIN-SUFFIX,huggingface.co
 
 ########################美国政府机构
 DOMAIN-SUFFIX,bbb.org
-
-########################杂乱无章
-DOMAIN-SUFFIX,beiyoujiang.com
-DOMAIN-SUFFIX,beiyoujiang.com
-DOMAIN-SUFFIX,starvm.top
-DOMAIN-SUFFIX,feijipan.com
-DOMAIN-SUFFIX,xinstore.org
-DOMAIN-SUFFIX,jzbk.net
-DOMAIN-SUFFIX,wiki.repcz.link
-DOMAIN-SUFFIX,baicai.xlog.app
-DOMAIN-SUFFIX,Report.Check.Place
 
 
 ########################视频解析下载
