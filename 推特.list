@@ -1,4 +1,4 @@
-############# X (Twitter) + Grok (xAI) (stable)
+############# X (Twitter) + Grok (final clean)
 
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twitter.com
@@ -7,20 +7,26 @@ DOMAIN-SUFFIX,api.x.com
 DOMAIN-SUFFIX,login.twitter.com
 DOMAIN-SUFFIX,auth.twitter.com
 DOMAIN-SUFFIX,accounts.x.com
+DOMAIN-SUFFIX,twitteroauth.com
+DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twimg.org
 DOMAIN-SUFFIX,video.twimg.com
 DOMAIN-SUFFIX,pbs.twimg.com
 DOMAIN-SUFFIX,dm.twitter.com
 DOMAIN-SUFFIX,notifications.twitter.com
+DOMAIN-SUFFIX,ttwebview.com
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,tweetdeck.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.x.ai
 DOMAIN-SUFFIX,api.x.ai
-DOMAIN-SUFFIX,assets.x.ai
-DOMAIN-SUFFIX,static.x.ai
 DOMAIN-SUFFIX,auth.x.ai
 DOMAIN-SUFFIX,accounts.x.ai
+DOMAIN-SUFFIX,assets.x.ai
+DOMAIN-SUFFIX,static.x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,twitterstat.us
 DOMAIN-SUFFIX,help.x.com
-DOMAIN-SUFFIX,status.twitterstat.us
 
