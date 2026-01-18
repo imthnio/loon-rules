@@ -53,3 +53,23 @@ DOMAIN-SUFFIX,coinbasestatus.com
 DOMAIN-SUFFIX,coinbaseassets.com
 DOMAIN-SUFFIX,cbassets.net
 
+############# RedotPay
+DOMAIN-SUFFIX,redotpay.com
+DOMAIN-SUFFIX,app.redotpay.com
+DOMAIN-SUFFIX,api.redotpay.com
+DOMAIN-SUFFIX,openapi.redotpay.com
+DOMAIN-SUFFIX,auth.redotpay.com
+DOMAIN-SUFFIX,login.redotpay.com
+DOMAIN-SUFFIX,pay.redotpay.com
+DOMAIN-SUFFIX,card.redotpay.com
+DOMAIN-SUFFIX,onfido.com
+DOMAIN-SUFFIX,onfido.app
+DOMAIN-SUFFIX,onfido.io
+DOMAIN-SUFFIX,sendgrid.net
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,static.redotpay.com
+DOMAIN-SUFFIX,assets.redotpay.com
+DOMAIN-SUFFIX,status.redotpay.com
+DOMAIN-SUFFIX,help.redotpay.com
+
+
