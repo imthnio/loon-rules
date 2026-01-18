@@ -1,4 +1,4 @@
-############# Telegram (FINAL fixed for comments & video, Loon)
+############# Telegram (FINAL for iOS + macOS Desktop, Loon)
 
 # Core
 DOMAIN-SUFFIX,telegram.org
@@ -29,6 +29,10 @@ DOMAIN-SUFFIX,telegram.dog
 DOMAIN-SUFFIX,telegramdownload.com
 DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,tx.me
+
+# ===== MTProto DC (required for macOS Desktop) =====
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,91.108.0.0/16,no-resolve
 
 # Fallback
 DOMAIN-KEYWORD,telegram
