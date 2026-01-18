@@ -20,8 +20,14 @@ DOMAIN-SUFFIX,cvda.17173.com
 DOMAIN-SUFFIX,log1.17173.com
 DOMAIN-SUFFIX,vda.17173.com
 DOMAIN-SUFFIX,s.17173cdn.com
-
-
+###############################################
+###################饿了吗#######################
+###############################################
+DOMAIN-SUFFIX, app-monitor.ele.me
+DOMAIN-SUFFIX, client-api.ele.me
+DOMAIN-SUFFIX, grand.ele.me
+DOMAIN-SUFFIX, mobile-pubt.ele.me
+DOMAIN-SUFFIX, newton-api.ele.me
 ###############################################
 #####################爱奇艺####################
 ###############################################
