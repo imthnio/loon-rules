@@ -1,0 +1,66 @@
+############# Meta
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,facebook.net
+
+# 登录 / API / Graph
+DOMAIN-SUFFIX,accounts.facebook.com
+DOMAIN-SUFFIX,graph.facebook.com
+DOMAIN-SUFFIX,graph-video.facebook.com
+DOMAIN-SUFFIX,developers.facebook.com
+DOMAIN-SUFFIX,connect.facebook.net
+
+# Facebook CDN（Meta 自有）
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbcdn.com
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN,cdn.fbsbx.com
+DOMAIN,lookaside.fbsbx.com
+
+# ===== Instagram =====
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,i.instagram.com
+DOMAIN-SUFFIX,api.instagram.com
+DOMAIN-SUFFIX,ig.me
+DOMAIN-SUFFIX,instagramstatic.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,cdninstagram.net
+DOMAIN-SUFFIX,instagramcdn.net
+DOMAIN-SUFFIX,graph.instagram.com
+
+# ===== WhatsApp =====
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,web.whatsapp.com
+DOMAIN-SUFFIX,api.whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,static.whatsapp.net
+DOMAIN-SUFFIX,cdn.whatsapp.net
+DOMAIN-SUFFIX,g.whatsapp.net
+DOMAIN-SUFFIX,mmx-ds.cdn.whatsapp.net
+
+# ===== Messenger / Workplace =====
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,w.m.me
+DOMAIN-SUFFIX,workplace.com
+DOMAIN-SUFFIX,workplace.fb.com
+
+# ===== Threads =====
+DOMAIN-SUFFIX,threads.net
+DOMAIN-SUFFIX,threads.instagram.com
+
+# ===== Business / Ads（必要接口，不泛化）=====
+DOMAIN-SUFFIX,business.facebook.com
+DOMAIN-SUFFIX,ads-api.facebook.com
+DOMAIN-SUFFIX,business.instagram.com
+
+# ===== Upload / Attachments =====
+DOMAIN-SUFFIX,upload.facebook.com
+DOMAIN-SUFFIX,uploads.facebook.com
+
+# ===== User-Agent=====
+USER-AGENT,Facebook*
+USER-AGENT,Instagram*
+USER-AGENT,WhatsApp*
