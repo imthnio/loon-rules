@@ -1,0 +1,37 @@
+############# Telegram (FINAL fixed for comments & video, Loon)
+
+# Core
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,legra.ph
+
+# API / Comments
+DOMAIN-SUFFIX,api.telegram.org
+DOMAIN-SUFFIX,core.telegram.org
+
+# Web / Comments iframe
+DOMAIN-SUFFIX,web.telegram.org
+
+# CDN / Media / Video
+DOMAIN-SUFFIX,cdn.telegram.org
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,tcdn.me
+DOMAIN-SUFFIX,tg.dev
+
+# Stickers / Images
+DOMAIN-SUFFIX,telegram.dog
+
+# Downloads / Sharing
+DOMAIN-SUFFIX,telegramdownload.com
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,tx.me
+
+# Fallback
+DOMAIN-KEYWORD,telegram
+
+# UA (optional)
+USER-AGENT,Telegram*
