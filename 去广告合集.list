@@ -21,6 +21,51 @@ DOMAIN-SUFFIX,log1.17173.com
 DOMAIN-SUFFIX,vda.17173.com
 DOMAIN-SUFFIX,s.17173cdn.com
 
+
+###############################################
+#####################爱奇艺####################
+###############################################
+DOMAIN, api.iqiyi.com
+DOMAIN, cr-status.iqiyi.com
+DOMAIN, f74f7f7765f8a2f6.ngaa.net.cn
+DOMAIN, ef-dongfeng.tanx.com, REJECT
+DOMAIN, iqiyim.adtrack.enlightent.cn
+DOMAIN, dig.bdurl.net
+DOMAIN, t7z.cupid.iqiyi.com
+DOMAIN, t7z.cupid.ptqy.gitv.tv
+DOMAIN-SUFFIX,cupid.iqiyi.com
+DOMAIN-SUFFIX,t7z.cupid.iqiyi.com
+DOMAIN-SUFFIX,static-s.iqiyi.com
+DOMAIN-SUFFIX,a.ckm.iqiyi.com
+DOMAIN-SUFFIX,ad.m.iqiyi.com
+DOMAIN-SUFFIX,afp.iqiyi.com
+DOMAIN-SUFFIX,api.cupid.iqiyi.com
+DOMAIN-SUFFIX,api.cupid.qiyi.com
+DOMAIN-SUFFIX,c.uaa.iqiyi.com
+DOMAIN-SUFFIX,cloudpush.iqiyi.com
+DOMAIN-SUFFIX,cm.passport.iqiyi.com
+DOMAIN-SUFFIX,count.game.pps.tv
+DOMAIN-SUFFIX,cupid.iqiyi.com
+DOMAIN-SUFFIX,emoticon.sns.iqiyi.com
+DOMAIN-SUFFIX,gamecenter.iqiyi.com
+DOMAIN-SUFFIX,mbdlog.iqiyi.com
+DOMAIN-SUFFIX,msg.iqiyi.com
+DOMAIN-SUFFIX,msg.video.qiyi.com
+DOMAIN-SUFFIX,msg2.video.qiyi.com
+DOMAIN-SUFFIX,static.g.iqiyi.com
+DOMAIN-SUFFIX,static.g.ppstream.com
+DOMAIN-SUFFIX,store.iqiyi.com
+DOMAIN-SUFFIX,tracker.sns.iqiyi.com
+DOMAIN-SUFFIX,yuedu.iqiyi.com
+DOMAIN-SUFFIX,msga.cupid.iqiyi.com
+DOMAIN-SUFFIX,nl.notice.iqiyi.com
+DOMAIN-SUFFIX,nl.rcd.iqiyi.com
+DOMAIN-SUFFIX,notice.iqiyi.com
+DOMAIN-SUFFIX,noxagile.duapp.com
+DOMAIN-SUFFIX,paopao.iqiyi.com
+DOMAIN-SUFFIX,policy.video.iqiyi.com
+DOMAIN-SUFFIX,ifacelog.iqiyi.com
+
 ###############################################
 ######################58同城####################
 ###############################################
