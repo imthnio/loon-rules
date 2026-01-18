@@ -23,6 +23,25 @@ DOMAIN-SUFFIX,s.17173cdn.com
 
 
 ###############################################
+################迅雷######################
+###############################################
+DOMAIN-SUFFIX, adsp.xunlei.com
+DOMAIN-SUFFIX, static-xl9-ssl.xunlei.com
+DOMAIN-SUFFIX, biz.live.xunlei.com
+DOMAIN-SUFFIX, ct.niu.xunlei.com
+DOMAIN-SUFFIX, mou.niu.xunlei.com
+DOMAIN-SUFFIX, scene.vip.xunlei.com
+DOMAIN-SUFFIX, tw13b093.sandai.net
+DOMAIN-SUFFIX, xlmc.sandai.net
+DOMAIN-SUFFIX, cpm.cm.sandai.net
+DOMAIN-SUFFIX, master.wap.dphub.sandai.net
+DOMAIN-SUFFIX, idx.m.hub.sandai.net
+DOMAIN-SUFFIX, liveupdate.mac.sandai.net
+DOMAIN-SUFFIX, hub5pn.wap.sandai.net
+DOMAIN-SUFFIX, etl.xlmc.sandai.net
+DOMAIN-SUFFIX, test.api.xlmc.sandai.net
+DOMAIN-SUFFIX, pre.api.tw06.xlmc.sandai.net
+###############################################
 ##################同花顺######################
 ###############################################
 DOMAIN, adm.10jqka.com.cn
