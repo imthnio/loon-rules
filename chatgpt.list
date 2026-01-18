@@ -1,4 +1,4 @@
-############# OpenAI / ChatGPT (Loon compatible, full & clean)
+############# OpenAI / ChatGPT / Sora (Loon compatible, full)
 
 # ===== Core =====
 DOMAIN-SUFFIX,openai.com
@@ -16,9 +16,10 @@ DOMAIN-SUFFIX,login.openai.com
 DOMAIN-SUFFIX,accounts.openai.com
 
 # ===== Web / App Assets =====
-DOMAIN-SUFFIX,openaiusercontent.com
 DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,openaiusercontent.com
 DOMAIN-SUFFIX,openai-cdn.com
+DOMAIN-SUFFIX,cdn.openai.com
 
 # ===== Chat Attachments / Files / Images =====
 DOMAIN-SUFFIX,files.openai.com
@@ -34,12 +35,28 @@ DOMAIN-SUFFIX,moderation.openai.com
 DOMAIN-SUFFIX,status.openai.com
 DOMAIN-SUFFIX,help.openai.com
 
-# ===== CDN helpers (OpenAI 自有) =====
-DOMAIN-SUFFIX,cdn.openai.com
+# =================================================
+# ====================== Sora =====================
+# =================================================
+
+# Sora main
+DOMAIN-SUFFIX,sora.openai.com
+
+# Sora assets / media / previews
+DOMAIN-SUFFIX,sora-cdn.openai.com
+DOMAIN-SUFFIX,sora-assets.openai.com
+
+# Sora uploads / generated video files
+DOMAIN-SUFFIX,sora-files.openai.com
+DOMAIN-SUFFIX,sora-uploads.openai.com
+
+# Sora realtime / job status
+DOMAIN-SUFFIX,sora-events.openai.com
 
 # ===== Fallback =====
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,chatgpt
+DOMAIN-KEYWORD,sora
 
 # ===== User-Agent (optional) =====
 USER-AGENT,ChatGPT*
