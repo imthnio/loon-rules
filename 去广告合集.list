@@ -28,6 +28,8 @@ DOMAIN, ad.seeyouyima.com, REJECT
 ###############################################
 #################美图秀秀########################
 ###############################################
+DOMAIN, adui.tg.meitu.com
+DOMAIN, aaid.uyunad.com
 DOMAIN-SUFFIX, corp.meitu.com
 DOMAIN-SUFFIX, gg.meitu.com
 DOMAIN-SUFFIX, message.meitu.com
