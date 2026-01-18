@@ -20,6 +20,98 @@ DOMAIN-SUFFIX,cvda.17173.com
 DOMAIN-SUFFIX,log1.17173.com
 DOMAIN-SUFFIX,vda.17173.com
 DOMAIN-SUFFIX,s.17173cdn.com
+###############################################
+###############UC浏览器/uc网盘######################
+###############################################
+
+DOMAIN, safe.ucweb.com
+DOMAIN, px.ucweb.com
+DOMAIN, navigis.uc.cn
+DOMAIN, order.sm.cn
+DOMAIN, ucdc-upaas.uc.cn
+DOMAIN, access.open.uc.cn
+DOMAIN, uc.ucweb.com
+DOMAIN, emoji.uc.cn
+DOMAIN, ssp-partner.alibaba.com
+DOMAIN, voice-service.uc.cn
+DOMAIN, v.uc.cn
+DOMAIN, coral.uc.cn
+DOMAIN, wolong-dsp.sm.cn
+DOMAIN, cartoonapi.uc.cn
+DOMAIN, umessage-online-zb.uc.cn
+DOMAIN, api.c.uc.cn
+DOMAIN, aid.m.taobao.com
+DOMAIN, cms.uc.cn
+DOMAIN, applog-perf.uc.cn
+DOMAIN-SUFFIX, clickc.admaster.com.cn
+DOMAIN-SUFFIX, fans.m.tmall.com
+DOMAIN-SUFFIX, r1.ykimg.com
+DOMAIN-SUFFIX, v.admaster.com.cn
+DOMAIN-SUFFIX, v2.reachmax.cn
+DOMAIN-SUFFIX, server.m.pp.cn
+DOMAIN-SUFFIX, puds.ucweb.com
+DOMAIN-SUFFIX, wgo.mmstat.com
+DOMAIN-SUFFIX, log.cs.pp.cn
+DOMAIN-SUFFIX, applog.uc.cn
+DOMAIN-SUFFIX, afpapi.alimama.com
+DOMAIN-SUFFIX, a.9game.cn
+DOMAIN-SUFFIX, track.uc.cn
+DOMAIN-SUFFIX, adtrack.ucweb.com
+DOMAIN-SUFFIX, utp-dmp.ucweb.com
+DOMAIN-SUFFIX, utp.ucweb.com
+DOMAIN-SUFFIX, huichuan.sm.cn
+DOMAIN-SUFFIX, ynuf.alipay.com
+DOMAIN-SUFFIX, pdds.ucweb.com
+DOMAIN-SUFFIX, js.union-wifi.com
+DOMAIN-SUFFIX, qmlog.cn
+DOMAIN-SUFFIX, cpu.baidu.com
+DOMAIN-SUFFIX, caclick.baidu.com
+DOMAIN-SUFFIX, rescn.u3.ucweb.com
+DOMAIN, feedback.uc.cn
+DOMAIN, gj.applog.uc.cn
+DOMAIN, gj.track.uc.cn
+DOMAIN, gjapplog.uc.cn
+DOMAIN, gjtrack.uc.cn
+DOMAIN, holmeshelptest.uc.cn
+DOMAIN-SUFFIX, ads.uc.cn
+DOMAIN-SUFFIX, adslot.uc.cn
+DOMAIN-SUFFIX, alissl.ucdl.pp.uc.cn
+DOMAIN-SUFFIX, api.mp.uc.cn
+DOMAIN-SUFFIX, api.open.uc.cn
+DOMAIN-SUFFIX, applog.uc.cn
+DOMAIN-SUFFIX, applogios.uc.cn
+DOMAIN-SUFFIX, bench.uc.cn
+DOMAIN-SUFFIX, client.tv.uc.cn
+DOMAIN-SUFFIX, coral-task.uc.cn
+DOMAIN-SUFFIX, dispatcher.upmc.uc.cn
+DOMAIN-SUFFIX, hcadv.video.ums.uc.cn
+DOMAIN-SUFFIX, hao.uc.cn
+DOMAIN-SUFFIX, lobmuc.cn
+DOMAIN-SUFFIX, open-uc.cn
+DOMAIN-SUFFIX, puds.test.uae.uc.cn
+DOMAIN-SUFFIX, track.uc.cn
+DOMAIN-SUFFIX, wmedia-track.uc.cn
+DOMAIN-SUFFIX, woodpecker.uc.cn
+DOMAIN, gecko-pangle-lf.snssdk.com
+DOMAIN, mercury-sdk.snssdk.com
+DOMAIN, tbm.snssdk.com
+DOMAIN, toblog.ctobsnssdk.com
+DOMAIN, tnc3-aliec2.snssdk.com
+DOMAIN-SUFFIX, kwurl.ucweb.com
+DOMAIN-SUFFIX, uc9.ucweb.com
+DOMAIN-SUFFIX, ucus.ucweb.com
+DOMAIN-SUFFIX, up4.ucweb.com
+DOMAIN-SUFFIX, wap3.ucweb.com
+DOMAIN-SUFFIX, adn.insight.ucweb.com
+DOMAIN-SUFFIX, hk.napi.ucweb.com
+DOMAIN-SUFFIX, sea.napi.ucweb.com
+DOMAIN-SUFFIX, bjcu.u3.ucweb.com
+DOMAIN-SUFFIX, vs8.gzct.u3.ucweb.com
+DOMAIN-SUFFIX, vs19.gzcu.u3.ucweb.com
+DOMAIN-SUFFIX, vs2.gzcu.u3.ucweb.com
+DOMAIN-SUFFIX, vs7.gzcu.u3.ucweb.com
+DOMAIN-SUFFIX, vs8.gzcu.u3.ucweb.com
+DOMAIN-SUFFIX, slot.union.ucweb.com
 
 
 ###############################################
