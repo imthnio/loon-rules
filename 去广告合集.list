@@ -21,8 +21,26 @@ DOMAIN-SUFFIX,log1.17173.com
 DOMAIN-SUFFIX,vda.17173.com
 DOMAIN-SUFFIX,s.17173cdn.com
 
-
-
+###############################################
+######################58同城####################
+###############################################
+DOMAIN-SUFFIX, track.58.com
+DOMAIN-SUFFIX, tracklog.58.com
+DOMAIN-SUFFIX, 58mingri.cn
+DOMAIN-SUFFIX, 58mingtian.cn
+DOMAIN-SUFFIX, sc.58mingtian.cn
+DOMAIN-SUFFIX, t1.58cdn.com.cn
+DOMAIN-SUFFIX, t2.58cdn.com.cn
+DOMAIN-SUFFIX, t3.58cdn.com.cn
+DOMAIN-SUFFIX, adshow.58.com
+DOMAIN-SUFFIX, brandshow.58.com
+DOMAIN-SUFFIX, jing.58.com
+DOMAIN-SUFFIX, jumpluna.58.com
+DOMAIN-SUFFIX, news.58.com
+DOMAIN-SUFFIX, track.58.com
+DOMAIN-SUFFIX, tracklog.58.com
+DOMAIN-SUFFIX, zzpush.58.com
+DOMAIN-SUFFIX, jump.luna.58.com
 ###############################################
 ######################adobe####################
 ###############################################
