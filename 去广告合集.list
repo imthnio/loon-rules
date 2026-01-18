@@ -140,6 +140,91 @@ DOMAIN-SUFFIX, track.58.com
 DOMAIN-SUFFIX, tracklog.58.com
 DOMAIN-SUFFIX, zzpush.58.com
 DOMAIN-SUFFIX, jump.luna.58.com
+
+###############################################
+######################搜狗####################
+###############################################
+DOMAIN-SUFFIX,epro.sogou.com
+DOMAIN-SUFFIX,golden1.sogou.com
+DOMAIN-SUFFIX,inte.sogou.com
+DOMAIN-SUFFIX,inte.sogoucdn.com
+DOMAIN-SUFFIX,lu.sogoucdn.com
+DOMAIN-SUFFIX,theta.sogoucdn.com
+DOMAIN-SUFFIX,uranus.sogou.com
+DOMAIN-SUFFIX,123.sogou.com
+DOMAIN-SUFFIX,a1click.cpc.sogou.com
+DOMAIN-SUFFIX,adsence.sogou.com
+DOMAIN-SUFFIX,adstream.123.sogoucdn.com
+DOMAIN-SUFFIX,amfi.gou.sogou.com
+DOMAIN-SUFFIX,art.theta.sogoucdn.com
+DOMAIN-SUFFIX,athena.wan.sogou.com
+DOMAIN-SUFFIX,bazinga.mse.sogou.com
+DOMAIN-SUFFIX,bite.theta.sogoucdn.com
+DOMAIN-SUFFIX,brand.sogou.com
+DOMAIN-SUFFIX,bsiet.husky.sogou.com
+
+DOMAIN-SUFFIX,jdqd.jd.com
+DOMAIN-SUFFIX,shouji.sougou.com
+DOMAIN-SUFFIX, cpc.sogou.com
+DOMAIN-SUFFIX, fair.sogou.com
+DOMAIN-SUFFIX, files2.sogou.com
+DOMAIN-SUFFIX, goto.sogou.com
+DOMAIN-SUFFIX, iwan.sogou.com
+DOMAIN-SUFFIX, lu.sogou.com
+DOMAIN-SUFFIX, p3p.sogou.com
+DOMAIN-SUFFIX, pb.sogou.com
+DOMAIN-SUFFIX, pbd.sogou.com
+DOMAIN-SUFFIX, pv.sogou.com
+DOMAIN-SUFFIX, union.sogou.com
+DOMAIN-SUFFIX, wan.sogou.com
+DOMAIN-SUFFIX, wangmeng.sogou.com
+DOMAIN-SUFFIX, web.sogou.com
+DOMAIN-SUFFIX, ping.acc.sogou.com
+DOMAIN-SUFFIX, cjroq.bealge.sogou.com
+DOMAIN-SUFFIX, qhl.bealge.sogou.com
+DOMAIN-SUFFIX, mini.cpc.sogou.com
+DOMAIN-SUFFIX, rd.e.sogou.com
+DOMAIN-SUFFIX, service.epro.sogou.com
+DOMAIN-SUFFIX, wuliao.epro.sogou.com
+DOMAIN-SUFFIX, ejzr.golden1.sogou.com
+DOMAIN-SUFFIX, jsnp.golden1.sogou.com
+DOMAIN-SUFFIX, pjyu.golden1.sogou.com
+DOMAIN-SUFFIX, psfq.gou.sogou.com
+DOMAIN-SUFFIX, gxe.husky.sogou.com
+DOMAIN-SUFFIX, eff.inte.sogou.com
+DOMAIN-SUFFIX, p.inte.sogou.com
+DOMAIN-SUFFIX, vps.inte.sogou.com
+DOMAIN-SUFFIX, rmoeu.mercury.sogou.com
+DOMAIN-SUFFIX, sw.mobile.sogou.com
+DOMAIN-SUFFIX, image.p4p.sogou.com
+DOMAIN-SUFFIX, info.pinyin.sogou.com
+DOMAIN-SUFFIX, ping.pinyin.sogou.com
+DOMAIN-SUFFIX, pcxzo.pluto.sogou.com
+DOMAIN-SUFFIX, qxm.pluto.sogou.com
+DOMAIN-SUFFIX, config.push.sogou.com
+DOMAIN-SUFFIX, pull.push.sogou.com
+DOMAIN-SUFFIX, feed.theta.sogou.com
+DOMAIN-SUFFIX, rjgw.theta.sogou.com
+DOMAIN-SUFFIX, fych.uranus.sogou.com
+DOMAIN-SUFFIX, ktivn.uranus.sogou.com
+DOMAIN-SUFFIX, osc.uranus.sogou.com
+DOMAIN-SUFFIX, xtruh.uranus.sogou.com
+DOMAIN-SUFFIX, img.wan.sogou.com
+DOMAIN-SUFFIX, ht.www.sogou.com
+DOMAIN-SUFFIX, download.zhushou.sogou.com
+DOMAIN-SUFFIX, galaxy.sogoucdn.com
+DOMAIN-SUFFIX, jpg.inte.sogoucdn.com
+DOMAIN-SUFFIX, moka.inte.sogoucdn.com
+DOMAIN-SUFFIX, omg.inte.sogoucdn.com
+DOMAIN-SUFFIX, wds.inte.sogoucdn.com
+DOMAIN-SUFFIX, cdn.lu.sogoucdn.com
+DOMAIN-SUFFIX, gif.lu.sogoucdn.com
+DOMAIN-SUFFIX, png.lu.sogoucdn.com
+DOMAIN-SUFFIX, inte.theta.sogoucdn.com
+DOMAIN-SUFFIX, dl.wan.sogoucdn.com
+
+
+
 ###############################################
 ######################湖南卫视####################
 ###############################################
