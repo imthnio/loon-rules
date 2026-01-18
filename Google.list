@@ -1,0 +1,140 @@
+############# Google + YouTube (FINAL VERIFIED, Loon compatible)
+
+# ===== Google Core / Accounts / Auth =====
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,oauth2.googleapis.com
+DOMAIN-SUFFIX,clients2.google.com
+DOMAIN-SUFFIX,clients4.google.com
+DOMAIN-SUFFIX,clients6.google.com
+
+# ===== Google Static / User Content =====
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,ssl.gstatic.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,lh3.googleusercontent.com
+DOMAIN-SUFFIX,lh4.googleusercontent.com
+DOMAIN-SUFFIX,lh5.googleusercontent.com
+
+# ===== Gmail =====
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,mail.google.com
+DOMAIN-SUFFIX,mail-attachment.googleusercontent.com
+
+# ===== Google Workspace =====
+DOMAIN-SUFFIX,drive.google.com
+DOMAIN-SUFFIX,docs.google.com
+DOMAIN-SUFFIX,sheets.google.com
+DOMAIN-SUFFIX,slides.google.com
+DOMAIN-SUFFIX,forms.google.com
+DOMAIN-SUFFIX,sites.google.com
+DOMAIN-SUFFIX,workspace.google.com
+
+# ===== Calendar / Meet / Chat =====
+DOMAIN-SUFFIX,calendar.google.com
+DOMAIN-SUFFIX,meet.google.com
+DOMAIN-SUFFIX,chat.google.com
+DOMAIN-SUFFIX,hangouts.google.com
+DOMAIN-SUFFIX,voice.google.com
+DOMAIN-SUFFIX,duo.google.com
+
+# ===== Play / Android =====
+DOMAIN-SUFFIX,play.google.com
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,android.googleapis.com
+DOMAIN-SUFFIX,googleplay.com
+DOMAIN-SUFFIX,update.googleapis.com
+
+# ===== Maps =====
+DOMAIN-SUFFIX,maps.google.com
+DOMAIN-SUFFIX,maps.googleapis.com
+DOMAIN-SUFFIX,mt0.google.com
+
+# ===== Search / News / Translate =====
+DOMAIN-SUFFIX,www.google.com
+DOMAIN-SUFFIX,news.google.com
+DOMAIN-SUFFIX,translate.google.com
+DOMAIN-SUFFIX,lens.google
+
+# ===== Ads / Analytics（功能性端点）=====
+DOMAIN-SUFFIX,ads.google.com
+DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googleads.g.doubleclick.net
+DOMAIN-SUFFIX,stats.g.doubleclick.net
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,analytics.google.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googlesyndication.com
+
+# ===== Payments =====
+DOMAIN-SUFFIX,pay.google.com
+DOMAIN-SUFFIX,wallet.google.com
+DOMAIN-SUFFIX,googlepay.com
+
+# ===== Firebase / Push =====
+DOMAIN-SUFFIX,firebase.google.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,firebaseapp.com
+DOMAIN-SUFFIX,fcm.googleapis.com
+
+# ===== Cloud / Console =====
+DOMAIN-SUFFIX,cloud.google.com
+DOMAIN-SUFFIX,console.cloud.google.com
+DOMAIN-SUFFIX,cloudfunctions.net
+DOMAIN-SUFFIX,storage.googleapis.com
+
+# ===== Fonts =====
+DOMAIN-SUFFIX,fonts.googleapis.com
+DOMAIN-SUFFIX,fonts.gstatic.com
+
+# ===== Developers =====
+DOMAIN-SUFFIX,developers.google.com
+
+# ==========================================================
+# ====================== YouTube ===========================
+# ==========================================================
+
+# Core
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,www.youtube.com
+DOMAIN-SUFFIX,m.youtube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,studio.youtube.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+
+# Video Delivery (CRITICAL)
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,manifest.googlevideo.com
+DOMAIN-SUFFIX,redirector.googlevideo.com
+
+# Thumbnails / Avatars (CRITICAL)
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,s.ytimg.com
+DOMAIN-SUFFIX,i.ytimg.com
+DOMAIN-SUFFIX,yt3.ggpht.com
+
+# APIs / Data / Music / Upload
+DOMAIN-SUFFIX,youtube.googleapis.com
+DOMAIN-SUFFIX,youtubei.googleapis.com
+DOMAIN-SUFFIX,youtubeanalytics.googleapis.com
+DOMAIN-SUFFIX,accounts.youtube.com
+DOMAIN-SUFFIX,upload.youtube.com
+DOMAIN-SUFFIX,youtubemusic.com
+DOMAIN-SUFFIX,music.youtube.com
+DOMAIN-SUFFIX,yt-h2s.l.google.com
+
+# ===== Support =====
+DOMAIN-SUFFIX,support.google.com
+DOMAIN-SUFFIX,policies.google.com
+
+# ===== Fallback (safe) =====
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,youtube
+
+# ===== User-Agent (optional) =====
+USER-AGENT,Google*
+USER-AGENT,YouTube*
