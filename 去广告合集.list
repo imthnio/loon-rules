@@ -1,4 +1,4 @@
-#######################广告屏蔽
+#######################乱七八糟
 DOMAIN-SUFFIX,convertr.org
 DOMAIN-SUFFIX,ey43.com
 DOMAIN-SUFFIX,diao58jiao.top
@@ -20,8 +20,20 @@ DOMAIN-SUFFIX,cvda.17173.com
 DOMAIN-SUFFIX,log1.17173.com
 DOMAIN-SUFFIX,vda.17173.com
 DOMAIN-SUFFIX,s.17173cdn.com
-
-
+###############################################
+################什么值得买#######################
+###############################################
+DOMAIN, aaid.uyunad.com
+DOMAIN, acs4baichuan.m.taobao.com
+DOMAIN, adashxgc.ut.taobao.com
+DOMAIN, analytics-api.smzdm.com
+DOMAIN, baichuan-sdk.alicdn.com
+DOMAIN, dgstatic.jd.com
+DOMAIN, msg.umengcloud.com
+DOMAIN, sec.umeng.com
+DOMAIN, ulogs.umeng.com
+DOMAIN, ynuf.aliapp.org
+DOMAIN-SUFFIX, res-ga.smzdm.com
 ###############################################
 ################会说话的汤姆猫####################
 ###############################################
