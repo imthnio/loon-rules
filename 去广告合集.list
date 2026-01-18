@@ -29,6 +29,11 @@ DOMAIN-SUFFIX, grand.ele.me
 DOMAIN-SUFFIX, mobile-pubt.ele.me
 DOMAIN-SUFFIX, newton-api.ele.me
 ###############################################
+###################华为商城######################
+###############################################
+DOMAIN-SUFFIX, hiad.vmall.com
+DOMAIN-SUFFIX, ad.hicloud.com
+###############################################
 #####################爱奇艺####################
 ###############################################
 DOMAIN, api.iqiyi.com
