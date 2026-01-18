@@ -20,6 +20,22 @@ DOMAIN-SUFFIX,cvda.17173.com
 DOMAIN-SUFFIX,log1.17173.com
 DOMAIN-SUFFIX,vda.17173.com
 DOMAIN-SUFFIX,s.17173cdn.com
+
+###############################################
+#################美图秀秀########################
+###############################################
+DOMAIN-SUFFIX, corp.meitu.com
+DOMAIN-SUFFIX, gg.meitu.com
+DOMAIN-SUFFIX, message.meitu.com
+DOMAIN-SUFFIX, tuiguang.meitu.com
+DOMAIN-SUFFIX, xiuxiu.android.dl.meitu.com
+DOMAIN-SUFFIX, adui.tg.meitu.com
+DOMAIN-SUFFIX, rabbit.tg.meitu.com
+DOMAIN-SUFFIX, meitubeauty.meitudata.com
+DOMAIN-SUFFIX, xiuxiu.mobile.meitudata.com
+DOMAIN-SUFFIX, dc.meitustat.com
+DOMAIN-SUFFIX, mdc.meitustat.com
+DOMAIN-SUFFIX, rabbit.meitustat.com
 ###############################################
 ###################饿了吗#######################
 ###############################################
