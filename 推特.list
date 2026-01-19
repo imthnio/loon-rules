@@ -1,5 +1,6 @@
-############# X (Twitter) + Grok (final clean)
+############# X (Twitter) + Grok (FINAL fixed for X App login)
 
+# ===== X / Twitter Core =====
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,api.twitter.com
@@ -8,25 +9,50 @@ DOMAIN-SUFFIX,login.twitter.com
 DOMAIN-SUFFIX,auth.twitter.com
 DOMAIN-SUFFIX,accounts.x.com
 DOMAIN-SUFFIX,twitteroauth.com
+DOMAIN-SUFFIX,oauth.x.com
+DOMAIN-SUFFIX,api.oauth.x.com
+
+# ===== Redirect / Shortlinks =====
 DOMAIN-SUFFIX,t.co
+
+# ===== Media / CDN =====
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twimg.org
+DOMAIN-SUFFIX,abs.twimg.com
 DOMAIN-SUFFIX,video.twimg.com
 DOMAIN-SUFFIX,pbs.twimg.com
+DOMAIN-SUFFIX,ton.twimg.com
+
+# ===== DMs / Notifications =====
 DOMAIN-SUFFIX,dm.twitter.com
 DOMAIN-SUFFIX,notifications.twitter.com
+
+# ===== Upload / Syndication =====
+DOMAIN-SUFFIX,upload.twitter.com
+DOMAIN-SUFFIX,syndication.twimg.com
+
+# ===== WebView / Periscope =====
 DOMAIN-SUFFIX,ttwebview.com
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,tweetdeck.com
+
+# ===== Grok / xAI =====
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.x.ai
 DOMAIN-SUFFIX,api.x.ai
 DOMAIN-SUFFIX,auth.x.ai
 DOMAIN-SUFFIX,accounts.x.ai
+DOMAIN-SUFFIX,session.x.ai
+DOMAIN-SUFFIX,login.x.ai
 DOMAIN-SUFFIX,assets.x.ai
 DOMAIN-SUFFIX,static.x.ai
 DOMAIN-SUFFIX,grok.com
+
+# ===== Status / Help =====
 DOMAIN-SUFFIX,twitterstat.us
 DOMAIN-SUFFIX,help.x.com
+
+# ===== Fallback =====
+DOMAIN-KEYWORD,twitter
 
