@@ -55,4 +55,5 @@ DOMAIN-SUFFIX,help.x.com
 
 # ===== Fallback =====
 DOMAIN-KEYWORD,twitter
-
+DOMAIN-KEYWORD,x.ai
+DOMAIN-KEYWORD,grok
