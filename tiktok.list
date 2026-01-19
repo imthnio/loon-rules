@@ -1,5 +1,25 @@
 ############# TikTok + Lemon8 (merged, overseas only, no Douyin/domestic)
 
+# 补充：区域/边缘子域 & 旧变体（高命中）
+DOMAIN-SUFFIX,v16.tiktokcdn.com
+DOMAIN-SUFFIX,v16a.tiktokcdn.com
+DOMAIN-SUFFIX,v16m.tiktokcdn.com
+DOMAIN-SUFFIX,v19.tiktokcdn.com
+DOMAIN-SUFFIX,v16m.tiktokcdn-us.com
+DOMAIN-SUFFIX,lf17.tiktokcdn.com
+DOMAIN-SUFFIX,lf18.tiktokcdn.com
+DOMAIN-SUFFIX,lf19.tiktokcdn-us.com
+DOMAIN-SUFFIX,lf19-gecko-source.tiktokcdn-us.com
+DOMAIN-SUFFIX,lf16-tiktok-web.tiktokcdn-us.com
+DOMAIN-SUFFIX,p16-tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX,abtest-sg-tiktok.byteoversea.com
+DOMAIN-SUFFIX,ib.tiktokv.com
+DOMAIN-SUFFIX,api.tiktokv.com
+DOMAIN-SUFFIX,api-h2.tiktokv.com
+DOMAIN-SUFFIX,log.tiktokv.com
+
+
+
 # ===== TikTok: 表情/特效/礼物/直播/核心资源 =====
 DOMAIN,lf16-effectcdn.byteeffecttos-g.com
 DOMAIN-SUFFIX,byteeffecttos-g.com
