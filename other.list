@@ -31,8 +31,6 @@ DDOMAIN-SUFFIX,cutcut.top
 DOMAIN-SUFFIX,huggingface.com
 DOMAIN-SUFFIX,huggingface.co
 
-########################美国政府机构
-DOMAIN-SUFFIX,bbb.org
 
 
 ########################视频解析下载
