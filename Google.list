@@ -1,5 +1,4 @@
-############# Google + YouTube (FINAL VERIFIED, Loon compatible)
-
+############# Google + YouTube (Merged from imthnio & blackmatrix7) - Loon compatible
 
 # ===== Google Core / Accounts / Auth =====
 DOMAIN-SUFFIX,google.com
@@ -10,6 +9,7 @@ DOMAIN-SUFFIX,oauth2.googleapis.com
 DOMAIN-SUFFIX,clients2.google.com
 DOMAIN-SUFFIX,clients4.google.com
 DOMAIN-SUFFIX,clients6.google.com
+DOMAIN-SUFFIX,g.co
 
 # ===== Google Static / User Content =====
 DOMAIN-SUFFIX,gstatic.com
@@ -60,7 +60,7 @@ DOMAIN-SUFFIX,news.google.com
 DOMAIN-SUFFIX,translate.google.com
 DOMAIN-SUFFIX,lens.google
 
-# ===== Ads / Analytics（功能性端点）=====
+# ===== Ads / Analytics (functional endpoints only) =====
 DOMAIN-SUFFIX,ads.google.com
 DOMAIN-SUFFIX,adservice.google.com
 DOMAIN-SUFFIX,doubleclick.net
@@ -71,7 +71,7 @@ DOMAIN-SUFFIX,analytics.google.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googlesyndication.com
 
-# ===== Payments =====
+# ===== Payments / Wallet =====
 DOMAIN-SUFFIX,pay.google.com
 DOMAIN-SUFFIX,wallet.google.com
 DOMAIN-SUFFIX,googlepay.com
@@ -82,18 +82,27 @@ DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,firebaseapp.com
 DOMAIN-SUFFIX,fcm.googleapis.com
 
-# ===== Cloud / Console =====
+# ===== Cloud / Console / Storage =====
 DOMAIN-SUFFIX,cloud.google.com
 DOMAIN-SUFFIX,console.cloud.google.com
 DOMAIN-SUFFIX,cloudfunctions.net
 DOMAIN-SUFFIX,storage.googleapis.com
 
-# ===== Fonts =====
+# ===== Fonts / Resources =====
 DOMAIN-SUFFIX,fonts.googleapis.com
 DOMAIN-SUFFIX,fonts.gstatic.com
 
-# ===== Developers =====
+# ===== Developers / APIs =====
 DOMAIN-SUFFIX,developers.google.com
+DOMAIN-SUFFIX,apis.google.com
+
+# ===== Supplemental from blackmatrix7 (clean, high-value additions) =====
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-KEYWORD,blogspot
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,googlephotos.com
+DOMAIN-SUFFIX,widevine.com
+DOMAIN-SUFFIX,waze.com
 
 # ==========================================================
 # ====================== YouTube ===========================
@@ -107,7 +116,7 @@ DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,studio.youtube.com
 DOMAIN-SUFFIX,youtube-nocookie.com
 
-# Video Delivery (CRITICAL)
+# Video delivery (CRITICAL)
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,manifest.googlevideo.com
 DOMAIN-SUFFIX,redirector.googlevideo.com
@@ -118,7 +127,7 @@ DOMAIN-SUFFIX,s.ytimg.com
 DOMAIN-SUFFIX,i.ytimg.com
 DOMAIN-SUFFIX,yt3.ggpht.com
 
-# APIs / Data / Music / Upload
+# YouTube API / Data / Music / Upload / Live
 DOMAIN-SUFFIX,youtube.googleapis.com
 DOMAIN-SUFFIX,youtubei.googleapis.com
 DOMAIN-SUFFIX,youtubeanalytics.googleapis.com
@@ -128,20 +137,14 @@ DOMAIN-SUFFIX,youtubemusic.com
 DOMAIN-SUFFIX,music.youtube.com
 DOMAIN-SUFFIX,yt-h2s.l.google.com
 
-# ===== Support =====
+# Player helpers / uploads
+DOMAIN-SUFFIX,storage.googleapis.com
+
+# Support
 DOMAIN-SUFFIX,support.google.com
 DOMAIN-SUFFIX,policies.google.com
-# ==========================================================
-# ====================== 补充===========================
-# ==========================================================
-DOMAIN-SUFFIX,recaptcha.net
-DOMAIN-KEYWORD,blogspot
-DOMAIN-SUFFIX,appspot.com
-DOMAIN-SUFFIX,googlephotos.com
-DOMAIN-SUFFIX,widevine.com
-DOMAIN-SUFFIX,waze.com
 
-# ===== Fallback (safe) =====
+# ===== Fallback keywords (safe) =====
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,youtube
 
