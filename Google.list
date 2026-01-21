@@ -1,89 +1,97 @@
 # ==================================
-# 1. Android 系统核心与连接性检查 (System Vital)
+# 1. 核心搜索、AI 与 智能服务
 # ==================================
-# [关键] 解决 Android WiFi 打叉/提示无网络
-DOMAIN-SUFFIX, connectivitycheck.gstatic.com
-DOMAIN-SUFFIX, connectivitycheck.android.com
-DOMAIN-SUFFIX, clients3.google.com
-DOMAIN-SUFFIX, clients.l.google.com
-# Android 系统服务与设置
-DOMAIN-SUFFIX, android.clients.google.com
-DOMAIN-SUFFIX, android.googleapis.com
-DOMAIN-SUFFIX, setup.google.com
+# 核心域名
+DOMAIN-SUFFIX, google.com
+DOMAIN-SUFFIX, g.co
+DOMAIN-SUFFIX, google.cn
+# 搜索自动联想 (Auto-complete) - [PC/iOS 体验核心]
+DOMAIN-SUFFIX, suggestqueries.google.com
+DOMAIN-SUFFIX, complete.google.com
+# AI (Gemini/Bard)
+DOMAIN-SUFFIX, gemini.google.com
+DOMAIN-SUFFIX, bard.google.com
+DOMAIN-SUFFIX, ai.google
+DOMAIN-SUFFIX, generativelanguage.googleapis.com
+DOMAIN-SUFFIX, proactivebackend-pa.googleapis.com
+# 识图与语音 (Lens/Voice)
+DOMAIN-SUFFIX, lens.google.com
+DOMAIN-SUFFIX, lens.google
+DOMAIN-SUFFIX, speech.googleapis.com
+DOMAIN-SUFFIX, texttospeech.googleapis.com
 
 # ==================================
-# 2. Google Play 商店与下载 (Play Store)
+# 2. YouTube 视频、直播与创作
 # ==================================
-# [核心] 应用下载与系统更新 (GVT)
+# 核心视频服务
+DOMAIN-SUFFIX, youtube.com
+DOMAIN-SUFFIX, youtu.be
+DOMAIN-SUFFIX, googlevideo.com
+DOMAIN-SUFFIX, youtube-nocookie.com
+# 观看历史与统计 (History & Stats) - [解决不记录历史]
+DOMAIN-SUFFIX, s.youtube.com
+DOMAIN-SUFFIX, video-stats.l.google.com
+# 创作者与上传 (Studio)
+DOMAIN-SUFFIX, studio.youtube.com
+DOMAIN-SUFFIX, upload.youtube.com
+# 音乐与 API
+DOMAIN-SUFFIX, youtubemusic.com
+DOMAIN-SUFFIX, music.youtube.com
+DOMAIN-SUFFIX, youtubei.googleapis.com
+DOMAIN-SUFFIX, youtube.googleapis.com
+# 静态资源 (封面/头像)
+DOMAIN-SUFFIX, ytimg.com
+DOMAIN-SUFFIX, g.ytimg.com
+DOMAIN-SUFFIX, yt3.ggpht.com
+# 关键流媒体分发
+DOMAIN-SUFFIX, manifest.googlevideo.com
+DOMAIN-SUFFIX, redirector.googlevideo.com
+DOMAIN-SUFFIX, widevine.com
+
+# ==================================
+# 3. Android 生态、Play 商店与系统
+# ==================================
+# 下载与更新 (GVT/DL) - [下载卡顿必加]
 DOMAIN-SUFFIX, gvt0.com
 DOMAIN-SUFFIX, gvt1.com
 DOMAIN-SUFFIX, gvt2.com
 DOMAIN-SUFFIX, gvt3.com
+DOMAIN-SUFFIX, dl.google.com
+DOMAIN-SUFFIX, dl.client.android.com
+# 网络检测与时间
+DOMAIN-SUFFIX, connectivitycheck.gstatic.com
+DOMAIN-SUFFIX, connectivitycheck.android.com
+DOMAIN-SUFFIX, time.google.com
 # 商店业务
 DOMAIN-SUFFIX, play.google.com
+DOMAIN-SUFFIX, android.com
+DOMAIN-SUFFIX, android.googleapis.com
 DOMAIN-SUFFIX, googleplay.com
 DOMAIN-SUFFIX, update.googleapis.com
-# 游戏服务与推送
-DOMAIN-SUFFIX, play-games.googleusercontent.com
-DOMAIN-SUFFIX, fcm.googleapis.com
-DOMAIN-SUFFIX, firebase-fcm.googleapis.com
 
 # ==================================
-# 3. YouTube 视频与直播 (Streaming)
+# 4. Chrome、Web 基础与安全
 # ==================================
-DOMAIN-SUFFIX, youtube.com
-DOMAIN-SUFFIX, youtu.be
-DOMAIN-SUFFIX, googlevideo.com
-DOMAIN-SUFFIX, youtubei.googleapis.com
-DOMAIN-SUFFIX, youtubemusic.com
-DOMAIN-SUFFIX, music.youtube.com
-DOMAIN-SUFFIX, youtube-nocookie.com
-DOMAIN-SUFFIX, manifest.googlevideo.com
-DOMAIN-SUFFIX, redirector.googlevideo.com
-# 缩略图与头像
-DOMAIN-SUFFIX, ytimg.com
-DOMAIN-SUFFIX, g.ytimg.com
-DOMAIN-SUFFIX, yt3.ggpht.com
-DOMAIN-SUFFIX, img.youtube.com
+# 扩展商店与浏览器服务
+DOMAIN-SUFFIX, chromewebstore.google.com
+DOMAIN-SUFFIX, chrome.google.com
+DOMAIN-SUFFIX, safebrowsing.googleapis.com
+# 验证码 (Recaptcha)
+DOMAIN-SUFFIX, recaptcha.net
+# 证书与网页加速
+DOMAIN-SUFFIX, pki.goog
+DOMAIN-SUFFIX, ampproject.org
 
 # ==================================
-# 4. 核心搜索、AI 与 账号 (Core & AI)
+# 5. 账号、云服务与办公 (Workspace)
 # ==================================
-DOMAIN-SUFFIX, google.com
+# 账号与 API
 DOMAIN-SUFFIX, accounts.google.com
-DOMAIN-SUFFIX, apis.google.com
+DOMAIN-SUFFIX, accounts.youtube.com
 DOMAIN-SUFFIX, googleapis.com
 DOMAIN-SUFFIX, oauth2.googleapis.com
-DOMAIN-SUFFIX, g.co
-# [AI] Gemini / Bard / DeepMind
-DOMAIN-SUFFIX, gemini.google.com
-DOMAIN-SUFFIX, bard.google.com
-DOMAIN-SUFFIX, ai.google
-DOMAIN-SUFFIX, deepmind.com
-DOMAIN-SUFFIX, generativelanguage.googleapis.com
-DOMAIN-SUFFIX, proactivebackend-pa.googleapis.com
-
-# ==================================
-# 5. 地图、地球与出行 (Maps & Earth)
-# ==================================
-# [补漏] Google Earth 卫星图数据
-DOMAIN-SUFFIX, kh.google.com
-DOMAIN-SUFFIX, khm.google.com
-DOMAIN-SUFFIX, khm0.google.com
-DOMAIN-SUFFIX, earth.google.com
-# Maps 基础
-DOMAIN-SUFFIX, maps.google.com
-DOMAIN-SUFFIX, maps.googleapis.com
-DOMAIN-SUFFIX, mt0.google.com
-DOMAIN-SUFFIX, mt1.google.com
-DOMAIN-SUFFIX, mt2.google.com
-DOMAIN-SUFFIX, mt3.google.com
-DOMAIN-SUFFIX, waze.com
-
-# ==================================
-# 6. 办公套件、云与相册 (Workspace/Cloud)
-# ==================================
-# Gmail & Drive
+DOMAIN-SUFFIX, content.googleapis.com
+# 邮箱与云盘
 DOMAIN-SUFFIX, gmail.com
 DOMAIN-SUFFIX, mail.google.com
 DOMAIN-SUFFIX, drive.google.com
@@ -91,46 +99,37 @@ DOMAIN-SUFFIX, docs.google.com
 DOMAIN-SUFFIX, sheets.google.com
 DOMAIN-SUFFIX, slides.google.com
 DOMAIN-SUFFIX, keep.google.com
-DOMAIN-SUFFIX, calendar.google.com
-DOMAIN-SUFFIX, meet.google.com
-# Photos (备份与相册)
-DOMAIN-SUFFIX, photos.google.com
+# 相册与云平台
 DOMAIN-SUFFIX, photos.googleapis.com
 DOMAIN-SUFFIX, googlephotos.com
-# Cloud & Dev
 DOMAIN-SUFFIX, cloud.google.com
-DOMAIN-SUFFIX, console.cloud.google.com
 DOMAIN-SUFFIX, firebase.google.com
 DOMAIN-SUFFIX, firebaseio.com
-DOMAIN-SUFFIX, storage.googleapis.com
-DOMAIN-SUFFIX, appspot.com
-DOMAIN-SUFFIX, blogspot.com
+DOMAIN-SUFFIX, firebasestorage.googleapis.com
 
 # ==================================
-# 7. 基础设施、安全与验证码 (Infra & Sec)
+# 6. 地图与出行 (Maps)
 # ==================================
-# [补漏] Chrome 安全浏览数据库
-DOMAIN-SUFFIX, safebrowsing.googleapis.com
-DOMAIN-SUFFIX, safebrowsing-cache.google.com
-# 全球验证码 (Recaptcha)
-DOMAIN-SUFFIX, recaptcha.net
-# 静态资源 (Gstatic/Ggpht)
+DOMAIN-SUFFIX, maps.googleapis.com
+DOMAIN-SUFFIX, kh.google.com
+DOMAIN-SUFFIX, earth.google.com
+DOMAIN-SUFFIX, waze.com
+
+# ==================================
+# 7. 静态资源与兜底 (Infra)
+# ==================================
 DOMAIN-SUFFIX, gstatic.com
 DOMAIN-SUFFIX, ssl.gstatic.com
 DOMAIN-SUFFIX, googleusercontent.com
 DOMAIN-SUFFIX, ggpht.com
-# 字体与版权
 DOMAIN-SUFFIX, fonts.googleapis.com
-DOMAIN-SUFFIX, fonts.gstatic.com
-DOMAIN-SUFFIX, widevine.com
-# 底层服务器
 DOMAIN-SUFFIX, 1e100.net
 DOMAIN-SUFFIX, 265.com
-DOMAIN-SUFFIX, google.cn
-
-# ==================================
-# 8. 兜底匹配 (Fallback)
-# ==================================
+# 广告与统计 (建议代理以加速加载)
+DOMAIN-SUFFIX, googleadservices.com
+DOMAIN-SUFFIX, doubleclick.net
+DOMAIN-SUFFIX, google-analytics.com
+# 关键词兜底
 DOMAIN-KEYWORD, google
 DOMAIN-KEYWORD, gmail
 DOMAIN-KEYWORD, youtube
