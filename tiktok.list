@@ -1,104 +1,116 @@
-############# TikTok + Lemon8 (merged, overseas only, no Douyin/domestic)
+# ==================================
+# 1. TikTok 核心 API 与 网页 (Core)
+# ==================================
+DOMAIN-SUFFIX, tiktok.com
+DOMAIN-SUFFIX, tiktokv.com
+DOMAIN-SUFFIX, tiktokv.us
+DOMAIN-SUFFIX, tiktokd.net
+DOMAIN-SUFFIX, tiktokd.org
+DOMAIN-SUFFIX, tiktokw.com
+DOMAIN-SUFFIX, tiktokj.com
+DOMAIN-SUFFIX, tik-tokapi.com
+DOMAIN-SUFFIX, tiktok-us.com
+DOMAIN-SUFFIX, ttwebview.com
+DOMAIN-SUFFIX, musical.ly
+# 搜索与账户
+DOMAIN-SUFFIX, search.tiktok.com
+DOMAIN-SUFFIX, discover.tiktok.com
+DOMAIN-SUFFIX, accounts.tiktok.com
+# 音乐业务
+DOMAIN-SUFFIX, tiktokmusic.app
+DOMAIN-SUFFIX, tiktokmusic.com
+DOMAIN-SUFFIX, musicalcdn.com
+DOMAIN-SUFFIX, muscdn.com
 
+# ==================================
+# 2. TikTok CDN 边缘节点 (High Hit Rate)
+# ==================================
+# 你提供的详细 CDN 列表 (已整合)
+DOMAIN-SUFFIX, tiktokcdn.com
+DOMAIN-SUFFIX, tiktokcdn-us.com
+DOMAIN-SUFFIX, tiktokcdn-eu.com
+DOMAIN-SUFFIX, tiktokcdn-live.com
+DOMAIN-SUFFIX, mytiktokcdn.com
+# 边缘与版本变体
+DOMAIN-SUFFIX, v16.tiktokcdn.com
+DOMAIN-SUFFIX, v16a.tiktokcdn.com
+DOMAIN-SUFFIX, v16m.tiktokcdn.com
+DOMAIN-SUFFIX, v19.tiktokcdn.com
+DOMAIN-SUFFIX, v16m.tiktokcdn-us.com
+DOMAIN-SUFFIX, lf17.tiktokcdn.com
+DOMAIN-SUFFIX, lf18.tiktokcdn.com
+DOMAIN-SUFFIX, lf19.tiktokcdn-us.com
+DOMAIN-SUFFIX, lf19-gecko-source.tiktokcdn-us.com
+DOMAIN-SUFFIX, lf16-tiktok-web.tiktokcdn-us.com
+DOMAIN-SUFFIX, manifest.tiktokcdn.com
+DOMAIN-SUFFIX, manifest.tiktokcdn-us.com
+# 特殊 Akamai 节点
+DOMAIN, p16-tiktokcdn-com.akamaized.net
 
+# ==================================
+# 3. 直播流媒体 (Live & Webcast)
+# ==================================
+DOMAIN-SUFFIX, webcast.tiktok.com
+DOMAIN-SUFFIX, webcast-cdn.tiktok.com
+DOMAIN-SUFFIX, webcast-cdn.tiktokcdn.com
+DOMAIN-SUFFIX, live.tiktokcdn.com
+DOMAIN-SUFFIX, livecdn.tiktokcdn.com
+DOMAIN-SUFFIX, live-edge.tiktokcdn.com
+# 区域直播节点
+DOMAIN-SUFFIX, sg-live.tiktokcdn.com
+DOMAIN-SUFFIX, jp-live.tiktokcdn.com
+DOMAIN-SUFFIX, kr-live.tiktokcdn.com
+DOMAIN-SUFFIX, eu-live.tiktokcdn.com
+DOMAIN-SUFFIX, us-live.tiktokcdn.com
 
-# 补充：区域/边缘子域 & 旧变体（高命中）
-DOMAIN-SUFFIX,v16.tiktokcdn.com
-DOMAIN-SUFFIX,v16a.tiktokcdn.com
-DOMAIN-SUFFIX,v16m.tiktokcdn.com
-DOMAIN-SUFFIX,v19.tiktokcdn.com
-DOMAIN-SUFFIX,v16m.tiktokcdn-us.com
-DOMAIN-SUFFIX,lf17.tiktokcdn.com
-DOMAIN-SUFFIX,lf18.tiktokcdn.com
-DOMAIN-SUFFIX,lf19.tiktokcdn-us.com
-DOMAIN-SUFFIX,lf19-gecko-source.tiktokcdn-us.com
-DOMAIN-SUFFIX,lf16-tiktok-web.tiktokcdn-us.com
-DOMAIN-SUFFIX,p16-tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX,abtest-sg-tiktok.byteoversea.com
-DOMAIN-SUFFIX,ib.tiktokv.com
-DOMAIN-SUFFIX,api.tiktokv.com
-DOMAIN-SUFFIX,api-h2.tiktokv.com
-DOMAIN-SUFFIX,log.tiktokv.com
+# ==================================
+# 4. 字节跳动海外基础设施 (Safe Infra)
+# ==================================
+# ⚠️ 已剔除 snssdk.com 和 byteimg.com (防止误伤国内)
+DOMAIN-SUFFIX, ibytedtos.com
+DOMAIN-SUFFIX, ibyteimg.com
+DOMAIN-SUFFIX, ipstatp.com
+DOMAIN-SUFFIX, sgpstatp.com
+DOMAIN-SUFFIX, isnssdk.com
+DOMAIN-SUFFIX, sgsnssdk.com
+# 海外特效与 API
+DOMAIN, lf16-effectcdn.byteeffecttos-g.com
+DOMAIN-SUFFIX, byteeffecttos-g.com
+DOMAIN, lf16-pkgcdn.pitaya-clientai.com
+DOMAIN-SUFFIX, byteintlapi.com
+DOMAIN-SUFFIX, byteoversea.com
+DOMAIN-SUFFIX, byteoversea.net
+DOMAIN-SUFFIX, bytedapm.com
+DOMAIN-SUFFIX, bytegecko-i18n.com
+DOMAIN-SUFFIX, bytetcdn.com
+DOMAIN-SUFFIX, abtest-sg-tiktok.byteoversea.com
+DOMAIN-SUFFIX, ib.tiktokv.com
+DOMAIN-SUFFIX, api.tiktokv.com
+DOMAIN-SUFFIX, api-h2.tiktokv.com
+DOMAIN-SUFFIX, log.tiktokv.com
+DOMAIN-SUFFIX, bdurl.net
 
-DOMAIN-SUFFIX,webcast-cdn.tiktok.com
-DOMAIN-SUFFIX,webcast-cdn.tiktokcdn.com
+# ==================================
+# 5. Lemon8 全面规则 (Complete)
+# ==================================
+DOMAIN-SUFFIX, lemon8-app.com
+DOMAIN-SUFFIX, lemon8cdn.com
+DOMAIN-SUFFIX, lemon8static.com
+DOMAIN-SUFFIX, lemon8media.com
+DOMAIN-SUFFIX, lemon8-analytics.com
+DOMAIN-SUFFIX, lemon8-cdn.com
+# 详细日志与 API 节点
+DOMAIN, log16-normal-useast1a.lemon8-app.com
+DOMAIN, log19-normal-useast1a.lemon8-app.com
+DOMAIN, log22-normal-useast1a.lemon8-app.com
+DOMAIN, api22-normal.lemon8-app.com
+DOMAIN, p16-sign-va.lemon8cdn.com
+DOMAIN, p16-sign-eu.lemon8cdn.com
 
-DOMAIN-SUFFIX,live.tiktokcdn.com
-DOMAIN-SUFFIX,livecdn.tiktokcdn.com
-DOMAIN-SUFFIX,live-edge.tiktokcdn.com
-
-DOMAIN-SUFFIX,sg-live.tiktokcdn.com
-DOMAIN-SUFFIX,jp-live.tiktokcdn.com
-DOMAIN-SUFFIX,kr-live.tiktokcdn.com
-DOMAIN-SUFFIX,eu-live.tiktokcdn.com
-DOMAIN-SUFFIX,us-live.tiktokcdn.com
-
-DOMAIN-SUFFIX,manifest.tiktokcdn.com
-DOMAIN-SUFFIX,manifest.tiktokcdn-us.com
-
-# ===== TikTok: 表情/特效/礼物/直播/核心资源 =====
-DOMAIN,lf16-effectcdn.byteeffecttos-g.com
-DOMAIN-SUFFIX,byteeffecttos-g.com
-DOMAIN-SUFFIX,byteeffecttos.com
-DOMAIN,lf16-pkgcdn.pitaya-clientai.com
-DOMAIN,p16-tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX,tiktokcdn-us.com
-DOMAIN-SUFFIX,tiktokcdn.com
-DOMAIN-SUFFIX,ibyteimg.com
-DOMAIN-SUFFIX,byteimg.com
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,bytetcdn.com
-DOMAIN-SUFFIX,bytetcdn.com
-
-DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,tiktokv.com
-DOMAIN-SUFFIX,tiktokv.us
-DOMAIN-SUFFIX,tiktokd.net
-DOMAIN-SUFFIX,tiktokd.org
-DOMAIN-SUFFIX,ttwebview.com
-DOMAIN-SUFFIX,musical.ly
-
-DOMAIN-SUFFIX,search.tiktok.com
-DOMAIN-SUFFIX,discover.tiktok.com
-DOMAIN-SUFFIX,accounts.tiktok.com
-
-DOMAIN-SUFFIX,webcast.tiktok.com
-DOMAIN-SUFFIX,im.tiktok.com
-DOMAIN-SUFFIX,tiktokcdn-live.com
-DOMAIN-SUFFIX,tiktokcdn-eu.com
-
-DOMAIN-SUFFIX,tiktokmusic.app
-DOMAIN-SUFFIX,tiktokmusic.com
-DOMAIN-SUFFIX,musicalcdn.com
-DOMAIN-SUFFIX,muscdn.com
-
-DOMAIN-SUFFIX,byteintlapi.com
-DOMAIN-SUFFIX,byteoversea.com
-DOMAIN-SUFFIX,byteoversea.net
-DOMAIN-SUFFIX,bytedapm.com
-DOMAIN-SUFFIX,bytegecko-i18n.com
-DOMAIN-SUFFIX,ipstatp.com
-DOMAIN-SUFFIX,sgpstatp.com
-DOMAIN-SUFFIX,isnssdk.com
-DOMAIN-SUFFIX,snssdk.com
-
-DOMAIN-KEYWORD,tiktok
-DOMAIN-KEYWORD,musical.ly
-
-USER-AGENT,TikTok*
-
-# ===== Lemon8: app / api / 静态资源（不包含国内字节域） =====
-DOMAIN-SUFFIX,lemon8-app.com
-DOMAIN-SUFFIX,lemon8cdn.com
-DOMAIN,log16-normal-useast1a.lemon8-app.com
-DOMAIN,log19-normal-useast1a.lemon8-app.com
-DOMAIN,log22-normal-useast1a.lemon8-app.com
-DOMAIN,api22-normal.lemon8-app.com
-DOMAIN,p16-sign-va.lemon8cdn.com
-DOMAIN,p16-sign-eu.lemon8cdn.com
-DOMAIN-SUFFIX,lemon8static.com
-DOMAIN-SUFFIX,lemon8media.com
-DOMAIN-SUFFIX,lemon8-analytics.com
-DOMAIN-SUFFIX,lemon8-cdn.com
-DOMAIN-KEYWORD,lemon8
-DOMAIN-KEYWORD,lemon8-app
+# ==================================
+# 6. 兜底匹配 (User-Agent & Keywords)
+# ==================================
+DOMAIN-KEYWORD, tiktok
+DOMAIN-KEYWORD, musical.ly
+DOMAIN-KEYWORD, lemon8
+USER-AGENT, TikTok*
