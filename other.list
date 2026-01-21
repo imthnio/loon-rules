@@ -63,7 +63,9 @@ DOMAIN-SUFFIX,henduohao.com
 ###################################################
 DOMAIN-SUFFIX,cycani.org
 
+########################################################
 ########################阅后即焚
+########################################################
 DOMAIN-SUFFIX,cryptgeon.org
 
 ########################文件传送传输
@@ -73,14 +75,17 @@ DOMAIN-SUFFIX,easychuan.cn
 #文叔叔
 DOMAIN-KEYWORD,wenshushu
 DOMAIN-SUFFIX,c.wss.ink
+########################################################
 ########################证件psd
+########################################################
 DOMAIN-SUFFIX,psdstencil.cc
 DOMAIN-SUFFIX,shop.xishuai.org
 DOMAIN-SUFFIX,dumuzhou.org
 DOMAIN-SUFFIX,cxctt.com
 DOMAIN-SUFFIX,shop.davinci-pay.com
-
+########################################################
 ####################################图床
+########################################################
 DOMAIN-SUFFIX,c.wss.cc
 DOMAIN-SUFFIX,photo.lily.lat
 DOMAIN-SUFFIX,img.xwyue.com
@@ -89,12 +94,26 @@ DOMAIN-SUFFIX,695402.xyz
 DOMAIN-SUFFIX,111666.best
 DOMAIN-SUFFIX,img.baisi.ru
 DOMAIN-SUFFIX,imgbb.com
+
+
 ####################################星空mail星空邮箱
 DOMAIN-SUFFIX,mail.tal.ccwu.cc
 
+
+########################################################
 ########################动态壁纸
+########################################################
 DOMAIN-SUFFIX,bbs.huoying666.com
 DOMAIN-SUFFIX,livewallp.com
 
+
+########################################################
+########################静态壁纸/4k壁纸
+########################################################
+
+DOMAIN-SUFFIX,wallhaven.cc
+
+########################################################
 ########################短信接码验证码国际全球接码
+########################################################
 DOMAIN-SUFFIX,daisysms.com
