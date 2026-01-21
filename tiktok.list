@@ -23,23 +23,38 @@ DOMAIN-SUFFIX, musicalcdn.com
 DOMAIN-SUFFIX, muscdn.com
 
 # ==================================
-# 2. 直播流媒体与 QUIC 修复 [重点]
+# 2. 贴纸、特效与 Giphy 修复 [重点]
 # ==================================
-# 直播拉流 (Pull Stream)
+# [新增] Giphy 表情搜索 (解决“正在搜索...”转圈)
+DOMAIN-SUFFIX, giphy.com
+DOMAIN-SUFFIX, giphy.net
+DOMAIN-SUFFIX, giphymedia.com
+DOMAIN-SUFFIX, giphy.gif
+# [新增] Akamai 万能匹配 (解决灰色占位图)
+DOMAIN-KEYWORD, tiktokcdn-com.akamaized
+# 特效域名
+DOMAIN-SUFFIX, byteeffecttos-g.com
+DOMAIN-SUFFIX, byteeffecttos.com
+# 素材存储 (TOS)
+DOMAIN-KEYWORD, tos-maliva
+DOMAIN-KEYWORD, tos-useast
+DOMAIN-SUFFIX, ibytedtos.com
+DOMAIN-SUFFIX, ibyteimg.com
+
+# ==================================
+# 3. 直播流媒体与协议修复
+# ==================================
+# 直播拉流
 DOMAIN-SUFFIX, pull-flv.tiktokcdn.com
 DOMAIN-SUFFIX, pull-hls.tiktokcdn.com
 DOMAIN-SUFFIX, pull-f3.tiktokcdn.com
 DOMAIN-SUFFIX, pull-f5.tiktokcdn.com
 DOMAIN-SUFFIX, pull-flv-l1.tiktokcdn.com
-DOMAIN-SUFFIX, pull-flv-l11.tiktokcdn.com
 DOMAIN-SUFFIX, pull-hls-l1.tiktokcdn.com
-DOMAIN-SUFFIX, pull-hls-l11.tiktokcdn.com
-DOMAIN-SUFFIX, pull-w5-va01.tiktokcdn-us.com
-DOMAIN-SUFFIX, flv19.tiktokcdn.com
 # 协议修复 (QUIC/UDP)
 DOMAIN-KEYWORD, quic
 DOMAIN-KEYWORD, gquic
-# 直播控制与边缘
+# 直播边缘
 DOMAIN-SUFFIX, webcast.tiktok.com
 DOMAIN-SUFFIX, webcast-cdn.tiktok.com
 DOMAIN-SUFFIX, webcast-cdn.tiktokcdn.com
@@ -47,40 +62,28 @@ DOMAIN-SUFFIX, live.tiktokcdn.com
 DOMAIN-SUFFIX, livecdn.tiktokcdn.com
 DOMAIN-SUFFIX, live-edge.tiktokcdn.com
 DOMAIN-SUFFIX, tlivecdn.com
-# 区域直播
-DOMAIN-SUFFIX, sg-live.tiktokcdn.com
-DOMAIN-SUFFIX, us-live.tiktokcdn.com
-DOMAIN-SUFFIX, kr-live.tiktokcdn.com
-DOMAIN-SUFFIX, eu-live.tiktokcdn.com
-DOMAIN-SUFFIX, jp-live.tiktokcdn.com
 
 # ==================================
-# 3. CDN 与 静态资源
+# 4. CDN 与 边缘节点
 # ==================================
 DOMAIN-SUFFIX, tiktokcdn.com
 DOMAIN-SUFFIX, tiktokcdn-us.com
 DOMAIN-SUFFIX, tiktokcdn-eu.com
 DOMAIN-SUFFIX, tiktokcdn-live.com
 DOMAIN-SUFFIX, mytiktokcdn.com
-# 修复贴纸与特效 (byteeffect & akamai)
-DOMAIN-SUFFIX, byteeffecttos-g.com
-DOMAIN-SUFFIX, byteeffecttos.com
-DOMAIN, p16-tiktokcdn-com.akamaized.net
-DOMAIN, p19-tiktokcdn-com.akamaized.net
-DOMAIN, monkey-p16-tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX, ibytedtos.com
-DOMAIN-SUFFIX, ibyteimg.com
-# 边缘节点 v16/lf19
+# 边缘节点 v16/lf19/sf16
 DOMAIN-SUFFIX, v16.tiktokcdn.com
 DOMAIN-SUFFIX, v16a.tiktokcdn.com
 DOMAIN-SUFFIX, v16m.tiktokcdn.com
 DOMAIN-SUFFIX, v19.tiktokcdn.com
 DOMAIN-SUFFIX, lf19-gecko-source.tiktokcdn-us.com
+DOMAIN-SUFFIX, sf16-va.tiktokcdn.com
+DOMAIN-SUFFIX, sf19-va.tiktokcdn.com
 DOMAIN-SUFFIX, manifest.tiktokcdn.com
 DOMAIN-SUFFIX, font-useast1.tiktokcdn-us.com
 
 # ==================================
-# 4. 字节海外基建 (Infra)
+# 5. 字节海外基建 (Infra)
 # ==================================
 # 剔除国内域名
 DOMAIN-SUFFIX, ipstatp.com
@@ -93,7 +96,7 @@ DOMAIN-SUFFIX, byteintlapi.com
 DOMAIN-SUFFIX, bdurl.net
 
 # ==================================
-# 5. Lemon8 & 兜底
+# 6. Lemon8 & 兜底
 # ==================================
 DOMAIN-SUFFIX, lemon8-app.com
 DOMAIN-SUFFIX, lemon8cdn.com
