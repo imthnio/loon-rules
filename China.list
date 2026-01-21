@@ -1,0 +1,207 @@
+# ==================================
+# 1. 核心 App (抖音/快手/B站/小红书/微信)
+# ==================================
+# 字节跳动 (含火山引擎/电商)
+DOMAIN-SUFFIX, amemv.com
+DOMAIN-SUFFIX, douyin.com
+DOMAIN-SUFFIX, douyinpic.com
+DOMAIN-SUFFIX, douyinstatic.com
+DOMAIN-SUFFIX, douyinvod.com
+DOMAIN-SUFFIX, idouyinvod.com
+DOMAIN-SUFFIX, douyincdn.com
+DOMAIN-SUFFIX, live-douyin.com
+DOMAIN-SUFFIX, snssdk.com
+DOMAIN-SUFFIX, pstatp.com
+DOMAIN-SUFFIX, ixigua.com
+DOMAIN-SUFFIX, toutiao.com
+DOMAIN-SUFFIX, toutiaoimg.com
+DOMAIN-SUFFIX, toutiaostatic.com
+DOMAIN-SUFFIX, byteimg.com
+DOMAIN-SUFFIX, bytedance.com
+DOMAIN-SUFFIX, bytedance.net
+DOMAIN-SUFFIX, byteeffecttos.com
+DOMAIN-SUFFIX, ecombdimg.com
+DOMAIN-SUFFIX, zijieapi.com
+DOMAIN-SUFFIX, volces.com
+
+# 快手
+DOMAIN-SUFFIX, kuaishou.com
+DOMAIN-SUFFIX, gifshow.com
+DOMAIN-SUFFIX, ksapis.com
+DOMAIN-SUFFIX, kspkg.com
+DOMAIN-SUFFIX, yximgs.com
+DOMAIN-SUFFIX, kwai.com
+DOMAIN-SUFFIX, kwai.net
+DOMAIN-SUFFIX, e.kuaishou.com
+
+# 哔哩哔哩 (含 PCDN)
+DOMAIN-SUFFIX, bilibili.com
+DOMAIN-SUFFIX, bilivideo.com
+DOMAIN-SUFFIX, bilivideo.cn
+DOMAIN-SUFFIX, biligame.com
+DOMAIN-SUFFIX, biligame.net
+DOMAIN-SUFFIX, hdslb.com
+DOMAIN-SUFFIX, im9.com
+DOMAIN-SUFFIX, smtcdns.com
+DOMAIN-SUFFIX, acgvideo.com
+DOMAIN-SUFFIX, biliapi.com
+DOMAIN-SUFFIX, biliapi.net
+DOMAIN-SUFFIX, mcbbs.net
+DOMAIN-SUFFIX, upos-hz-mirrorakam.akamaized.net
+DOMAIN-SUFFIX, cn-beijing.aliyuncs.com
+
+# 小红书
+DOMAIN-SUFFIX, xiaohongshu.com
+DOMAIN-SUFFIX, xhscdn.com
+DOMAIN-SUFFIX, xhscdn.net
+DOMAIN-SUFFIX, xhslink.com
+DOMAIN-SUFFIX, qimg.xiaohongshu.com
+DOMAIN-SUFFIX, images.xiaohongshu.com
+DOMAIN-SUFFIX, fengkongcloud.com
+
+# 微信 & QQ
+DOMAIN-SUFFIX, wechat.com
+DOMAIN-SUFFIX, weixin.com
+DOMAIN-SUFFIX, qq.com
+DOMAIN-SUFFIX, qqurl.com
+DOMAIN-SUFFIX, tenpay.com
+DOMAIN-SUFFIX, wechatpay.com
+DOMAIN-SUFFIX, mail.qq.com
+DOMAIN-SUFFIX, weixin.qq.com
+DOMAIN-SUFFIX, qlogo.cn
+DOMAIN-SUFFIX, qpic.cn
+DOMAIN-SUFFIX, gtimg.cn
+DOMAIN-SUFFIX, gtimg.com
+DOMAIN-SUFFIX, msdk.qq.com
+DOMAIN-SUFFIX, graph.qq.com
+DOMAIN-SUFFIX, open.mobile.qq.com
+
+# ==================================
+# 2. 游戏特化 (腾讯 & 叠纸)
+# ==================================
+# 腾讯游戏通用 (王者/和平精英/反作弊)
+DOMAIN-SUFFIX, pvp.qq.com
+DOMAIN-SUFFIX, smoba.qq.com
+DOMAIN-SUFFIX, gp.qq.com
+DOMAIN-SUFFIX, pel.qq.com
+DOMAIN-SUFFIX, igamecj.com
+DOMAIN-SUFFIX, gcloudcs.com
+DOMAIN-SUFFIX, anticheatexpert.com
+DOMAIN-SUFFIX, tpns.qq.com
+DOMAIN-SUFFIX, fp.qq.com
+DOMAIN-SUFFIX, gamedl.qq.com
+DOMAIN-SUFFIX, dlied1.qq.com
+DOMAIN-SUFFIX, down.qq.com
+DOMAIN-SUFFIX, unipay.qq.com
+DOMAIN-SUFFIX, midas.gtimg.cn
+DOMAIN-SUFFIX, apollo.game.qq.com
+DOMAIN-SUFFIX, syzs.qq.com
+DOMAIN-KEYWORD, wangzherongyao
+DOMAIN-KEYWORD, gameforpeace
+
+# 叠纸游戏
+DOMAIN-SUFFIX, papegames.com
+DOMAIN-SUFFIX, papegames.cn
+DOMAIN-SUFFIX, papergames.com
+DOMAIN-SUFFIX, nikki4.com
+DOMAIN-SUFFIX, nikkigames.cn
+DOMAIN-SUFFIX, loveanddeepspace.cn
+DOMAIN-SUFFIX, loveanddeepspace.com
+DOMAIN-SUFFIX, infinitynikki.cn
+DOMAIN-SUFFIX, evol.papegames.cn
+DOMAIN-SUFFIX, qjnn.qq.com
+DOMAIN-KEYWORD, papegames
+
+# ==================================
+# 3. 阿里 & 京东 & 拼多多
+# ==================================
+DOMAIN-SUFFIX, alibaba.com
+DOMAIN-SUFFIX, alipay.com
+DOMAIN-SUFFIX, alipayobjects.com
+DOMAIN-SUFFIX, taobao.com
+DOMAIN-SUFFIX, tmall.com
+DOMAIN-SUFFIX, alicdn.com
+DOMAIN-SUFFIX, aliyun.com
+DOMAIN-SUFFIX, aliyuncs.com
+DOMAIN-SUFFIX, dingtalk.com
+DOMAIN-SUFFIX, mmstat.com
+DOMAIN-SUFFIX, tanx.com
+DOMAIN-SUFFIX, amap.com
+DOMAIN-SUFFIX, autonavi.com
+DOMAIN-SUFFIX, ele.me
+DOMAIN-SUFFIX, cainiao.com
+# 京东
+DOMAIN-SUFFIX, jd.com
+DOMAIN-SUFFIX, 360buy.com
+DOMAIN-SUFFIX, 360buyimg.com
+DOMAIN-SUFFIX, jdcloud.com
+DOMAIN-SUFFIX, jdpay.com
+# 拼多多
+DOMAIN-SUFFIX, pinduoduo.com
+DOMAIN-SUFFIX, yangkeduo.com
+DOMAIN-SUFFIX, pddpic.com
+
+# ==================================
+# 4. 视频/音乐/社交/生活
+# ==================================
+# 爱优腾芒 & 网易
+DOMAIN-SUFFIX, iqiyi.com
+DOMAIN-SUFFIX, qy.net
+DOMAIN-SUFFIX, youku.com
+DOMAIN-SUFFIX, mgtv.com
+DOMAIN-SUFFIX, hunantv.com
+DOMAIN-SUFFIX, 163.com
+DOMAIN-SUFFIX, 126.net
+DOMAIN-SUFFIX, netease.com
+DOMAIN-SUFFIX, music.126.net
+# 社交与知识
+DOMAIN-SUFFIX, weibo.com
+DOMAIN-SUFFIX, weibo.cn
+DOMAIN-SUFFIX, sinaimg.cn
+DOMAIN-SUFFIX, zhihu.com
+DOMAIN-SUFFIX, zhimg.com
+DOMAIN-SUFFIX, douban.com
+DOMAIN-SUFFIX, doubanio.com
+# 生活与工具
+DOMAIN-SUFFIX, meituan.com
+DOMAIN-SUFFIX, dianping.com
+DOMAIN-SUFFIX, baidu.com
+DOMAIN-SUFFIX, bdstatic.com
+DOMAIN-SUFFIX, bcebos.com
+DOMAIN-SUFFIX, baidupcs.com
+
+# ==================================
+# 5. 银行/运营商/基础设施 CDN
+# ==================================
+# 支付与银行
+DOMAIN-SUFFIX, 95516.com
+DOMAIN-SUFFIX, unionpay.com
+DOMAIN-SUFFIX, icbc.com.cn
+DOMAIN-SUFFIX, cmbchina.com
+DOMAIN-SUFFIX, boc.cn
+# 核心 CDN (网宿/七牛/金山)
+DOMAIN-SUFFIX, chinanetcenter.com
+DOMAIN-SUFFIX, wangsu.com
+DOMAIN-SUFFIX, lxdns.com
+DOMAIN-SUFFIX, dnsv1.com
+DOMAIN-SUFFIX, dnspod.cn
+DOMAIN-SUFFIX, ksyun.com
+DOMAIN-SUFFIX, ucloud.cn
+DOMAIN-SUFFIX, qiniu.com
+DOMAIN-SUFFIX, qiniucdn.com
+DOMAIN-SUFFIX, upaiyun.com
+
+# ==================================
+
+
+# [安全] 品牌关键词 (仅保留绝对安全的国内大厂)
+DOMAIN-KEYWORD, aliyun
+DOMAIN-KEYWORD, tencent
+DOMAIN-KEYWORD, baidu
+DOMAIN-KEYWORD, 360buy
+DOMAIN-KEYWORD, alipay
+DOMAIN-KEYWORD, taobao
+
+# [终极兜底] GeoIP CN
+# 凡是上面没匹配到的域名，只要 IP 地址在中国，全部直连！
+GEOIP, CN
