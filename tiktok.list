@@ -1,110 +1,73 @@
 # ==================================
-# 1. TikTok 核心 API & 网页
+# 1. 贴纸与表情包暴力修复 (Stickers - AGGRESSIVE)
 # ==================================
-DOMAIN-SUFFIX, tiktok.com
-DOMAIN-SUFFIX, tiktokv.com
-DOMAIN-SUFFIX, tiktokv.us
-DOMAIN-SUFFIX, tiktokd.org
-DOMAIN-SUFFIX, tiktokd.net
-DOMAIN-SUFFIX, tiktokw.com
-DOMAIN-SUFFIX, tiktokj.com
-DOMAIN-SUFFIX, tik-tokapi.com
-DOMAIN-SUFFIX, tiktok-us.com
-DOMAIN-SUFFIX, musical.ly
-DOMAIN-SUFFIX, amemv.com
-DOMAIN-SUFFIX, ttwebview.com
-# 搜索、账户与音乐
-DOMAIN-SUFFIX, search.tiktok.com
-DOMAIN-SUFFIX, discover.tiktok.com
-DOMAIN-SUFFIX, accounts.tiktok.com
-DOMAIN-SUFFIX, tiktokmusic.app
-DOMAIN-SUFFIX, tiktokmusic.com
-DOMAIN-SUFFIX, musicalcdn.com
-DOMAIN-SUFFIX, muscdn.com
-
-# ==================================
-# 2. 贴纸、特效与 Giphy 修复 [重点]
-# ==================================
-# [新增] Giphy 表情搜索 (解决“正在搜索...”转圈)
+# TikTok 贴纸搜索核心 (Giphy 全家桶)
 DOMAIN-SUFFIX, giphy.com
 DOMAIN-SUFFIX, giphy.net
 DOMAIN-SUFFIX, giphymedia.com
 DOMAIN-SUFFIX, giphy.gif
-# [新增] Akamai 万能匹配 (解决灰色占位图)
+DOMAIN-SUFFIX, omgif.net
+DOMAIN-KEYWORD, giphy
+
+# 贴纸图片 CDN (暴力匹配 Akamai 和 TOS)
+# 只要域名里包含 tiktokcdn 且是 Akamai 的，全部杀！
 DOMAIN-KEYWORD, tiktokcdn-com.akamaized
-# 特效域名
-DOMAIN-SUFFIX, byteeffecttos-g.com
-DOMAIN-SUFFIX, byteeffecttos.com
-# 素材存储 (TOS)
+# 匹配所有 TOS (对象存储) 节点，防止图片加载不出
 DOMAIN-KEYWORD, tos-maliva
 DOMAIN-KEYWORD, tos-useast
-DOMAIN-SUFFIX, ibytedtos.com
-DOMAIN-SUFFIX, ibyteimg.com
+DOMAIN-KEYWORD, tos-usa
+DOMAIN-KEYWORD, obj.tiktokcdns
 
 # ==================================
-# 3. 直播流媒体与协议修复
+# 2. 直播卡顿暴力修复 (Live - AGGRESSIVE)
 # ==================================
-# 直播拉流
-DOMAIN-SUFFIX, pull-flv.tiktokcdn.com
-DOMAIN-SUFFIX, pull-hls.tiktokcdn.com
-DOMAIN-SUFFIX, pull-f3.tiktokcdn.com
-DOMAIN-SUFFIX, pull-f5.tiktokcdn.com
-DOMAIN-SUFFIX, pull-flv-l1.tiktokcdn.com
-DOMAIN-SUFFIX, pull-hls-l1.tiktokcdn.com
-# 协议修复 (QUIC/UDP)
+# 匹配所有“拉流”域名 (Pull Stream)
+# 不管是 flv, hls, rtmp 还是 f3, f5，只要包含 pull- 且是 tiktok 的，全部走代理
+DOMAIN-KEYWORD, pull-flv
+DOMAIN-KEYWORD, pull-hls
+DOMAIN-KEYWORD, pull-rtmp
+DOMAIN-KEYWORD, pull-f3
+DOMAIN-KEYWORD, pull-f5
+DOMAIN-KEYWORD, pull-l1
+DOMAIN-KEYWORD, pull-l2
+
+# 直播边缘节点与 QUIC
+DOMAIN-KEYWORD, webcast
+DOMAIN-KEYWORD, live-edge
+DOMAIN-KEYWORD, tlivecdn
 DOMAIN-KEYWORD, quic
 DOMAIN-KEYWORD, gquic
-# 直播边缘
-DOMAIN-SUFFIX, webcast.tiktok.com
-DOMAIN-SUFFIX, webcast-cdn.tiktok.com
-DOMAIN-SUFFIX, webcast-cdn.tiktokcdn.com
-DOMAIN-SUFFIX, live.tiktokcdn.com
-DOMAIN-SUFFIX, livecdn.tiktokcdn.com
-DOMAIN-SUFFIX, live-edge.tiktokcdn.com
 DOMAIN-SUFFIX, tlivecdn.com
 
 # ==================================
-# 4. CDN 与 边缘节点
+# 3. 核心 API 与 静态资源 (Core - AGGRESSIVE)
 # ==================================
-DOMAIN-SUFFIX, tiktokcdn.com
-DOMAIN-SUFFIX, tiktokcdn-us.com
-DOMAIN-SUFFIX, tiktokcdn-eu.com
-DOMAIN-SUFFIX, tiktokcdn-live.com
-DOMAIN-SUFFIX, mytiktokcdn.com
-# 边缘节点 v16/lf19/sf16
-DOMAIN-SUFFIX, v16.tiktokcdn.com
-DOMAIN-SUFFIX, v16a.tiktokcdn.com
-DOMAIN-SUFFIX, v16m.tiktokcdn.com
-DOMAIN-SUFFIX, v19.tiktokcdn.com
-DOMAIN-SUFFIX, lf19-gecko-source.tiktokcdn-us.com
-DOMAIN-SUFFIX, sf16-va.tiktokcdn.com
-DOMAIN-SUFFIX, sf19-va.tiktokcdn.com
-DOMAIN-SUFFIX, manifest.tiktokcdn.com
-DOMAIN-SUFFIX, font-useast1.tiktokcdn-us.com
+# 暴力关键词：包含 tiktok 的域名一律走代理
+DOMAIN-KEYWORD, tiktok
+DOMAIN-KEYWORD, musical.ly
 
-# ==================================
-# 5. 字节海外基建 (Infra)
-# ==================================
-# 剔除国内域名
-DOMAIN-SUFFIX, ipstatp.com
-DOMAIN-SUFFIX, sgpstatp.com
-DOMAIN-SUFFIX, isnssdk.com
-DOMAIN-SUFFIX, sgsnssdk.com
+# 字节海外基建 (防止漏网)
+DOMAIN-SUFFIX, byteeffecttos-g.com
+DOMAIN-SUFFIX, byteeffecttos.com
+DOMAIN-SUFFIX, ibytedtos.com
+DOMAIN-SUFFIX, ibyteimg.com
 DOMAIN-SUFFIX, byteoversea.com
 DOMAIN-SUFFIX, byteoversea.net
 DOMAIN-SUFFIX, byteintlapi.com
-DOMAIN-SUFFIX, bdurl.net
+DOMAIN-SUFFIX, ttwebview.com
 
 # ==================================
-# 6. Lemon8 & 兜底
+# 4. 音乐与 Lemon8
 # ==================================
-DOMAIN-SUFFIX, lemon8-app.com
-DOMAIN-SUFFIX, lemon8cdn.com
-DOMAIN-SUFFIX, lemon8static.com
-DOMAIN-SUFFIX, lemon8media.com
-DOMAIN-SUFFIX, lemon8-analytics.com
-DOMAIN-SUFFIX, lemon8-cdn.com
-DOMAIN-KEYWORD, tiktok
-DOMAIN-KEYWORD, musical.ly
+DOMAIN-SUFFIX, tiktokmusic.app
+DOMAIN-SUFFIX, muscdn.com
+DOMAIN-SUFFIX, musicalcdn.com
 DOMAIN-KEYWORD, lemon8
-USER-AGENT, TikTok*
+
+# ==================================
+# 5. 安全兜底 (防止误伤国内)
+# ==================================
+# 即使暴力匹配，也必须排除国内核心域名 (放心，这不会影响海外)
+# 如果你发现国内抖音变慢，请检查是否误删了这部分（Loon通常默认策略会处理，但写上更保险）
+# 注意：Loon 规则是从上往下匹配，如果上面 Keyword 命中了，下面可能不生效。
+# 但由于上面的 Keyword 都是 tiktok/musical.ly，本身就不包含 douyin，所以天然隔离。
