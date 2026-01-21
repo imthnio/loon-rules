@@ -71,3 +71,90 @@ DOMAIN-KEYWORD, wangzherongyao
 DOMAIN-SUFFIX, gp.qq.com
 DOMAIN-SUFFIX, pel.qq.com
 DOMAIN-KEYWORD, gameforpeace
+
+
+
+# ==================================
+# 1. 核心账号与基础设施 (Core & Auth)
+# ==================================
+# 叠纸/Infold 核心 (注意 papegames 少个 r 是官方操作)
+DOMAIN-SUFFIX, papegames.com
+DOMAIN-SUFFIX, papegames.cn
+DOMAIN-SUFFIX, papegames.net
+DOMAIN-SUFFIX, papergames.com
+DOMAIN-SUFFIX, papergames.cn
+DOMAIN-SUFFIX, infoldgames.com
+DOMAIN-SUFFIX, infoldgames.cn
+
+# 公司主体/早期域名 (用于部分老游戏备案与跳转)
+DOMAIN-SUFFIX, suzhou-nikki.com
+DOMAIN-SUFFIX, suzhounikki.com
+DOMAIN-SUFFIX, nuannuan.cn
+
+# 游戏内客服系统 (HelpShift/AIHelp) - 缺了这个无法联系客服
+DOMAIN-SUFFIX, aihelp.net
+DOMAIN-SUFFIX, cs.papegames.com
+
+# ==================================
+# 2. 恋与深空 (Love and Deepspace)
+# ==================================
+DOMAIN-SUFFIX, loveanddeepspace.com
+DOMAIN-SUFFIX, loveanddeepspace.cn
+DOMAIN-SUFFIX, deepspace.papegames.com
+DOMAIN-SUFFIX, deepspace.infoldgames.com
+# 猎人协会/活动页
+DOMAIN-SUFFIX, hunter-api.papegames.com
+DOMAIN-SUFFIX, hunter-api.infoldgames.com
+DOMAIN-KEYWORD, loveanddeepspace
+
+# ==================================
+# 3. 无限暖暖 (Infinity Nikki)
+# ==================================
+DOMAIN-SUFFIX, infinitynikki.com
+DOMAIN-SUFFIX, infinitynikki.cn
+DOMAIN-SUFFIX, infinitynikki.papegames.com
+DOMAIN-SUFFIX, infinitynikki.infoldgames.com
+DOMAIN-KEYWORD, infinitynikki
+
+# ==================================
+# 4. 闪耀暖暖 (Shining Nikki)
+# ==================================
+DOMAIN-SUFFIX, nikki4.com
+DOMAIN-SUFFIX, nikki4.papegames.cn
+DOMAIN-SUFFIX, nikki4.papegames.com
+DOMAIN-SUFFIX, nikkigames.cn
+DOMAIN-SUFFIX, nikkigames.com
+# 3D资源与更新
+DOMAIN-SUFFIX, product-nikki4.papegames.com
+
+# ==================================
+# 5. 奇迹暖暖 (Miracle Nikki) - [特殊]
+# ==================================
+# 国服由腾讯代理，必须加这个腾讯域名
+DOMAIN-SUFFIX, qjnn.qq.com
+# 官方通用域名
+DOMAIN-SUFFIX, nikki3.com
+DOMAIN-SUFFIX, u3d.nikkis.com
+
+# ==================================
+# 6. 恋与制作人 (Love and Producer)
+# ==================================
+DOMAIN-SUFFIX, evol.papegames.cn
+DOMAIN-SUFFIX, evol.papegames.com
+DOMAIN-SUFFIX, loveandproducer.com
+DOMAIN-SUFFIX, nmn.cn
+
+# ==================================
+# 7. 百面千相 (The Perceiver) - [新游预约]
+# ==================================
+DOMAIN-SUFFIX, theperceiver.com
+DOMAIN-SUFFIX, 100p.papegames.com
+DOMAIN-SUFFIX, bai.papegames.com
+
+# ==================================
+# 8. 关键词兜底 (Keywords)
+# ==================================
+DOMAIN-KEYWORD, papegames
+DOMAIN-KEYWORD, papergames
+DOMAIN-KEYWORD, infoldgames
+
