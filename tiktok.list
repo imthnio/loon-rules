@@ -1,7 +1,7 @@
 # ==================================
-# 1. 贴纸与表情包暴力修复 (Stickers - AGGRESSIVE)
+# 1. 贴纸、特效与 Giphy 修复 (Stickers Fix)
 # ==================================
-# TikTok 贴纸搜索核心 (Giphy 全家桶)
+# [核心] Giphy 表情包 (Blackmatrix7 缺失，但我必须给你加上，否则贴纸转圈)
 DOMAIN-SUFFIX, giphy.com
 DOMAIN-SUFFIX, giphy.net
 DOMAIN-SUFFIX, giphymedia.com
@@ -9,65 +9,93 @@ DOMAIN-SUFFIX, giphy.gif
 DOMAIN-SUFFIX, omgif.net
 DOMAIN-KEYWORD, giphy
 
-# 贴纸图片 CDN (暴力匹配 Akamai 和 TOS)
-# 只要域名里包含 tiktokcdn 且是 Akamai 的，全部杀！
+# [核心] Akamai 静态资源 (暴力匹配所有 p16/p19/v0 变体)
 DOMAIN-KEYWORD, tiktokcdn-com.akamaized
-# 匹配所有 TOS (对象存储) 节点，防止图片加载不出
+# [补充] Blackmatrix7 特指节点
+DOMAIN, p16-tiktokcdn-com.akamaized.net
+DOMAIN, p19-tiktokcdn-com.akamaized.net
+
+# [核心] 特效与素材 (TOS/Obj)
+DOMAIN-SUFFIX, byteeffecttos-g.com
+DOMAIN-SUFFIX, byteeffecttos.com
+DOMAIN-SUFFIX, ibytedtos.com
+DOMAIN-SUFFIX, ibyteimg.com
 DOMAIN-KEYWORD, tos-maliva
 DOMAIN-KEYWORD, tos-useast
-DOMAIN-KEYWORD, tos-usa
 DOMAIN-KEYWORD, obj.tiktokcdns
 
 # ==================================
-# 2. 直播卡顿暴力修复 (Live - AGGRESSIVE)
+# 2. 直播卡顿暴力修复 (Live Stream Fix)
 # ==================================
-# 匹配所有“拉流”域名 (Pull Stream)
-# 不管是 flv, hls, rtmp 还是 f3, f5，只要包含 pull- 且是 tiktok 的，全部走代理
+# [核心] 暴力匹配所有拉流域名 (解决画面卡住)
 DOMAIN-KEYWORD, pull-flv
 DOMAIN-KEYWORD, pull-hls
 DOMAIN-KEYWORD, pull-rtmp
 DOMAIN-KEYWORD, pull-f3
 DOMAIN-KEYWORD, pull-f5
-DOMAIN-KEYWORD, pull-l1
-DOMAIN-KEYWORD, pull-l2
-
-# 直播边缘节点与 QUIC
-DOMAIN-KEYWORD, webcast
-DOMAIN-KEYWORD, live-edge
-DOMAIN-KEYWORD, tlivecdn
-DOMAIN-KEYWORD, quic
-DOMAIN-KEYWORD, gquic
+# 边缘节点
 DOMAIN-SUFFIX, tlivecdn.com
+DOMAIN-SUFFIX, live-edge.tiktokcdn.com
+DOMAIN-SUFFIX, webcast.tiktok.com
+DOMAIN-SUFFIX, webcast-cdn.tiktok.com
+DOMAIN-KEYWORD, tlivecdn
+DOMAIN-KEYWORD, live-edge
 
 # ==================================
-# 3. 核心 API 与 静态资源 (Core - AGGRESSIVE)
+# 3. TikTok 核心域名 (From Blackmatrix7 & Core)
 # ==================================
-# 暴力关键词：包含 tiktok 的域名一律走代理
-DOMAIN-KEYWORD, tiktok
-DOMAIN-KEYWORD, musical.ly
+DOMAIN-SUFFIX, tiktok.com
+DOMAIN-SUFFIX, tiktokv.com
+DOMAIN-SUFFIX, tiktokv.us
+DOMAIN-SUFFIX, tiktokd.org
+DOMAIN-SUFFIX, tiktokd.net
+DOMAIN-SUFFIX, tiktokw.com
+DOMAIN-SUFFIX, tiktokj.com
+DOMAIN-SUFFIX, tik-tokapi.com
+DOMAIN-SUFFIX, tiktok-us.com
+DOMAIN-SUFFIX, musical.ly
+DOMAIN-SUFFIX, amemv.com
+DOMAIN-SUFFIX, ttwebview.com
+DOMAIN-SUFFIX, musically-hk.com
+DOMAIN-SUFFIX, musicalcdn.com
+DOMAIN-SUFFIX, muscdn.com
+DOMAIN-SUFFIX, tiktokmusic.app
+DOMAIN-SUFFIX, tiktokcdn.com
+DOMAIN-SUFFIX, tiktokcdn-us.com
 
-# 字节海外基建 (防止漏网)
-DOMAIN-SUFFIX, byteeffecttos-g.com
-DOMAIN-SUFFIX, byteeffecttos.com
-DOMAIN-SUFFIX, ibytedtos.com
-DOMAIN-SUFFIX, ibyteimg.com
+# ==================================
+# 4. 字节跳动海外全家桶 (Merged Blackmatrix7 Extras)
+# ==================================
+# [新增] Trae & MarsCode (字节海外 AI/代码工具)
+DOMAIN-SUFFIX, trae.ai
+DOMAIN-SUFFIX, marscode.com
+DOMAIN-SUFFIX, trae-api-sg.mchost.guru
+
+# [新增] 底层依赖与 API (Blackmatrix7 特有)
+DOMAIN-SUFFIX, pitaya-clientai.com
+DOMAIN-SUFFIX, mchost.guru
+DOMAIN-SUFFIX, bytedapm.com
+DOMAIN-SUFFIX, bytegecko-i18n.com
+DOMAIN-SUFFIX, byteintlapi.com
 DOMAIN-SUFFIX, byteoversea.com
 DOMAIN-SUFFIX, byteoversea.net
-DOMAIN-SUFFIX, byteintlapi.com
-DOMAIN-SUFFIX, ttwebview.com
+DOMAIN-SUFFIX, capcut.com
+DOMAIN-SUFFIX, lemon8-app.com
+DOMAIN-SUFFIX, lemon8cdn.com
 
 # ==================================
-# 4. 音乐与 Lemon8
+# 5. 安全兜底 (Security)
 # ==================================
-DOMAIN-SUFFIX, tiktokmusic.app
-DOMAIN-SUFFIX, muscdn.com
-DOMAIN-SUFFIX, musicalcdn.com
+# 剔除 snssdk.com (防误伤国内)，仅保留海外版
+DOMAIN-SUFFIX, isnssdk.com
+DOMAIN-SUFFIX, sgsnssdk.com
+DOMAIN-SUFFIX, sgpstatp.com
+DOMAIN-SUFFIX, ipstatp.com
+
+# ==================================
+# 6. 关键词兜底 (Final Match)
+# ==================================
+DOMAIN-KEYWORD, tiktok
+DOMAIN-KEYWORD, musical.ly
 DOMAIN-KEYWORD, lemon8
-
-# ==================================
-# 5. 安全兜底 (防止误伤国内)
-# ==================================
-# 即使暴力匹配，也必须排除国内核心域名 (放心，这不会影响海外)
-# 如果你发现国内抖音变慢，请检查是否误删了这部分（Loon通常默认策略会处理，但写上更保险）
-# 注意：Loon 规则是从上往下匹配，如果上面 Keyword 命中了，下面可能不生效。
-# 但由于上面的 Keyword 都是 tiktok/musical.ly，本身就不包含 douyin，所以天然隔离。
+USER-AGENT, TikTok*
