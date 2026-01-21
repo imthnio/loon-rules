@@ -1,13 +1,73 @@
+# ==================================
+# 1. 核心登录、安全与监控 (Base & Security)
+# ==================================
+# MSDK 登录鉴权
+DOMAIN-SUFFIX, msdk.qq.com
+DOMAIN-SUFFIX, wtlogin.qq.com
+
+# ACE 反作弊与安全 (Anti-Cheat)
+DOMAIN-SUFFIX, anticheatexpert.com
+DOMAIN-SUFFIX, fp.qq.com
+DOMAIN-SUFFIX, tpns.qq.com
+
+# 崩溃上报 (Bugly) - 缺此可能卡资源校验
+DOMAIN-SUFFIX, bugly.qq.com
+DOMAIN-SUFFIX, oth.eve.mdt.qq.com
+
+# ==================================
+# 2. 支付与充值服务 (Payment) - [新增]
+# ==================================
+# 缺了这些无法买皮肤/充点券
+DOMAIN-SUFFIX, unipay.qq.com
+DOMAIN-SUFFIX, midas.gtimg.cn
+DOMAIN-SUFFIX, midas.qq.com
+
+# ==================================
+# 3. 语音、网络与云服务 (Voice & Net)
+# ==================================
+# GVoice 队内语音
+DOMAIN-SUFFIX, gcloudcs.com
+
+# Apollo 网络诊断与调度
+DOMAIN-SUFFIX, apollo.game.qq.com
+
+# 腾讯游戏云基础设施
+DOMAIN-SUFFIX, igamecj.com
+DOMAIN-SUFFIX, cloud.tencent.com
+DOMAIN-SUFFIX, myqcloud.com
+
+# ==================================
+# 4. 资源下载、图片与WebView (CDN)
+# ==================================
+# 核心下载节点
+DOMAIN-SUFFIX, gamedl.qq.com
+DOMAIN-SUFFIX, dlied1.qq.com
+DOMAIN-SUFFIX, down.qq.com
+
+# 静态资源/头像/活动页面 (补全 .com)
+DOMAIN-SUFFIX, imgcache.qq.com
+DOMAIN-SUFFIX, gtimg.cn
+DOMAIN-SUFFIX, gtimg.com
+DOMAIN-SUFFIX, qlogo.cn
+DOMAIN-SUFFIX, qpic.cn
+DOMAIN-SUFFIX, video.qq.com
+DOMAIN-SUFFIX, url.cn
+
+# ==================================
+# 5. 王者荣耀专用 (Honor of Kings CN)
+# ==================================
 DOMAIN-SUFFIX, pvp.qq.com
 DOMAIN-SUFFIX, smoba.qq.com
 DOMAIN-SUFFIX, yxzj.qq.com
 DOMAIN-SUFFIX, camp.qq.com
-DOMAIN-SUFFIX, gp.qq.com
-DOMAIN-SUFFIX, msdk.qq.com
 DOMAIN-SUFFIX, smoba.game.qq.com
 DOMAIN-SUFFIX, pvp.game.qq.com
 DOMAIN-KEYWORD, smoba
 DOMAIN-KEYWORD, wangzherongyao
 
-
-
+# ==================================
+# 6. 和平精英专用 (Game for Peace CN)
+# ==================================
+DOMAIN-SUFFIX, gp.qq.com
+DOMAIN-SUFFIX, pel.qq.com
+DOMAIN-KEYWORD, gameforpeace
