@@ -1,59 +1,84 @@
-############# X (Twitter) + Grok (FINAL fixed for X App login)
+# ==================================
+# 1. 核心业务 (X & Twitter) - [重构重点]
+# ==================================
+# 新品牌 X (马斯克时代核心)
+DOMAIN-SUFFIX, x.com
+DOMAIN-SUFFIX, x.ai
+DOMAIN-SUFFIX, x.company
+DOMAIN-SUFFIX, grok.x.ai
+# 经典品牌 Twitter (API 仍大量使用)
+DOMAIN-SUFFIX, twitter.com
+DOMAIN-SUFFIX, twitter.jp
+DOMAIN-SUFFIX, twitter.co
+DOMAIN-SUFFIX, twtrdns.net
 
-# ===== X / Twitter Core =====
-DOMAIN-SUFFIX,x.com
-DOMAIN-SUFFIX,twitter.com
-DOMAIN-SUFFIX,api.twitter.com
-DOMAIN-SUFFIX,api.x.com
-DOMAIN-SUFFIX,login.twitter.com
-DOMAIN-SUFFIX,auth.twitter.com
-DOMAIN-SUFFIX,accounts.x.com
-DOMAIN-SUFFIX,twitteroauth.com
-DOMAIN-SUFFIX,oauth.x.com
-DOMAIN-SUFFIX,api.oauth.x.com
+# ==================================
+# 2. 静态资源与 CDN (Images/Videos)
+# ==================================
+# 图片与视频核心 (缺了这些看不了图)
+DOMAIN-SUFFIX, twimg.com
+DOMAIN-SUFFIX, twimg.org
+DOMAIN-SUFFIX, twimg.co
+DOMAIN-SUFFIX, pbs.twimg.com
+DOMAIN-SUFFIX, video.twimg.com
+DOMAIN-SUFFIX, abs.twimg.com
+DOMAIN-SUFFIX, abs-0.twimg.com
 
-# ===== Redirect / Shortlinks =====
-DOMAIN-SUFFIX,t.co
+# ==================================
+# 3. 缩略图与短链接 (Short Links)
+# ==================================
+# [关键] 必须代理，否则点击推文内链接无法跳转
+DOMAIN-SUFFIX, t.co
+DOMAIN-SUFFIX, x.co
+DOMAIN-SUFFIX, t.co.uk
+# 历史遗留短链
+DOMAIN-SUFFIX, typ.to
+DOMAIN-SUFFIX, twitpic.com
 
-# ===== Media / CDN =====
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,twimg.org
-DOMAIN-SUFFIX,abs.twimg.com
-DOMAIN-SUFFIX,video.twimg.com
-DOMAIN-SUFFIX,pbs.twimg.com
-DOMAIN-SUFFIX,ton.twimg.com
+# ==================================
+# 4. API 与 移动端服务 (Mobile & API)
+# ==================================
+DOMAIN-SUFFIX, api.twitter.com
+DOMAIN-SUFFIX, api.x.com
+DOMAIN-SUFFIX, upload.twitter.com
+DOMAIN-SUFFIX, mobile.twitter.com
+DOMAIN-SUFFIX, mobile.x.com
+DOMAIN-SUFFIX, m.twitter.com
 
-# ===== DMs / Notifications =====
-DOMAIN-SUFFIX,dm.twitter.com
-DOMAIN-SUFFIX,notifications.twitter.com
+# ==================================
+# 5. 辅助工具与收购业务 (Legacy/Extras)
+# ==================================
+# TweetDeck (推特专业版)
+DOMAIN-SUFFIX, tweetdeck.com
+DOMAIN-SUFFIX, pro.twitter.com
+# Periscope (直播业务，虽然已关停但部分底层还在)
+DOMAIN-SUFFIX, pscp.tv
+DOMAIN-SUFFIX, periscope.tv
+# Vine (短视频鼻祖，部分历史数据)
+DOMAIN-SUFFIX, vine.co
+# 数据与开发者
+DOMAIN-SUFFIX, gnip.com
+DOMAIN-SUFFIX, trendrr.net
+DOMAIN-SUFFIX, twttr.com
+DOMAIN-SUFFIX, twttr.net
 
-# ===== Upload / Syndication =====
-DOMAIN-SUFFIX,upload.twitter.com
-DOMAIN-SUFFIX,syndication.twimg.com
+# ==================================
+# 6. 广告与统计 (Ads & Analytics)
+# ==================================
+# 建议代理，防止应用内开屏/信息流加载卡顿
+DOMAIN-SUFFIX, ads-twitter.com
+DOMAIN-SUFFIX, ads.twitter.com
+DOMAIN-SUFFIX, analytics.twitter.com
+DOMAIN-SUFFIX, syndication.twitter.com
+DOMAIN-SUFFIX, platform.twitter.com
+DOMAIN-SUFFIX, tellapart.com
 
-# ===== WebView / Periscope =====
-DOMAIN-SUFFIX,ttwebview.com
-DOMAIN-SUFFIX,pscp.tv
-DOMAIN-SUFFIX,periscope.tv
-DOMAIN-SUFFIX,tweetdeck.com
-
-# ===== Grok / xAI =====
-DOMAIN-SUFFIX,x.ai
-DOMAIN-SUFFIX,grok.x.ai
-DOMAIN-SUFFIX,api.x.ai
-DOMAIN-SUFFIX,auth.x.ai
-DOMAIN-SUFFIX,accounts.x.ai
-DOMAIN-SUFFIX,session.x.ai
-DOMAIN-SUFFIX,login.x.ai
-DOMAIN-SUFFIX,assets.x.ai
-DOMAIN-SUFFIX,static.x.ai
-DOMAIN-SUFFIX,grok.com
-
-# ===== Status / Help =====
-DOMAIN-SUFFIX,twitterstat.us
-DOMAIN-SUFFIX,help.x.com
-
-# ===== Fallback =====
-DOMAIN-KEYWORD,twitter
-DOMAIN-KEYWORD,x.ai
-DOMAIN-KEYWORD,grok
+# ==================================
+# 7. 关键词与 User-Agent 兜底
+# ==================================
+DOMAIN-KEYWORD, twitter
+DOMAIN-KEYWORD, twimg
+# 新增 X 的关键词匹配，防止漏网之鱼
+DOMAIN-KEYWORD, x.com
+USER-AGENT, Twitter*
+USER-AGENT, X*
