@@ -1,66 +1,101 @@
-############# Meta
-DOMAIN-SUFFIX,meta.com
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,fb.com
-DOMAIN-SUFFIX,fb.me
-DOMAIN-SUFFIX,facebook.net
+# ==================================
+# 1. Instagram & Threads (深度优化)
+# ==================================
+# [核心] Instagram 主域名与 API
+DOMAIN-SUFFIX, instagram.com
+DOMAIN-SUFFIX, instagr.am
+DOMAIN-SUFFIX, i.instagram.com
+DOMAIN-SUFFIX, api.instagram.com
+DOMAIN-SUFFIX, graph.instagram.com
+DOMAIN-SUFFIX, pro-api.instagram.com
+# [核心] Instagram 静态资源与 CDN (BM7 重点覆盖)
+DOMAIN-SUFFIX, cdninstagram.com
+DOMAIN-SUFFIX, cdninstagram.net
+DOMAIN-SUFFIX, instagramcdn.net
+DOMAIN-SUFFIX, instagramstatic.com
+# [核心] Threads (与 IG 共享架构)
+DOMAIN-SUFFIX, threads.net
+DOMAIN-SUFFIX, threads.instagram.com
+# [关键] 短链接 (分享/私信跳转)
+DOMAIN-SUFFIX, ig.me
+DOMAIN-SUFFIX, instagr.am
 
-# 登录 / API / Graph
-DOMAIN-SUFFIX,accounts.facebook.com
-DOMAIN-SUFFIX,graph.facebook.com
-DOMAIN-SUFFIX,graph-video.facebook.com
-DOMAIN-SUFFIX,developers.facebook.com
-DOMAIN-SUFFIX,connect.facebook.net
+# ==================================
+# 2. Meta / Facebook 核心架构
+# ==================================
+# [核心] 基础网络架构 (The Facebook Network) - 加速关键
+DOMAIN-SUFFIX, tfbnw.net
+# 核心业务域名
+DOMAIN-SUFFIX, meta.com
+DOMAIN-SUFFIX, facebook.com
+DOMAIN-SUFFIX, facebook.net
+DOMAIN-SUFFIX, fb.com
+DOMAIN-SUFFIX, fb.me
+DOMAIN-SUFFIX, fb.gg
+DOMAIN-SUFFIX, facebook-dns.com
+# 账户与开发者
+DOMAIN-SUFFIX, accounts.facebook.com
+DOMAIN-SUFFIX, developers.facebook.com
+DOMAIN-SUFFIX, connect.facebook.net
+DOMAIN-SUFFIX, accountkit.com
 
-# Facebook CDN（Meta 自有）
-DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,fbcdn.com
-DOMAIN-SUFFIX,fbsbx.com
-DOMAIN,cdn.fbsbx.com
-DOMAIN,lookaside.fbsbx.com
+# ==================================
+# 3. Facebook 静态资源 (CDN)
+# ==================================
+# 暴力覆盖所有 FB 资源子域 (fbsbx/fbcdn)
+DOMAIN-SUFFIX, fbsbx.com
+DOMAIN-SUFFIX, fbcdn.net
+DOMAIN-SUFFIX, fbcdn.com
+DOMAIN-SUFFIX, xyzcdn.net
+DOMAIN-SUFFIX, atlassolutions.com
 
-# ===== Instagram =====
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,i.instagram.com
-DOMAIN-SUFFIX,api.instagram.com
-DOMAIN-SUFFIX,ig.me
-DOMAIN-SUFFIX,instagramstatic.com
-DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,cdninstagram.net
-DOMAIN-SUFFIX,instagramcdn.net
-DOMAIN-SUFFIX,graph.instagram.com
+# ==================================
+# 4. WhatsApp (完整覆盖)
+# ==================================
+DOMAIN-SUFFIX, whatsapp.com
+DOMAIN-SUFFIX, whatsapp.net
+DOMAIN-SUFFIX, whatsapp.org
+# [关键] 加好友/聊天跳转短链接
+DOMAIN-SUFFIX, wa.me
+# 网页版与 API
+DOMAIN-SUFFIX, web.whatsapp.com
+DOMAIN-SUFFIX, api.whatsapp.com
+# 静态资源
+DOMAIN-SUFFIX, static.whatsapp.net
+DOMAIN-SUFFIX, cdn.whatsapp.net
+DOMAIN-SUFFIX, mmx-ds.cdn.whatsapp.net
 
-# ===== WhatsApp =====
-DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,web.whatsapp.com
-DOMAIN-SUFFIX,api.whatsapp.com
-DOMAIN-SUFFIX,whatsapp.net
-DOMAIN-SUFFIX,static.whatsapp.net
-DOMAIN-SUFFIX,cdn.whatsapp.net
-DOMAIN-SUFFIX,g.whatsapp.net
-DOMAIN-SUFFIX,mmx-ds.cdn.whatsapp.net
+# ==================================
+# 5. Messenger / Workplace
+# ==================================
+DOMAIN-SUFFIX, messenger.com
+DOMAIN-SUFFIX, workplace.com
+DOMAIN-SUFFIX, workplace.fb.com
+DOMAIN-SUFFIX, m.me
+DOMAIN-SUFFIX, w.m.me
 
-# ===== Messenger / Workplace =====
-DOMAIN-SUFFIX,messenger.com
-DOMAIN-SUFFIX,m.me
-DOMAIN-SUFFIX,w.m.me
-DOMAIN-SUFFIX,workplace.com
-DOMAIN-SUFFIX,workplace.fb.com
+# ==================================
+# 6. 短链接与辅助工具
+# ==================================
+DOMAIN-SUFFIX, fbwat.ch
+DOMAIN-SUFFIX, on.fb.me
+DOMAIN-SUFFIX, helphub.me
 
-# ===== Threads =====
-DOMAIN-SUFFIX,threads.net
-DOMAIN-SUFFIX,threads.instagram.com
+# ==================================
+# 7. Meta VR / Oculus (元宇宙)
+# ==================================
+DOMAIN-SUFFIX, oculus.com
+DOMAIN-SUFFIX, oculuscdn.com
+DOMAIN-SUFFIX, metaquest.com
 
-# ===== Business / Ads（必要接口，不泛化）=====
-DOMAIN-SUFFIX,business.facebook.com
-DOMAIN-SUFFIX,ads-api.facebook.com
-DOMAIN-SUFFIX,business.instagram.com
-
-# ===== Upload / Attachments =====
-DOMAIN-SUFFIX,upload.facebook.com
-DOMAIN-SUFFIX,uploads.facebook.com
-
-# ===== User-Agent=====
-USER-AGENT,Facebook*
-USER-AGENT,Instagram*
-USER-AGENT,WhatsApp*
+# ==================================
+# 8. 关键词与 User-Agent 兜底
+# ==================================
+DOMAIN-KEYWORD, facebook
+DOMAIN-KEYWORD, instagram
+DOMAIN-KEYWORD, whatsapp
+USER-AGENT, Facebook*
+USER-AGENT, Instagram*
+USER-AGENT, WhatsApp*
+USER-AGENT, Threads*
+USER-AGENT, Messenger*
