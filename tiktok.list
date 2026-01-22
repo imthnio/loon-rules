@@ -60,5 +60,12 @@ DOMAIN-SUFFIX,omgif.net
 # --- Keywords & User Agents ---
 DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,tiktok
-USER-AGENT,lemon8*
+# --- 核心视频与社区 ---
 USER-AGENT,TikTok*
+USER-AGENT,musical.ly*
+USER-AGENT,CapCut*
+USER-AGENT,Lemon8*
+USER-AGENT,Trae*
+USER-AGENT,Helo*
+USER-AGENT,Resso*
+USER-AGENT,TikTokMusic*
