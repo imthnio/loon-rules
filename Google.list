@@ -88,10 +88,23 @@ DOMAIN-SUFFIX,googletagservices.com
 # --- Keyword Fallback (Critical) ---
 # 覆盖所有 google.jp, google.fr 等国家域名
 DOMAIN-KEYWORD,google
-
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,youtube
 # --- User Agents ---
 USER-AGENT,Google*
 USER-AGENT,GoogleVoice*
 USER-AGENT,Youtube*
 USER-AGENT,Gmail*
+USER-AGENT,com.google.android.gm*
 USER-AGENT,com.google.ios.youtube*
+USER-AGENT, com.google.android.youtube*
+USER-AGENT,Chrome*
+USER-AGENT,GSA*
+USER-AGENT, Drive*
+USER-AGENT,GoogleDrive*
+USER-AGENT,com.google.android.apps.docs*
+USER-AGENT,GooglePhotos*
+USER-AGENT,Photos*
+USER-AGENT,GoogleMaps*
+USER-AGENT,com.google.android.apps.maps*
+USER-AGENT,GoogleVoice*
