@@ -116,3 +116,5 @@ USER-AGENT, YouTubeMusic*
 USER-AGENT, com.google.android.apps.youtube.music*
 USER-AGENT, com.google.ios.youtubemusic*
 USER-AGENT,gemini*
+USER-AGENT,GoogleApp*
+USER-AGENT,Bard*
