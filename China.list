@@ -202,6 +202,12 @@ DOMAIN-KEYWORD, 360buy
 DOMAIN-KEYWORD, alipay
 DOMAIN-KEYWORD, taobao
 
+#######################################
+################马克喵#################
+####################################
+DOMAIN-SUFFIX,macat.vip
+
+
 # [终极兜底] GeoIP CN
 # 凡是上面没匹配到的域名，只要 IP 地址在中国，全部直连！
 GEOIP, CN
