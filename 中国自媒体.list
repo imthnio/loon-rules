@@ -79,7 +79,8 @@ DOMAIN-SUFFIX, in.kuaishou.com
 # 5. User-Agent (应用指纹匹配)
 # ==================================
 USER-AGENT, Douyin*
-
+USER-AGENT, Hotsoon*
+USER-AGENT, DouyinBox*
 USER-AGENT, TouTiao*
 USER-AGENT, bili*
 USER-AGENT, Bilibili*
