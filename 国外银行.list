@@ -72,4 +72,8 @@ DOMAIN-SUFFIX,assets.redotpay.com
 DOMAIN-SUFFIX,status.redotpay.com
 DOMAIN-SUFFIX,help.redotpay.com
 
+USER-AGENT,Krak*
+USER-AGENT,Kraken*
+USER-AGENT,bybit*
+
 
