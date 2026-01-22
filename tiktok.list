@@ -1,101 +1,64 @@
-# ==================================
-# 1. 贴纸、特效与 Giphy 修复 (Stickers Fix)
-# ==================================
-# [核心] Giphy 表情包 (Blackmatrix7 缺失，但我必须给你加上，否则贴纸转圈)
-DOMAIN-SUFFIX, giphy.com
-DOMAIN-SUFFIX, giphy.net
-DOMAIN-SUFFIX, giphymedia.com
-DOMAIN-SUFFIX, giphy.gif
-DOMAIN-SUFFIX, omgif.net
-DOMAIN-KEYWORD, giphy
+# NAME: TikTok & ByteDance Combined
+# DESCRIPTION: 包含 TikTok, Giphy, Lemon8, CapCut, Trae 及相关 CDN
+# TOTAL: 42
 
-# [核心] Akamai 静态资源 (暴力匹配所有 p16/p19/v0 变体)
-DOMAIN-KEYWORD, tiktokcdn-com.akamaized
-# [补充] Blackmatrix7 特指节点
-DOMAIN, p16-tiktokcdn-com.akamaized.net
-DOMAIN, p19-tiktokcdn-com.akamaized.net
+# --- Specific Domains (Akamai CDN) ---
+DOMAIN,p16-tiktokcdn-com.akamaized.net
+DOMAIN,p19-tiktokcdn-com.akamaized.net
 
-# [核心] 特效与素材 (TOS/Obj)
-DOMAIN-SUFFIX, byteeffecttos-g.com
-DOMAIN-SUFFIX, byteeffecttos.com
-DOMAIN-SUFFIX, ibytedtos.com
-DOMAIN-SUFFIX, ibyteimg.com
-DOMAIN-KEYWORD, tos-maliva
-DOMAIN-KEYWORD, tos-useast
-DOMAIN-KEYWORD, obj.tiktokcdns
+# --- TikTok & ByteDance Main Suffixes ---
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,byteeffecttos-g.com
+DOMAIN-SUFFIX,byteeffecttos.com
+DOMAIN-SUFFIX,bytedapm.com
+DOMAIN-SUFFIX,bytegecko-i18n.com
+DOMAIN-SUFFIX,byteintlapi.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,byteoversea.net
+DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,marscode.com
+DOMAIN-SUFFIX,mchost.guru
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,musicalcdn.com
+DOMAIN-SUFFIX,musically-hk.com
+DOMAIN-SUFFIX,pitaya-clientai.com
+DOMAIN-SUFFIX,sgpstatp.com
+DOMAIN-SUFFIX,sgsnssdk.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktok-us.com
+DOMAIN-SUFFIX,tiktokcdn-us.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokd.net
+DOMAIN-SUFFIX,tiktokd.org
+DOMAIN-SUFFIX,tiktokj.com
+DOMAIN-SUFFIX,tiktokmusic.app
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokv.us
+DOMAIN-SUFFIX,tiktokw.com
+DOMAIN-SUFFIX,tlivecdn.com
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,ttwebview.com
 
-# ==================================
-# 2. 直播卡顿暴力修复 (Live Stream Fix)
-# ==================================
-# [核心] 暴力匹配所有拉流域名 (解决画面卡住)
-DOMAIN-KEYWORD, pull-flv
-DOMAIN-KEYWORD, pull-hls
-DOMAIN-KEYWORD, pull-rtmp
-DOMAIN-KEYWORD, pull-f3
-DOMAIN-KEYWORD, pull-f5
-# 边缘节点
-DOMAIN-SUFFIX, tlivecdn.com
-DOMAIN-SUFFIX, live-edge.tiktokcdn.com
-DOMAIN-SUFFIX, webcast.tiktok.com
-DOMAIN-SUFFIX, webcast-cdn.tiktok.com
-DOMAIN-KEYWORD, tlivecdn
-DOMAIN-KEYWORD, live-edge
+# --- Lemon8 ---
+DOMAIN-SUFFIX,lemon8-app.com
+DOMAIN-SUFFIX,lemon8cdn.com
 
-# ==================================
-# 3. TikTok 核心域名 (From Blackmatrix7 & Core)
-# ==================================
-DOMAIN-SUFFIX, tiktok.com
-DOMAIN-SUFFIX, tiktokv.com
-DOMAIN-SUFFIX, tiktokv.us
-DOMAIN-SUFFIX, tiktokd.org
-DOMAIN-SUFFIX, tiktokd.net
-DOMAIN-SUFFIX, tiktokw.com
-DOMAIN-SUFFIX, tiktokj.com
-DOMAIN-SUFFIX, tik-tokapi.com
-DOMAIN-SUFFIX, tiktok-us.com
-DOMAIN-SUFFIX, musical.ly
-DOMAIN-SUFFIX, amemv.com
-DOMAIN-SUFFIX, ttwebview.com
-DOMAIN-SUFFIX, musically-hk.com
-DOMAIN-SUFFIX, musicalcdn.com
-DOMAIN-SUFFIX, muscdn.com
-DOMAIN-SUFFIX, tiktokmusic.app
-DOMAIN-SUFFIX, tiktokcdn.com
-DOMAIN-SUFFIX, tiktokcdn-us.com
+# --- Giphy (TikTok Gif Support) ---
+DOMAIN-SUFFIX,giphy.com
+DOMAIN-SUFFIX,giphy.gif
+DOMAIN-SUFFIX,giphy.net
+DOMAIN-SUFFIX,giphymedia.com
+DOMAIN-SUFFIX,omgif.net
 
-# ==================================
-# 4. 字节跳动海外全家桶 (Merged Blackmatrix7 Extras)
-# ==================================
-# [新增] Trae & MarsCode (字节海外 AI/代码工具)
-DOMAIN-SUFFIX, trae.ai
-DOMAIN-SUFFIX, marscode.com
-DOMAIN-SUFFIX, trae-api-sg.mchost.guru
-
-# [新增] 底层依赖与 API (Blackmatrix7 特有)
-DOMAIN-SUFFIX, pitaya-clientai.com
-DOMAIN-SUFFIX, mchost.guru
-DOMAIN-SUFFIX, bytedapm.com
-DOMAIN-SUFFIX, bytegecko-i18n.com
-DOMAIN-SUFFIX, byteintlapi.com
-DOMAIN-SUFFIX, byteoversea.com
-DOMAIN-SUFFIX, byteoversea.net
-DOMAIN-SUFFIX, capcut.com
-DOMAIN-SUFFIX, lemon8-app.com
-DOMAIN-SUFFIX, lemon8cdn.com
-
-# ==================================
-# 5. 安全兜底 (Security)
-# ==================================
-# 剔除 snssdk.com (防误伤国内)，仅保留海外版
-DOMAIN-SUFFIX, isnssdk.com
-DOMAIN-SUFFIX, sgsnssdk.com
-DOMAIN-SUFFIX, sgpstatp.com
-DOMAIN-SUFFIX, ipstatp.com
-
-# ==================================
-# 6. 关键词兜底 (Final Match)
-# ==================================
-DOMAIN-KEYWORD, tiktok
-DOMAIN-KEYWORD, musical.ly
-DOMAIN-KEYWORD, lemon8
-USER-AGENT, TikTok*
+# --- Keywords & User Agents ---
+DOMAIN-KEYWORD,musical.ly
+DOMAIN-KEYWORD,tiktok
+USER-AGENT,lemon8*
+USER-AGENT,TikTok*
