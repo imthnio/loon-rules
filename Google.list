@@ -93,4 +93,5 @@ DOMAIN-KEYWORD,google
 USER-AGENT,Google*
 USER-AGENT,GoogleVoice*
 USER-AGENT,Youtube*
+USER-AGENT,Gmail*
 USER-AGENT,com.google.ios.youtube*
