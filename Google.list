@@ -89,6 +89,7 @@ DOMAIN-SUFFIX,googletagservices.com
 # 覆盖所有 google.jp, google.fr 等国家域名
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,gemini
 DOMAIN-KEYWORD,youtube
 # --- User Agents ---
 USER-AGENT,Google*
@@ -114,3 +115,4 @@ USER-AGENT, GPay*
 USER-AGENT, YouTubeMusic*
 USER-AGENT, com.google.android.apps.youtube.music*
 USER-AGENT, com.google.ios.youtubemusic*
+USER-AGENT,gemini*
