@@ -27,3 +27,7 @@ DOMAIN-SUFFIX,video2.51daao.com
 DOMAIN-SUFFIX,he11o.akadatel.com
 DOMAIN-SUFFIX,ss.rongliren.com
 DOMAIN-SUFFIX,videozm.dlyilian.com
+
+
+USER-AGENT,SenPlayer*
+USER-AGENT,VidHub*
