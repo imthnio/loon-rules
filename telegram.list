@@ -1,41 +1,54 @@
-############# Telegram (FINAL for iOS + macOS Desktop, Loon)
+# NAME: Telegram Combined (Global)
+# DESCRIPTION: 合并 Blackmatrix7 (Global/SG/NL) & imthnio
+# NOTE: 包含所有官方域名及全球五大数据中心 IP 段
+# TOTAL: 40+ Rules
 
-# Core
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telegram.me
+# --- Domains & Short Links ---
+DOMAIN-SUFFIX,comments.app
+DOMAIN-SUFFIX,contest.com
+DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,legra.ph
+DOMAIN-SUFFIX,mbrx.app
+DOMAIN-SUFFIX,quiz.directory
+DOMAIN-SUFFIX,stel.com
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telega.one
 DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,legra.ph
-
-# API / Comments
-DOMAIN-SUFFIX,api.telegram.org
-DOMAIN-SUFFIX,core.telegram.org
-
-# Web / Comments iframe
-DOMAIN-SUFFIX,web.telegram.org
-
-# CDN / Media / Video
-DOMAIN-SUFFIX,cdn.telegram.org
-DOMAIN-SUFFIX,cdn-telegram.org
 DOMAIN-SUFFIX,telegram-cdn.org
-DOMAIN-SUFFIX,tcdn.me
-DOMAIN-SUFFIX,tg.dev
-
-# Stickers / Images
 DOMAIN-SUFFIX,telegram.dog
-
-# Downloads / Sharing
-DOMAIN-SUFFIX,telegramdownload.com
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.space
 DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,tg.dev
 DOMAIN-SUFFIX,tx.me
-
-# ===== MTProto DC (required for macOS Desktop) =====
-IP-CIDR,149.154.160.0/20,no-resolve
-IP-CIDR,91.108.0.0/16,no-resolve
-
-# Fallback
+DOMAIN-SUFFIX,usercontent.dev
 DOMAIN-KEYWORD,telegram
 
-# UA (optional)
+# --- IPv4 CIDR (Covers SG, NL, US, etc.) ---
+# Asia / Singapore (DC5) & Others
+IP-CIDR,91.108.4.0/22,no-resolve
+IP-CIDR,91.108.8.0/22,no-resolve
+IP-CIDR,91.108.12.0/22,no-resolve
+IP-CIDR,91.108.16.0/22,no-resolve
+IP-CIDR,91.108.20.0/22,no-resolve
+IP-CIDR,91.108.56.0/22,no-resolve
+
+# Europe / Netherlands (DC2/DC4) & ME
+IP-CIDR,91.105.192.0/23,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,149.154.164.0/22,no-resolve
+IP-CIDR,149.154.168.0/22,no-resolve
+IP-CIDR,149.154.172.0/22,no-resolve
+IP-CIDR,185.76.151.0/24,no-resolve
+IP-CIDR,5.28.192.0/18,no-resolve
+
+# --- IPv6 CIDR ---
+IP-CIDR6,2001:b28:f23d::/48,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+
+# --- User Agents ---
 USER-AGENT,Telegram*
+USER-AGENT,nicegram*
