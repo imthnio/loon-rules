@@ -108,3 +108,9 @@ USER-AGENT,Photos*
 USER-AGENT,GoogleMaps*
 USER-AGENT,com.google.android.apps.maps*
 USER-AGENT,GoogleVoice*
+USER-AGENT, GooglePay*
+USER-AGENT, AndroidPay*
+USER-AGENT, GPay*
+USER-AGENT, YouTubeMusic*
+USER-AGENT, com.google.android.apps.youtube.music*
+USER-AGENT, com.google.ios.youtubemusic*
