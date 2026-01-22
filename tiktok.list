@@ -57,6 +57,31 @@ DOMAIN-SUFFIX,giphy.net
 DOMAIN-SUFFIX,giphymedia.com
 DOMAIN-SUFFIX,omgif.net
 
+
+
+
+# ==================================
+# ByteDance Overseas (Safe Mode)
+# 字节海外图片/贴纸/特效 - 安全版
+# ==================================
+# [核心] 对象存储 (TOS)
+# 只要带 tos-maliva/useast 等区域标识的，必定是海外，放心代理
+DOMAIN-KEYWORD, tos-maliva
+DOMAIN-KEYWORD, tos-useast
+DOMAIN-KEYWORD, tos-usa
+DOMAIN-KEYWORD, tos-alisg
+DOMAIN-KEYWORD, obj.tiktokcdns
+
+# [图片与特效]
+# 这些域名海外版用得更多，但国内也可能用。
+# ⚠️ 必须确保这组规则放在 "China 规则" 的【后面】！
+# 或者直接依靠上面的 Keyword 匹配，尽量少用 Suffix。
+DOMAIN-SUFFIX, byteeffecttos-g.com
+DOMAIN-SUFFIX, ibytedtos.com 
+DOMAIN-SUFFIX, tlivecdn.com
+
+
+
 # --- Keywords & User Agents ---
 DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,tiktok
@@ -69,3 +94,6 @@ USER-AGENT,Trae*
 USER-AGENT,Helo*
 USER-AGENT,Resso*
 USER-AGENT,TikTokMusic*
+USER-AGENT, trill*
+USER-AGENT, Heliophilia*
+USER-AGENT, CutSame*
