@@ -1,0 +1,128 @@
+# ==================================
+# 1. App Store 与 iTunes 商店 (核心下载)
+# ==================================
+# 商店前端与 API
+DOMAIN-SUFFIX, itunes.apple.com
+DOMAIN-SUFFIX, apps.apple.com
+DOMAIN-SUFFIX, books.apple.com
+DOMAIN-SUFFIX, music.apple.com
+DOMAIN-SUFFIX, tv.apple.com
+# [关键] 静态资源与图片 (App图标/预览图)
+DOMAIN-SUFFIX, mzstatic.com
+DOMAIN-SUFFIX, itunes-apple.com.akadns.net
+# 商店下载 CDN
+DOMAIN-SUFFIX, phobos.apple.com
+DOMAIN-SUFFIX, a1.phobos.apple.com
+DOMAIN-SUFFIX, a2.phobos.apple.com
+DOMAIN-SUFFIX, a3.phobos.apple.com
+DOMAIN-SUFFIX, a4.phobos.apple.com
+DOMAIN-SUFFIX, a5.phobos.apple.com
+
+# ==================================
+# 2. Apple ID 与 账号认证 (Auth)
+# ==================================
+# 登录与双重验证
+DOMAIN-SUFFIX, appleid.apple.com
+DOMAIN-SUFFIX, appleid.cdn-apple.com
+DOMAIN-SUFFIX, idmsa.apple.com
+DOMAIN-SUFFIX, gsa.apple.com
+DOMAIN-SUFFIX, identity.apple.com
+# 支付与家庭共享
+DOMAIN-SUFFIX, buy.itunes.apple.com
+DOMAIN-SUFFIX, play.itunes.apple.com
+DOMAIN-SUFFIX, family.icloud.com
+
+# ==================================
+# 3. iCloud 云服务与内容 (Cloud)
+# ==================================
+# 核心云服务
+DOMAIN-SUFFIX, icloud.com
+DOMAIN-SUFFIX, icloud.com.cn
+DOMAIN-SUFFIX, icloud-content.com
+DOMAIN-SUFFIX, me.com
+# iCloud Drive & Photos (中国区可能有特供域名)
+DOMAIN-SUFFIX, mask.icloud.com
+DOMAIN-SUFFIX, mask-h2.icloud.com
+DOMAIN-SUFFIX, mask-api.icloud.com
+DOMAIN-SUFFIX, upload.icloud.com
+DOMAIN-SUFFIX, download.icloud.com
+DOMAIN-SUFFIX, cvws.icloud-content.com
+DOMAIN-SUFFIX, clouddn.com
+
+# ==================================
+# 4. Apple Mail 邮件服务
+# ==================================
+# iCloud 邮箱
+DOMAIN-SUFFIX, mail.me.com
+DOMAIN-SUFFIX, imap.mail.me.com
+DOMAIN-SUFFIX, smtp.mail.me.com
+DOMAIN-SUFFIX, p01-mail.icloud.com
+DOMAIN-SUFFIX, p02-mail.icloud.com
+DOMAIN-SUFFIX, p03-mail.icloud.com
+DOMAIN-SUFFIX, p04-mail.icloud.com
+# 隐私邮件中转
+DOMAIN-SUFFIX, icloud-mail.com
+
+# ==================================
+# 5. 系统更新、推送与开发者 (System)
+# ==================================
+# iOS/macOS 系统更新
+DOMAIN-SUFFIX, mesu.apple.com
+DOMAIN-SUFFIX, appldnld.apple.com
+DOMAIN-SUFFIX, swcdn.apple.com
+DOMAIN-SUFFIX, swscan.apple.com
+DOMAIN-SUFFIX, swquery.apple.com
+DOMAIN-SUFFIX, swdownload.apple.com
+DOMAIN-SUFFIX, updates-http.cdn-apple.com
+# 消息推送 (APNS - 极重要)
+DOMAIN-SUFFIX, push.apple.com
+DOMAIN-SUFFIX, courier.push.apple.com
+DOMAIN-SUFFIX, aps.apple.com
+# 开发者与 TestFlight
+DOMAIN-SUFFIX, developer.apple.com
+DOMAIN-SUFFIX, testflight.apple.com
+DOMAIN-SUFFIX, beta.apple.com
+
+# ==================================
+# 6. Apple 服务 (Maps/Weather/Siri/News)
+# ==================================
+# Apple News (国内不可用，需代理)
+DOMAIN-SUFFIX, news.apple.com
+DOMAIN-SUFFIX, apple.news
+DOMAIN-SUFFIX, apple.comscoreresearch.com
+# 地图与位置服务
+DOMAIN-SUFFIX, maps.apple.com
+DOMAIN-SUFFIX, ls.apple.com
+DOMAIN-SUFFIX, gs-loc.apple.com
+# Siri 与 听写
+DOMAIN-SUFFIX, siri.apple.com
+DOMAIN-SUFFIX, guzzoni.apple.com
+DOMAIN-SUFFIX, dictation.apple.com
+# 天气与股票
+DOMAIN-SUFFIX, weather-data.apple.com
+DOMAIN-SUFFIX, weather-map.apple.com
+DOMAIN-SUFFIX, stocks-data.apple.com
+
+# ==================================
+# 7. 基础设施与 CDN (Infra)
+# ==================================
+DOMAIN-SUFFIX, apple-dns.net
+DOMAIN-SUFFIX, apple-cloudkit.com
+DOMAIN-SUFFIX, apple-livephotoskit.com
+DOMAIN-SUFFIX, aaplimg.com
+DOMAIN-SUFFIX, cdn-apple.com
+DOMAIN-SUFFIX, akadns.net
+DOMAIN-SUFFIX, akamaiedge.net
+DOMAIN-SUFFIX, edgekey.net
+DOMAIN-SUFFIX, mwcloudcdn.com
+DOMAIN-SUFFIX, mwcname.com
+DOMAIN-SUFFIX, apple-mapkit.com
+
+# ==================================
+# 8. 兜底匹配 (Fallback)
+# ==================================
+DOMAIN-SUFFIX, apple.com
+DOMAIN-SUFFIX, apple.co
+DOMAIN-SUFFIX, apple.com.cn
+DOMAIN-KEYWORD, apple.com
+DOMAIN-KEYWORD, icloud.com
