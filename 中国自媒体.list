@@ -96,3 +96,10 @@ DOMAIN-KEYWORD, douyin
 DOMAIN-KEYWORD, bilibili
 DOMAIN-KEYWORD, xiaohongshu
 DOMAIN-KEYWORD, kuaishou
+
+USER-AGENT,XiGua*
+USER-AGENT,Doubao*
+USER-AGENT,Hongguo*
+USER-AGENT,Fanqie*
+USER-AGENT,Jianying*
+USER-AGENT,Feishu*
