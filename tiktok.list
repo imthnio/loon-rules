@@ -82,6 +82,19 @@ DOMAIN-SUFFIX, tlivecdn.com
 
 
 
+# [关键] 动态边缘节点 (P1~P99, V1~V99)
+# 很多直播流会分配到 p16-va, v27-sg 这种随机节点
+DOMAIN-KEYWORD, -tiktokcdn-com
+DOMAIN-KEYWORD, -tiktokcdn-us
+
+# [补漏] 字节海外底层网络 (ByteRoute)
+DOMAIN-SUFFIX, byteoversea.com
+DOMAIN-SUFFIX, byteoversea.net
+DOMAIN-SUFFIX, tlivecdn.com
+DOMAIN-SUFFIX, tlivecdn.net
+
+
+
 # --- Keywords & User Agents ---
 DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,tiktok
