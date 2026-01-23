@@ -72,16 +72,6 @@ DOMAIN-KEYWORD, tos-usa
 DOMAIN-KEYWORD, tos-alisg
 DOMAIN-KEYWORD, obj.tiktokcdns
 
-# [图片与特效]
-# 这些域名海外版用得更多，但国内也可能用。
-# ⚠️ 必须确保这组规则放在 "China 规则" 的【后面】！
-# 或者直接依靠上面的 Keyword 匹配，尽量少用 Suffix。
-DOMAIN-SUFFIX, byteeffecttos-g.com
-DOMAIN-SUFFIX, ibytedtos.com 
-DOMAIN-SUFFIX, tlivecdn.com
-
-
-
 # [关键] 动态边缘节点 (P1~P99, V1~V99)
 # 很多直播流会分配到 p16-va, v27-sg 这种随机节点
 DOMAIN-KEYWORD, -tiktokcdn-com
