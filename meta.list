@@ -124,7 +124,7 @@ USER-AGENT,CFNetwork*
 # 7. IP-ASN (Best for Meta)
 # ----------------------------------
 # Meta Platforms, Inc. (AS32934)
-IP-ASN,32934
+IP-ASN,32934,no-resolve
 
 # ----------------------------------
 # 8. IP-CIDR (Fallback for AS32934)
