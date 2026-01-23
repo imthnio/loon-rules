@@ -104,7 +104,7 @@ USER-AGENT, FB*
 USER-AGENT, IG*
 
 # [补全] 底层库与 VR
-USER-AGENT, Bolts* # (Meta 开发的底层网络库)
+USER-AGENT, Bolts*
 USER-AGENT, Oculus*
 USER-AGENT, FBiOSSDK*
 USER-AGENT, Meta*
