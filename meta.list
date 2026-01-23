@@ -1,72 +1,61 @@
 # ==================================
-# Meta Ecosystem Comprehensive Rules
-# (Facebook / Instagram / WhatsApp / Threads / Oculus)
-# Merged: User's Detailed List + Blackmatrix7
+# Meta Ecosystem Final (FB/IG/WA/Threads)
 # ==================================
 
 # ==================================
-# 1. Instagram & Threads
+# 1. Instagram & Threads (含视频修复)
 # ==================================
-# ==================================
-# Instagram Reels & Video 修复
-# ==================================
-# [关键] Facebook 基础网络 (Reels 视频流命门)
-DOMAIN-SUFFIX, tfbnw.net
-
-# [关键] 静态资源 CDN (图片/视频)
-DOMAIN-SUFFIX, fbcdn.net
-DOMAIN-SUFFIX, fbcdn.com
-DOMAIN-SUFFIX, cdninstagram.com
-DOMAIN-SUFFIX, cdninstagram.net
-DOMAIN-SUFFIX, instagramcdn.net
-DOMAIN-KEYWORD, cdninstagram
-
+# 核心域名
 DOMAIN-SUFFIX, instagram.com
 DOMAIN-SUFFIX, instagr.am
 DOMAIN-SUFFIX, i.instagram.com
 DOMAIN-SUFFIX, api.instagram.com
 DOMAIN-SUFFIX, graph.instagram.com
 DOMAIN-SUFFIX, pro-api.instagram.com
+DOMAIN-SUFFIX, threads.net
+DOMAIN-SUFFIX, threads.instagram.com
+DOMAIN-SUFFIX, ig.me
+
+# [关键] 视频与图片 CDN (Reels 命门)
 DOMAIN-SUFFIX, cdninstagram.com
 DOMAIN-SUFFIX, cdninstagram.net
 DOMAIN-SUFFIX, instagramcdn.net
 DOMAIN-SUFFIX, instagramstatic.com
-DOMAIN-SUFFIX, ig.me
-# Threads
-DOMAIN-SUFFIX, threads.net
-DOMAIN-SUFFIX, threads.instagram.com
+DOMAIN-KEYWORD, cdninstagram
+DOMAIN-KEYWORD, graph-video
 
 # ==================================
-# 2. Facebook Core & Meta Infrastructure
+# 2. Facebook Core & Infra
 # ==================================
-# Core Network
-DOMAIN-SUFFIX, tfbnw.net
-DOMAIN-SUFFIX, meta.com
+# 核心网络
 DOMAIN-SUFFIX, facebook.com
 DOMAIN-SUFFIX, facebook.net
 DOMAIN-SUFFIX, fb.com
 DOMAIN-SUFFIX, fb.me
 DOMAIN-SUFFIX, fb.gg
+DOMAIN-SUFFIX, meta.com
+DOMAIN-SUFFIX, metabusinesussuite.com
 DOMAIN-SUFFIX, facebook-dns.com
-# Auth & Dev
+# [底层架构] 极重要，漏了会卡顿
+DOMAIN-SUFFIX, tfbnw.net 
+DOMAIN-SUFFIX, fbsbx.com
+DOMAIN-SUFFIX, lookaside.facebook.com
+
+# ==================================
+# 3. 开发者与第三方组件
+# ==================================
 DOMAIN-SUFFIX, accounts.facebook.com
 DOMAIN-SUFFIX, developers.facebook.com
 DOMAIN-SUFFIX, connect.facebook.net
 DOMAIN-SUFFIX, accountkit.com
+# [防报错] 第三方登录与嵌入内容需要
+DOMAIN-SUFFIX, fbthirdpartypixels.com
+DOMAIN-SUFFIX, signal.facebook.com
+DOMAIN-SUFFIX, graph.facebook.com
+
 
 # ==================================
-# 3. Facebook CDN & Resources
-# ==================================
-DOMAIN-SUFFIX, fbsbx.com
-DOMAIN-SUFFIX, fbcdn.net
-DOMAIN-SUFFIX, fbcdn.com
-DOMAIN-SUFFIX, xyzcdn.net
-DOMAIN-SUFFIX, xycdn.com
-DOMAIN-SUFFIX, atlassolutions.com
-DOMAIN-SUFFIX, atlassbx.com
-
-# ==================================
-# 4. WhatsApp
+# 5. WhatsApp
 # ==================================
 DOMAIN-SUFFIX, whatsapp.com
 DOMAIN-SUFFIX, whatsapp.net
@@ -74,12 +63,13 @@ DOMAIN-SUFFIX, whatsapp.org
 DOMAIN-SUFFIX, wa.me
 DOMAIN-SUFFIX, web.whatsapp.com
 DOMAIN-SUFFIX, api.whatsapp.com
+DOMAIN-SUFFIX, g.whatsapp.net
 DOMAIN-SUFFIX, static.whatsapp.net
 DOMAIN-SUFFIX, cdn.whatsapp.net
 DOMAIN-SUFFIX, mmx-ds.cdn.whatsapp.net
 
 # ==================================
-# 5. Messenger / Workplace
+# 6. Messenger / Workplace
 # ==================================
 DOMAIN-SUFFIX, messenger.com
 DOMAIN-SUFFIX, workplace.com
@@ -88,38 +78,34 @@ DOMAIN-SUFFIX, m.me
 DOMAIN-SUFFIX, w.m.me
 
 # ==================================
-# 6. Short Links & Tools
-# ==================================
-DOMAIN-SUFFIX, fb.watch
-DOMAIN-SUFFIX, fbwat.ch
-DOMAIN-SUFFIX, on.fb.me
-DOMAIN-SUFFIX, helphub.me
-
-# ==================================
-# 7. Oculus / VR
+# 7. Oculus / VR / ShortLinks
 # ==================================
 DOMAIN-SUFFIX, oculus.com
 DOMAIN-SUFFIX, oculuscdn.com
 DOMAIN-SUFFIX, metaquest.com
+DOMAIN-SUFFIX, fb.watch
+DOMAIN-SUFFIX, fbwat.ch
+DOMAIN-SUFFIX, helphub.me
 
 # ==================================
-# 8. User-Agent & Keywords (Required Fallback)
+# 8. User-Agent (App指纹 - 补全版)
 # ==================================
-# Keywords
-DOMAIN-KEYWORD, facebook
-DOMAIN-KEYWORD, instagram
-DOMAIN-KEYWORD, whatsapp
-
-# Core App User-Agents
+# 核心 App
 USER-AGENT, Facebook*
 USER-AGENT, Instagram*
 USER-AGENT, WhatsApp*
 USER-AGENT, Threads*
 USER-AGENT, Messenger*
 
-# SDKs & Login Components
-USER-AGENT, FBiOSSDK*
-USER-AGENT, Meta*
-USER-AGENT, Oculus*
+# 内部代号 (防止漏网)
+USER-AGENT, FBAN*
+USER-AGENT, FBAV*
 USER-AGENT, FB*
 USER-AGENT, IG*
+
+# [补全] 底层库与 VR
+USER-AGENT, Bolts* # (Meta 开发的底层网络库)
+USER-AGENT, Oculus*
+USER-AGENT, FBiOSSDK*
+USER-AGENT, Meta*
+
