@@ -128,5 +128,5 @@ PROCESS-NAME, com.zhiliaoapp.musically
 # TikTok & ByteDance IP-ASN (Optional)
 # 新加坡核心 ASN+美国核心 ASN
 # ==================================
-IP-ASN, 138699
-IP-ASN, 396986
+IP-ASN, 138699, no-resolve
+IP-ASN, 396986, no-resolve
