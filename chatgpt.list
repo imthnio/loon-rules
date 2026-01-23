@@ -1,62 +1,47 @@
-############# OpenAI / ChatGPT / Sora (Loon compatible, full)
+#################################################################################
+##################################claude#####################################
+#################################################################################
+DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
 
-# ===== Core =====
-DOMAIN-SUFFIX,openai.com
+
+
+#################################################################################
+##################################chatgpt#####################################
+#################################################################################
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,static.cloudflareinsights.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,api.statsig.com
+DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,chat.openai.com
-DOMAIN-SUFFIX,platform.openai.com
-
-# ===== API =====
-DOMAIN-SUFFIX,api.openai.com
-DOMAIN-SUFFIX,api.openai.com.edgekey.net
-
-# ===== Auth / Login =====
-DOMAIN-SUFFIX,auth.openai.com
-DOMAIN-SUFFIX,login.openai.com
-DOMAIN-SUFFIX,accounts.openai.com
-
-# ===== Web / App Assets =====
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,openaiusercontent.com
-DOMAIN-SUFFIX,openai-cdn.com
-DOMAIN-SUFFIX,cdn.openai.com
-
-# ===== Chat Attachments / Files / Images =====
-DOMAIN-SUFFIX,files.openai.com
-DOMAIN-SUFFIX,uploads.openai.com
-
-# ===== Realtime / Streaming =====
-DOMAIN-SUFFIX,events.openai.com
-
-# ===== Safety / Moderation =====
-DOMAIN-SUFFIX,moderation.openai.com
-
-# ===== Status / Help =====
-DOMAIN-SUFFIX,status.openai.com
-DOMAIN-SUFFIX,help.openai.com
-
-# =================================================
-# ====================== Sora =====================
-# =================================================
-
-# Sora main
-DOMAIN-SUFFIX,sora.openai.com
-
-# Sora assets / media / previews
-DOMAIN-SUFFIX,sora-cdn.openai.com
-DOMAIN-SUFFIX,sora-assets.openai.com
-
-# Sora uploads / generated video files
-DOMAIN-SUFFIX,sora-files.openai.com
-DOMAIN-SUFFIX,sora-uploads.openai.com
-
-# Sora realtime / job status
-DOMAIN-SUFFIX,sora-events.openai.com
-
-# ===== Fallback =====
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,observeit.net
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,chatgpt
-DOMAIN-KEYWORD,sora
-
-# ===== User-Agent (optional) =====
-USER-AGENT,ChatGPT*
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
+IP-ASN,20473,no-resolve
