@@ -1,31 +1,32 @@
 # ==================================
-# 1. Instagram & Threads (深度优化)
+# Meta Ecosystem Comprehensive Rules
+# (Facebook / Instagram / WhatsApp / Threads / Oculus)
+# Merged: User's Detailed List + Blackmatrix7
 # ==================================
-# [核心] Instagram 主域名与 API
+
+# ==================================
+# 1. Instagram & Threads
+# ==================================
 DOMAIN-SUFFIX, instagram.com
 DOMAIN-SUFFIX, instagr.am
 DOMAIN-SUFFIX, i.instagram.com
 DOMAIN-SUFFIX, api.instagram.com
 DOMAIN-SUFFIX, graph.instagram.com
 DOMAIN-SUFFIX, pro-api.instagram.com
-# [核心] Instagram 静态资源与 CDN (BM7 重点覆盖)
 DOMAIN-SUFFIX, cdninstagram.com
 DOMAIN-SUFFIX, cdninstagram.net
 DOMAIN-SUFFIX, instagramcdn.net
 DOMAIN-SUFFIX, instagramstatic.com
-# [核心] Threads (与 IG 共享架构)
+DOMAIN-SUFFIX, ig.me
+# Threads
 DOMAIN-SUFFIX, threads.net
 DOMAIN-SUFFIX, threads.instagram.com
-# [关键] 短链接 (分享/私信跳转)
-DOMAIN-SUFFIX, ig.me
-DOMAIN-SUFFIX, instagr.am
 
 # ==================================
-# 2. Meta / Facebook 核心架构
+# 2. Facebook Core & Meta Infrastructure
 # ==================================
-# [核心] 基础网络架构 (The Facebook Network) - 加速关键
+# Core Network
 DOMAIN-SUFFIX, tfbnw.net
-# 核心业务域名
 DOMAIN-SUFFIX, meta.com
 DOMAIN-SUFFIX, facebook.com
 DOMAIN-SUFFIX, facebook.net
@@ -33,34 +34,32 @@ DOMAIN-SUFFIX, fb.com
 DOMAIN-SUFFIX, fb.me
 DOMAIN-SUFFIX, fb.gg
 DOMAIN-SUFFIX, facebook-dns.com
-# 账户与开发者
+# Auth & Dev
 DOMAIN-SUFFIX, accounts.facebook.com
 DOMAIN-SUFFIX, developers.facebook.com
 DOMAIN-SUFFIX, connect.facebook.net
 DOMAIN-SUFFIX, accountkit.com
 
 # ==================================
-# 3. Facebook 静态资源 (CDN)
+# 3. Facebook CDN & Resources
 # ==================================
-# 暴力覆盖所有 FB 资源子域 (fbsbx/fbcdn)
 DOMAIN-SUFFIX, fbsbx.com
 DOMAIN-SUFFIX, fbcdn.net
 DOMAIN-SUFFIX, fbcdn.com
 DOMAIN-SUFFIX, xyzcdn.net
+DOMAIN-SUFFIX, xycdn.com
 DOMAIN-SUFFIX, atlassolutions.com
+DOMAIN-SUFFIX, atlassbx.com
 
 # ==================================
-# 4. WhatsApp (完整覆盖)
+# 4. WhatsApp
 # ==================================
 DOMAIN-SUFFIX, whatsapp.com
 DOMAIN-SUFFIX, whatsapp.net
 DOMAIN-SUFFIX, whatsapp.org
-# [关键] 加好友/聊天跳转短链接
 DOMAIN-SUFFIX, wa.me
-# 网页版与 API
 DOMAIN-SUFFIX, web.whatsapp.com
 DOMAIN-SUFFIX, api.whatsapp.com
-# 静态资源
 DOMAIN-SUFFIX, static.whatsapp.net
 DOMAIN-SUFFIX, cdn.whatsapp.net
 DOMAIN-SUFFIX, mmx-ds.cdn.whatsapp.net
@@ -75,27 +74,38 @@ DOMAIN-SUFFIX, m.me
 DOMAIN-SUFFIX, w.m.me
 
 # ==================================
-# 6. 短链接与辅助工具
+# 6. Short Links & Tools
 # ==================================
+DOMAIN-SUFFIX, fb.watch
 DOMAIN-SUFFIX, fbwat.ch
 DOMAIN-SUFFIX, on.fb.me
 DOMAIN-SUFFIX, helphub.me
 
 # ==================================
-# 7. Meta VR / Oculus (元宇宙)
+# 7. Oculus / VR
 # ==================================
 DOMAIN-SUFFIX, oculus.com
 DOMAIN-SUFFIX, oculuscdn.com
 DOMAIN-SUFFIX, metaquest.com
 
 # ==================================
-# 8. 关键词与 User-Agent 兜底
+# 8. User-Agent & Keywords (Required Fallback)
 # ==================================
+# Keywords
 DOMAIN-KEYWORD, facebook
 DOMAIN-KEYWORD, instagram
 DOMAIN-KEYWORD, whatsapp
+
+# Core App User-Agents
 USER-AGENT, Facebook*
 USER-AGENT, Instagram*
 USER-AGENT, WhatsApp*
 USER-AGENT, Threads*
 USER-AGENT, Messenger*
+
+# SDKs & Login Components
+USER-AGENT, FBiOSSDK*
+USER-AGENT, Meta*
+USER-AGENT, Oculus*
+USER-AGENT, FB*
+USER-AGENT, IG*
