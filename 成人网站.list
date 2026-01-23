@@ -1,97 +1,77 @@
+# ============================================
+# 导航类 (ThePornDud)
+# ============================================
+DOMAIN-SUFFIX,theporndud.com
 DOMAIN-KEYWORD,theporndud
-############# XVideos 
+
+# ============================================
+# XVideos & XNXX (两者架构高度重合)
+# ============================================
 DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,xvideos.es
+DOMAIN-SUFFIX,xvideos.red
+DOMAIN-SUFFIX,xvideos.xxx
 DOMAIN-SUFFIX,xvideos2.com
-DOMAIN-SUFFIX,www.xvideos.com
-DOMAIN-SUFFIX,api.xvideos.com
 DOMAIN-SUFFIX,xvideos-cdn.com
 DOMAIN-SUFFIX,xvideoscdn.com
-DOMAIN-SUFFIX,xvideos.es
-DOMAIN-SUFFIX,xvideos.red
-DOMAIN-SUFFIX,xvideos.xxx
-
-############# SpankBang
-DOMAIN-SUFFIX,spankbang.com
-DOMAIN-SUFFIX,spankbang.party
-DOMAIN-SUFFIX,spankbang.org
-DOMAIN-SUFFIX,sb-cd.com
-DOMAIN-SUFFIX,sb-cdn.com
-DOMAIN-SUFFIX,static.spankbang.com
-DOMAIN-SUFFIX,api.spankbang.com
-
-############################################Pornhub
-DOMAIN-SUFFIX,pornhub.com
-DOMAIN-SUFFIX,pornhub.org
-DOMAIN-SUFFIX,pornhubpremium.com
-DOMAIN-SUFFIX,cn.pornhub.com
-DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,phprcdn.com
-DOMAIN-SUFFIX,cdn.pornhub.com
-DOMAIN-SUFFIX,di.phncdn.com
-DOMAIN-SUFFIX,ei.phncdn.com
-DOMAIN-SUFFIX,rt.pornhub.com
-DOMAIN-SUFFIX,ads.pornhub.com
-################################黑料网
-DOMAIN-SUFFIX,52cg1.win
-DOMAIN-SUFFIX,jb5xz1.rprrlbj.com
-DOMAIN-SUFFIX,jb5xz2.rprrlbj.com
-DOMAIN-SUFFIX,jb5xz3.rprrlbj.com
-DOMAIN-SUFFIX,rprrlbj.com
-###############乱七八糟
-DOMAIN-SUFFIX,madaoavmodv027.xyz
-DOMAIN-SUFFIX,pdude.link
-DOMAIN-SUFFIX,javmenu.com
-DOMAIN-SUFFIX,madou27.com
-DOMAIN-SUFFIX,wanwuu.com
-##################中国x站
-DOMAIN-SUFFIX,jupmchinaxmoviex08.top
-DOMAIN-SUFFIX,ladchinaxmoviex08.xyz
-
-DOMAIN-SUFFIX,xvideos.com
-DOMAIN-SUFFIX,xvideos2.com
-DOMAIN-SUFFIX,xvideos.es
-DOMAIN-SUFFIX,xvideos.red
-DOMAIN-SUFFIX,xvideos.xxx
-
-DOMAIN-SUFFIX,xhamster.com
-DOMAIN-SUFFIX,xhamster.desi
-DOMAIN-SUFFIX,xhamster.one
-DOMAIN-SUFFIX,xhamster.xxx
-DOMAIN-SUFFIX,xhamsterlive.com
-
+# 关键修复: 封面和视频流常用域名
+DOMAIN-SUFFIX,xnxx-cdn.com
+DOMAIN-SUFFIX,xv-ph.com
 DOMAIN-SUFFIX,xnxx.com
 DOMAIN-SUFFIX,xnxx.tv
 DOMAIN-SUFFIX,xnxx.gold
 DOMAIN-SUFFIX,xnxx.health
 DOMAIN-SUFFIX,xnxx.sex
 
+# ============================================
+# Pornhub (MindGeek系)
+# ============================================
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,pornhub.org
+DOMAIN-SUFFIX,pornhubpremium.com
+DOMAIN-SUFFIX,cn.pornhub.com
+DOMAIN-SUFFIX,rt.pornhub.com
+# 关键修复: 视频流与图片CDN
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,phprcdn.com
+DOMAIN-SUFFIX,image.pornhub.com
+DOMAIN-SUFFIX,cdn.pornhub.com
+
+# ============================================
+# SpankBang
+# ============================================
+DOMAIN-SUFFIX,spankbang.com
+DOMAIN-SUFFIX,spankbang.party
+DOMAIN-SUFFIX,spankbang.org
+# 关键修复: 静态资源CDN
+DOMAIN-SUFFIX,sb-cd.com
+DOMAIN-SUFFIX,static.spankbang.com
+
+# ============================================
+# XHamster
+# ============================================
+DOMAIN-SUFFIX,xhamster.com
+DOMAIN-SUFFIX,xhamster.desi
+DOMAIN-SUFFIX,xhamster.one
+DOMAIN-SUFFIX,xhamster.xxx
+DOMAIN-SUFFIX,xhamsterlive.com
+# 关键修复: 这里的CDN控制所有视频和缩略图
+DOMAIN-SUFFIX,xhcdn.com
+
+# ============================================
+# MindGeek 其他 (RedTube, YouPorn, Tube8)
+# ============================================
 DOMAIN-SUFFIX,youporn.com
 DOMAIN-SUFFIX,redtube.com
 DOMAIN-SUFFIX,tube8.com
+# 关键修复: 对应的资源CDN
+DOMAIN-SUFFIX,ypncdn.com
+DOMAIN-SUFFIX,rdtcdn.com
+DOMAIN-SUFFIX,tb8cdn.com
 
-DOMAIN-SUFFIX,beeg.com
-DOMAIN-SUFFIX,eporner.com
-DOMAIN-SUFFIX,hqporner.com
-DOMAIN-SUFFIX,erome.com
-DOMAIN-SUFFIX,youjizz.com
-DOMAIN-SUFFIX,porn.com
-
-DOMAIN-SUFFIX,motherless.com
-
-DOMAIN-SUFFIX,spankwire.com
-DOMAIN-SUFFIX,spankbang.com
-
-DOMAIN-SUFFIX,hd-easyporn.com
-DOMAIN-SUFFIX,coralxxx.com
-DOMAIN-SUFFIX,madou.com
-DOMAIN-SUFFIX,yourporn.com
-DOMAIN-SUFFIX,yourporn.sex
-DOMAIN-SUFFIX,boutiquefire.xyz
-
-DOMAIN-SUFFIX,tx001.net
-DOMAIN-SUFFIX,txh067.com
-
-DOMAIN-SUFFIX,brazzers.com
+# ============================================
+# 直播类 (Stripchat, Chaturbate, OnlyFans)
+# ============================================
 DOMAIN-SUFFIX,stripchat.com
 DOMAIN-SUFFIX,chaturbate.com
 DOMAIN-SUFFIX,onlyfans.com
@@ -99,69 +79,74 @@ DOMAIN-SUFFIX,livejasmin.com
 DOMAIN-SUFFIX,cam4.com
 DOMAIN-SUFFIX,myfreecams.com
 DOMAIN-SUFFIX,adultfriendfinder.com
+# 关键修复: 直播推流域名
+DOMAIN-SUFFIX,strpst.com
+DOMAIN-SUFFIX,cb3cdn.com
+DOMAIN-SUFFIX,edge.chaturbate.com
 
+# ============================================
+# 欧美综合类 (Brazzers, RealityKings等)
+# ============================================
+DOMAIN-SUFFIX,brazzers.com
+DOMAIN-SUFFIX,zz.brazzers.com
+DOMAIN-SUFFIX,beeg.com
+DOMAIN-SUFFIX,eporner.com
+DOMAIN-SUFFIX,hqporner.com
+DOMAIN-SUFFIX,erome.com
+DOMAIN-SUFFIX,youjizz.com
+DOMAIN-SUFFIX,porn.com
+DOMAIN-SUFFIX,motherless.com
+DOMAIN-SUFFIX,spankwire.com
+DOMAIN-SUFFIX,hd-easyporn.com
+DOMAIN-SUFFIX,yourporn.com
+DOMAIN-SUFFIX,yourporn.sex
 
+# ============================================
+# 亚洲/国产/黑料 (域名变动极快，建议配合IP兜底)
+# ============================================
+# 黑料网常见后缀 (51cg, 52cg系列)
+DOMAIN-SUFFIX,51cg1.com
+DOMAIN-SUFFIX,52cg.win
+DOMAIN-SUFFIX,52cg1.win
+DOMAIN-SUFFIX,51cg.world
+# 资源域名
+DOMAIN-SUFFIX,rprrlbj.com
+DOMAIN-SUFFIX,jb5xz1.rprrlbj.com
+# 麻豆及其他
+DOMAIN-SUFFIX,madou.com
+DOMAIN-SUFFIX,madou.club
+DOMAIN-SUFFIX,madou27.com
+DOMAIN-SUFFIX,jupmchinaxmoviex08.top
+DOMAIN-SUFFIX,ladchinaxmoviex08.xyz
+DOMAIN-SUFFIX,coralxxx.com
+DOMAIN-SUFFIX,javmenu.com
+DOMAIN-SUFFIX,wanwuu.com
+DOMAIN-SUFFIX,missav.com
+DOMAIN-SUFFIX,jable.tv
 
-##################################################
-#################pornslash#########################
-#################################################
+# ============================================
+# PornSlash & XMegaDrive
+# ============================================
 DOMAIN-SUFFIX,pornslash.com
-DOMAIN-SUFFIX,www.pornslash.com
-DOMAIN-SUFFIX,api.pornslash.com
-
-DOMAIN-SUFFIX,static.pornslash.com
-DOMAIN-SUFFIX,assets.pornslash.com
-
-DOMAIN-SUFFIX,media.pornslash.com
-DOMAIN-SUFFIX,video.pornslash.com
-DOMAIN-SUFFIX,cdn.pornslash.com
-
-DOMAIN-SUFFIX,thumbs.pornslash.com
-
-DOMAIN-SUFFIX,track.pornslash.com
-
-##################################################
-#################xmegadrive.com#########################
-#################################################
-
 DOMAIN-SUFFIX,xmegadrive.com
-DOMAIN-SUFFIX,www.xmegadrive.com
-
-DOMAIN-SUFFIX,media.xmegadrive.com
-DOMAIN-SUFFIX,files.xmegadrive.com
-DOMAIN-SUFFIX,dl.xmegadrive.com
+# 资源子域
+DOMAIN-SUFFIX,cdn.pornslash.com
 DOMAIN-SUFFIX,cdn.xmegadrive.com
-
-
-DOMAIN-SUFFIX,img.xmegadrive.com
-DOMAIN-SUFFIX,thumbs.xmegadrive.com
-DOMAIN-SUFFIX,pic.xmegadrive.com
-
-DOMAIN-SUFFIX,api.xmegadrive.com
-
-
-DOMAIN-SUFFIX,static.xmegadrive.com
-DOMAIN-SUFFIX,assets.xmegadrive.com
-
-
+DOMAIN-SUFFIX,media.xmegadrive.com
 DOMAIN-SUFFIX,stream.xmegadrive.com
-DOMAIN-SUFFIX,video.xmegadrive.com
 
-##################################################
-#################小型网站##########################
-#################################################
-DOMAIN-SUFFIX,zsts05.jvlookkk02.top
+# ============================================
+# 小型/杂项网站
+# ============================================
+DOMAIN-SUFFIX,pdude.link
+DOMAIN-SUFFIX,boutiquefire.xyz
+DOMAIN-SUFFIX,tx001.net
+DOMAIN-SUFFIX,txh067.com
 DOMAIN-SUFFIX,px8x.vip
 DOMAIN-SUFFIX,mimiyxs.cc
-DOMAIN-SUFFIX,mm.mimi0108.top
 DOMAIN-SUFFIX,paradisehill.cc
 DOMAIN-SUFFIX,sexu.com
 DOMAIN-SUFFIX,xcafe.com
 DOMAIN-SUFFIX,xxxfiles.com
 DOMAIN-SUFFIX,porn300.com
-DOMAIN-SUFFIX,xmegadrive.com
 
-
-
-USER-AGENT,spankbang*
-USER-AGENT,pornhub*
