@@ -73,6 +73,22 @@ DOMAIN-SUFFIX, syndication.twitter.com
 DOMAIN-SUFFIX, platform.twitter.com
 DOMAIN-SUFFIX, tellapart.com
 
+
+
+
+IP-ASN,13414,no-resolve
+
+# Twitter & Grok IPv4 CIDR (AS13414)
+IP-CIDR,69.195.160.0/19,no-resolve
+IP-CIDR,104.244.40.0/21,no-resolve
+IP-CIDR,192.133.76.0/22,no-resolve
+IP-CIDR,199.16.156.0/22,no-resolve
+IP-CIDR,199.59.148.0/22,no-resolve
+IP-CIDR,199.96.56.0/21,no-resolve
+IP-CIDR,204.92.114.0/23,no-resolve
+
+# Twitter & Grok IPv6 CIDR
+IP-CIDR6,2620:10f::/32,no-resolve
 # ==================================
 # 7. 关键词与 User-Agent 兜底
 # ==================================
