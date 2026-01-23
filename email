@@ -1,4 +1,6 @@
-####################################雅虎yahoo
+#####################################
+############雅虎yahoo+aol###########
+#################################
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,yahoo.co.jp
 DOMAIN-SUFFIX,yahoo.co.uk
@@ -19,8 +21,6 @@ DOMAIN-SUFFIX,yahooapis.com
 DOMAIN-SUFFIX,api.login.yahoo.com
 DOMAIN-SUFFIX,yahoo.net
 DOMAIN-SUFFIX,verizonmedia.com
-
-####################################aol邮箱
 DOMAIN-SUFFIX,aol.com
 DOMAIN-SUFFIX,mail.aol.com
 DOMAIN-SUFFIX,login.aol.com
@@ -37,8 +37,29 @@ DOMAIN-SUFFIX,yahooapis.com
 DOMAIN-SUFFIX,yimg.com
 DOMAIN-SUFFIX,s.yimg.com
 DOMAIN-SUFFIX,help.aol.com
+IP-ASN,10310,no-resolve
+IP-ASN,1668,no-resolve
+IP-CIDR,66.196.64.0/18,no-resolve
+IP-CIDR,66.218.64.0/19,no-resolve
+IP-CIDR,67.195.0.0/16,no-resolve
+IP-CIDR,72.30.0.0/16,no-resolve
+IP-CIDR,74.6.0.0/16,no-resolve
+IP-CIDR,98.136.0.0/13,no-resolve
+IP-CIDR,202.160.176.0/20,no-resolve
+IP-CIDR,212.82.0.0/16,no-resolve
+IP-CIDR6,2001:4998::/32,no-resolve
+IP-CIDR,64.12.0.0/16,no-resolve
+IP-CIDR,149.174.0.0/16,no-resolve
+IP-CIDR,152.163.0.0/16,no-resolve
+IP-CIDR,195.93.0.0/16,no-resolve
+IP-CIDR,204.148.0.0/17,no-resolve
+IP-CIDR,207.200.0.0/17,no-resolve
 
+
+
+#####################################
 ############# Proton Mail
+#####################################
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,protonmail.com
 DOMAIN-SUFFIX,account.proton.me
