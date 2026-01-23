@@ -16,7 +16,23 @@ DOMAIN-SUFFIX, threads.net
 DOMAIN-SUFFIX, threads.instagram.com
 DOMAIN-SUFFIX, ig.me
 
-# [关键] 视频与图片 CDN (Reels 命门)
+
+DOMAIN-SUFFIX,scontent-hkg4-1.xx.fbcdn.net
+DOMAIN-SUFFIX,scontent-nrt1-1.xx.fbcdn.net
+
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbcdn.com
+DOMAIN-SUFFIX,fna.fbcdn.net
+DOMAIN-SUFFIX,scontent.cdninstagram.com
+DOMAIN-SUFFIX,scontent.xx.fbcdn.net
+DOMAIN-SUFFIX,video.xx.fbcdn.net
+
+
+DOMAIN-SUFFIX,edge-chat.instagram.com
+DOMAIN-SUFFIX,edge-mqtt.facebook.com
+
+
+
 DOMAIN-SUFFIX, cdninstagram.com
 DOMAIN-SUFFIX, cdninstagram.net
 DOMAIN-SUFFIX, instagramcdn.net
