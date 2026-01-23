@@ -101,32 +101,32 @@ DOMAIN-KEYWORD, musical.ly
 # 7. 应用指纹 (User-Agent & Process)
 # ==================================
 # TikTok & Music
-USER-AGENT, TikTok*
-USER-AGENT, musical.ly*
-USER-AGENT, trill*
-USER-AGENT, TikTokMusic*
-USER-AGENT, Resso*
+USER-AGENT,TikTok*
+USER-AGENT,musical.ly*
+USER-AGENT,trill*
+USER-AGENT,TikTokMusic*
+USER-AGENT,Resso*
 
 # Video Editors & Tools
-USER-AGENT, CapCut*
-USER-AGENT, CutSame*
-USER-AGENT, Ulike*
+USER-AGENT,CapCut*
+USER-AGENT,CutSame*
+USER-AGENT,Ulike*
 
 # Community & Work
-USER-AGENT, Lemon8*
-USER-AGENT, Heliophilia*
-USER-AGENT, Helo*
-USER-AGENT, Trae*
+USER-AGENT,Lemon8*
+USER-AGENT,Heliophilia*
+USER-AGENT,Helo*
+USER-AGENT,Trae*
 
 # Novels
-USER-AGENT, Fizzo*
+USER-AGENT,Fizzo*
 
 # Android Process Name
-PROCESS-NAME, com.zhiliaoapp.musically
+PROCESS-NAME,com.zhiliaoapp.musically
 
 # ==================================
 # TikTok & ByteDance IP-ASN (Optional)
 # 新加坡核心 ASN+美国核心 ASN
 # ==================================
-IP-ASN, 138699, no-resolve
-IP-ASN, 396986, no-resolve
+IP-ASN,138699,no-resolve
+IP-ASN,396986,no-resolve
