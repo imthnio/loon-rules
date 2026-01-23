@@ -7,6 +7,20 @@
 # ==================================
 # 1. Instagram & Threads
 # ==================================
+# ==================================
+# Instagram Reels & Video 修复
+# ==================================
+# [关键] Facebook 基础网络 (Reels 视频流命门)
+DOMAIN-SUFFIX, tfbnw.net
+
+# [关键] 静态资源 CDN (图片/视频)
+DOMAIN-SUFFIX, fbcdn.net
+DOMAIN-SUFFIX, fbcdn.com
+DOMAIN-SUFFIX, cdninstagram.com
+DOMAIN-SUFFIX, cdninstagram.net
+DOMAIN-SUFFIX, instagramcdn.net
+DOMAIN-KEYWORD, cdninstagram
+
 DOMAIN-SUFFIX, instagram.com
 DOMAIN-SUFFIX, instagr.am
 DOMAIN-SUFFIX, i.instagram.com
