@@ -178,11 +178,6 @@ IP-CIDR,185.60.216.0/22,no-resolve
 IP-CIDR,204.15.20.0/22,no-resolve
 
 
-PROCESS-NAME,Instagram
-PROCESS-NAME,Facebook
-PROCESS-NAME,Messenger
-PROCESS-NAME,WhatsApp
-PROCESS-NAME,Threads
 PROCESS-NAME,com.facebook.katana
 PROCESS-NAME,com.facebook.orca
 PROCESS-NAME,com.instagram.android
@@ -190,3 +185,21 @@ PROCESS-NAME,com.whatsapp
 PROCESS-NAME,com.whatsapp.w4b
 PROCESS-NAME,com.instagram.barcelona
 PROCESS-NAME,com.facebook.pages.app
+PROCESS-NAME,com.facebook.Facebook
+PROCESS-NAME,com.facebook.Messenger
+PROCESS-NAME,com.burbn.instagram
+PROCESS-NAME,net.whatsapp.WhatsApp
+PROCESS-NAME,com.burbn.barcelona
+PROCESS-NAME,Facebook
+PROCESS-NAME,Instagram
+PROCESS-NAME,WhatsApp
+PROCESS-NAME,Threads
+
+USER-AGENT,Facebook*
+USER-AGENT,FBAV*
+USER-AGENT,FBAN*
+USER-AGENT,Instagram*
+USER-AGENT,WhatsApp*
+USER-AGENT,Threads*
+USER-AGENT,Messenger*
+USER-AGENT,Oculus*
