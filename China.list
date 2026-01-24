@@ -780,6 +780,8 @@ IP-CIDR6, ::ffff:223.240.191.238/128, no-resolve
 ###############################################
 ###################苹果apple#######################
 ###############################################
+DOMAIN-SUFFIX,mail.icloud.com.cn
+DOMAIN-SUFFIX,mail.me.com
 DOMAIN-KEYWORD,apple-support.akadns.net
 DOMAIN-KEYWORD,apple.com.akadns.net
 DOMAIN-KEYWORD,apple.com.edgekey.net
@@ -825,6 +827,7 @@ PROCESS-NAME,WeatherWidget
 PROCESS-NAME,com.apple.Maps
 PROCESS-NAME,findmydevice-user-agent
 PROCESS-NAME,com.apple.geod
+
 ###############################################
 ###################抖音补充######################
 ###############################################
