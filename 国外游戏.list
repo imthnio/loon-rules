@@ -1,0 +1,61 @@
+###############################################################
+######################王者荣耀国际服######################
+###############################################################
+# ==================================
+# NAME: Honor of Kings Global (HoK)
+# DESCRIPTION: 王者荣耀国际服 & Level Infinite
+# PUBLISHER: Level Infinite (Proxima Beta)
+# UPDATED: 2026-01-24
+# ==================================
+
+# ----------------------------------
+# 1. Game Core Domains (游戏核心)
+# ----------------------------------
+# 官网与 API
+DOMAIN-SUFFIX,honorofkings.com
+DOMAIN-SUFFIX,hok-global.com
+DOMAIN-SUFFIX,hokglobal.net
+
+# 游戏内资源与更新
+DOMAIN-SUFFIX,honorofkings.map.qq.com  # (注意：虽然带qq.com，但国际服地图资源偶尔会请求此CDN，建议代理)
+DOMAIN-SUFFIX,update.honorofkings.com
+
+# ----------------------------------
+# 2. Level Infinite Infra (账号与登录)
+# ----------------------------------
+# 国际服必须走 Level Infinite 登录
+DOMAIN-SUFFIX,levelinfinite.com
+DOMAIN-SUFFIX,levelinfinite.net
+DOMAIN-SUFFIX,proximabeta.com
+DOMAIN-SUFFIX,proximabeta.net
+DOMAIN-SUFFIX,proxima.beta
+
+# ----------------------------------
+# 3. Tencent Cloud Intl (海外云服务)
+# ----------------------------------
+# 游戏语音与组队 (GVoice/GCloud)
+DOMAIN-SUFFIX,intlgame.com
+DOMAIN-SUFFIX,tencent-gcloud.com
+DOMAIN-SUFFIX,gcloudcs.com
+DOMAIN-SUFFIX,game.im  # (海外游戏常用内嵌聊天)
+
+# ----------------------------------
+# 4. User-Agent (App 指纹)
+# ----------------------------------
+# 匹配国际服 App
+USER-AGENT,HonorOfKings*
+USER-AGENT,HoK*
+USER-AGENT,HOK*
+USER-AGENT,LevelInfinite*
+
+# ----------------------------------
+# 5. Process Name (Android 分流)
+# ----------------------------------
+# 国际服包名 (绝对不是 com.tencent.tmgp.sgame)
+PROCESS-NAME,com.levelinfinite.sgameGlobal
+
+# ----------------------------------
+# 6. IP-ASN (可选 - 腾讯云海外)
+# ----------------------------------
+# ACE (Tencent Cloud Intl) - 仅在域名失效时启用
+# IP-ASN, 132203, PROXY
