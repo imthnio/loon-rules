@@ -38,9 +38,10 @@ IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23c::/47,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
 IP-CIDR6,2a0a:f280::/29,no-resolve
+PROCESS-NAME,ph.telegra.Telegraph
 PROCESS-NAME,org.telegram.messenger
-PROCESS-NAME,org.telegram.messenger.web
-PROCESS-NAME,org.telegram.HDR
+PROCESS-NAME,org.thunderdog.challegram
 PROCESS-NAME,Telegram
 PROCESS-NAME,Telegram.exe
 USER-AGENT,Telegram*
+USER-AGENT,Nicegram*
