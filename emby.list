@@ -31,3 +31,5 @@ DOMAIN-SUFFIX,videozm.dlyilian.com
 
 USER-AGENT,SenPlayer*
 USER-AGENT,VidHub*
+PROCESS-NAME,SenPlayer
+PROCESS-NAME,VidHub
