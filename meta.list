@@ -176,3 +176,10 @@ IP-CIDR,173.252.64.0/18,no-resolve
 IP-CIDR,179.60.192.0/22,no-resolve
 IP-CIDR,185.60.216.0/22,no-resolve
 IP-CIDR,204.15.20.0/22,no-resolve
+
+
+PROCESS-NAME,Instagram
+PROCESS-NAME,Facebook
+PROCESS-NAME,Messenger
+PROCESS-NAME,WhatsApp
+PROCESS-NAME,Threads
