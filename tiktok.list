@@ -93,7 +93,6 @@ DOMAIN-KEYWORD, obj.tiktokcdns
 DOMAIN-KEYWORD, -tiktokcdn-com
 DOMAIN-KEYWORD, -tiktokcdn-us
 
-# [Generic] 通用匹配
 DOMAIN-KEYWORD, tiktok
 DOMAIN-KEYWORD, musical.ly
 
@@ -107,32 +106,22 @@ DOMAIN-SUFFIX, ttoverseaus.net
 DOMAIN-SUFFIX, resso.com
 DOMAIN-SUFFIX, resso.app
 USER-AGENT, Resso*
-# ==================================
-# 7. 应用指纹 (User-Agent & Process)
-# ==================================
-# TikTok & Music
 USER-AGENT,TikTok*
 USER-AGENT,musical.ly*
 USER-AGENT,trill*
 USER-AGENT,TikTokMusic*
 USER-AGENT,Resso*
-
-# Video Editors & Tools
 USER-AGENT,CapCut*
 USER-AGENT,CutSame*
 USER-AGENT,Ulike*
-
-# Community & Work
 USER-AGENT,Lemon8*
 USER-AGENT,Heliophilia*
 USER-AGENT,Helo*
 USER-AGENT,Trae*
-
-# Novels
 USER-AGENT,Fizzo*
 
-# Android Process Name
-PROCESS-NAME,com.zhiliaoapp.musically
+
+
 
 # ==================================
 # TikTok & ByteDance IP-ASN (Optional)
@@ -141,6 +130,10 @@ PROCESS-NAME,com.zhiliaoapp.musically
 IP-ASN,138699,no-resolve
 IP-ASN,396986,no-resolve
 
+
+
+PROCESS-NAME,com.zhiliaoapp.musically
+PROCESS-NAME,com.ss.android.ugc.trill
 PROCESS-NAME,TikTok
 PROCESS-NAME,CapCut
 PROCESS-NAME,Lemon8
