@@ -1,17 +1,33 @@
-##################################giffgaff
+#########################################################
+##################################giffgaff###################
+#########################################################
 DOMAIN-KEYWORD,giffgaff
 DOMAIN-SUFFIX,epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
+PROCESS-NAME,com.giffgaffmobile.app
+PROCESS-NAME,com.giffgaff.giffgaff
+PROCESS-NAME,giffgaff
+USER-AGENT,giffgaff*
+USER-AGENT,MyGiffgaff*
 
-
-
-##################################kraken
+######################################################
+##################################kraken###########################
+################################################################
 DOMAIN-SUFFIX,kraken.com
 DOMAIN-SUFFIX,krakenfutures.com
 DOMAIN-SUFFIX,krakenstatus.com
 DOMAIN-SUFFIX,cryptowat.ch
-
-
-##################################trading212
+PROCESS-NAME,com.kraken.mobile
+PROCESS-NAME,com.kraken.invest
+PROCESS-NAME,com.kraken.superwallet
+PROCESS-NAME,com.kraken.mobile.app
+PROCESS-NAME,com.kraken.invest.app
+PROCESS-NAME,kraken
+USER-AGENT,Kraken*
+USER-AGENT,Ktor client*
+USER-AGENT,okhttp*
+################################################################
+##################################trading212##################
+########################################################################
 DOMAIN-SUFFIX,trading212.com
 DOMAIN-SUFFIX,trading212.co.uk
 DOMAIN-SUFFIX,trading212.de
@@ -19,17 +35,25 @@ DOMAIN-SUFFIX,t212.com
 DOMAIN-SUFFIX,trading212resources.com
 DOMAIN-SUFFIX,avuscapital.com
 DOMAIN-KEYWORD,trading212
-
-##################################bybit
+################################################
+#####################bybit##################
+################################################
 DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,bybitglobal.com
 DOMAIN-SUFFIX,bytick.com
 DOMAIN-SUFFIX,byfintech.com
 DOMAIN-SUFFIX,bybit.nl
 DOMAIN-SUFFIX,bybit.eu
+PROCESS-NAME,com.bybit.app
+PROCESS-NAME,com.bybit
+PROCESS-NAME,Bybit
+USER-AGENT,Bybit*
+USER-AGENT,BybitApp*
 
 
-############# Coinbase 
+######################################################
+############# Coinbase ####################################
+########################################################################
 DOMAIN-SUFFIX,coinbase.com
 DOMAIN-SUFFIX,pro.coinbase.com
 DOMAIN-SUFFIX,advanced.coinbase.com
@@ -52,28 +76,17 @@ DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,coinbasestatus.com
 DOMAIN-SUFFIX,coinbaseassets.com
 DOMAIN-SUFFIX,cbassets.net
+PROCESS-NAME,com.coinbase.consumer
+PROCESS-NAME,com.coinbase.android
+PROCESS-NAME,com.coinbase.wallet
+PROCESS-NAME,com.coinbase.pro
+PROCESS-NAME,Coinbase
+PROCESS-NAME,CoinbaseWallet
+USER-AGENT,Coinbase*
+USER-AGENT,CB-Mobile*
+USER-AGENT,CoinbasePro*
+USER-AGENT,CoinbaseWallet*
 
-############# RedotPay
-DOMAIN-SUFFIX,redotpay.com
-DOMAIN-SUFFIX,app.redotpay.com
-DOMAIN-SUFFIX,api.redotpay.com
-DOMAIN-SUFFIX,openapi.redotpay.com
-DOMAIN-SUFFIX,auth.redotpay.com
-DOMAIN-SUFFIX,login.redotpay.com
-DOMAIN-SUFFIX,pay.redotpay.com
-DOMAIN-SUFFIX,card.redotpay.com
-DOMAIN-SUFFIX,onfido.com
-DOMAIN-SUFFIX,onfido.app
-DOMAIN-SUFFIX,onfido.io
-DOMAIN-SUFFIX,sendgrid.net
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,static.redotpay.com
-DOMAIN-SUFFIX,assets.redotpay.com
-DOMAIN-SUFFIX,status.redotpay.com
-DOMAIN-SUFFIX,help.redotpay.com
 
-USER-AGENT,Krak*
-USER-AGENT,Kraken*
-USER-AGENT,bybit*
 
 
