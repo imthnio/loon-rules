@@ -130,11 +130,17 @@ USER-AGENT,Fizzo*
 IP-ASN,138699,no-resolve
 IP-ASN,396986,no-resolve
 
-
-
 PROCESS-NAME,com.zhiliaoapp.musically
 PROCESS-NAME,com.ss.android.ugc.trill
+PROCESS-NAME,com.zhiliaoapp.musically.go
 PROCESS-NAME,TikTok
+PROCESS-NAME,TikTok.exe
+
+
+USER-AGENT,TikTok*
+USER-AGENT,musical_ly*
+
+
 PROCESS-NAME,CapCut
 PROCESS-NAME,Lemon8
 
