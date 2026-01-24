@@ -27,8 +27,7 @@ DOMAIN-SUFFIX, volces.com
 DOMAIN, lf3-static.bytednsdoc.com
 DOMAIN, v5-dy-o-abtest.zjcdn.com
 DOMAIN-KEYWORD, douyin
-PROCESS-NAME, Aweme
-PROCESS-NAME, com.ss.iphone.ugc.Aweme
+
 USER-AGENT, Douyin*
 USER-AGENT, Hotsoon*
 USER-AGENT, DouyinBox*
