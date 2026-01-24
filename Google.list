@@ -173,10 +173,27 @@ USER-AGENT, com.google.ios.youtubemusic*
 USER-AGENT,gemini*
 USER-AGENT,GoogleApp*
 USER-AGENT,Bard*
-PROCESS-NAME,Google
-PROCESS-NAME,GoogleVoice
-PROCESS-NAME,Youtube
-PROCESS-NAME,Gmail
-PROCESS-NAME,Chrome
-PROCESS-NAME,YouTubeMusic
 
+PROCESS-NAME,com.google.android.googlequicksearchbox
+PROCESS-NAME,com.google.GoogleMobile
+PROCESS-NAME,com.android.chrome
+PROCESS-NAME,com.google.chrome.ios
+PROCESS-NAME,com.google.Chrome
+PROCESS-NAME,com.google.android.gm
+PROCESS-NAME,com.google.Gmail
+PROCESS-NAME,com.google.android.apps.maps
+PROCESS-NAME,com.google.Maps
+PROCESS-NAME,com.google.android.apps.photos
+PROCESS-NAME,com.google.Photos
+PROCESS-NAME,com.google.android.apps.docs
+PROCESS-NAME,com.google.Drive
+PROCESS-NAME,com.google.android.youtube
+PROCESS-NAME,com.google.ios.youtube
+PROCESS-NAME,com.google.android.gms
+PROCESS-NAME,Google Chrome
+PROCESS-NAME,Google Drive
+PROCESS-NAME,GoogleSoftwareUpdateAgent
+PROCESS-NAME,ksadmin
+PROCESS-NAME,Chrome
+PROCESS-NAME,GoogleDriveFS
+PROCESS-NAME,Google Earth
