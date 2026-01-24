@@ -191,9 +191,18 @@ PROCESS-NAME,com.burbn.instagram
 PROCESS-NAME,net.whatsapp.WhatsApp
 PROCESS-NAME,com.burbn.barcelona
 PROCESS-NAME,Facebook
-PROCESS-NAME,Instagram
+
 PROCESS-NAME,WhatsApp
 PROCESS-NAME,Threads
+
+PROCESS-NAME,com.burbn.instagram
+PROCESS-NAME,com.instagram.android
+PROCESS-NAME,com.instagram.lite
+PROCESS-NAME,com.instagram.layout
+PROCESS-NAME,Instagram
+PROCESS-NAME,Instagram.exe
+
+
 
 USER-AGENT,Facebook*
 USER-AGENT,FBAV*
