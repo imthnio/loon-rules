@@ -197,3 +197,17 @@ PROCESS-NAME,ksadmin
 PROCESS-NAME,Chrome
 PROCESS-NAME,GoogleDriveFS
 PROCESS-NAME,Google Earth
+PROCESS-NAME,com.google.android.apps.gemini
+PROCESS-NAME,com.google.android.apps.bard
+PROCESS-NAME,com.google.GoogleMobile
+PROCESS-NAME,Gemini
+PROCESS-NAME,com.google.android.youtube
+PROCESS-NAME,com.google.ios.youtube
+PROCESS-NAME,com.google.android.apps.youtube.music
+PROCESS-NAME,com.google.ios.youtubemusic
+PROCESS-NAME,com.google.android.apps.youtube.kids
+PROCESS-NAME,com.google.ios.youtubekids
+PROCESS-NAME,com.google.android.apps.youtube.creator
+PROCESS-NAME,com.google.ios.youtubecreator
+PROCESS-NAME,YouTube
+PROCESS-NAME,YouTube Music
