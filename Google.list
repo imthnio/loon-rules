@@ -173,3 +173,10 @@ USER-AGENT, com.google.ios.youtubemusic*
 USER-AGENT,gemini*
 USER-AGENT,GoogleApp*
 USER-AGENT,Bard*
+PROCESS-NAME,Google
+PROCESS-NAME,GoogleVoice
+PROCESS-NAME,Youtube
+PROCESS-NAME,Gmail
+PROCESS-NAME,Chrome
+PROCESS-NAME,YouTubeMusic
+
