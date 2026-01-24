@@ -183,3 +183,10 @@ PROCESS-NAME,Facebook
 PROCESS-NAME,Messenger
 PROCESS-NAME,WhatsApp
 PROCESS-NAME,Threads
+PROCESS-NAME,com.facebook.katana
+PROCESS-NAME,com.facebook.orca
+PROCESS-NAME,com.instagram.android
+PROCESS-NAME,com.whatsapp
+PROCESS-NAME,com.whatsapp.w4b
+PROCESS-NAME,com.instagram.barcelona
+PROCESS-NAME,com.facebook.pages.app
