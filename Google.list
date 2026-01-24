@@ -98,8 +98,25 @@ DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googletagservices.com
 
-# --- Keyword Fallback (Critical) ---
-# 覆盖所有 google.jp, google.fr 等国家域名
+
+
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,yt3.ggpht.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN,youtubei.googleapis.com
+DOMAIN,youtube.googleapis.com
+
+
+DOMAIN-SUFFIX,firebase.com
+DOMAIN-SUFFIX,firebaseapp.com
+
+DOMAIN-SUFFIX,page.link
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,google.ai
+
+
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,gemini
