@@ -97,6 +97,16 @@ DOMAIN-KEYWORD, -tiktokcdn-us
 DOMAIN-KEYWORD, tiktok
 DOMAIN-KEYWORD, musical.ly
 
+
+
+DOMAIN-SUFFIX, tiktokcdn-in.com
+DOMAIN-SUFFIX, tiktokcdn-eu.com
+DOMAIN-SUFFIX, ttlivecdn.com
+DOMAIN-SUFFIX, ttoversea.net
+DOMAIN-SUFFIX, ttoverseaus.net
+DOMAIN-SUFFIX, resso.com
+DOMAIN-SUFFIX, resso.app
+USER-AGENT, Resso*
 # ==================================
 # 7. 应用指纹 (User-Agent & Process)
 # ==================================
