@@ -28,6 +28,24 @@ DOMAIN-SUFFIX,instagramcdn.net
 DOMAIN-SUFFIX,instagramstatic.com
 DOMAIN-SUFFIX,scontent.cdninstagram.com
 
+# Instagram 视频 CDN
+DOMAIN-SUFFIX,video.cdninstagram.com
+
+# Instagram scontent 变体(用于图片和视频)
+DOMAIN-SUFFIX,scontent-a.cdninstagram.com
+DOMAIN-SUFFIX,scontent-b.cdninstagram.com
+DOMAIN-KEYWORD,scontent.cdninstagram
+
+# Instagram 聊天和 Portal
+DOMAIN-SUFFIX,z-p42-chat-e2ee-ig.facebook.com
+DOMAIN-SUFFIX,z-p42-chat-e2ee-ig-fallback.facebook.com
+DOMAIN-SUFFIX,mqtt-ig-p4.facebook.com
+DOMAIN-SUFFIX,z-p3-instagram-portal.fb.com
+DOMAIN-SUFFIX,z-p42-instagram-portal.fb.com
+
+# Instagram 其他域名
+DOMAIN-SUFFIX,igsonar.com
+
 # Keywords (Video Streams)
 DOMAIN-KEYWORD,cdninstagram
 DOMAIN-KEYWORD,graph-video
@@ -44,6 +62,19 @@ DOMAIN-SUFFIX,fb.gg
 DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,facebook-dns.com
 DOMAIN-SUFFIX,m.me
+
+# Facebook scontent 变体(非常重要!)
+DOMAIN-KEYWORD,scontent
+DOMAIN-KEYWORD,scontent.xx.fbcdn
+
+# Facebook 特定的 CDN 子域
+DOMAIN-SUFFIX,scontent.xx.fbcdn.net
+DOMAIN-SUFFIX,scontent.fallback.xx.fbcdn.net
+DOMAIN-SUFFIX,external.xx.fbcdn.net
+DOMAIN-SUFFIX,sphotos.xx.fbcdn.net
+
+# Facebook 其他 CDN
+DOMAIN-SUFFIX,fna.fbcdn.net
 
 # Core Infrastructure (CRITICAL)
 DOMAIN-SUFFIX,tfbnw.net
