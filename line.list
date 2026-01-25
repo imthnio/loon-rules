@@ -1,0 +1,60 @@
+# =======================================================
+# 规则名称: LINE Ultimate (Watertight)
+# 覆盖范围: LINE 聊天, 贴纸, 语音视频通话, LINE Pay, Timeline
+# 核心策略: 解决 "无法发送图片" 和 "通话连接中" 问题
+# =======================================================
+
+# [Part 1: 核心域名 (Core Domains)]
+# line.me 是主入口，line-apps.com 承载 API
+DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,line-apps.com
+DOMAIN-SUFFIX,line-scdn.net
+DOMAIN-SUFFIX,linetv.tw
+DOMAIN-SUFFIX,pstatic.net
+DOMAIN-SUFFIX,naver.jp
+DOMAIN-SUFFIX,naver.com
+DOMAIN-SUFFIX,nhncorp.jp
+DOMAIN-SUFFIX,nelo2.com
+
+# [Part 2: 静态资源与 CDN (Critical)]
+# 这里的域名决定了你的表情包能不能发出去
+DOMAIN-SUFFIX,obs.line-scdn.net
+DOMAIN-SUFFIX,profile.line-scdn.net
+DOMAIN-SUFFIX,shop.line.me
+DOMAIN-SUFFIX,stickershop.line-scdn.net
+
+# [Part 3: 暴力关键字 (Keywords)]
+# !!! 警告：绝不能使用 "line" 作为纯关键字 !!!
+# 因为 online, deadline, headline 都会被误杀。
+# 这里只匹配特定的组合。
+DOMAIN-KEYWORD,line-apps
+DOMAIN-KEYWORD,line-scdn
+DOMAIN-KEYWORD,linetv
+
+# =======================================================
+# [Part 4: 协议层兜底 (User-Agent)]
+# 覆盖手机端 App
+# =======================================================
+USER-AGENT,LINE*
+USER-AGENT,Line*
+USER-AGENT,LineTV*
+
+# =======================================================
+# [Part 5: 进程层兜底 (Process Name)]
+# 适配 Windows / macOS 桌面版客户端
+# =======================================================
+PROCESS-NAME,LINE
+PROCESS-NAME,LINE.exe
+
+# =======================================================
+# [Part 6: 物理层兜底 (IP-ASN)]
+# LINE Corporation 的自有网络。
+# 这是保障语音/视频通话不掉线的关键。
+# =======================================================
+
+# AS38091: LINE Corporation (核心节点)
+IP-ASN,38091
+
+# AS23999: NAVER Business Platform (后端基础设施)
+# LINE 的数据大量存储在母公司/关联公司 NAVER 的服务器上
+IP-ASN,23999
