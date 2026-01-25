@@ -49,7 +49,31 @@ DOMAIN-KEYWORD, ttcdn
 DOMAIN-KEYWORD, tiktokcdn
 
 
+# --- TikTok LIVE Video Stream FIX ---
+DOMAIN-SUFFIX, live.tiktokcdn.com
+DOMAIN-SUFFIX, live-alisg.tiktokcdn.com
+DOMAIN-SUFFIX, live-ttcdn-us.tiktokcdn.com
+DOMAIN-SUFFIX, live-ttcdn-eu.tiktokcdn.com
 
+DOMAIN-SUFFIX, pull-f5-tt01.tiktokcdn.com
+DOMAIN-SUFFIX, pull-f5-tt02.tiktokcdn.com
+DOMAIN-SUFFIX, pull-f5-tt03.tiktokcdn.com
+
+DOMAIN-SUFFIX, pull-hls-l1-tt01.tiktokcdn.com
+DOMAIN-SUFFIX, pull-hls-l1-tt02.tiktokcdn.com
+DOMAIN-SUFFIX, pull-hls-l1-tt03.tiktokcdn.com
+
+DOMAIN-SUFFIX, pull-flv-l1-tt01.tiktokcdn.com
+DOMAIN-SUFFIX, pull-flv-l1-tt02.tiktokcdn.com
+DOMAIN-SUFFIX, pull-flv-l1-tt03.tiktokcdn.com
+
+DOMAIN-SUFFIX, sf16-live-ttcdn-tos.pstatp.com
+DOMAIN-SUFFIX, sf19-live-ttcdn-tos.pstatp.com
+DOMAIN-SUFFIX, sf77-live-ttcdn-tos.pstatp.com
+
+DOMAIN-KEYWORD, live-ttcdn
+DOMAIN-KEYWORD, pull-hls
+DOMAIN-KEYWORD, pull-flv
 
 # ==================================
 # 1. 指定域名 (Specific Domains - Akamai/Edge)
