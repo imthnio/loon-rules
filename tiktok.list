@@ -53,8 +53,7 @@ DOMAIN-SUFFIX, isnssdk.com
 DOMAIN-SUFFIX, sgsnssdk.com
 DOMAIN-SUFFIX, ipstatp.com
 DOMAIN-SUFFIX, sgpstatp.com
-# [注意] snssdk.com 包含国内业务，若国内应用卡顿请检查此条
-DOMAIN-SUFFIX, snssdk.com 
+ 
 
 # ==================================
 # 4. 子品牌 App (Lemon8 / CapCut / Trae)
@@ -105,6 +104,109 @@ DOMAIN-SUFFIX, ttoversea.net
 DOMAIN-SUFFIX, ttoverseaus.net
 DOMAIN-SUFFIX, resso.com
 DOMAIN-SUFFIX, resso.app
+
+DOMAIN-SUFFIX, tiktokapis.com
+DOMAIN-SUFFIX, tiktokrow.com
+DOMAIN-SUFFIX, tiktokapi.com
+DOMAIN-SUFFIX, tiktokapi-us.com
+DOMAIN-SUFFIX, tiktokapi-eu.com
+DOMAIN-SUFFIX, tiktokapiv2.com
+DOMAIN-SUFFIX, tiktokpush.com
+DOMAIN-SUFFIX, tiktoknotify.com
+DOMAIN-SUFFIX, tiktokmessenger.com
+
+DOMAIN-SUFFIX, tiktoklive.com
+DOMAIN-SUFFIX, tiktokliveapi.com
+DOMAIN-SUFFIX, tiktokliveshop.com
+
+DOMAIN-SUFFIX, tiktokglobalshop.com
+DOMAIN-SUFFIX, tiktokshopping.com
+DOMAIN-SUFFIX, tiktokcreator.com
+DOMAIN-SUFFIX, tiktokforbusiness.com
+DOMAIN-SUFFIX, tiktokads.com
+DOMAIN-SUFFIX, tiktokcdn-live.com
+DOMAIN-SUFFIX, tiktokcdn-live-edge.net
+DOMAIN-SUFFIX, tiktokcdn-ttlive.com
+DOMAIN-SUFFIX, tiktokcdn-edgesuite.net
+
+DOMAIN-SUFFIX, tiktokcdn-asia.com
+DOMAIN-SUFFIX, tiktokcdn-ap.com
+DOMAIN-SUFFIX, tiktokcdn-jp.com
+DOMAIN-SUFFIX, tiktokcdn-sg.com
+DOMAIN-SUFFIX, tiktokcdn-kr.com
+DOMAIN-SUFFIX, tiktokcdn-emea.com
+DOMAIN-SUFFIX, tiktokcdn-na.com
+
+DOMAIN-SUFFIX, ttcdn.com
+DOMAIN-SUFFIX, ttcdn.co
+DOMAIN-KEYWORD, tos-eu
+DOMAIN-KEYWORD, tos-euwest
+DOMAIN-KEYWORD, tos-eunorth
+
+DOMAIN-KEYWORD, tos-use2
+DOMAIN-KEYWORD, tos-uswest
+
+DOMAIN-KEYWORD, tos-ap
+DOMAIN-KEYWORD, tos-apse
+DOMAIN-KEYWORD, tos-apne
+
+DOMAIN-KEYWORD, tos-sgp
+DOMAIN-KEYWORD, tos-jp
+DOMAIN-KEYWORD, tos-kr
+
+DOMAIN-KEYWORD, tos-emea
+DOMAIN-KEYWORD, tos-na
+DOMAIN-KEYWORD, tos-me
+DOMAIN-SUFFIX, byteapi.com
+DOMAIN-SUFFIX, byteintlapi.com
+
+DOMAIN-SUFFIX, byteoversea-apm.com
+DOMAIN-SUFFIX, byteapm.com
+DOMAIN-SUFFIX, bytedapm.net
+
+DOMAIN-SUFFIX, bytelogger.com
+DOMAIN-SUFFIX, bytelogger.net
+
+DOMAIN-SUFFIX, bytedns.com
+DOMAIN-SUFFIX, bytedns.net
+DOMAIN-SUFFIX, bytednsdoc.com
+
+DOMAIN-SUFFIX, bytedcdn.com
+DOMAIN-SUFFIX, bytetcdn.com
+DOMAIN-SUFFIX, bytefcdn.com
+DOMAIN-SUFFIX, capcut.com
+DOMAIN-SUFFIX, capcutapi.com
+DOMAIN-SUFFIX, capcutcdn.com
+DOMAIN-SUFFIX, capcutapp.com
+DOMAIN-SUFFIX, capcutvideo.com
+DOMAIN-SUFFIX, capcutmedia.com
+DOMAIN-SUFFIX, capcutassets.com
+DOMAIN-SUFFIX, capcutcloud.com
+DOMAIN-SUFFIX, capcutpro.com
+DOMAIN-SUFFIX, capcuttemplates.com
+DOMAIN-SUFFIX, lemon8-app.com
+DOMAIN-SUFFIX, lemon8api.com
+DOMAIN-SUFFIX, lemon8cdn.com
+DOMAIN-SUFFIX, lemon8cdn.net
+DOMAIN-SUFFIX, lemon8static.com
+DOMAIN-SUFFIX, lemon8media.com
+DOMAIN-SUFFIX, lemon8cloud.com
+DOMAIN-SUFFIX, lemon8img.com
+DOMAIN-SUFFIX, trae.ai
+DOMAIN-SUFFIX, traeapi.com
+DOMAIN-SUFFIX, trae-cdn.com
+DOMAIN-SUFFIX, traecloud.com
+DOMAIN-SUFFIX, traeinfra.com
+
+DOMAIN-SUFFIX, marscode.com
+DOMAIN-SUFFIX, marscodeapi.com
+DOMAIN-SUFFIX, marscodecdn.com
+DOMAIN-SUFFIX, marscodecloud.com
+DOMAIN-SUFFIX, marscodeinfra.com
+
+
+
+
 USER-AGENT, Resso*
 USER-AGENT,TikTok*
 USER-AGENT,musical.ly*
