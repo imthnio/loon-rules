@@ -1,214 +1,201 @@
-# ==================================
-# NAME: Meta Ecosystem Comprehensive
-# DESCRIPTION: Facebook, Instagram, WhatsApp, Threads, Oculus & Infra
-# UPDATED: 2026-01-22
-# ==================================
-
-# ----------------------------------
-# 1. Instagram & Threads
-# ----------------------------------
-# Core
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,instagr.am
-DOMAIN-SUFFIX,threads.net
-DOMAIN-SUFFIX,threads.instagram.com
-DOMAIN-SUFFIX,ig.me
-
-# APIs & Graph
-DOMAIN-SUFFIX,i.instagram.com
-DOMAIN-SUFFIX,api.instagram.com
-DOMAIN-SUFFIX,graph.instagram.com
-DOMAIN-SUFFIX,pro-api.instagram.com
-DOMAIN-SUFFIX,edge-chat.instagram.com
-
-# CDN & Static (Fix Reels/Images)
-DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,cdninstagram.net
-DOMAIN-SUFFIX,instagramcdn.net
-DOMAIN-SUFFIX,instagramstatic.com
-DOMAIN-SUFFIX,scontent.cdninstagram.com
-
-# Instagram 视频 CDN
-DOMAIN-SUFFIX,video.cdninstagram.com
-
-# Instagram scontent 变体(用于图片和视频)
-DOMAIN-SUFFIX,scontent-a.cdninstagram.com
-DOMAIN-SUFFIX,scontent-b.cdninstagram.com
-DOMAIN-KEYWORD,scontent.cdninstagram
-
-# Instagram 聊天和 Portal
-DOMAIN-SUFFIX,z-p42-chat-e2ee-ig.facebook.com
-DOMAIN-SUFFIX,z-p42-chat-e2ee-ig-fallback.facebook.com
-DOMAIN-SUFFIX,mqtt-ig-p4.facebook.com
-DOMAIN-SUFFIX,z-p3-instagram-portal.fb.com
-DOMAIN-SUFFIX,z-p42-instagram-portal.fb.com
-
-# Instagram 其他域名
-DOMAIN-SUFFIX,igsonar.com
-
-# Keywords (Video Streams)
-DOMAIN-KEYWORD,cdninstagram
-DOMAIN-KEYWORD,graph-video
-
-# ----------------------------------
-# 2. Facebook Core & Infrastructure
-# ----------------------------------
-# Primary Domains
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,facebook.net
-DOMAIN-SUFFIX,fb.com
-DOMAIN-SUFFIX,fb.me
-DOMAIN-SUFFIX,fb.gg
-DOMAIN-SUFFIX,meta.com
-DOMAIN-SUFFIX,facebook-dns.com
-DOMAIN-SUFFIX,m.me
-
-# Facebook scontent 变体(非常重要!)
-DOMAIN-KEYWORD,scontent
-DOMAIN-KEYWORD,scontent.xx.fbcdn
-
-# Facebook 特定的 CDN 子域
-DOMAIN-SUFFIX,scontent.xx.fbcdn.net
-DOMAIN-SUFFIX,scontent.fallback.xx.fbcdn.net
-DOMAIN-SUFFIX,external.xx.fbcdn.net
-DOMAIN-SUFFIX,sphotos.xx.fbcdn.net
-
-# Facebook 其他 CDN
-DOMAIN-SUFFIX,fna.fbcdn.net
-
-# Core Infrastructure (CRITICAL)
-DOMAIN-SUFFIX,tfbnw.net
-DOMAIN-SUFFIX,fbsbx.com
-DOMAIN-SUFFIX,lookaside.facebook.com
-DOMAIN-SUFFIX,edge-mqtt.facebook.com
-
-# CDN & Media
-DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,fbcdn.com
-DOMAIN-SUFFIX,fna.fbcdn.net
-DOMAIN-SUFFIX,xyzcdn.net
-DOMAIN-SUFFIX,atlassolutions.com
-DOMAIN-KEYWORD,fbcdn
-DOMAIN-KEYWORD,fbsbx
-
-# Auth, Developers & Third-Party
-DOMAIN-SUFFIX,accounts.facebook.com
-DOMAIN-SUFFIX,developers.facebook.com
-DOMAIN-SUFFIX,connect.facebook.net
-DOMAIN-SUFFIX,accountkit.com
-DOMAIN-SUFFIX,graph.facebook.com
-DOMAIN-SUFFIX,signal.facebook.com
-DOMAIN-SUFFIX,fbthirdpartypixels.com
-
-# ----------------------------------
-# 3. WhatsApp
-# ----------------------------------
-DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,whatsapp.net
-DOMAIN-SUFFIX,whatsapp.org
-DOMAIN-SUFFIX,wa.me
-DOMAIN-SUFFIX,web.whatsapp.com
-DOMAIN-SUFFIX,api.whatsapp.com
-DOMAIN-SUFFIX,g.whatsapp.net
-DOMAIN-SUFFIX,static.whatsapp.net
-DOMAIN-SUFFIX,cdn.whatsapp.net
-DOMAIN-SUFFIX,mmx-ds.cdn.whatsapp.net
-
-# ----------------------------------
-# 4. Messenger & Workplace
-# ----------------------------------
-DOMAIN-SUFFIX,messenger.com
-DOMAIN-SUFFIX,workplace.com
-DOMAIN-SUFFIX,workplace.fb.com
-
-# ----------------------------------
-# 5. Oculus / VR
-# ----------------------------------
-DOMAIN-SUFFIX,oculus.com
-DOMAIN-SUFFIX,oculuscdn.com
-DOMAIN-SUFFIX,metaquest.com
-
-# ----------------------------------
-# 6. User-Agent (App Fingerprints)
-# ----------------------------------
-# Core Apps
-USER-AGENT,Facebook*
-USER-AGENT,Instagram*
-USER-AGENT,WhatsApp*
-USER-AGENT,Threads*
-USER-AGENT,Messenger*
-
-# Internal IDs
-USER-AGENT,FBAN*
-USER-AGENT,FBAV*
-USER-AGENT,FB*
-USER-AGENT,IG*
-
-# SDKs & Low-Level Libs
-USER-AGENT,FBiOSSDK*
-USER-AGENT,Meta*
-USER-AGENT,Bolts*
-USER-AGENT,Oculus*
-USER-AGENT,CFNetwork*
-
-# ----------------------------------
-# 7. IP-ASN (Best for Meta)
-# ----------------------------------
-# Meta Platforms, Inc. (AS32934)
-IP-ASN,32934,no-resolve
-
-# ----------------------------------
-# 8. IP-CIDR (Fallback for AS32934)
-# ----------------------------------
-# Meta Main Blocks (Rule Set Format)
-IP-CIDR,31.13.24.0/21,no-resolve
-IP-CIDR,31.13.64.0/18,no-resolve
-IP-CIDR,45.64.40.0/22,no-resolve
-IP-CIDR,57.144.0.0/16,no-resolve
-IP-CIDR,66.220.144.0/20,no-resolve
-IP-CIDR,69.63.176.0/20,no-resolve
-IP-CIDR,69.171.224.0/19,no-resolve
-IP-CIDR,74.119.76.0/22,no-resolve
-IP-CIDR,103.4.96.0/22,no-resolve
-IP-CIDR,129.134.0.0/16,no-resolve
-IP-CIDR,157.240.0.0/16,no-resolve
-IP-CIDR,173.252.64.0/18,no-resolve
-IP-CIDR,179.60.192.0/22,no-resolve
-IP-CIDR,185.60.216.0/22,no-resolve
-IP-CIDR,204.15.20.0/22,no-resolve
-
-
-PROCESS-NAME,com.facebook.katana
-PROCESS-NAME,com.facebook.orca
-PROCESS-NAME,com.instagram.android
-PROCESS-NAME,com.whatsapp
-PROCESS-NAME,com.whatsapp.w4b
-PROCESS-NAME,com.instagram.barcelona
-PROCESS-NAME,com.facebook.pages.app
-PROCESS-NAME,com.facebook.Facebook
-PROCESS-NAME,com.facebook.Messenger
-PROCESS-NAME,com.burbn.instagram
-PROCESS-NAME,net.whatsapp.WhatsApp
-PROCESS-NAME,com.burbn.barcelona
-PROCESS-NAME,Facebook
-
-PROCESS-NAME,WhatsApp
-PROCESS-NAME,Threads
-
-PROCESS-NAME,com.burbn.instagram
-PROCESS-NAME,com.instagram.android
-PROCESS-NAME,com.instagram.lite
-PROCESS-NAME,com.instagram.layout
-PROCESS-NAME,Instagram
-PROCESS-NAME,Instagram.exe
-
-
-
-USER-AGENT,Facebook*
-USER-AGENT,FBAV*
-USER-AGENT,FBAN*
-USER-AGENT,Instagram*
-USER-AGENT,WhatsApp*
-USER-AGENT,Threads*
-USER-AGENT,Messenger*
-USER-AGENT,Oculus*
+DOMAIN-SUFFIX, instagram.com
+DOMAIN-SUFFIX, instagr.am
+DOMAIN-SUFFIX, ig.me
+DOMAIN-SUFFIX, threads.net
+DOMAIN-SUFFIX, threads.instagram.com
+DOMAIN-SUFFIX, barcelona.instagram.com
+APIs / Graph / Upload / Reels
+DOMAIN-SUFFIX, i.instagram.com
+DOMAIN-SUFFIX, api.instagram.com
+DOMAIN-SUFFIX, api-ig.instagram.com
+DOMAIN-SUFFIX, graphql.instagram.com
+DOMAIN-SUFFIX, graph.instagram.com
+DOMAIN-SUFFIX, graph-video.instagram.com
+DOMAIN-SUFFIX, web.instagram.com
+DOMAIN-SUFFIX, upload.instagram.com
+DOMAIN-SUFFIX, api-upload.instagram.com
+DOMAIN-SUFFIX, notify.instagram.com
+DOMAIN-SUFFIX, direct.instagram.com
+DOMAIN-SUFFIX, reels.instagram.com
+DOMAIN-SUFFIX, stories.instagram.com
+DOMAIN-SUFFIX, static.instagram.com
+DOMAIN-SUFFIX, pro-api.instagram.com
+DOMAIN-SUFFIX, edge-chat.instagram.com
+Threads API / Media
+DOMAIN-SUFFIX, threadsapi.com
+DOMAIN-SUFFIX, threadsusercontent.com
+DOMAIN-SUFFIX, threadsimg.com
+Instagram CDN / Media
+DOMAIN-SUFFIX, cdninstagram.com
+DOMAIN-SUFFIX, cdninstagram.net
+DOMAIN-SUFFIX, instagramcdn.net
+DOMAIN-SUFFIX, instagramstatic.com
+DOMAIN-SUFFIX, video.cdninstagram.com
+DOMAIN-SUFFIX, igcdn.com
+DOMAIN-SUFFIX, igcdn.net
+DOMAIN-SUFFIX, instagramvideo.com
+scontent (Instagram only)
+DOMAIN-SUFFIX, scontent.cdninstagram.com
+DOMAIN-SUFFIX, scontent-a.cdninstagram.com
+DOMAIN-SUFFIX, scontent-b.cdninstagram.com
+DOMAIN-KEYWORD, scontent.cdninstagram
+----------------------------------
+2. Facebook Core & Infrastructure
+----------------------------------
+Core Domains
+DOMAIN-SUFFIX, facebook.com
+DOMAIN-SUFFIX, facebook.net
+DOMAIN-SUFFIX, fb.com
+DOMAIN-SUFFIX, fb.me
+DOMAIN-SUFFIX, fb.gg
+DOMAIN-SUFFIX, meta.com
+DOMAIN-SUFFIX, m.me
+DOMAIN-SUFFIX, facebook-dns.com
+APIs / Graph / Upload
+DOMAIN-SUFFIX, api.facebook.com
+DOMAIN-SUFFIX, graph.facebook.com
+DOMAIN-SUFFIX, graphql.facebook.com
+DOMAIN-SUFFIX, graph-video.facebook.com
+DOMAIN-SUFFIX, upload.facebook.com
+DOMAIN-SUFFIX, b-api.facebook.com
+DOMAIN-SUFFIX, star.facebook.com
+DOMAIN-SUFFIX, star-mini.facebook.com
+DOMAIN-SUFFIX, star-upload.facebook.com
+DOMAIN-SUFFIX, signal.facebook.com
+DOMAIN-SUFFIX, gateway.facebook.com
+Edge / MQTT / Realtime
+DOMAIN-SUFFIX, edge-mqtt.facebook.com
+DOMAIN-SUFFIX, mqtt.facebook.com
+DOMAIN-SUFFIX, mqtt-mini.facebook.com
+DOMAIN-SUFFIX, edge-chat.facebook.com
+DOMAIN-SUFFIX, edge-star.facebook.com
+DOMAIN-SUFFIX, edge-upload.facebook.com
+Infra
+DOMAIN-SUFFIX, tfbnw.net
+DOMAIN-SUFFIX, fbsbx.com
+DOMAIN-SUFFIX, lookaside.facebook.com
+----------------------------------
+3. Facebook CDN / Media
+----------------------------------
+fbcdn / scontent
+DOMAIN-SUFFIX, fbcdn.net
+DOMAIN-SUFFIX, fbcdn.com
+DOMAIN-SUFFIX, fna.fbcdn.net
+DOMAIN-SUFFIX, external.xx.fbcdn.net
+DOMAIN-SUFFIX, sphotos.xx.fbcdn.net
+DOMAIN-SUFFIX, scontent.xx.fbcdn.net
+DOMAIN-SUFFIX, scontent.fallback.xx.fbcdn.net
+Rare fbcdn nodes (optional but safe)
+DOMAIN-SUFFIX, scontent-iad3-1.xx.fbcdn.net
+DOMAIN-SUFFIX, scontent-hkg4-1.xx.fbcdn.net
+DOMAIN-SUFFIX, scontent-nrt1-1.xx.fbcdn.net
+Keywords (precision only)
+DOMAIN-KEYWORD, fbcdn
+DOMAIN-KEYWORD, fbsbx
+DOMAIN-KEYWORD, scontent.xx.fbcdn
+----------------------------------
+4. WhatsApp
+----------------------------------
+DOMAIN-SUFFIX, whatsapp.com
+DOMAIN-SUFFIX, whatsapp.net
+DOMAIN-SUFFIX, whatsapp.org
+DOMAIN-SUFFIX, wa.me
+DOMAIN-SUFFIX, web.whatsapp.com
+DOMAIN-SUFFIX, api.whatsapp.com
+DOMAIN-SUFFIX, g.whatsapp.net
+DOMAIN-SUFFIX, static.whatsapp.net
+DOMAIN-SUFFIX, cdn.whatsapp.net
+Media / Voice / CDN
+DOMAIN-SUFFIX, mmx-ds.cdn.whatsapp.net
+DOMAIN-SUFFIX, mmg.whatsapp.net
+DOMAIN-SUFFIX, mmg-fna.whatsapp.net
+DOMAIN-SUFFIX, media.whatsapp.net
+DOMAIN-SUFFIX, media-cdn.whatsapp.net
+----------------------------------
+5. Messenger & Workplace
+----------------------------------
+DOMAIN-SUFFIX, messenger.com
+DOMAIN-SUFFIX, workplace.com
+DOMAIN-SUFFIX, workplace.fb.com
+DOMAIN-SUFFIX, edge-chat.messenger.com
+DOMAIN-SUFFIX, gateway.messenger.com
+----------------------------------
+6. Oculus / Quest / VR
+----------------------------------
+DOMAIN-SUFFIX, oculus.com
+DOMAIN-SUFFIX, oculuscdn.com
+DOMAIN-SUFFIX, metaquest.com
+----------------------------------
+7. User-Agent (Meta Apps)
+----------------------------------
+USER-AGENT, Facebook*
+USER-AGENT, FBAN*
+USER-AGENT, FBAV*
+USER-AGENT, FB*
+USER-AGENT, FBSS*
+USER-AGENT, FBMD*
+USER-AGENT, FBSV*
+USER-AGENT, FBCR*
+USER-AGENT, Instagram*
+USER-AGENT, IG*
+USER-AGENT, Threads*
+USER-AGENT, Barcelona*
+USER-AGENT, WhatsApp*
+USER-AGENT, Messenger*
+USER-AGENT, FBiOSSDK*
+USER-AGENT, Meta*
+USER-AGENT, Bolts*
+USER-AGENT, Oculus*
+USER-AGENT, CFNetwork*
+----------------------------------
+8. IP-ASN (Primary)
+----------------------------------
+IP-ASN, 32934, no-resolve
+----------------------------------
+9. IP-CIDR (Fallback Blocks)
+----------------------------------
+IP-CIDR, 31.13.24.0/21, no-resolve
+IP-CIDR, 31.13.64.0/18, no-resolve
+IP-CIDR, 45.64.40.0/22, no-resolve
+IP-CIDR, 57.144.0.0/16, no-resolve
+IP-CIDR, 66.220.144.0/20, no-resolve
+IP-CIDR, 69.63.176.0/20, no-resolve
+IP-CIDR, 69.171.224.0/19, no-resolve
+IP-CIDR, 74.119.76.0/22, no-resolve
+IP-CIDR, 103.4.96.0/22, no-resolve
+IP-CIDR, 129.134.0.0/16, no-resolve
+IP-CIDR, 157.240.0.0/16, no-resolve
+IP-CIDR, 173.252.64.0/18, no-resolve
+IP-CIDR, 179.60.192.0/22, no-resolve
+IP-CIDR, 185.60.216.0/22, no-resolve
+IP-CIDR, 204.15.20.0/22, no-resolve
+----------------------------------
+10. Process Name (Desktop / Mobile)
+----------------------------------
+PROCESS-NAME, com.facebook.katana
+PROCESS-NAME, com.facebook.orca
+PROCESS-NAME, com.facebook.pages.app
+PROCESS-NAME, com.facebook.Facebook
+PROCESS-NAME, com.facebook.Messenger
+PROCESS-NAME, com.instagram.android
+PROCESS-NAME, com.instagram.barcelona
+PROCESS-NAME, com.instagram.lite
+PROCESS-NAME, com.instagram.layout
+PROCESS-NAME, com.burbn.instagram
+PROCESS-NAME, com.burbn.barcelona
+PROCESS-NAME, com.whatsapp
+PROCESS-NAME, com.whatsapp.w4b
+PROCESS-NAME, net.whatsapp.WhatsApp
+PROCESS-NAME, Facebook
+PROCESS-NAME, Messenger
+PROCESS-NAME, Messenger.exe
+PROCESS-NAME, MetaMessenger.exe
+PROCESS-NAME, WhatsApp
+PROCESS-NAME, WhatsApp.exe
+PROCESS-NAME, WhatsAppDesktop.exe
+PROCESS-NAME, Instagram
+PROCESS-NAME, Instagram.exe
+PROCESS-NAME, Threads
+PROCESS-NAME, Threads.exe
+PROCESS-NAME, OculusClient.exe
+PROCESS-NAME, MetaQuest.exe
