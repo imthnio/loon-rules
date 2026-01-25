@@ -366,6 +366,10 @@ USER-AGENT,Fizzo*
 # ==================================
 IP-ASN,138699,no-resolve
 IP-ASN,396986,no-resolve
+IP-ASN,21859,no-resolve
+IP-ASN,174,no-resolve
+IP-ASN,3356,no-resolve
+IP-ASN,45903,no-resolve
 
 PROCESS-NAME,com.zhiliaoapp.musically
 PROCESS-NAME,com.ss.android.ugc.trill
