@@ -1,213 +1,212 @@
-######################################################
-########################gemini########################
-######################################################
-DOMAIN,ai.google.dev
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,makersuite.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,apis.google.com
-DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,developerprofiles
-DOMAIN-KEYWORD,generativelanguage
-
-# --- Google Main Services ---
-DOMAIN-SUFFIX,abc.xyz
-DOMAIN-SUFFIX,android.com
-DOMAIN-SUFFIX,androidify.com
-DOMAIN-SUFFIX,appspot.com
-DOMAIN-SUFFIX,autodraw.com
-DOMAIN-SUFFIX,blogblog.com
-DOMAIN-SUFFIX,blogger.com
-DOMAIN-SUFFIX,blogspot.com
-DOMAIN-SUFFIX,chrome.com
-DOMAIN-SUFFIX,chromium.org
-DOMAIN-SUFFIX,creativelab5.com
-DOMAIN-SUFFIX,debug.com
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,dialogflow.com
-DOMAIN-SUFFIX,firebaseio.com
-DOMAIN-SUFFIX,flutter.dev
-DOMAIN-SUFFIX,getmdl.io
-DOMAIN-SUFFIX,g.co
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,gmail.com
-DOMAIN-SUFFIX,gmodules.com
-DOMAIN-SUFFIX,godoc.org
-DOMAIN-SUFFIX,golang.org
-DOMAIN-SUFFIX,google.cn
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,google.com.hk
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,googlecnguide.com
-DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,googlezip.net
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,gstatic.cn
-DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,iterative.com
-DOMAIN-SUFFIX,k8s.io
-DOMAIN-SUFFIX,kaggle.io
-DOMAIN-SUFFIX,material.io
-DOMAIN-SUFFIX,pki.goog
-DOMAIN-SUFFIX,recaptcha.net
-DOMAIN-SUFFIX,schema.org
-DOMAIN-SUFFIX,signal.org
-DOMAIN-SUFFIX,tenor.com
-DOMAIN-SUFFIX,tensor.dev
-DOMAIN-SUFFIX,tensorflow.org
-DOMAIN-SUFFIX,tfhub.dev
-DOMAIN-SUFFIX,tiltbrush.com
-DOMAIN-SUFFIX,waveprotocol.org
-DOMAIN-SUFFIX,waymo.com
-DOMAIN-SUFFIX,webmproject.org
-DOMAIN-SUFFIX,webrtc.org
-DOMAIN-SUFFIX,widevine.com
-DOMAIN-SUFFIX,x.company
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-
-# --- Google Voice & Realtime ---
-DOMAIN-SUFFIX,telephony.goog
-DOMAIN,lens.l.google.com
-
-# --- Google Earth & Maps ---
-DOMAIN-SUFFIX,googleearth.com
-DOMAIN-SUFFIX,kh.google.com
-DOMAIN-SUFFIX,khm.google.com
-
-# --- AMP & Web Infrastructure ---
-DOMAIN-SUFFIX,amp.dev
-DOMAIN-SUFFIX,ampproject.org
-DOMAIN-SUFFIX,1e100.net
-DOMAIN-SUFFIX,2mdn.net
-DOMAIN-SUFFIX,app-measurement.com
-DOMAIN-SUFFIX,app-measurement.net
-DOMAIN-SUFFIX,dns.google
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,googletagservices.com
-
-
-
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,yt3.ggpht.com
-DOMAIN-SUFFIX,youtubeeducation.com
-DOMAIN,youtubei.googleapis.com
-DOMAIN,youtube.googleapis.com
-
-
-DOMAIN-SUFFIX,firebase.com
-DOMAIN-SUFFIX,firebaseapp.com
-
-DOMAIN-SUFFIX,page.link
-DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,google.ai
-
-
-DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,gemini
-DOMAIN-KEYWORD,youtube
-
-############################################################
-#########################IP-ASN############################
-############################################################
-IP-ASN,15169,no-resolve
-IP-ASN,396982,no-resolve
-IP-ASN,36040,no-resolve
-IP-ASN,19527,no-resolve
-IP-ASN,16591,no-resolve
-
-
-############################################################
-#########################IP-CIDR############################
-############################################################
-IP-CIDR,8.8.8.8/32,no-resolve
-IP-CIDR,8.8.4.4/32,no-resolve
-IP-CIDR,2001:4860:4860::8888/128,no-resolve
-IP-CIDR,2001:4860:4860::8844/128,no-resolve
-IP-CIDR,172.217.0.0/16,no-resolve
-IP-CIDR,142.250.0.0/15,no-resolve
-IP-CIDR,216.58.192.0/19,no-resolve
-IP-CIDR,173.194.0.0/16,no-resolve
-IP-CIDR,74.125.0.0/16,no-resolve
-IP-CIDR,64.233.160.0/19,no-resolve
-
-# --- User Agents ---
-USER-AGENT,Google*
-USER-AGENT,GoogleVoice*
-USER-AGENT,Youtube*
-USER-AGENT,Gmail*
-USER-AGENT,com.google.android.gm*
-USER-AGENT,com.google.ios.youtube*
-USER-AGENT, com.google.android.youtube*
-USER-AGENT,Chrome*
-USER-AGENT,GSA*
+1. Gemini / Bard / Generative AI (Web + App)
+--------------------------------------------------
+DOMAIN, ai.google.dev
+DOMAIN-SUFFIX, gemini.google.com
+DOMAIN-SUFFIX, gemini.google
+DOMAIN-SUFFIX, bard.google.com
+DOMAIN-SUFFIX, bard.google
+DOMAIN-SUFFIX, google.ai
+DOMAIN-SUFFIX, ai.google
+DOMAIN-SUFFIX, labs.google
+DOMAIN-SUFFIX, assistant.google
+DOMAIN-SUFFIX, proactivebackend.googleapis.com
+DOMAIN-SUFFIX, proactivebackend-pa.googleapis.com
+Internal UI / Content
+DOMAIN-SUFFIX, geminiusercontent.com
+DOMAIN-SUFFIX, bardusercontent.com
+DOMAIN-SUFFIX, gemini-static.googleusercontent.com
+DOMAIN-SUFFIX, bard-static.googleusercontent.com
+--------------------------------------------------
+2. Gemini / Bard / Generative AI APIs
+--------------------------------------------------
+DOMAIN-SUFFIX, generativelanguage.googleapis.com
+DOMAIN-SUFFIX, gemini.googleapis.com
+DOMAIN-SUFFIX, ai.googleapis.com
+DOMAIN-SUFFIX, makersuite.googleapis.com
+DOMAIN-SUFFIX, makersuite-pa.googleapis.com
+DOMAIN-SUFFIX, vertexai.googleapis.com
+DOMAIN-SUFFIX, aiplatform.googleapis.com
+DOMAIN-SUFFIX, notebooks.googleapis.com
+DOMAIN-SUFFIX, colab.googleapis.com
+DOMAIN-SUFFIX, colab.research.google.com
+PA / Enterprise / Workspace
+DOMAIN-SUFFIX, gemini-pa.googleapis.com
+DOMAIN-SUFFIX, bard-pa.googleapis.com
+DOMAIN-SUFFIX, ai-pa.googleapis.com
+Experimental / A-B
+DOMAIN-SUFFIX, gemini-exp.googleapis.com
+DOMAIN-SUFFIX, bard-exp.googleapis.com
+DOMAIN-SUFFIX, ai-exp.googleapis.com
+Control / Orchestration
+DOMAIN-SUFFIX, aipipeline.googleapis.com
+DOMAIN-SUFFIX, aiops.googleapis.com
+DOMAIN-SUFFIX, aischedule.googleapis.com
+DOMAIN-SUFFIX, aiexecutor.googleapis.com
+--------------------------------------------------
+3. Google AI / Dev Platforms
+--------------------------------------------------
+DOMAIN-SUFFIX, cloud.google.com
+DOMAIN-SUFFIX, console.cloud.google.com
+DOMAIN-SUFFIX, developers.google.com
+DOMAIN-SUFFIX, research.google
+DOMAIN-SUFFIX, research.google.com
+DOMAIN-SUFFIX, kaggle.com
+DOMAIN-SUFFIX, kaggleusercontent.com
+DOMAIN-SUFFIX, colab.googleusercontent.com
+DOMAIN-SUFFIX, colab.google.com
+DOMAIN-SUFFIX, notebooks.google.com
+DOMAIN-SUFFIX, storage.googleapis.com
+DOMAIN-SUFFIX, artifacts.googleapis.com
+--------------------------------------------------
+4. YouTube (Web / App / API / CDN)
+--------------------------------------------------
+DOMAIN-SUFFIX, youtube.com
+DOMAIN-SUFFIX, m.youtube.com
+DOMAIN-SUFFIX, music.youtube.com
+DOMAIN-SUFFIX, studio.youtube.com
+DOMAIN-SUFFIX, youtu.be
+DOMAIN-SUFFIX, youtube-nocookie.com
+DOMAIN, youtube.googleapis.com
+DOMAIN, youtubei.googleapis.com
+DOMAIN-SUFFIX, youtubei.googleusercontent.com
+DOMAIN-SUFFIX, ytimg.com
+DOMAIN-SUFFIX, yt3.ggpht.com
+DOMAIN-SUFFIX, ytsimg.com
+DOMAIN-SUFFIX, googlevideo.com
+DOMAIN-SUFFIX, redirector.googlevideo.com
+DOMAIN-SUFFIX, youtube-ui.l.google.com
+--------------------------------------------------
+5. Google Core Domains / Services
+--------------------------------------------------
+DOMAIN-SUFFIX, google.com
+DOMAIN-SUFFIX, www.google.com
+DOMAIN-SUFFIX, google.com.hk
+DOMAIN-SUFFIX, google.cn
+DOMAIN-SUFFIX, googleapis.com
+DOMAIN-SUFFIX, googleapis.cn
+DOMAIN-SUFFIX, googleusercontent.com
+DOMAIN-SUFFIX, gstatic.com
+DOMAIN-SUFFIX, gstatic.cn
+DOMAIN-SUFFIX, gvt0.com
+DOMAIN-SUFFIX, gvt1.com
+DOMAIN-SUFFIX, gvt2.com
+DOMAIN-SUFFIX, gvt3.com
+DOMAIN-SUFFIX, 1e100.net
+DOMAIN-SUFFIX, 2mdn.net
+DOMAIN-SUFFIX, clients1.google.com
+DOMAIN-SUFFIX, clients2.google.com
+DOMAIN-SUFFIX, clients4.google.com
+DOMAIN-SUFFIX, clients6.google.com
+Fonts / Images
+DOMAIN-SUFFIX, fonts.googleapis.com
+DOMAIN-SUFFIX, fonts.gstatic.com
+DOMAIN-SUFFIX, lh3.googleusercontent.com
+DOMAIN-SUFFIX, lh4.googleusercontent.com
+DOMAIN-SUFFIX, lh5.googleusercontent.com
+DOMAIN-SUFFIX, lh6.googleusercontent.com
+Short / Redirect
+DOMAIN-SUFFIX, goo.gl
+DOMAIN-SUFFIX, page.link
+--------------------------------------------------
+6. Google Infra / Ads / Web Platform
+--------------------------------------------------
+DOMAIN-SUFFIX, appspot.com
+DOMAIN-SUFFIX, firebase.com
+DOMAIN-SUFFIX, firebaseio.com
+DOMAIN-SUFFIX, firebaseapp.com
+DOMAIN-SUFFIX, doubleclick.net
+DOMAIN-SUFFIX, google-analytics.com
+DOMAIN-SUFFIX, googleadservices.com
+DOMAIN-SUFFIX, googlesyndication.com
+DOMAIN-SUFFIX, googletagmanager.com
+DOMAIN-SUFFIX, googletagservices.com
+DOMAIN-SUFFIX, dns.google
+DOMAIN-SUFFIX, recaptcha.net
+--------------------------------------------------
+7. IP-ASN (Primary)
+--------------------------------------------------
+IP-ASN, 15169, no-resolve # Google
+IP-ASN, 396982, no-resolve # Google LLC
+IP-ASN, 36040, no-resolve
+IP-ASN, 19527, no-resolve
+IP-ASN, 16591, no-resolve
+IP-ASN, 41264, no-resolve # Google Edge / AI
+IP-ASN, 36384, no-resolve # Google Cloud Edge
+--------------------------------------------------
+8. IP-CIDR (Fallback Core Blocks)
+--------------------------------------------------
+IP-CIDR, 8.8.8.8/32, no-resolve
+IP-CIDR, 8.8.4.4/32, no-resolve
+IP-CIDR, 2001:4860:4860::8888/128, no-resolve
+IP-CIDR, 2001:4860:4860::8844/128, no-resolve
+IP-CIDR, 172.217.0.0/16, no-resolve
+IP-CIDR, 142.250.0.0/15, no-resolve
+IP-CIDR, 216.58.192.0/19, no-resolve
+IP-CIDR, 173.194.0.0/16, no-resolve
+IP-CIDR, 74.125.0.0/16, no-resolve
+IP-CIDR, 64.233.160.0/19, no-resolve
+--------------------------------------------------
+9. User-Agent (Gemini / Google Apps)
+--------------------------------------------------
+USER-AGENT, Google*
+USER-AGENT, GoogleApp*
+USER-AGENT, GSA*
+USER-AGENT, Gemini*
+USER-AGENT, GoogleGemini*
+USER-AGENT, Bard*
+USER-AGENT, GoogleBard*
+USER-AGENT, GoogleAI*
+USER-AGENT, MakerSuite*
+USER-AGENT, Chrome*
+USER-AGENT, Gmail*
+USER-AGENT, Youtube*
+USER-AGENT, YouTubeMusic*
 USER-AGENT, Drive*
-USER-AGENT,GoogleDrive*
-USER-AGENT,com.google.android.apps.docs*
-USER-AGENT,GooglePhotos*
-USER-AGENT,Photos*
-USER-AGENT,GoogleMaps*
-USER-AGENT,com.google.android.apps.maps*
-USER-AGENT,GoogleVoice*
+USER-AGENT, GoogleDrive*
+USER-AGENT, Photos*
+USER-AGENT, GooglePhotos*
+USER-AGENT, GoogleMaps*
+USER-AGENT, GoogleVoice*
 USER-AGENT, GooglePay*
 USER-AGENT, AndroidPay*
 USER-AGENT, GPay*
-USER-AGENT, YouTubeMusic*
-USER-AGENT, com.google.android.apps.youtube.music*
-USER-AGENT, com.google.ios.youtubemusic*
-USER-AGENT,gemini*
-USER-AGENT,GoogleApp*
-USER-AGENT,Bard*
-
-PROCESS-NAME,com.google.android.googlequicksearchbox
-PROCESS-NAME,com.google.GoogleMobile
-PROCESS-NAME,com.android.chrome
-PROCESS-NAME,com.google.chrome.ios
-PROCESS-NAME,com.google.Chrome
-PROCESS-NAME,com.google.android.gm
-PROCESS-NAME,com.google.Gmail
-PROCESS-NAME,com.google.android.apps.maps
-PROCESS-NAME,com.google.Maps
-PROCESS-NAME,com.google.android.apps.photos
-PROCESS-NAME,com.google.Photos
-PROCESS-NAME,com.google.android.apps.docs
-PROCESS-NAME,com.google.Drive
-PROCESS-NAME,com.google.android.youtube
-PROCESS-NAME,com.google.ios.youtube
-PROCESS-NAME,com.google.android.gms
-PROCESS-NAME,Google Chrome
-PROCESS-NAME,Google Drive
-PROCESS-NAME,GoogleSoftwareUpdateAgent
-PROCESS-NAME,ksadmin
-PROCESS-NAME,Chrome
-PROCESS-NAME,GoogleDriveFS
-PROCESS-NAME,Google Earth
-PROCESS-NAME,com.google.android.apps.gemini
-PROCESS-NAME,com.google.android.apps.bard
-PROCESS-NAME,com.google.GoogleMobile
-PROCESS-NAME,Gemini
-PROCESS-NAME,com.google.android.youtube
-PROCESS-NAME,com.google.ios.youtube
-PROCESS-NAME,com.google.android.apps.youtube.music
-PROCESS-NAME,com.google.ios.youtubemusic
-PROCESS-NAME,com.google.android.apps.youtube.kids
-PROCESS-NAME,com.google.ios.youtubekids
-PROCESS-NAME,com.google.android.apps.youtube.creator
-PROCESS-NAME,com.google.ios.youtubecreator
-PROCESS-NAME,YouTube
-PROCESS-NAME,YouTube Music
+--------------------------------------------------
+10. Process Name (Mobile / Desktop / PWA)
+--------------------------------------------------
+PROCESS-NAME, com.google.android.apps.gemini
+PROCESS-NAME, com.google.android.apps.bard
+PROCESS-NAME, com.google.android.apps.generativeai
+PROCESS-NAME, com.google.android.apps.aiassistant
+PROCESS-NAME, com.google.android.googlequicksearchbox
+PROCESS-NAME, com.google.GoogleMobile
+PROCESS-NAME, com.android.chrome
+PROCESS-NAME, com.google.chrome.ios
+PROCESS-NAME, com.google.Chrome
+PROCESS-NAME, com.google.android.gm
+PROCESS-NAME, com.google.Gmail
+PROCESS-NAME, com.google.android.apps.maps
+PROCESS-NAME, com.google.Maps
+PROCESS-NAME, com.google.android.apps.photos
+PROCESS-NAME, com.google.Photos
+PROCESS-NAME, com.google.android.apps.docs
+PROCESS-NAME, com.google.Drive
+PROCESS-NAME, com.google.android.youtube
+PROCESS-NAME, com.google.ios.youtube
+PROCESS-NAME, com.google.android.apps.youtube.music
+PROCESS-NAME, com.google.ios.youtubemusic
+PROCESS-NAME, com.google.android.apps.youtube.kids
+PROCESS-NAME, com.google.ios.youtubekids
+PROCESS-NAME, com.google.android.apps.youtube.creator
+PROCESS-NAME, com.google.ios.youtubecreator
+PROCESS-NAME, Google Chrome
+PROCESS-NAME, Chrome
+PROCESS-NAME, GoogleDriveFS
+PROCESS-NAME, Google Earth
+PROCESS-NAME, GoogleSoftwareUpdateAgent
+PROCESS-NAME, ksadmin
+PROCESS-NAME, Gemini
+PROCESS-NAME, Gemini.exe
+PROCESS-NAME, Google Gemini
+PROCESS-NAME, Bard.exe
+PROCESS-NAME, YouTube
+PROCESS-NAME, YouTube Music
