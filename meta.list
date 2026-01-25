@@ -213,3 +213,8 @@ PROCESS-NAME, Threads
 PROCESS-NAME, Threads.exe
 PROCESS-NAME, OculusClient.exe
 PROCESS-NAME, MetaQuest.exe
+
+GEOIP,SG
+GEOIP,US
+GEOIP,DE
+GEOIP,UK
