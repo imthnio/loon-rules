@@ -39,6 +39,20 @@ DOMAIN-SUFFIX, scontent.cdninstagram.com
 DOMAIN-SUFFIX, scontent-a.cdninstagram.com
 DOMAIN-SUFFIX, scontent-b.cdninstagram.com
 DOMAIN-KEYWORD, scontent.cdninstagram
+
+
+# --- Reels Video Core ---
+DOMAIN-SUFFIX, video.cdninstagram.com
+DOMAIN-SUFFIX, edge-video.instagram.com
+DOMAIN-SUFFIX, reels-video.instagram.com
+
+# --- scontent Dynamic Video Nodes ---
+DOMAIN-KEYWORD, scontent-
+DOMAIN-KEYWORD, .cdninstagram.com
+
+# --- Instagram fbcdn Video Nodes ---
+DOMAIN-KEYWORD, instagram.
+DOMAIN-KEYWORD, .fbcdn.net
 ----------------------------------
 2. Facebook Core & Infrastructure
 ----------------------------------
