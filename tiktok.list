@@ -309,6 +309,38 @@ DOMAIN-SUFFIX, marscodeinfra.com
 
 
 
+# =================================================
+# TikTok LIVE CDN (FINAL FATAL FIX)
+# =================================================
+
+# --- Akamai Edge Live CDN ---
+DOMAIN-SUFFIX, pull-f5-tt01.tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX, pull-f5-tt02.tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX, pull-f5-tt03.tiktokcdn-com.akamaized.net
+
+DOMAIN-SUFFIX, pull-hls-l1-tt01.tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX, pull-hls-l1-tt02.tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX, pull-hls-l1-tt03.tiktokcdn-com.akamaized.net
+
+DOMAIN-SUFFIX, pull-flv-l1-tt01.tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX, pull-flv-l1-tt02.tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX, pull-flv-l1-tt03.tiktokcdn-com.akamaized.net
+
+# --- Mobile Variant Live CDN ---
+DOMAIN-SUFFIX, v16-live.tiktokcdn.com
+DOMAIN-SUFFIX, v19-live.tiktokcdn.com
+DOMAIN-SUFFIX, v77-live.tiktokcdn.com
+
+# --- Web Variant Live CDN ---
+DOMAIN-SUFFIX, v16-live-webapp.tiktokcdn.com
+DOMAIN-SUFFIX, v19-live-webapp.tiktokcdn.com
+DOMAIN-SUFFIX, v77-live-webapp.tiktokcdn.com
+
+# --- Keyword Rescue (Live Only) ---
+DOMAIN-KEYWORD, -live.tiktokcdn
+DOMAIN-KEYWORD, pull-f5
+DOMAIN-KEYWORD, live-webapp
+
 
 USER-AGENT, Resso*
 USER-AGENT,TikTok*
