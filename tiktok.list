@@ -3,6 +3,53 @@
 # DESCRIPTION: 包含 TikTok, CapCut, Lemon8, Trae, Giphy 及全量 CDN
 # NOTE: 已去重并分类整理，未删除任何原有规则
 # ==================================
+###补充
+# ===============================
+# TikTok Stickers / GIF (FIX)
+# ===============================
+
+# --- Sticker CDN ---
+DOMAIN-SUFFIX, tik-tokcdn.com
+DOMAIN-SUFFIX, tiktokcdn-live.com
+DOMAIN-SUFFIX, tiktokcdn-us.com
+DOMAIN-SUFFIX, tiktokcdn-eu.com
+DOMAIN-SUFFIX, tiktokcdn-g.com
+DOMAIN-SUFFIX, tiktokcdn-ig.com
+
+DOMAIN-SUFFIX, ttsticker.com
+DOMAIN-SUFFIX, tiktoksticker.com
+
+DOMAIN-SUFFIX, p16-tiktokcdn.com
+DOMAIN-SUFFIX, p19-tiktokcdn.com
+DOMAIN-SUFFIX, p77-tiktokcdn.com
+
+DOMAIN-SUFFIX, sf16-ttcdn-tos.pstatp.com
+DOMAIN-SUFFIX, sf19-ttcdn-tos.pstatp.com
+DOMAIN-SUFFIX, sf77-ttcdn-tos.pstatp.com
+
+DOMAIN-SUFFIX, tos-maliva.byted.org
+DOMAIN-SUFFIX, tos-maliva.bytedance.com
+DOMAIN-SUFFIX, tos-useast.bytedance.com
+DOMAIN-SUFFIX, tos-alisg.bytedance.com
+
+# --- Sticker Search API ---
+DOMAIN-SUFFIX, api16-normal-c-useast1a.tiktokv.com
+DOMAIN-SUFFIX, api16-normal-c-alisg.tiktokv.com
+DOMAIN-SUFFIX, api16-normal-c-useast2a.tiktokv.com
+DOMAIN-SUFFIX, api19-normal-c-useast1a.tiktokv.com
+DOMAIN-SUFFIX, api19-normal-c-alisg.tiktokv.com
+DOMAIN-SUFFIX, api77-normal-c-useast1a.tiktokv.com
+
+# --- Giphy (TikTok Sticker Dependency) ---
+DOMAIN-SUFFIX, media.giphy.com
+DOMAIN-SUFFIX, api.giphy.com
+
+# --- Keyword Rescue ---
+DOMAIN-KEYWORD, ttcdn
+DOMAIN-KEYWORD, tiktokcdn
+
+
+
 
 # ==================================
 # 1. 指定域名 (Specific Domains - Akamai/Edge)
