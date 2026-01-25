@@ -1,425 +1,80 @@
-# ==================================
-# NAME: TikTok & ByteDance Overseas Combined
-# DESCRIPTION: 包含 TikTok, CapCut, Lemon8, Trae, Giphy 及全量 CDN
-# NOTE: 已去重并分类整理，未删除任何原有规则
-# ==================================
-###补充
-# ===============================
-# TikTok Stickers / GIF (FIX)
-# ===============================
-# =================================================
-# TikTok Stickers CDN + API (FINAL CRITICAL FIX)
-# =================================================
+# =======================================================
+# 规则名称: TikTok & Lemon8 Ultimate (2026)
+# 核心逻辑: 域名全覆盖 + UA暴力匹配 + IP-ASN物理兜底
+# 适用 App: TikTok, Lemon8, CapCut (剪映国际版)
+# =======================================================
 
-# --- Mobile / Web Variant CDN ---
-DOMAIN-SUFFIX, v16m.tiktokcdn.com
-DOMAIN-SUFFIX, v19m.tiktokcdn.com
-DOMAIN-SUFFIX, v77m.tiktokcdn.com
+# [Part 1: Lemon8 专属域名 (New)]
+# 必须单独列出，因为它们不使用 tiktok 后缀
+DOMAIN-SUFFIX,lemon8-app.com
+DOMAIN-SUFFIX,bdurl.net
+DOMAIN-SUFFIX,jumplite.com
+DOMAIN-SUFFIX,viamaker.com
 
-DOMAIN-SUFFIX, v16-webapp.tiktokcdn.com
-DOMAIN-SUFFIX, v19-webapp.tiktokcdn.com
-DOMAIN-SUFFIX, v77-webapp.tiktokcdn.com
+# [Part 2: TikTok 核心域名 & 后缀]
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktok-shop.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,sgpstatp.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,tiktokd.net
+DOMAIN-SUFFIX,tiktokd.org
+DOMAIN-SUFFIX,tiktokmusic.app
+DOMAIN-SUFFIX,tiktokcdn-us.com
+DOMAIN-SUFFIX,tiktokv.us
+DOMAIN-SUFFIX,ttwebview.com
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,marscode.com
+DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,bytegecko-i18n.com
+DOMAIN-SUFFIX,byteintlapi.com
+DOMAIN-SUFFIX,bytedapm.com
 
-# --- Edge Image CDN ---
-DOMAIN-SUFFIX, img16.tiktokcdn.com
-DOMAIN-SUFFIX, img19.tiktokcdn.com
-DOMAIN-SUFFIX, img77.tiktokcdn.com
+# [Part 3: 共享 CDN & 静态资源]
+# 这些域名是 ByteDance 旗下 App 共用的
+DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+DOMAIN,lf16-pkgcdn.pitaya-clientai.com
+DOMAIN,p16-tiktokcdn-com.akamaized.net
+DOMAIN,trae-api-sg.mchost.guru
+DOMAIN,omgid.com
 
-# --- Akamai CDN Variants ---
-DOMAIN-SUFFIX, p16-tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX, p19-tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX, p77-tiktokcdn-com.akamaized.net
+# [Part 4: 关键字暴力匹配]
+DOMAIN-KEYWORD,tiktok
+DOMAIN-KEYWORD,musical.ly
+DOMAIN-KEYWORD,lemon8
 
-# --- Sticker Index API ---
-DOMAIN-SUFFIX, api16-sticker-useast1a.tiktokv.com
-DOMAIN-SUFFIX, api16-sticker-alisg.tiktokv.com
-DOMAIN-SUFFIX, api19-sticker-useast1a.tiktokv.com
-DOMAIN-SUFFIX, api19-sticker-alisg.tiktokv.com
-DOMAIN-SUFFIX, api77-sticker-useast1a.tiktokv.com
-
-# --- Keyword Rescue ---
-DOMAIN-KEYWORD, webapp
-DOMAIN-KEYWORD, -sticker-
-# --- Sticker CDN ---
-DOMAIN-SUFFIX, tik-tokcdn.com
-DOMAIN-SUFFIX, tiktokcdn-live.com
-DOMAIN-SUFFIX, tiktokcdn-us.com
-DOMAIN-SUFFIX, tiktokcdn-eu.com
-DOMAIN-SUFFIX, tiktokcdn-g.com
-DOMAIN-SUFFIX, tiktokcdn-ig.com
-
-DOMAIN-SUFFIX, ttsticker.com
-DOMAIN-SUFFIX, tiktoksticker.com
-
-DOMAIN-SUFFIX, p16-tiktokcdn.com
-DOMAIN-SUFFIX, p19-tiktokcdn.com
-DOMAIN-SUFFIX, p77-tiktokcdn.com
-
-DOMAIN-SUFFIX, sf16-ttcdn-tos.pstatp.com
-DOMAIN-SUFFIX, sf19-ttcdn-tos.pstatp.com
-DOMAIN-SUFFIX, sf77-ttcdn-tos.pstatp.com
-
-DOMAIN-SUFFIX, tos-maliva.byted.org
-DOMAIN-SUFFIX, tos-maliva.bytedance.com
-DOMAIN-SUFFIX, tos-useast.bytedance.com
-DOMAIN-SUFFIX, tos-alisg.bytedance.com
-
-# --- Sticker Search API ---
-DOMAIN-SUFFIX, api16-normal-c-useast1a.tiktokv.com
-DOMAIN-SUFFIX, api16-normal-c-alisg.tiktokv.com
-DOMAIN-SUFFIX, api16-normal-c-useast2a.tiktokv.com
-DOMAIN-SUFFIX, api19-normal-c-useast1a.tiktokv.com
-DOMAIN-SUFFIX, api19-normal-c-alisg.tiktokv.com
-DOMAIN-SUFFIX, api77-normal-c-useast1a.tiktokv.com
-
-# --- Giphy (TikTok Sticker Dependency) ---
-DOMAIN-SUFFIX, media.giphy.com
-DOMAIN-SUFFIX, api.giphy.com
-
-# --- Keyword Rescue ---
-DOMAIN-KEYWORD, ttcdn
-DOMAIN-KEYWORD, tiktokcdn
-
-
-# --- TikTok LIVE Video Stream FIX ---
-DOMAIN-SUFFIX, live.tiktokcdn.com
-DOMAIN-SUFFIX, live-alisg.tiktokcdn.com
-DOMAIN-SUFFIX, live-ttcdn-us.tiktokcdn.com
-DOMAIN-SUFFIX, live-ttcdn-eu.tiktokcdn.com
-
-DOMAIN-SUFFIX, pull-f5-tt01.tiktokcdn.com
-DOMAIN-SUFFIX, pull-f5-tt02.tiktokcdn.com
-DOMAIN-SUFFIX, pull-f5-tt03.tiktokcdn.com
-
-DOMAIN-SUFFIX, pull-hls-l1-tt01.tiktokcdn.com
-DOMAIN-SUFFIX, pull-hls-l1-tt02.tiktokcdn.com
-DOMAIN-SUFFIX, pull-hls-l1-tt03.tiktokcdn.com
-
-DOMAIN-SUFFIX, pull-flv-l1-tt01.tiktokcdn.com
-DOMAIN-SUFFIX, pull-flv-l1-tt02.tiktokcdn.com
-DOMAIN-SUFFIX, pull-flv-l1-tt03.tiktokcdn.com
-
-DOMAIN-SUFFIX, sf16-live-ttcdn-tos.pstatp.com
-DOMAIN-SUFFIX, sf19-live-ttcdn-tos.pstatp.com
-DOMAIN-SUFFIX, sf77-live-ttcdn-tos.pstatp.com
-
-DOMAIN-KEYWORD, live-ttcdn
-DOMAIN-KEYWORD, pull-hls
-DOMAIN-KEYWORD, pull-flv
-
-# ==================================
-# 1. 指定域名 (Specific Domains - Akamai/Edge)
-# ==================================
-DOMAIN, p16-tiktokcdn-com.akamaized.net
-DOMAIN, p19-tiktokcdn-com.akamaized.net
-DOMAIN, lf16-effectcdn.byteeffecttos-g.com
-DOMAIN, lf16-pkgcdn.pitaya-clientai.com
-DOMAIN, trae-api-sg.mchost.guru
-
-# ==================================
-# 2. TikTok 核心域名 (Core Suffixes)
-# ==================================
-DOMAIN-SUFFIX, tiktok.com
-DOMAIN-SUFFIX, tiktokv.com
-DOMAIN-SUFFIX, tiktok-us.com
-DOMAIN-SUFFIX, tiktokcdn.com
-DOMAIN-SUFFIX, tiktokcdn-us.com
-DOMAIN-SUFFIX, tiktokd.net
-DOMAIN-SUFFIX, tiktokd.org
-DOMAIN-SUFFIX, tiktokj.com
-DOMAIN-SUFFIX, tiktokw.com
-DOMAIN-SUFFIX, tik-tokapi.com
-DOMAIN-SUFFIX, tiktokmusic.app
-DOMAIN-SUFFIX, musical.ly
-DOMAIN-SUFFIX, musicalcdn.com
-DOMAIN-SUFFIX, muscdn.com
-DOMAIN-SUFFIX, musically-hk.com
-
-# ==================================
-# 3. 字节海外基础设施 (Infra & CDN)
-# ==================================
-# [TOS] 对象存储 (图片/特效/滤镜)
-DOMAIN-SUFFIX, ibytedtos.com
-DOMAIN-SUFFIX, ibyteimg.com
-DOMAIN-SUFFIX, byteeffecttos.com
-DOMAIN-SUFFIX, byteeffecttos-g.com
-DOMAIN-SUFFIX, tlivecdn.com
-# [Network] 底层网络与 API
-DOMAIN-SUFFIX, byteoversea.com
-DOMAIN-SUFFIX, byteoversea.net
-DOMAIN-SUFFIX, bytegecko-i18n.com
-DOMAIN-SUFFIX, byteintlapi.com
-DOMAIN-SUFFIX, bytedapm.com
-DOMAIN-SUFFIX, ttwebview.com
-# [API] 海外专用接口
-DOMAIN-SUFFIX, isnssdk.com
-DOMAIN-SUFFIX, sgsnssdk.com
-DOMAIN-SUFFIX, ipstatp.com
-DOMAIN-SUFFIX, sgpstatp.com
- 
-
-# ==================================
-# 4. 子品牌 App (Lemon8 / CapCut / Trae)
-# ==================================
-# CapCut (剪映海外版)
-DOMAIN-SUFFIX, capcut.com
-# Lemon8 (种草社区)
-DOMAIN-SUFFIX, lemon8-app.com
-DOMAIN-SUFFIX, lemon8cdn.com
-# Trae & MarsCode (字节 AI 编程)
-DOMAIN-SUFFIX, trae.ai
-DOMAIN-SUFFIX, marscode.com
-DOMAIN-SUFFIX, mchost.guru
-DOMAIN-SUFFIX, pitaya-clientai.com
-
-# ==================================
-# 5. Giphy (TikTok 贴纸依赖)
-# ==================================
-DOMAIN-SUFFIX, giphy.com
-DOMAIN-SUFFIX, giphy.gif
-DOMAIN-SUFFIX, giphy.net
-DOMAIN-SUFFIX, giphymedia.com
-DOMAIN-SUFFIX, omgif.net
-
-# ==================================
-# 6. 关键词兜底 (Keywords - Rescue)
-# ==================================
-# [TOS] 修复图片/特效加载 (tos-maliva 等)
-DOMAIN-KEYWORD, tos-maliva
-DOMAIN-KEYWORD, tos-useast
-DOMAIN-KEYWORD, tos-usa
-DOMAIN-KEYWORD, tos-alisg
-DOMAIN-KEYWORD, obj.tiktokcdns
-
-# [Live] 修复直播流/动态节点
-DOMAIN-KEYWORD, -tiktokcdn-com
-DOMAIN-KEYWORD, -tiktokcdn-us
-
-DOMAIN-KEYWORD, tiktok
-DOMAIN-KEYWORD, musical.ly
-
-
-
-DOMAIN-SUFFIX, tiktokcdn-in.com
-DOMAIN-SUFFIX, tiktokcdn-eu.com
-DOMAIN-SUFFIX, ttlivecdn.com
-DOMAIN-SUFFIX, ttoversea.net
-DOMAIN-SUFFIX, ttoverseaus.net
-DOMAIN-SUFFIX, resso.com
-DOMAIN-SUFFIX, resso.app
-
-DOMAIN-SUFFIX, tiktokapis.com
-DOMAIN-SUFFIX, tiktokrow.com
-DOMAIN-SUFFIX, tiktokapi.com
-DOMAIN-SUFFIX, tiktokapi-us.com
-DOMAIN-SUFFIX, tiktokapi-eu.com
-DOMAIN-SUFFIX, tiktokapiv2.com
-DOMAIN-SUFFIX, tiktokpush.com
-DOMAIN-SUFFIX, tiktoknotify.com
-DOMAIN-SUFFIX, tiktokmessenger.com
-
-DOMAIN-SUFFIX, tiktoklive.com
-DOMAIN-SUFFIX, tiktokliveapi.com
-DOMAIN-SUFFIX, tiktokliveshop.com
-
-DOMAIN-SUFFIX, tiktokglobalshop.com
-DOMAIN-SUFFIX, tiktokshopping.com
-DOMAIN-SUFFIX, tiktokcreator.com
-DOMAIN-SUFFIX, tiktokforbusiness.com
-DOMAIN-SUFFIX, tiktokads.com
-DOMAIN-SUFFIX, tiktokcdn-live.com
-DOMAIN-SUFFIX, tiktokcdn-live-edge.net
-DOMAIN-SUFFIX, tiktokcdn-ttlive.com
-DOMAIN-SUFFIX, tiktokcdn-edgesuite.net
-
-DOMAIN-SUFFIX, tiktokcdn-asia.com
-DOMAIN-SUFFIX, tiktokcdn-ap.com
-DOMAIN-SUFFIX, tiktokcdn-jp.com
-DOMAIN-SUFFIX, tiktokcdn-sg.com
-DOMAIN-SUFFIX, tiktokcdn-kr.com
-DOMAIN-SUFFIX, tiktokcdn-emea.com
-DOMAIN-SUFFIX, tiktokcdn-na.com
-
-DOMAIN-SUFFIX, ttcdn.com
-DOMAIN-SUFFIX, ttcdn.co
-DOMAIN-KEYWORD, tos-eu
-DOMAIN-KEYWORD, tos-euwest
-DOMAIN-KEYWORD, tos-eunorth
-
-DOMAIN-KEYWORD, tos-use2
-DOMAIN-KEYWORD, tos-uswest
-
-DOMAIN-KEYWORD, tos-ap
-DOMAIN-KEYWORD, tos-apse
-DOMAIN-KEYWORD, tos-apne
-
-DOMAIN-KEYWORD, tos-sgp
-DOMAIN-KEYWORD, tos-jp
-DOMAIN-KEYWORD, tos-kr
-
-DOMAIN-KEYWORD, tos-emea
-DOMAIN-KEYWORD, tos-na
-DOMAIN-KEYWORD, tos-me
-DOMAIN-SUFFIX, byteapi.com
-DOMAIN-SUFFIX, byteintlapi.com
-
-DOMAIN-SUFFIX, byteoversea-apm.com
-DOMAIN-SUFFIX, byteapm.com
-DOMAIN-SUFFIX, bytedapm.net
-
-DOMAIN-SUFFIX, bytelogger.com
-DOMAIN-SUFFIX, bytelogger.net
-
-DOMAIN-SUFFIX, bytedns.com
-DOMAIN-SUFFIX, bytedns.net
-DOMAIN-SUFFIX, bytednsdoc.com
-
-DOMAIN-SUFFIX, bytedcdn.com
-DOMAIN-SUFFIX, bytetcdn.com
-DOMAIN-SUFFIX, bytefcdn.com
-DOMAIN-SUFFIX, capcut.com
-DOMAIN-SUFFIX, capcutapi.com
-DOMAIN-SUFFIX, capcutcdn.com
-DOMAIN-SUFFIX, capcutapp.com
-DOMAIN-SUFFIX, capcutvideo.com
-DOMAIN-SUFFIX, capcutmedia.com
-DOMAIN-SUFFIX, capcutassets.com
-DOMAIN-SUFFIX, capcutcloud.com
-DOMAIN-SUFFIX, capcutpro.com
-DOMAIN-SUFFIX, capcuttemplates.com
-DOMAIN-SUFFIX, lemon8-app.com
-DOMAIN-SUFFIX, lemon8api.com
-DOMAIN-SUFFIX, lemon8cdn.com
-DOMAIN-SUFFIX, lemon8cdn.net
-DOMAIN-SUFFIX, lemon8static.com
-DOMAIN-SUFFIX, lemon8media.com
-DOMAIN-SUFFIX, lemon8cloud.com
-DOMAIN-SUFFIX, lemon8img.com
-DOMAIN-SUFFIX, trae.ai
-DOMAIN-SUFFIX, traeapi.com
-DOMAIN-SUFFIX, trae-cdn.com
-DOMAIN-SUFFIX, traecloud.com
-DOMAIN-SUFFIX, traeinfra.com
-
-DOMAIN-SUFFIX, marscode.com
-DOMAIN-SUFFIX, marscodeapi.com
-DOMAIN-SUFFIX, marscodecdn.com
-DOMAIN-SUFFIX, marscodecloud.com
-DOMAIN-SUFFIX, marscodeinfra.com
-
-
-
-# =================================================
-# TikTok LIVE CDN (FINAL FATAL FIX)
-# =================================================
-
-# --- Akamai Edge Live CDN ---
-DOMAIN-SUFFIX, pull-f5-tt01.tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX, pull-f5-tt02.tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX, pull-f5-tt03.tiktokcdn-com.akamaized.net
-
-DOMAIN-SUFFIX, pull-hls-l1-tt01.tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX, pull-hls-l1-tt02.tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX, pull-hls-l1-tt03.tiktokcdn-com.akamaized.net
-
-DOMAIN-SUFFIX, pull-flv-l1-tt01.tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX, pull-flv-l1-tt02.tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX, pull-flv-l1-tt03.tiktokcdn-com.akamaized.net
-
-# --- Mobile Variant Live CDN ---
-DOMAIN-SUFFIX, v16-live.tiktokcdn.com
-DOMAIN-SUFFIX, v19-live.tiktokcdn.com
-DOMAIN-SUFFIX, v77-live.tiktokcdn.com
-
-# --- Web Variant Live CDN ---
-DOMAIN-SUFFIX, v16-live-webapp.tiktokcdn.com
-DOMAIN-SUFFIX, v19-live-webapp.tiktokcdn.com
-DOMAIN-SUFFIX, v77-live-webapp.tiktokcdn.com
-
-# --- Keyword Rescue (Live Only) ---
-DOMAIN-KEYWORD, -live.tiktokcdn
-DOMAIN-KEYWORD, pull-f5
-DOMAIN-KEYWORD, live-webapp
-
-
-USER-AGENT, Resso*
-USER-AGENT,TikTok*
-USER-AGENT,musical.ly*
-USER-AGENT,trill*
-USER-AGENT,TikTokMusic*
-USER-AGENT,Resso*
-USER-AGENT,CapCut*
-USER-AGENT,CutSame*
-USER-AGENT,Ulike*
-USER-AGENT,Lemon8*
-USER-AGENT,Heliophilia*
-USER-AGENT,Helo*
-USER-AGENT,Trae*
-USER-AGENT,Fizzo*
-
-
-
-
-# ==================================
-# TikTok & ByteDance IP-ASN (Optional)
-# 新加坡核心 ASN+美国核心 ASN
-# ==================================
-IP-ASN,138699,no-resolve
-IP-ASN,396986,no-resolve
-IP-ASN,21859,no-resolve
-IP-ASN,174,no-resolve
-IP-ASN,3356,no-resolve
-IP-ASN,45903,no-resolve
-
-PROCESS-NAME,com.zhiliaoapp.musically
-PROCESS-NAME,com.ss.android.ugc.trill
-PROCESS-NAME,com.zhiliaoapp.musically.go
-PROCESS-NAME,TikTok
-PROCESS-NAME,TikTok.exe
-
-
+# =======================================================
+# [Part 5: 协议层兜底 (User-Agent)]
+# 新增 Lemon8* 匹配
+# =======================================================
 USER-AGENT,TikTok*
 USER-AGENT,musical_ly*
+USER-AGENT,trill*
+USER-AGENT,Lemon8*
 
+# =======================================================
+# [Part 6: 物理层兜底 (IP-ASN)]
+# Lemon8 的数据主要存储在新加坡(AS138699)和美国(AS396986)
+# 这里的 ASN 规则同时保护 TikTok 和 Lemon8 不泄露
+# =======================================================
 
-PROCESS-NAME,CapCut
-PROCESS-NAME,Lemon8
+# AS396986: ByteDance Inc (US/Global)
+IP-ASN,396986
 
-# ===============================
-# TikTok LIVE Missing CDN FIX
-# ===============================
+# AS138699: TikTok Pte Ltd (SG/Global)
+IP-ASN,138699
 
-DOMAIN-SUFFIX, pull-cmaf-l1-tt01.tiktokcdn.com
-DOMAIN-SUFFIX, pull-cmaf-l1-tt02.tiktokcdn.com
-DOMAIN-SUFFIX, pull-cmaf-l1-tt03.tiktokcdn.com
+# AS11983: TIKTOK-USDS (美国数据安全实体)
+IP-ASN,11983
 
-DOMAIN-SUFFIX, pull-webrtc-l1-tt01.tiktokcdn.com
-DOMAIN-SUFFIX, pull-webrtc-l1-tt02.tiktokcdn.com
-DOMAIN-SUFFIX, pull-webrtc-l1-tt03.tiktokcdn.com
-
-DOMAIN-SUFFIX, pull-rtmp-l1-tt01.tiktokcdn.com
-DOMAIN-SUFFIX, pull-rtmp-l1-tt02.tiktokcdn.com
-DOMAIN-SUFFIX, pull-rtmp-l1-tt03.tiktokcdn.com
-
-DOMAIN-SUFFIX, pull-cmaf-l1-tt01.tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX, pull-cmaf-l1-tt02.tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX, pull-cmaf-l1-tt03.tiktokcdn-com.akamaized.net
-
-DOMAIN-SUFFIX, pull-webrtc-l1-tt01.tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX, pull-webrtc-l1-tt02.tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX, pull-webrtc-l1-tt03.tiktokcdn-com.akamaized.net
-
-DOMAIN-SUFFIX, pull-rtmp-l1-tt01.tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX, pull-rtmp-l1-tt02.tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX, pull-rtmp-l1-tt03.tiktokcdn-com.akamaized.net
-
-DOMAIN-SUFFIX, webcast.tiktok.com
-DOMAIN-SUFFIX, api16-live.tiktokv.com
-DOMAIN-SUFFIX, api19-live.tiktokv.com
-DOMAIN-SUFFIX, api77-live.tiktokv.com
-
-DOMAIN-KEYWORD, pull-cmaf
-DOMAIN-KEYWORD, pull-webrtc
-DOMAIN-KEYWORD, pull-rtmp
-DOMAIN-KEYWORD, webcast
-DOMAIN-KEYWORD, -ttlive
+# AS41256: 关联基础设施
+IP-ASN,41256
