@@ -3,6 +3,25 @@ DESCRIPTION: X, Twitter, Grok, API, GraphQL, CDN, Realtime, Ads
 COVERAGE: ~99.95%
 SAFE: Zero Overmatch
 UPDATED: 2026-01-25
+
+# ===============================
+# Grok Web / Auth / Session FIX
+# ===============================
+
+# --- Auth / Login ---
+DOMAIN-SUFFIX, auth.x.ai
+DOMAIN-SUFFIX, accounts.x.ai
+DOMAIN-SUFFIX, login.x.ai
+
+# --- Session / Token ---
+DOMAIN-SUFFIX, session.x.ai
+DOMAIN-SUFFIX, tokens.x.ai
+DOMAIN-SUFFIX, identity.x.ai
+
+# --- Frontend CDN ---
+DOMAIN-SUFFIX, frontend.x.ai
+DOMAIN-SUFFIX, web.x.ai
+DOMAIN-SUFFIX, edge.x.ai
 ==================================================
 --------------------------------------------------
 1. Core Brand Domains (X & Twitter)
