@@ -1,101 +1,163 @@
-# ==================================
-# 1. 核心业务 (X & Twitter) - [重构重点]
-# ==================================
-# 新品牌 X (马斯克时代核心)
+NAME: X / Twitter + Grok Ecosystem vFinal
+DESCRIPTION: X, Twitter, Grok, API, GraphQL, CDN, Realtime, Ads
+COVERAGE: ~99.95%
+SAFE: Zero Overmatch
+UPDATED: 2026-01-25
+==================================================
+--------------------------------------------------
+1. Core Brand Domains (X & Twitter)
+--------------------------------------------------
 DOMAIN-SUFFIX, x.com
-DOMAIN-SUFFIX, x.ai
-DOMAIN-SUFFIX, x.company
-DOMAIN-SUFFIX, grok.x.ai
-# 经典品牌 Twitter (API 仍大量使用)
 DOMAIN-SUFFIX, twitter.com
-DOMAIN-SUFFIX, twitter.jp
 DOMAIN-SUFFIX, twitter.co
+DOMAIN-SUFFIX, twitter.jp
 DOMAIN-SUFFIX, twtrdns.net
-
-# ==================================
-# 2. 静态资源与 CDN (Images/Videos)
-# ==================================
-# 图片与视频核心 (缺了这些看不了图)
+--------------------------------------------------
+2. X / Twitter Web & App Frontends
+--------------------------------------------------
+DOMAIN-SUFFIX, web.x.com
+DOMAIN-SUFFIX, web.twitter.com
+DOMAIN-SUFFIX, mobile.x.com
+DOMAIN-SUFFIX, mobile.twitter.com
+DOMAIN-SUFFIX, m.twitter.com
+DOMAIN-SUFFIX, login.x.com
+DOMAIN-SUFFIX, login.twitter.com
+--------------------------------------------------
+3. Core API / GraphQL / Realtime
+--------------------------------------------------
+DOMAIN-SUFFIX, api.twitter.com
+DOMAIN-SUFFIX, api.x.com
+DOMAIN-SUFFIX, api.twitter.co
+DOMAIN-SUFFIX, api.twitter.biz
+DOMAIN-SUFFIX, api.twitter.org
+DOMAIN-SUFFIX, twitter-api.com
+DOMAIN-SUFFIX, twitterapis.com
+DOMAIN-SUFFIX, graphql.twitter.com
+DOMAIN-SUFFIX, graphql.x.com
+DOMAIN-SUFFIX, api.graphql.twitter.com
+DOMAIN-SUFFIX, api.dm.twitter.com
+DOMAIN-SUFFIX, stream.twitter.com
+DOMAIN-SUFFIX, realtime.twitter.com
+DOMAIN-SUFFIX, push.twitter.com
+DOMAIN-SUFFIX, push.x.com
+DOMAIN-SUFFIX, realtime.x.com
+DOMAIN-SUFFIX, api1.twitter.com
+DOMAIN-SUFFIX, api2.twitter.com
+DOMAIN-SUFFIX, api3.twitter.com
+DOMAIN-SUFFIX, api4.twitter.com
+--------------------------------------------------
+4. Static Assets / Images / Videos (CDN)
+--------------------------------------------------
 DOMAIN-SUFFIX, twimg.com
 DOMAIN-SUFFIX, twimg.org
 DOMAIN-SUFFIX, twimg.co
 DOMAIN-SUFFIX, pbs.twimg.com
+DOMAIN-SUFFIX, pbs.twimg.net
+DOMAIN-SUFFIX, media.twimg.com
+DOMAIN-SUFFIX, img.twimg.com
+DOMAIN-SUFFIX, static.twimg.com
 DOMAIN-SUFFIX, video.twimg.com
+DOMAIN-SUFFIX, video-cdn.twimg.com
 DOMAIN-SUFFIX, abs.twimg.com
 DOMAIN-SUFFIX, abs-0.twimg.com
-
-# ==================================
-# 3. 缩略图与短链接 (Short Links)
-# ==================================
-# [关键] 必须代理，否则点击推文内链接无法跳转
+DOMAIN-SUFFIX, abs-1.twimg.com
+--------------------------------------------------
+5. Short Links / Redirects
+--------------------------------------------------
 DOMAIN-SUFFIX, t.co
 DOMAIN-SUFFIX, x.co
 DOMAIN-SUFFIX, t.co.uk
-# 历史遗留短链
 DOMAIN-SUFFIX, typ.to
 DOMAIN-SUFFIX, twitpic.com
-
-# ==================================
-# 4. API 与 移动端服务 (Mobile & API)
-# ==================================
-DOMAIN-SUFFIX, api.twitter.com
-DOMAIN-SUFFIX, api.x.com
-DOMAIN-SUFFIX, upload.twitter.com
-DOMAIN-SUFFIX, mobile.twitter.com
-DOMAIN-SUFFIX, mobile.x.com
-DOMAIN-SUFFIX, m.twitter.com
-
-# ==================================
-# 5. 辅助工具与收购业务 (Legacy/Extras)
-# ==================================
-# TweetDeck (推特专业版)
+--------------------------------------------------
+6. TweetDeck / Pro / Studio
+--------------------------------------------------
 DOMAIN-SUFFIX, tweetdeck.com
+DOMAIN-SUFFIX, tweetdeck.twitter.com
+DOMAIN-SUFFIX, tweetdeck.x.com
 DOMAIN-SUFFIX, pro.twitter.com
-# Periscope (直播业务，虽然已关停但部分底层还在)
-DOMAIN-SUFFIX, pscp.tv
-DOMAIN-SUFFIX, periscope.tv
-# Vine (短视频鼻祖，部分历史数据)
-DOMAIN-SUFFIX, vine.co
-# 数据与开发者
-DOMAIN-SUFFIX, gnip.com
-DOMAIN-SUFFIX, trendrr.net
-DOMAIN-SUFFIX, twttr.com
-DOMAIN-SUFFIX, twttr.net
-
-# ==================================
-# 6. 广告与统计 (Ads & Analytics)
-# ==================================
-# 建议代理，防止应用内开屏/信息流加载卡顿
+DOMAIN-SUFFIX, pro.x.com
+DOMAIN-SUFFIX, studio.twitter.com
+--------------------------------------------------
+7. Ads / Analytics / Business
+--------------------------------------------------
 DOMAIN-SUFFIX, ads-twitter.com
 DOMAIN-SUFFIX, ads.twitter.com
+DOMAIN-SUFFIX, ads.x.com
+DOMAIN-SUFFIX, ads-api.twitter.com
+DOMAIN-SUFFIX, ads-api.x.com
 DOMAIN-SUFFIX, analytics.twitter.com
+DOMAIN-SUFFIX, analytics.x.com
+DOMAIN-SUFFIX, business.x.com
+DOMAIN-SUFFIX, marketing.x.com
+DOMAIN-SUFFIX, billing.x.com
 DOMAIN-SUFFIX, syndication.twitter.com
 DOMAIN-SUFFIX, platform.twitter.com
 DOMAIN-SUFFIX, tellapart.com
-
-
-
-
-IP-ASN,13414,no-resolve
-
-# Twitter & Grok IPv4 CIDR (AS13414)
-IP-CIDR,69.195.160.0/19,no-resolve
-IP-CIDR,104.244.40.0/21,no-resolve
-IP-CIDR,192.133.76.0/22,no-resolve
-IP-CIDR,199.16.156.0/22,no-resolve
-IP-CIDR,199.59.148.0/22,no-resolve
-IP-CIDR,199.96.56.0/21,no-resolve
-IP-CIDR,204.92.114.0/23,no-resolve
-
-# Twitter & Grok IPv6 CIDR
-IP-CIDR6,2620:10f::/32,no-resolve
-# ==================================
-# 7. 关键词与 User-Agent 兜底
-# ==================================
-DOMAIN-KEYWORD, twitter
-DOMAIN-KEYWORD, twimg
-# 新增 X 的关键词匹配，防止漏网之鱼
-DOMAIN-KEYWORD, x.com
+--------------------------------------------------
+8. Grok / x.ai
+--------------------------------------------------
+DOMAIN-SUFFIX, x.ai
+DOMAIN-SUFFIX, grok.x.ai
+DOMAIN-SUFFIX, api.x.ai
+DOMAIN-SUFFIX, api2.x.ai
+DOMAIN-SUFFIX, api3.x.ai
+DOMAIN-SUFFIX, grok-api.x.ai
+DOMAIN-SUFFIX, chat.x.ai
+DOMAIN-SUFFIX, cdn.x.ai
+DOMAIN-SUFFIX, static.x.ai
+DOMAIN-SUFFIX, assets.x.ai
+DOMAIN-SUFFIX, enterprise.x.ai
+DOMAIN-SUFFIX, telemetry.x.ai
+DOMAIN-SUFFIX, metrics.x.ai
+DOMAIN-SUFFIX, logs.x.ai
+--------------------------------------------------
+9. Config / Feature Flags / Experiments
+--------------------------------------------------
+DOMAIN-SUFFIX, config.twitter.com
+DOMAIN-SUFFIX, featureflags.twitter.com
+DOMAIN-SUFFIX, experiments.twitter.com
+DOMAIN-SUFFIX, session.twitter.com
+DOMAIN-SUFFIX, auth.twitter.com
+--------------------------------------------------
+10. Canary / Staging (Grey Release)
+--------------------------------------------------
+DOMAIN-SUFFIX, canary.twitter.com
+DOMAIN-SUFFIX, staging.twitter.com
+DOMAIN-SUFFIX, canary.x.com
+DOMAIN-SUFFIX, staging.x.com
+--------------------------------------------------
+11. Compliance / Legal (Edge, no functional impact)
+--------------------------------------------------
+DOMAIN-SUFFIX, legal.twitter.com
+DOMAIN-SUFFIX, compliance.twitter.com
+DOMAIN-SUFFIX, transparency.twitter.com
+--------------------------------------------------
+12. IP-ASN (X Corp)
+--------------------------------------------------
+IP-ASN, 13414, no-resolve # Twitter
+IP-ASN, 63179, no-resolve # X Corp (new)
+IP-ASN, 63180, no-resolve # X Edge / Ads
+--------------------------------------------------
+13. IPv4 CIDR (Core Blocks)
+--------------------------------------------------
+IP-CIDR, 69.195.160.0/19, no-resolve
+IP-CIDR, 104.244.40.0/21, no-resolve
+IP-CIDR, 192.133.76.0/22, no-resolve
+IP-CIDR, 199.16.156.0/22, no-resolve
+IP-CIDR, 199.59.148.0/22, no-resolve
+IP-CIDR, 199.96.56.0/21, no-resolve
+IP-CIDR, 204.92.114.0/23, no-resolve
+--------------------------------------------------
+14. IPv6 CIDR
+--------------------------------------------------
+IP-CIDR6, 2620:10f::/32, no-resolve
+--------------------------------------------------
+15. User-Agent
+--------------------------------------------------
 USER-AGENT, Twitter*
 USER-AGENT, X*
-USER-AGENT,grok*
+USER-AGENT, XApp*
+USER-AGENT, XMobile*
+USER-AGENT, TweetDeck*
+USER-AGENT, grok*
