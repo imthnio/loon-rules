@@ -381,3 +381,41 @@ USER-AGENT,musical_ly*
 PROCESS-NAME,CapCut
 PROCESS-NAME,Lemon8
 
+# ===============================
+# TikTok LIVE Missing CDN FIX
+# ===============================
+
+DOMAIN-SUFFIX, pull-cmaf-l1-tt01.tiktokcdn.com
+DOMAIN-SUFFIX, pull-cmaf-l1-tt02.tiktokcdn.com
+DOMAIN-SUFFIX, pull-cmaf-l1-tt03.tiktokcdn.com
+
+DOMAIN-SUFFIX, pull-webrtc-l1-tt01.tiktokcdn.com
+DOMAIN-SUFFIX, pull-webrtc-l1-tt02.tiktokcdn.com
+DOMAIN-SUFFIX, pull-webrtc-l1-tt03.tiktokcdn.com
+
+DOMAIN-SUFFIX, pull-rtmp-l1-tt01.tiktokcdn.com
+DOMAIN-SUFFIX, pull-rtmp-l1-tt02.tiktokcdn.com
+DOMAIN-SUFFIX, pull-rtmp-l1-tt03.tiktokcdn.com
+
+DOMAIN-SUFFIX, pull-cmaf-l1-tt01.tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX, pull-cmaf-l1-tt02.tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX, pull-cmaf-l1-tt03.tiktokcdn-com.akamaized.net
+
+DOMAIN-SUFFIX, pull-webrtc-l1-tt01.tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX, pull-webrtc-l1-tt02.tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX, pull-webrtc-l1-tt03.tiktokcdn-com.akamaized.net
+
+DOMAIN-SUFFIX, pull-rtmp-l1-tt01.tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX, pull-rtmp-l1-tt02.tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX, pull-rtmp-l1-tt03.tiktokcdn-com.akamaized.net
+
+DOMAIN-SUFFIX, webcast.tiktok.com
+DOMAIN-SUFFIX, api16-live.tiktokv.com
+DOMAIN-SUFFIX, api19-live.tiktokv.com
+DOMAIN-SUFFIX, api77-live.tiktokv.com
+
+DOMAIN-KEYWORD, pull-cmaf
+DOMAIN-KEYWORD, pull-webrtc
+DOMAIN-KEYWORD, pull-rtmp
+DOMAIN-KEYWORD, webcast
+DOMAIN-KEYWORD, -ttlive
