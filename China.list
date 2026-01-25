@@ -1,479 +1,230 @@
-########################################################
-#################字节跳动抖音/头条/西瓜/剪映###################
-########################################################
-DOMAIN-SUFFIX, amemv.com
-DOMAIN-SUFFIX, douyin.com
-DOMAIN-SUFFIX, douyinpic.com
-DOMAIN-SUFFIX, douyinstatic.com
-DOMAIN-SUFFIX, douyinvod.com
-DOMAIN-SUFFIX, idouyinvod.com
-DOMAIN-SUFFIX, douyincdn.com
-DOMAIN-SUFFIX, live-douyin.com
-DOMAIN-SUFFIX, iesdouyin.com
-DOMAIN-SUFFIX, snssdk.com
-DOMAIN-SUFFIX, pstatp.com
-DOMAIN-SUFFIX, ixigua.com
-DOMAIN-SUFFIX, ixiguavideo.com
-DOMAIN-SUFFIX, toutiao.com
-DOMAIN-SUFFIX, toutiaoimg.com
-DOMAIN-SUFFIX, toutiaostatic.com
-DOMAIN-SUFFIX, byteimg.com
-DOMAIN-SUFFIX, bytedance.com
-DOMAIN-SUFFIX, bytedance.net
-DOMAIN-SUFFIX, byteeffecttos.com
-DOMAIN-SUFFIX, ecombdimg.com
-DOMAIN-SUFFIX, zijieapi.com
-DOMAIN-SUFFIX, volces.com
-DOMAIN, lf3-static.bytednsdoc.com
-DOMAIN, v5-dy-o-abtest.zjcdn.com
-DOMAIN-KEYWORD, douyin
+# =======================================================
+# 规则名称: Douyin / ByteDance CN (Watertight)
+# 覆盖范围: 抖音, 抖音火山版, 剪映(国内版), 巨量引擎
+# 核心策略: 识别国内特有域名 + 字节跳动中国 ASN
+# 建议策略: DIRECT (国内用户) / 回国代理 (海外用户)
+# =======================================================
 
-USER-AGENT, Douyin*
-USER-AGENT, Hotsoon*
-USER-AGENT, DouyinBox*
-USER-AGENT, TouTiao*
-USER-AGENT, XiGua*
-USER-AGENT, Doubao*
-USER-AGENT, Hongguo*
-USER-AGENT, Fanqie*
-USER-AGENT, Jianying*
-USER-AGENT, Feishu*
-########################################################
-########################快手#################################
-########################################################
-DOMAIN-SUFFIX, kuaishou.com
-DOMAIN-SUFFIX, gifshow.com
-DOMAIN-SUFFIX, ksapis.com
-DOMAIN-SUFFIX, kspkg.com
-DOMAIN-SUFFIX, yximgs.com
-DOMAIN-SUFFIX, kwai.com
-DOMAIN-SUFFIX, kwai.net
-DOMAIN-SUFFIX, e.kuaishou.com
-DOMAIN-SUFFIX, in.kuaishou.com
-DOMAIN-KEYWORD, kuaishou
-PROCESS-NAME, Kwai
-PROCESS-NAME, com.suixing.gifshow
-USER-AGENT, Kwai*
-########################################################
-########################小红书#################################
-########################################################
-DOMAIN-SUFFIX, xiaohongshu.com
-DOMAIN-SUFFIX, xhscdn.com
-DOMAIN-SUFFIX, xhscdn.net
-DOMAIN-SUFFIX, xhslink.com
-DOMAIN-SUFFIX, qimg.xiaohongshu.com
-DOMAIN-SUFFIX, images.xiaohongshu.com
-DOMAIN-SUFFIX, fengkongcloud.com
-DOMAIN-KEYWORD, xiaohongshu
-PROCESS-NAME, com.xingin.xhs
-PROCESS-NAME, XiaoHongShu
-USER-AGENT, XiaoHongShu*
-########################################################
-########################bilibili哔哩哔哩#################################
-########################################################
-DOMAIN-SUFFIX, bilibili.com
-DOMAIN-SUFFIX, bilibili.cn
-DOMAIN-SUFFIX, bilibili.co
-DOMAIN-SUFFIX, bilibili.tv
-DOMAIN-SUFFIX, bilibili.cc
-DOMAIN-SUFFIX, bilibili.net
-DOMAIN-SUFFIX, bilicdn1.com
-DOMAIN-SUFFIX, bilicdn2.com
-DOMAIN-SUFFIX, bilicdn3.com
-DOMAIN-SUFFIX, bilicdn4.com
-DOMAIN-SUFFIX, bilicdn5.com
-DOMAIN-SUFFIX, biliapi.com
-DOMAIN-SUFFIX, biliapi.net
-DOMAIN-SUFFIX, biligame.com
-DOMAIN-SUFFIX, biligame.cn
-DOMAIN-SUFFIX, biligame.co
-DOMAIN-SUFFIX, biligame.net
-DOMAIN-SUFFIX, biligo.com
-DOMAIN-SUFFIX, biliimg.com
-DOMAIN-SUFFIX, biliintl.co
-DOMAIN-SUFFIX, biliintl.com
-DOMAIN-SUFFIX, biliplus.com
-DOMAIN-SUFFIX, bilivideo.cn
-DOMAIN-SUFFIX, bilivideo.com
-DOMAIN-SUFFIX, bilivideo.net
-DOMAIN-SUFFIX, hdslb.com
-DOMAIN-SUFFIX, hdslb.net
-DOMAIN-SUFFIX, hdslb.org
-DOMAIN-SUFFIX, hdslb.com.w.kunlunhuf.com
-DOMAIN-SUFFIX, hdslb.com.w.kunlunpi.com
-DOMAIN-SUFFIX, acg.tv
-DOMAIN-SUFFIX, acgvideo.com
-DOMAIN-SUFFIX, im9.com
-DOMAIN-SUFFIX, mincdn.com
-DOMAIN-SUFFIX, yo9.com
-DOMAIN-SUFFIX, b23.tv
-DOMAIN-SUFFIX, animetamashi.cn
-DOMAIN-SUFFIX, animetamashi.com
-DOMAIN-SUFFIX, anitama.cn
-DOMAIN-SUFFIX, anitama.net
-DOMAIN-SUFFIX, baka.im
-DOMAIN-SUFFIX, bigfun.cn
-DOMAIN-SUFFIX, bigfunapp.cn
-DOMAIN-SUFFIX, dyhgames.com
-DOMAIN-SUFFIX, maoercdn.com
-DOMAIN-SUFFIX, mcbbs.net
-DOMAIN-SUFFIX, sharejoytech.com
-DOMAIN-SUFFIX, smtcdns.com
-DOMAIN-SUFFIX, smtcdns.net
-DOMAIN-SUFFIX, corari.com
-DOMAIN-SUFFIX, dreamcast.hk
-DOMAIN-SUFFIX, upos-hz-mirrorakam.akamaized.net
-DOMAIN-SUFFIX, uposdash-302-bilivideo.yfcdn.net
-DOMAIN-SUFFIX, mcdn.bilivideo.cn
-DOMAIN-SUFFIX, cn-beijing.aliyuncs.com
-DOMAIN-KEYWORD, bilibili
-DOMAIN, p-bstarstatic.akamaized.net
-DOMAIN, p.bstarstatic.com
-DOMAIN, upos-bstar-mirrorakam.akamaized.net
-DOMAIN, upos-bstar1-mirrorakam.akamaized.net
-DOMAIN, 112-81-125-43.dhost.00cdn.com
-DOMAIN, 113-219-145-1.ksyungslb.com
-DOMAIN, 114-236-92-129.ksyungslb.com
-DOMAIN, 180-101-74-1.ksyungslb.com
-DOMAIN, 218-91-225-1.ksyungslb.com
-DOMAIN, 219-155-150-1.ksyungslb.com
-DOMAIN, 222-188-6-1.ksyungslb.com
-DOMAIN, 36-104-134-1.ksyungslb.com
-DOMAIN, 36-25-252-1.ksyungslb.com
-DOMAIN, 0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
-DOMAIN, 0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
-DOMAIN, 0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com
-DOMAIN, 0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com
-DOMAIN, 0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com
-DOMAIN, 0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com
-DOMAIN, 0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com
-DOMAIN, 0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com
-DOMAIN, 0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com
-DOMAIN, 0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com
-DOMAIN, 0gr5dgmttgha1hcj38yzdncb3.ourdvsss.com
-DOMAIN, 1geadrmttge3nhcjwgazdope.ourdvsss.com
-DOMAIN, 1geadrmttge3nhcjwgwzdqqe.ourdvsss.com
-DOMAIN, 1gr3uomttgr31hcjo8yzdnco.ourdvsss.com
-DOMAIN, 1gr3uomttgr31hcjo8yzdnpy.ourdvsss.com
-DOMAIN, 1gr3uomttgr31hcjtgezdkcy.ourdvsss.com
-DOMAIN, 1gr4uqmtt8y41hcjigazdqca.ourdvsss.com
-DOMAIN, 1gr4uqmtt8y41hcjigazdqce.ourdvsss.com
-DOMAIN, 1gr4uqmtt8y41hcjigazdqco.ourdvsss.com
-DOMAIN, 1gr4uqmtt8y41hcjigazdqpo.ourdvsss.com
-DOMAIN, 1gr4uqmtt8y41hcjzgwzdkqe.ourdvsss.com
-DOMAIN, 1gr5dgmttgha1hcj38yzdcca.ourdvsss.com
-DOMAIN, 1gr5dgmttgha1hcj38yzdcco.ourdvsss.com
-DOMAIN, 1gr5dgmttgha1hcj38yzdkca.ourdvsss.com
-DOMAIN, 1gr5dgmttgha1hcj38yzdkco.ourdvsss.com
-DOMAIN, 1gr5dgmttgha1hcj38yzdkpe.ourdvsss.com
-DOMAIN, 1gr5dgmttgha1hcj38yzdkpy.ourdvsss.com
-DOMAIN, 1gr5dgmttgha1hcj38yzdkqy.ourdvsss.com
-DOMAIN, 1gr5dgmttgha1hcj3gczdcpa.ourdvsss.com
-DOMAIN, 1gr5dgmttgha1hcj3gczdcpe.ourdvsss.com
-DOMAIN, 1gr5dgmttgha1hcj3gczdcpo.ourdvsss.com
-DOMAIN, 1gr5dgmttgha1hcj3gczdcqy.ourdvsss.com
-DOMAIN, 1gr5dgmttgha1hcttgrzdnpo.ourdvsss.com
-DOMAIN, 1graukmttga4nhcjtgozdgce.ourdvsss.com
-DOMAIN, 3ge3drmttga5nhcbqge3ur.ourdvsss.com
-DOMAIN, 3geauymtsgrzdnqbofa5do.ourdvsss.com
-DOMAIN, 3geauymtsgrzdnqbofa5dy.ourdvsss.com
-DOMAIN, 3geauymtsgrzdrcbzfahue.ourdvsss.com
-DOMAIN, 3geauymtsgrzdrcbzfahuk.ourdvsss.com
-DOMAIN, 4go41hcjtgazdoctqge4o.ourdvsss.com
-IP-CIDR, 106.75.74.76/32, no-resolve
-IP-CIDR, 111.206.25.147/32, no-resolve
-IP-CIDR, 119.3.238.64/32, no-resolve
-IP-CIDR, 120.92.108.182/32, no-resolve
-IP-CIDR, 120.92.113.99/32, no-resolve
-IP-CIDR, 120.92.153.217/32, no-resolve
-IP-CIDR, 134.175.207.130/32, no-resolve
-IP-CIDR, 203.107.1.0/24, no-resolve
-PROCESS-NAME, com.bilibili.app.blue
-PROCESS-NAME, com.bilibili.app.in
-PROCESS-NAME, com.bilibili.comic
-PROCESS-NAME, com.bilibili.comic.intl
-PROCESS-NAME, tv.danmaku.bili
-PROCESS-NAME, tv.danmaku.bilibilihd
-USER-AGENT, *bili*
-USER-AGENT, Bilibili*
-USER-AGENT, bili-inter*
-########################################################
-########################微信 & QQ#################################
-########################################################
-DOMAIN-SUFFIX, wechat.com
-DOMAIN-SUFFIX, weixin.com
-DOMAIN-SUFFIX, wechatpay.com
-DOMAIN-SUFFIX, weixin.qq.com
-DOMAIN-SUFFIX, qq.com
-DOMAIN-SUFFIX, qqurl.com
-DOMAIN-SUFFIX, mail.qq.com
-DOMAIN-SUFFIX, tenpay.com
-DOMAIN-SUFFIX, qlogo.cn
-DOMAIN-SUFFIX, qpic.cn
-DOMAIN-SUFFIX, gtimg.cn
-DOMAIN-SUFFIX, gtimg.com
-DOMAIN-SUFFIX, msdk.qq.com
-DOMAIN-SUFFIX, graph.qq.com
-DOMAIN-SUFFIX, open.mobile.qq.com
-DOMAIN-SUFFIX, i.qq.com
-DOMAIN-SUFFIX, v.qq.com
-DOMAIN-SUFFIX, video.qq.com
-DOMAIN-SUFFIX, y.qq.com
-DOMAIN-SUFFIX, aqqmusic.tc.qq.com
-DOMAIN-SUFFIX, dldir1.qq.com
-DOMAIN-SUFFIX, iacc.qq.com
-DOMAIN-SUFFIX, ios.video.mpush.qq.com
-DOMAIN-SUFFIX, moo.qq.com
-DOMAIN-SUFFIX, rdelivery.qq.com
-DOMAIN-SUFFIX, ts.qq.com
-DOMAIN-SUFFIX, v.streaming.qq.com
-DOMAIN-SUFFIX, video-public-1258344701.shiply-cdn.qq.com
-DOMAIN-SUFFIX, video-search-1258344701.shiply-cdn.qq.com
-DOMAIN-SUFFIX, video-vip-1258344701.shiply-cdn.qq.com
-DOMAIN-SUFFIX, yoo.gtimg.com
-DOMAIN-SUFFIX, pgdt.gtimg.cn
-DOMAIN-SUFFIX, qqmusic.qq.com
-DOMAIN-SUFFIX, qqvideo.gtimg.com
-DOMAIN-SUFFIX, music.qq.com
-DOMAIN-SUFFIX, music.tc.qq.com
-DOMAIN-SUFFIX, tencentmusic.com
-USER-AGENT, MicroMessenger*
-USER-AGENT, WeChat*
-USER-AGENT, QQ*
-USER-AGENT, TIM*
-USER-AGENT, %E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
+# [Part 1: 核心域名 (Core Domains)]
+# douyin.com 是主入口，amemv.com 是旧版 API 核心
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,iesdouyin.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,idouyinvod.com
+DOMAIN-SUFFIX,cdndouyin.com
+DOMAIN-SUFFIX,douyinliving.com
 
-########################################################
-#######################腾讯游戏王者荣耀和平精英#################################
-########################################################
-#——————————————————————————————————————————————————————————————王者荣耀
-DOMAIN-SUFFIX, pvp.qq.com
-DOMAIN-SUFFIX, smoba.qq.com
-DOMAIN-SUFFIX, gp.qq.com
-DOMAIN-SUFFIX, pel.qq.com
-DOMAIN-SUFFIX, igamecj.com
-DOMAIN-SUFFIX, gcloudcs.com
-DOMAIN-SUFFIX, anticheatexpert.com
-DOMAIN-SUFFIX, tpns.qq.com
-DOMAIN-SUFFIX, fp.qq.com
-DOMAIN-SUFFIX, gamedl.qq.com
-DOMAIN-SUFFIX, dlied1.qq.com
-DOMAIN-SUFFIX, down.qq.com
-DOMAIN-SUFFIX, unipay.qq.com
-DOMAIN-SUFFIX, midas.gtimg.cn
-DOMAIN-SUFFIX, apollo.game.qq.com
-DOMAIN-SUFFIX, syzs.qq.com
-DOMAIN-SUFFIX, gamecenter.qq.com
-DOMAIN-SUFFIX, tgpa.qq.com
-USER-AGENT, TencentMidasConnect*
-PROCESS-NAME,smoba
-PROCESS-NAME,com.tencent.tmgp.sgame
-USER-AGENT,SGame*
-#——————————————————————————————————————————————————————————————和平精英
-DOMAIN, gameserver.pvp.qq.com
-DOMAIN-SUFFIX, pvp.qq.com
-DOMAIN-SUFFIX, dataflow.qq.com
-DOMAIN-SUFFIX, tcdnos.com
-DOMAIN-SUFFIX, tcdnlive.com
-DOMAIN-SUFFIX, tcdnvod.com
-DOMAIN-KEYWORD, wangzherongyao
-DOMAIN-KEYWORD, sgame
-DOMAIN-KEYWORD, pvp.qq
-DOMAIN-SUFFIX, pubgmobile.com
-DOMAIN-SUFFIX, pubgmobile.cn
-DOMAIN-KEYWORD, pubgmobile
-DOMAIN-KEYWORD, gamemaster
-DOMAIN-KEYWORD, pubg
-DOMAIN-KEYWORD, gameforpeace
+# [Part 2: 关联服务 (Legacy & Apps)]
+# aweme 是抖音内部的项目代号，amemv 是旧域名
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,aweme.tv
+DOMAIN-SUFFIX,douyin-shop.com
+DOMAIN-SUFFIX,huoshan.com
+DOMAIN-SUFFIX,huoshanzhibo.com
+DOMAIN-SUFFIX,jianying.com
+DOMAIN-SUFFIX,xiaomingming.org
 
-PROCESS-NAME,com.tencent.gp
-PROCESS-NAME,ShadowTrackerExtra
-PROCESS-NAME,com.tencent.tmgp.pubgmhd
+# [Part 3: 字节跳动中国通用服务]
+# 这些域名服务于国内全系产品 (头条/西瓜/抖音)
+# 注意：tiktok 规则里有 snssdk.com，如果冲突，请将 TikTok 规则放在上方
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,toutiao.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,volcengine.com
+DOMAIN-SUFFIX,volccdn.com
 
-USER-AGENT,*ShadowTrackerExtra*
-USER-AGENT,*pubgmhd*
-USER-AGENT,TencentMidas*
+# [Part 4: 暴力关键字 (Keywords)]
+DOMAIN-KEYWORD,douyin
+DOMAIN-KEYWORD,huoshan
+DOMAIN-KEYWORD,jianying
+# 匹配 core-c-001.douyinvod.com 等视频流
+DOMAIN-KEYWORD,douyinvod
 
+# =======================================================
+# [Part 5: 协议层兜底 (User-Agent)]
+# Aweme 是抖音安卓/iOS 包名的核心特征
+# =======================================================
+USER-AGENT,Douyin*
+USER-AGENT,Aweme*
+USER-AGENT,Jianying*
+USER-AGENT,LiveStream*
 
-########################################################
-#######################叠纸游戏(暖暖系列/恋与深空)################################
-########################################################
+# =======================================================
+# [Part 6: 物理层兜底 (IP-ASN)]
+# 字节跳动(中国)的自治域。
+# 绝大多数抖音国内流量都源自这里。
+# =======================================================
 
-DOMAIN-SUFFIX, papegames.com
-DOMAIN-SUFFIX, papegames.cn
-DOMAIN-SUFFIX, papegames.net
-DOMAIN-SUFFIX, papergames.com
-DOMAIN-SUFFIX, nikki4.com
-DOMAIN-SUFFIX, nikkigames.cn
-DOMAIN-SUFFIX, loveanddeepspace.cn
-DOMAIN-SUFFIX, loveanddeepspace.com
-DOMAIN-SUFFIX, infinitynikki.cn
-DOMAIN-SUFFIX, infinitynikki.com
-DOMAIN-SUFFIX, evol.papegames.cn
-DOMAIN-SUFFIX, qjnn.qq.com
-DOMAIN-SUFFIX, nikki-mat.papegames.com
-DOMAIN-SUFFIX, nikki-oss.papegames.com
-DOMAIN-SUFFIX, paper.com.cn
-DOMAIN-SUFFIX, infold.com
-DOMAIN-KEYWORD, papegames
-DOMAIN-KEYWORD, infinitynikki
-DOMAIN-KEYWORD, nikki
-PROCESS-NAME,com.papegames.infinity.cn
-PROCESS-NAME,InfinityNikki
-PROCESS-NAME,X6Game-Win64-Shipping.exe
-USER-AGENT,InfinityNikki*
-USER-AGENT,Papergames*
-USER-AGENT,DeepPaper*
-USER-AGENT,*X6Game*
+# AS58466: ByteDance Technology Co., Ltd. (核心中国 ASN)
+IP-ASN,58466
+
+# AS394380: Volcengine (火山引擎 - 字节的云服务)
+IP-ASN,394380
+
+# AS147926: ByteDance (部分联通/电信加速节点)
+IP-ASN,147926
 
 
 
-########################################################
-######################京东淘宝拼多多################################
-########################################################
-# 阿里巴巴 (淘宝/天猫/阿里云/高德/饿了么)
-DOMAIN-SUFFIX, alibaba.com
-DOMAIN-SUFFIX, alipay.com
-DOMAIN-SUFFIX, alipayobjects.com
-DOMAIN-SUFFIX, taobao.com
-DOMAIN-SUFFIX, tmall.com
-DOMAIN-SUFFIX, alicdn.com
-DOMAIN-SUFFIX, aliyun.com
-DOMAIN-SUFFIX, aliyuncs.com
-DOMAIN-SUFFIX, dingtalk.com
-DOMAIN-SUFFIX, mmstat.com
-DOMAIN-SUFFIX, tanx.com
-DOMAIN-SUFFIX, amap.com
-DOMAIN-SUFFIX, autonavi.com
-DOMAIN-SUFFIX, ele.me
-DOMAIN-SUFFIX, cainiao.com
-DOMAIN-SUFFIX, wwc.alicdn.com
-DOMAIN-SUFFIX, e8h2ty.tdum.alibaba.com
-DOMAIN-KEYWORD, aliyun
-DOMAIN-KEYWORD, alipay
-DOMAIN-KEYWORD, taobao
+# =======================================================
+# 规则名称: Bilibili Universe (Watertight)
+# 覆盖范围: B站视频, 直播, 漫画, 游戏, 链接跳转
+# 建议策略: DIRECT (国内) / 回国节点 (解锁番剧限制)
+# =======================================================
 
-# 京东 (JD)
-DOMAIN-SUFFIX, jd.com
-DOMAIN-SUFFIX, 360buy.com
-DOMAIN-SUFFIX, 360buyimg.com
-DOMAIN-SUFFIX, jdcloud.com
-DOMAIN-SUFFIX, jdpay.com
+# [Part 1: 核心域名 & 视频流]
+# bilivideo.com/.cn 是流量大户，必须全覆盖
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,bilibili.co
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,bilivideo.cn
+DOMAIN-SUFFIX,bilivideo.net
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,hdslb.net
+
+# [Part 2: API & 辅助服务]
+# 漫画、游戏、API接口
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,biligame.com
+DOMAIN-SUFFIX,biligame.net
+DOMAIN-SUFFIX,bilicomic.com
+DOMAIN-SUFFIX,bilibiliusercontent.com
+DOMAIN-SUFFIX,mcbbs.net
+DOMAIN-SUFFIX,acg.tv
+DOMAIN-SUFFIX,im9.com
+
+# [Part 3: 暴力关键字 (Keywords)]
+# 针对各种 CDN 分流节点 (如 cn-bj-1-bilivideo.com)
+DOMAIN-KEYWORD,bilibili
+DOMAIN-KEYWORD,bilivideo
+
+# =======================================================
+# [Part 4: 协议层兜底 (User-Agent)]
+# 适配 iOS/Android 客户端
+# =======================================================
+USER-AGENT,Bilibili*
+USER-AGENT,bili*
+USER-AGENT,BiliAnime*
+USER-AGENT,tv.danmaku.bili*
+
+# =======================================================
+# [Part 5: 进程层兜底 (Process Name)]
+# 适配 macOS / Windows 客户端
+# =======================================================
+PROCESS-NAME,Bilibili
+PROCESS-NAME,bilibili
+PROCESS-NAME,tv.danmaku.bili
+
+# =======================================================
+# [Part 6: 物理层兜底 (IP-ASN)]
+# B站拥有自己的 ASN，虽然大部分流量走 CDN，但核心 API 走这里
+# =======================================================
+# AS132203: Bilibili Inc.
+IP-ASN,132203
 
 
 
-# 拼多多 (PDD)
-DOMAIN-SUFFIX, pinduoduo.com
-DOMAIN-SUFFIX, yangkeduo.com
-DOMAIN-SUFFIX, pddpic.com
+# =======================================================
+# 规则名称: Xiaohongshu (Red) Watertight
+# 覆盖范围: 小红书 App, 网页版, 图片 CDN
+# 建议策略: DIRECT (国内) / 回国节点 (海外)
+# =======================================================
+
+# [Part 1: 核心域名]
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xhscdn.net
+DOMAIN-SUFFIX,xhslink.com
+DOMAIN-SUFFIX,xycommunity.com
+
+# [Part 2: 暴力关键字]
+DOMAIN-KEYWORD,xiaohongshu
+
+# =======================================================
+# [Part 3: 协议层兜底 (User-Agent)]
+# discovery 是小红书内部的工程代号
+# =======================================================
+USER-AGENT,Xiaohongshu*
+USER-AGENT,xhs*
+USER-AGENT,discovery*
+USER-AGENT,MicroMessenger*
+
+# =======================================================
+# [Part 4: 物理层说明]
+# 小红书主要使用阿里云 (Aliyun) 和腾讯云基础设施，无独立 ASN。
+# 依靠上述域名和 UA 已经足够“密不透风”。
+# =======================================================
 
 
 
 
-########################################################
-######################苹果################################
-########################################################
-DOMAIN-SUFFIX, mail.icloud.com.cn
-DOMAIN-SUFFIX, mail.me.com
-DOMAIN-KEYWORD, apple-support.akadns.net
-DOMAIN-KEYWORD, apple.com.akadns.net
-DOMAIN-KEYWORD, apple.com.edgekey.net
-DOMAIN-KEYWORD, buy.itunes.apple.com
-DOMAIN-KEYWORD, smp-device
-DOMAIN-KEYWORD, testflight
-DOMAIN-KEYWORD, icloud.com.akadns.net
 
-# 专属IP
-IP-CIDR, 139.178.128.0/18, no-resolve
-IP-CIDR, 144.178.0.0/19, no-resolve
-IP-CIDR, 144.178.36.0/22, no-resolve
-IP-CIDR, 144.178.48.0/20, no-resolve
-IP-CIDR, 17.0.0.0/8, no-resolve
-IP-CIDR, 192.35.50.0/24, no-resolve
-IP-CIDR, 198.183.17.0/24, no-resolve
-IP-CIDR, 205.180.175.0/24, no-resolve
-IP-CIDR, 63.92.224.0/19, no-resolve
-IP-CIDR, 65.199.22.0/23, no-resolve
+# =======================================================
+# 规则名称: Kuaishou Universe (Watertight)
+# 覆盖范围: 快手, 快手极速版, A站(AcFun), 快手直播
+# 核心痛点: 解决 yximgs 图片加载失败和 gifshow API 连接慢
+# =======================================================
 
-# 进程与UA
-PROCESS-NAME, CoreLocationAgent
-PROCESS-NAME, WeatherWidget
-PROCESS-NAME, com.apple.Maps
-PROCESS-NAME, findmydevice-user-agent
-PROCESS-NAME, com.apple.geod
-USER-AGENT, *FindMyiPhone?
-USER-AGENT, *Music?
-USER-AGENT, *WeatherFoundation*
-USER-AGENT, *com.apple.Maps?
-USER-AGENT, *com.apple.mobileme.fmip1
-USER-AGENT, FMDClient*
-USER-AGENT, FMFD*
-USER-AGENT, FindMyFriends*
-USER-AGENT, FindMyiPhone*
-USER-AGENT, Maps*
-USER-AGENT, Wallet*
-USER-AGENT, com.apple.Maps
-USER-AGENT, com.apple.appstored*
-USER-AGENT, fmflocatord*
-USER-AGENT, geod*
-USER-AGENT, locationd*
-USER-AGENT, passd*
-USER-AGENT, Music*
-USER-AGENT, AppleNews*
-USER-AGENT, com.apple.news*
-USER-AGENT, com.apple.trustd*
-USER-AGENT, AppleTV*
-USER-AGENT, com.apple.tv*
+# [Part 1: 核心域名 & 历史遗留]
+# gifshow.com 是快手最早的域名，至今仍承载核心 API
+DOMAIN-SUFFIX,kuaishou.com
+DOMAIN-SUFFIX,kuaishou.net
+DOMAIN-SUFFIX,gifshow.com
+DOMAIN-SUFFIX,ksapis.com
+DOMAIN-SUFFIX,ksyun.com
 
-########################################################
-#####################cloudflare############################
-########################################################
-DOMAIN-SUFFIX, cf-ipfs.com
-DOMAIN-SUFFIX, cf-ns.com
-DOMAIN-SUFFIX, cf-ns.net
-DOMAIN-SUFFIX, cf-ns.site
-DOMAIN-SUFFIX, cf-ns.tech
-DOMAIN-SUFFIX, cftest5.cn
-DOMAIN-SUFFIX, cftest6.cn
-DOMAIN-SUFFIX, cftest7.com
-DOMAIN-SUFFIX, cftest8.com
-DOMAIN-SUFFIX, cloudflare-cn.com
-DOMAIN-SUFFIX, cloudflare-dns.com
-DOMAIN-SUFFIX, cloudflare-ipfs.com
-DOMAIN-SUFFIX, cloudflare-quic.com
-DOMAIN-SUFFIX, cloudflare.com
-DOMAIN-SUFFIX, cloudflare.net
-DOMAIN-SUFFIX, cloudflare.tv
-DOMAIN-SUFFIX, cloudflareaccess.com
-DOMAIN-SUFFIX, cloudflareapps.com
-DOMAIN-SUFFIX, cloudflarebolt.com
-DOMAIN-SUFFIX, cloudflareclient.com
-DOMAIN-SUFFIX, cloudflarecn.net
-DOMAIN-SUFFIX, cloudflareinsights-cn.com
-DOMAIN-SUFFIX, cloudflareinsights.com
-DOMAIN-SUFFIX, cloudflareok.com
-DOMAIN-SUFFIX, cloudflarepreview.com
-DOMAIN-SUFFIX, cloudflareprod.com
-DOMAIN-SUFFIX, cloudflareresolve.com
-DOMAIN-SUFFIX, cloudflaressl.com
-DOMAIN-SUFFIX, cloudflarestaging.com
-DOMAIN-SUFFIX, cloudflarestatus.com
-DOMAIN-SUFFIX, cloudflarestorage.com
-DOMAIN-SUFFIX, cloudflarestoragegw.com
-DOMAIN-SUFFIX, cloudflarestream.com
-DOMAIN-SUFFIX, cloudflaretest.com
-DOMAIN-SUFFIX, cloudflarewarp.com
-DOMAIN-SUFFIX, every1dns.net
-DOMAIN-SUFFIX, one.one.one
-DOMAIN-SUFFIX, pacloudflare.com
-DOMAIN-SUFFIX, pages.dev
-DOMAIN-SUFFIX, trycloudflare.com
-DOMAIN-SUFFIX, videodelivery.net
-DOMAIN-SUFFIX, warp.plus
-DOMAIN-SUFFIX, workers.dev
+# [Part 2: 静态资源 & CDN (最关键)]
+# yximgs 是快手的图片/视频 CDN，不加这个 APP 就是瞎子
+DOMAIN-SUFFIX,yximgs.com
+DOMAIN-SUFFIX,udatask.com
+DOMAIN-SUFFIX,jovcloud.com
+DOMAIN-SUFFIX,onezapp.com
 
+# [Part 3: 关联服务 (AcFun & Kwai)]
+# AcFun 现属快手旗下，共享部分基础设施
+DOMAIN-SUFFIX,acfun.cn
+DOMAIN-SUFFIX,acfun.tv
+DOMAIN-SUFFIX,kwai.com
+DOMAIN-SUFFIX,kwai.net
+DOMAIN-SUFFIX,kwai-pro.com
 
-########################################################
-#####################兜底兜底兜底###########################
-########################################################
-GEOIP, CN
+# [Part 4: 暴力关键字 (Keywords)]
+DOMAIN-KEYWORD,kuaishou
+DOMAIN-KEYWORD,gifshow
+DOMAIN-KEYWORD,yximgs
+DOMAIN-KEYWORD,kwai
+
+# =======================================================
+# [Part 5: 协议层兜底 (User-Agent)]
+# 覆盖快手系 APP 及 Webview
+# =======================================================
+USER-AGENT,Kuaishou*
+USER-AGENT,Kwai*
+USER-AGENT,KsWebView*
+USER-AGENT,kwai-android*
+USER-AGENT,AcFun*
+
+# =======================================================
+# [Part 6: 进程层兜底 (Process Name)]
+# 适配可能存在的 PC/Mac 端应用
+# =======================================================
+PROCESS-NAME,Kuaishou
+PROCESS-NAME,kwai
+
+# =======================================================
+# [Part 7: 物理层兜底 (IP-ASN)]
+# 快手拥有独立的自治域，主要用于国内数据中心
+# =======================================================
+
+# AS55901: Beijing Kuaishou Technology Co., Ltd.
+IP-ASN,55901
+
+# AS135431: Kuaishou (部分海外/边缘节点)
+IP-ASN,135431
