@@ -1,12 +1,10 @@
 # =======================================================
-# 规则名称: Telegram Ultimate (Watertight)
-# 覆盖范围: Telegram App, Web, Instant View, 链接跳转
-# 核心策略: IP-ASN 直连兜底 (解决一直在转圈的问题)
-# 适用 App: Telegram X, Nicegram, iMe, Swiftgram, Turrit
+# 规则名称: Telegram Watertight (IP-CIDR Fix)
+# 核心痛点: 修复 "Connecting..." / "一直在转圈"
+# 修复原理: 放弃查询归属地，直接强制接管官方 IP 段
 # =======================================================
 
-# [Part 1: 核心域名 & 链接跳转]
-# t.me 是最常用的短链，必须加
+# [Part 1: 核心域名 & 短链]
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.dog
@@ -18,49 +16,65 @@ DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,tg.dev
 DOMAIN-SUFFIX,graph.org
 DOMAIN-SUFFIX,legra.ph
-
-# [Part 2: 静态资源与 CDN]
-# 头像、贴纸(Sticker)、图片加载
 DOMAIN-SUFFIX,telegram-cdn.org
 DOMAIN-SUFFIX,tgusercontent.com
 DOMAIN-SUFFIX,cdn-telegram.org
 
-# [Part 3: 暴力关键字 (Keywords)]
-# 防止各种第三方客户端或未收录的短链
+# [Part 2: 暴力关键字]
 DOMAIN-KEYWORD,telegram
 DOMAIN-KEYWORD,nicegram
 
-# =======================================================
-# [Part 4: 协议层兜底 (User-Agent)]
-# 覆盖官方 App 及主流第三方“魔改”客户端
-# =======================================================
+# [Part 3: 协议层 & 进程兜底]
 USER-AGENT,Telegram*
 USER-AGENT,Nicegram*
 USER-AGENT,iMe*
 USER-AGENT,Turrit*
 USER-AGENT,Swiftgram*
 USER-AGENT,Unigram*
+PROCESS-NAME,Telegram
+PROCESS-NAME,Telegram.exe
 
 # =======================================================
-# [Part 5: 物理层兜底 (IP-ASN) - ***核心重点***]
-# Telegram 不讲武德，直接连接 IP。
-# 只要目标 IP 属于 Telegram 的自治域，必须走代理。
-# 缺了下面这些，你的 Telegram 就会一直 "Connecting..."
+# [Part 4: 终极修复 - IP-CIDR (IPv4)]
+# 这里的 IP 是写死在 Telegram 客户端代码里的。
+# 不管 ASN 数据库怎么变，这些 IP 永远是 Telegram 的。
 # =======================================================
 
-# AS62041: Telegram Messenger LLP (欧洲/全球核心 DC2/DC4)
-# 这是最主要的 ASN，承载了绝大部分流量
+# 欧洲/全球核心 (DC2/DC4)
+IP-CIDR,91.108.0.0/16
+IP-CIDR,91.108.4.0/22
+IP-CIDR,91.108.8.0/22
+IP-CIDR,91.108.12.0/22
+IP-CIDR,91.108.16.0/22
+IP-CIDR,91.108.20.0/22
+IP-CIDR,91.108.56.0/22
+
+# 美洲/全球 (DC1/DC3)
+IP-CIDR,149.154.160.0/20
+IP-CIDR,149.154.164.0/22
+IP-CIDR,149.154.168.0/22
+IP-CIDR,149.154.172.0/22
+
+# 辅助/遗留网段
+IP-CIDR,5.28.192.0/18
+IP-CIDR,109.239.140.0/24
+IP-CIDR,185.76.151.0/24
+
+# =======================================================
+# [Part 5: 终极修复 - IP-CIDR6 (IPv6)]
+# 如果您的网络环境支持 IPv6，Telegram 会优先尝试 IPv6。
+# 漏了这些也会导致转圈。
+# =======================================================
+IP-CIDR6,2001:b28::/32
+IP-CIDR6,2001:67c:4e8::/48
+IP-CIDR6,2001:0b28::/32
+
+# =======================================================
+# [Part 6: ASN 备用兜底]
+# 放在最后作为双重保险
+# =======================================================
 IP-ASN,62041
-
-# AS59930: Telegram Messenger Inc (美洲/迈阿密 DC1/DC3)
-# 也是 IP-CIDR 91.108.56.0/22 等网段的归属地
 IP-ASN,59930
-
-# AS44907: Telegram Messenger Inc (部分亚太/新加坡基础设施)
 IP-ASN,44907
-
-# AS211157: Telegram Messenger Inc (新兴/辅助节点)
 IP-ASN,211157
-
-# AS60239: Telegram (部分旧的或备用前置代理)
 IP-ASN,60239
