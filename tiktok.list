@@ -7,7 +7,39 @@
 # ===============================
 # TikTok Stickers / GIF (FIX)
 # ===============================
+# =================================================
+# TikTok Stickers CDN + API (FINAL CRITICAL FIX)
+# =================================================
 
+# --- Mobile / Web Variant CDN ---
+DOMAIN-SUFFIX, v16m.tiktokcdn.com
+DOMAIN-SUFFIX, v19m.tiktokcdn.com
+DOMAIN-SUFFIX, v77m.tiktokcdn.com
+
+DOMAIN-SUFFIX, v16-webapp.tiktokcdn.com
+DOMAIN-SUFFIX, v19-webapp.tiktokcdn.com
+DOMAIN-SUFFIX, v77-webapp.tiktokcdn.com
+
+# --- Edge Image CDN ---
+DOMAIN-SUFFIX, img16.tiktokcdn.com
+DOMAIN-SUFFIX, img19.tiktokcdn.com
+DOMAIN-SUFFIX, img77.tiktokcdn.com
+
+# --- Akamai CDN Variants ---
+DOMAIN-SUFFIX, p16-tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX, p19-tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX, p77-tiktokcdn-com.akamaized.net
+
+# --- Sticker Index API ---
+DOMAIN-SUFFIX, api16-sticker-useast1a.tiktokv.com
+DOMAIN-SUFFIX, api16-sticker-alisg.tiktokv.com
+DOMAIN-SUFFIX, api19-sticker-useast1a.tiktokv.com
+DOMAIN-SUFFIX, api19-sticker-alisg.tiktokv.com
+DOMAIN-SUFFIX, api77-sticker-useast1a.tiktokv.com
+
+# --- Keyword Rescue ---
+DOMAIN-KEYWORD, webapp
+DOMAIN-KEYWORD, -sticker-
 # --- Sticker CDN ---
 DOMAIN-SUFFIX, tik-tokcdn.com
 DOMAIN-SUFFIX, tiktokcdn-live.com
