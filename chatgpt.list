@@ -1,47 +1,129 @@
-#################################################################################
-##################################claude#####################################
-#################################################################################
-DOMAIN,cdn.usefathom.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-
-
-
-#################################################################################
-##################################chatgpt#####################################
-#################################################################################
-DOMAIN,browser-intake-datadoghq.com
-DOMAIN,chat.openai.com.cdn.cloudflare.net
-DOMAIN,openai-api.arkoselabs.com
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-DOMAIN,openaicomproductionae4b.blob.core.windows.net
-DOMAIN,production-openaicom-storage.azureedge.net
-DOMAIN,static.cloudflareinsights.com
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,algolia.net
-DOMAIN-SUFFIX,api.statsig.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,chatgpt.livekit.cloud
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,host.livekit.cloud
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,launchdarkly.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,observeit.net
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,openaicom.imgix.net
-DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,turn.livekit.cloud
-DOMAIN-KEYWORD,openai
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
-IP-ASN,20473,no-resolve
+1. Claude / Anthropic (Web + App + API)
+--------------------------------------------------
+DOMAIN-SUFFIX, claude.ai
+DOMAIN-SUFFIX, anthropic.com
+DOMAIN-SUFFIX, anthropic.ai
+Web Console / Workspace
+DOMAIN-SUFFIX, console.anthropic.com
+DOMAIN-SUFFIX, teams.anthropic.com
+DOMAIN-SUFFIX, workspace.anthropic.com
+DOMAIN-SUFFIX, org.anthropic.com
+APIs
+DOMAIN-SUFFIX, api.anthropic.com
+DOMAIN-SUFFIX, api.console.anthropic.com
+Auth / SSO / Infra
+DOMAIN-SUFFIX, auth.anthropic.com
+DOMAIN-SUFFIX, audit.anthropic.com
+DOMAIN-SUFFIX, telemetry.anthropic.com
+CDN / Static / Media
+DOMAIN-SUFFIX, anthropiccdn.com
+DOMAIN-SUFFIX, cdn.anthropic.com
+DOMAIN-SUFFIX, claude-cdn.anthropic.com
+DOMAIN-SUFFIX, assets.anthropic.com
+DOMAIN-SUFFIX, static.anthropic.com
+DOMAIN-SUFFIX, media.anthropic.com
+User Content
+DOMAIN-SUFFIX, claudeusercontent.com
+DOMAIN-SUFFIX, claudeusercontent.net
+DOMAIN-SUFFIX, anthropicusercontent.com
+--------------------------------------------------
+2. ChatGPT / OpenAI (Web + App + API)
+--------------------------------------------------
+DOMAIN-SUFFIX, chatgpt.com
+DOMAIN-SUFFIX, chat.openai.com
+DOMAIN-SUFFIX, chatgpt.openai.com
+DOMAIN-SUFFIX, chatgpt-prod-web.openai.com
+DOMAIN-SUFFIX, chatgpt-prod.openai.com
+DOMAIN-SUFFIX, openai.com
+DOMAIN-SUFFIX, auth.openai.com
+DOMAIN-SUFFIX, api.openai.com
+DOMAIN-SUFFIX, api2.openai.com
+DOMAIN-SUFFIX, api3.openai.com
+Workspace / Enterprise
+DOMAIN-SUFFIX, teams.openai.com
+DOMAIN-SUFFIX, workspace.openai.com
+DOMAIN-SUFFIX, org.openai.com
+DOMAIN-SUFFIX, admin.openai.com
+Files / Images / User Content
+DOMAIN-SUFFIX, files.openai.com
+DOMAIN-SUFFIX, images.openai.com
+DOMAIN-SUFFIX, oaiusercontent.com
+DOMAIN-SUFFIX, api.openaiusercontent.com
+Realtime / Voice / WebRTC
+DOMAIN-SUFFIX, realtime.openai.com
+DOMAIN-SUFFIX, webrtc.openai.com
+--------------------------------------------------
+3. OpenAI Static / CDN / Blob
+--------------------------------------------------
+DOMAIN-SUFFIX, oaistatic.com
+DOMAIN-SUFFIX, cdn.oaistatic.com
+DOMAIN-SUFFIX, static.oaistatic.com
+DOMAIN-SUFFIX, cdn.openai.com
+DOMAIN-SUFFIX, openaicomcdn.azureedge.net
+DOMAIN-SUFFIX, openaicomprod.azureedge.net
+DOMAIN-SUFFIX, openaicomstatic.azureedge.net
+DOMAIN-SUFFIX, openaicomproductionae4b.blob.core.windows.net
+DOMAIN-SUFFIX, openaicomstorage.blob.core.windows.net
+DOMAIN-SUFFIX, openaicomstorage2.blob.core.windows.net
+DOMAIN-SUFFIX, production-openaicom-storage.azureedge.net
+DOMAIN-SUFFIX, openaiapi-site.azureedge.net
+DOMAIN-SUFFIX, openaicom.imgix.net
+--------------------------------------------------
+4. OpenAI Realtime Infra (LiveKit)
+--------------------------------------------------
+DOMAIN-SUFFIX, host.livekit.cloud
+DOMAIN-SUFFIX, turn.livekit.cloud
+DOMAIN-SUFFIX, signaling.livekit.cloud
+DOMAIN-SUFFIX, rtc.livekit.cloud
+DOMAIN-SUFFIX, ws.livekit.cloud
+DOMAIN-SUFFIX, egress.livekit.cloud
+DOMAIN-SUFFIX, ingress.livekit.cloud
+DOMAIN-SUFFIX, chatgpt.livekit.cloud
+--------------------------------------------------
+5. Security / Bot Protection / Telemetry
+--------------------------------------------------
+DOMAIN-SUFFIX, openai-api.arkoselabs.com
+DOMAIN-SUFFIX, client-api.arkoselabs.com
+DOMAIN-SUFFIX, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN-SUFFIX, api.statsig.com
+DOMAIN-SUFFIX, events.statsigapi.net
+DOMAIN-SUFFIX, featuregates.org
+DOMAIN-SUFFIX, launchdarkly.com
+DOMAIN-SUFFIX, observeit.net
+DOMAIN-SUFFIX, sentry.io
+DOMAIN-SUFFIX, segment.io
+DOMAIN-SUFFIX, intercom.io
+DOMAIN-SUFFIX, intercomcdn.com
+DOMAIN-SUFFIX, stripe.com
+DOMAIN-SUFFIX, identrust.com
+DOMAIN, browser-intake-datadoghq.com
+DOMAIN, static.cloudflareinsights.com
+--------------------------------------------------
+6. Misc / Branding
+--------------------------------------------------
+DOMAIN-SUFFIX, ai.com
+DOMAIN-SUFFIX, algolia.net
+--------------------------------------------------
+7. IP-ASN (OpenAI)
+--------------------------------------------------
+IP-ASN, 20473, no-resolve
+--------------------------------------------------
+8. User-Agent
+--------------------------------------------------
+USER-AGENT, Claude*
+USER-AGENT, ClaudeClient*
+USER-AGENT, Anthropic*
+USER-AGENT, ChatGPT*
+USER-AGENT, OpenAI*
+USER-AGENT, OpenAIClient*
+--------------------------------------------------
+9. Process Name (Desktop / PWA)
+--------------------------------------------------
+PROCESS-NAME, Claude
+PROCESS-NAME, Claude.exe
+PROCESS-NAME, ChatGPT
+PROCESS-NAME, ChatGPT.exe
+PROCESS-NAME, OpenAI.exe
+==================================================
+END — Claude + ChatGPT Ecosystem vFinal
+==================================================
