@@ -19,10 +19,6 @@ DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,instagr.am
 DOMAIN-SUFFIX,threads.net
 
-# WhatsApp
-DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,whatsapp.net
-
 # Corporate & VR (Oculus)
 DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,meta.quest
@@ -43,7 +39,6 @@ DOMAIN-SUFFIX,accountkit.com
 # 覆盖短链接及潜在的新域名
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,instagram
-DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,threads
 DOMAIN-KEYWORD,fbcdn
 DOMAIN-KEYWORD,oculus
@@ -55,7 +50,6 @@ DOMAIN-KEYWORD,oculus
 # =======================================================
 USER-AGENT,Facebook*
 USER-AGENT,Instagram*
-USER-AGENT,WhatsApp*
 USER-AGENT,Messenger*
 USER-AGENT,Threads*
 USER-AGENT,Meta*
@@ -73,9 +67,6 @@ USER-AGENT,FBAV*
 
 # AS32934: Facebook, Inc. (核心 ASN，承载 90% 流量)
 IP-ASN,32934
-
-# AS54115: Facebook/WhatsApp (部分 WhatsApp 语音/视频服务器)
-IP-ASN,54115
 
 # AS63293: Facebook (辅助基础设施)
 IP-ASN,63293
