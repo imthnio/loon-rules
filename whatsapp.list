@@ -1,0 +1,35 @@
+# ==================================
+# NAME: WhatsApp Comprehensive
+# DESCRIPTION: Core, Web, Media (CDN) & VoIP
+# UPDATED: 2026-01-26
+# ==================================
+
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,whatsapp.org
+DOMAIN-SUFFIX,wa.me
+
+DOMAIN-SUFFIX,g.whatsapp.net
+DOMAIN-SUFFIX,v.whatsapp.net
+
+
+DOMAIN-SUFFIX,web.whatsapp.com
+DOMAIN-SUFFIX,api.whatsapp.com
+DOMAIN-SUFFIX,dyn.web.whatsapp.com
+
+
+DOMAIN-SUFFIX,mmg.whatsapp.net
+DOMAIN-SUFFIX,mmg-fna.whatsapp.net
+
+
+DOMAIN-SUFFIX,static.whatsapp.net
+DOMAIN-SUFFIX,cdn.whatsapp.net
+DOMAIN-SUFFIX,mmx-ds.cdn.whatsapp.net
+DOMAIN-SUFFIX,pps.whatsapp.net
+DOMAIN-SUFFIX,sc-cdn.whatsapp.net
+
+
+USER-AGENT,WhatsApp*
+USER-AGENT,WhatsAppBusiness*
+# ----------------------------------
+DOMAIN-KEYWORD,whatsapp
