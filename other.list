@@ -99,7 +99,8 @@ DOMAIN-SUFFIX,111666.best
 DOMAIN-SUFFIX,img.baisi.ru
 DOMAIN-SUFFIX,imgbb.com
 
-
+####################安卓app软件下载
+DOMAIN-SUFFIX,apkmirror.com
 ####################################星空mail星空邮箱
 DOMAIN-SUFFIX,mail.tal.ccwu.cc
 
