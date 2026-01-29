@@ -51,6 +51,8 @@ DOMAIN-SUFFIX,tiktokw.us
 # 仅作为补充，防止 CDN 域名被解析到 Akamai 后直连导致卡顿
 DOMAIN-SUFFIX,akamaized.net
 
+DOMAIN-SUFFIX,ttwstatic.com
+DOMAIN-SUFFIX,tiktokfonts.com
 
 
 # [Part 3: 共享 CDN & 静态资源]
