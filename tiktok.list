@@ -1,95 +1,133 @@
 # =======================================================
-# 规则名称: TikTok & Lemon8 Ultimate (2026)
-# 核心逻辑: 域名全覆盖 + UA暴力匹配 + IP-ASN物理兜底
-# 适用 App: TikTok, Lemon8, CapCut (剪映国际版)
+# Lemon8 / ByteDance 相关补充域名
 # =======================================================
-
-# [Part 1: Lemon8 专属域名 (New)]
-# 必须单独列出，因为它们不使用 tiktok 后缀
 DOMAIN-SUFFIX,lemon8-app.com
 DOMAIN-SUFFIX,bdurl.net
 DOMAIN-SUFFIX,jumplite.com
 DOMAIN-SUFFIX,viamaker.com
 
+
+# =======================================================
 # [Part 2: TikTok 核心域名 & 后缀]
+# =======================================================
 DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokcdn.com
-DOMAIN-SUFFIX,tiktok-shop.com
-DOMAIN-SUFFIX,byteoversea.com
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,ibyteimg.com
-DOMAIN-SUFFIX,ipstatp.com
-DOMAIN-SUFFIX,isnssdk.com
-DOMAIN-SUFFIX,muscdn.com
-DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,tik-tokapi.com
-DOMAIN-SUFFIX,sgpstatp.com
-DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,tiktokd.net
-DOMAIN-SUFFIX,tiktokd.org
-DOMAIN-SUFFIX,tiktokmusic.app
 DOMAIN-SUFFIX,tiktokcdn-us.com
 DOMAIN-SUFFIX,tiktokv.us
+DOMAIN-SUFFIX,tiktok-shop.com
+DOMAIN-SUFFIX,tiktokmusic.app
+DOMAIN-SUFFIX,tiktokd.net
+DOMAIN-SUFFIX,tiktokd.org
+DOMAIN-SUFFIX,tiktokfonts.com
 DOMAIN-SUFFIX,ttwebview.com
+DOMAIN-SUFFIX,ttwstatic.com
+
+# ByteDance / TikTok 基础设施
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,byteintlapi.com
+DOMAIN-SUFFIX,bytegecko-i18n.com
+DOMAIN-SUFFIX,bytedapm.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,sgpstatp.com
+DOMAIN-SUFFIX,snssdk.com
+
+# 音乐 / 历史兼容
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+
+# API / Web / 工具链
+DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,marscode.com
 DOMAIN-SUFFIX,capcut.com
-DOMAIN-SUFFIX,bytegecko-i18n.com
-DOMAIN-SUFFIX,byteintlapi.com
-DOMAIN-SUFFIX,bytedapm.com
 
-
-
+# 直播 / 海外 / CDN
 DOMAIN-SUFFIX,tlivecdn.com
 DOMAIN-SUFFIX,ttlivecdn.com
 DOMAIN-SUFFIX,ttoversea.net
 DOMAIN-SUFFIX,quic-tiktok-cdn.com
-DOMAIN-SUFFIX,byteimg.com
 DOMAIN-SUFFIX,tiktokw.com
 DOMAIN-SUFFIX,tiktokw.us
-# 仅作为补充，防止 CDN 域名被解析到 Akamai 后直连导致卡顿
+
+# CDN 补充（防止 Akamai 直连卡顿）
 DOMAIN-SUFFIX,akamaized.net
 
-DOMAIN-SUFFIX,ttwstatic.com
-DOMAIN-SUFFIX,tiktokfonts.com
 
-
+# =======================================================
 # [Part 3: 共享 CDN & 静态资源]
-# 这些域名是 ByteDance 旗下 App 共用的
+# ByteDance 旗下 App 共用
+# =======================================================
 DOMAIN,lf16-effectcdn.byteeffecttos-g.com
 DOMAIN,lf16-pkgcdn.pitaya-clientai.com
 DOMAIN,p16-tiktokcdn-com.akamaized.net
 DOMAIN,trae-api-sg.mchost.guru
 DOMAIN,omgid.com
 
+
+# =======================================================
 # [Part 4: 关键字暴力匹配]
+# =======================================================
 DOMAIN-KEYWORD,tiktok
 DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,lemon8
 
+# 与上方域名并存的显式兜底
+DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+DOMAIN,lf16-pkgcdn.pitaya-clientai.com
+DOMAIN,p16-tiktokcdn-com.akamaized.net
+DOMAIN,trae-api-sg.mchost.guru
+
+DOMAIN-SUFFIX,bytedapm.com
+DOMAIN-SUFFIX,bytegecko-i18n.com
+DOMAIN-SUFFIX,byteintlapi.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,marscode.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,sgpstatp.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokcdn-us.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokd.net
+DOMAIN-SUFFIX,tiktokd.org
+DOMAIN-SUFFIX,tiktokmusic.app
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokv.us
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,ttwebview.com
+
+
 # =======================================================
 # [Part 5: 协议层兜底 (User-Agent)]
-# 新增 Lemon8* 匹配
 # =======================================================
 USER-AGENT,TikTok*
 USER-AGENT,musical_ly*
 USER-AGENT,trill*
 USER-AGENT,Lemon8*
 
+
 # =======================================================
 # [Part 6: 物理层兜底 (IP-ASN)]
-# Lemon8 的数据主要存储在新加坡(AS138699)和美国(AS396986)
-# 这里的 ASN 规则同时保护 TikTok 和 Lemon8 不泄露
 # =======================================================
-
-# AS396986: ByteDance Inc (US/Global)
+# AS396986: ByteDance Inc (US / Global)
 IP-ASN,396986
 
-# AS138699: TikTok Pte Ltd (SG/Global)
+# AS138699: TikTok Pte Ltd (SG / Global)
 IP-ASN,138699
 
-# AS11983: TIKTOK-USDS (美国数据安全实体)
+# AS11983: TIKTOK-USDS
 IP-ASN,11983
 
 # AS41256: 关联基础设施
