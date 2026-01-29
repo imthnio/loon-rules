@@ -17,6 +17,26 @@ DOMAIN-SUFFIX,novipnoad.net
 DOMAIN-SUFFIX,findno.tv
 DOMAIN-SUFFIX,en.wwew.shwsqjd.com
 DOMAIN-SUFFIX,shwsqjd.com
+
+
+####################安卓app软件下载
+DOMAIN-SUFFIX,apkmirror.com
+DOMAIN-SUFFIX,aurora-store.cn.uptodown.com
+DOMAIN-SUFFIX,malavida.com
+DOMAIN-SUFFIX,androeed.ru
+DOMAIN-SUFFIX,uptodown.com
+DOMAIN-SUFFIX,apkcombo.com
+DOMAIN-SUFFIX,en.uptodown.com
+DOMAIN-SUFFIX,apkflash.com
+DOMAIN-SUFFIX,cloudflarestorage.com
+DOMAIN-SUFFIX,apk.support
+DOMAIN-SUFFIX,winudf.com
+DOMAIN-SUFFIX,apkmirror.com
+DOMAIN-SUFFIX,apkcdn.nyc3.cdn.digitaloceanspaces.com
+
+
+
+
 ################################维基百科
 DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,wikibooks.org
@@ -99,18 +119,7 @@ DOMAIN-SUFFIX,111666.best
 DOMAIN-SUFFIX,img.baisi.ru
 DOMAIN-SUFFIX,imgbb.com
 
-####################安卓app软件下载
-DOMAIN-SUFFIX,apkmirror.com
-DOMAIN-SUFFIX,aurora-store.cn.uptodown.com
-DOMAIN-SUFFIX,malavida.com
-DOMAIN-SUFFIX,androeed.ru
-DOMAIN-SUFFIX,uptodown.com
-DOMAIN-SUFFIX,apkcombo.com
-DOMAIN-SUFFIX,en.uptodown.com
-DOMAIN-SUFFIX,apkflash.com
-DOMAIN-SUFFIX,cloudflarestorage.com
-DOMAIN-SUFFIX,apk.support
-DOMAIN-SUFFIX,winudf.com
+
 
 
 ####################################星空mail星空邮箱
