@@ -39,6 +39,20 @@ DOMAIN-SUFFIX,bytegecko-i18n.com
 DOMAIN-SUFFIX,byteintlapi.com
 DOMAIN-SUFFIX,bytedapm.com
 
+
+
+DOMAIN-SUFFIX,tlivecdn.com
+DOMAIN-SUFFIX,ttlivecdn.com
+DOMAIN-SUFFIX,ttoversea.net
+DOMAIN-SUFFIX,quic-tiktok-cdn.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,tiktokw.com
+DOMAIN-SUFFIX,tiktokw.us
+# 仅作为补充，防止 CDN 域名被解析到 Akamai 后直连导致卡顿
+DOMAIN-SUFFIX,akamaized.net
+
+
+
 # [Part 3: 共享 CDN & 静态资源]
 # 这些域名是 ByteDance 旗下 App 共用的
 DOMAIN,lf16-effectcdn.byteeffecttos-g.com
