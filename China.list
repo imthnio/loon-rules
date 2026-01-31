@@ -228,3 +228,7 @@ IP-ASN,55901
 
 # AS135431: Kuaishou (部分海外/边缘节点)
 IP-ASN,135431
+
+
+
+GEOIP,CN,no-resolve
