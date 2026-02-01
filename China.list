@@ -160,8 +160,59 @@ PROCESS-NAME,com.apple.appstore
 PROCESS-NAME,com.apple.geod
 PROCESS-NAME,com.apple.maps
 
-
-
+# ======================================================================================
+#=======================================腾讯所有游戏=======================================
+# ======================================================================================
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,tencent.com.cn
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,game.qq.com
+DOMAIN-SUFFIX,pvp.qq.com
+DOMAIN-SUFFIX,smoba.qq.com
+DOMAIN-SUFFIX,gp.qq.com
+DOMAIN-SUFFIX,igamecj.com
+DOMAIN-SUFFIX,msdk.qq.com
+DOMAIN-SUFFIX,tpns.qq.com
+DOMAIN-SUFFIX,tencent-gcloud.com
+DOMAIN-SUFFIX,gcloudcs.com
+DOMAIN-SUFFIX,gcloud.com
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,gtimg.cn
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,idqqimg.com
+DOMAIN-SUFFIX,cdns.jcloud.com
+DOMAIN-SUFFIX,cdns.jcloud-cdn.com
+DOMAIN-SUFFIX,levelinfinite.com
+DOMAIN-SUFFIX,levelinfinite.net
+DOMAIN-SUFFIX,proximabeta.com
+DOMAIN-SUFFIX,pubgmobile.com
+DOMAIN-SUFFIX,pubgame.com
+DOMAIN-SUFFIX,riotgames.com
+DOMAIN-SUFFIX,honorofkings.com
+DOMAIN-SUFFIX,hok-global.com
+DOMAIN-KEYWORD,tencent
+DOMAIN-KEYWORD,qq.com
+DOMAIN-KEYWORD,smoba
+DOMAIN-KEYWORD,moba
+DOMAIN-KEYWORD,daolu
+DOMAIN-KEYWORD,levelinfinite
+DOMAIN-KEYWORD,王者荣耀
+DOMAIN-KEYWORD,和平精英
+USER-AGENT,Tencent*
+USER-AGENT,MicroMessenger*
+USER-AGENT,WeChat*
+USER-AGENT,QQ*
+USER-AGENT,SGame*
+USER-AGENT,HoK*
+USER-AGENT,PUBGM*
+USER-AGENT,GCloud*
+USER-AGENT,MSDK*
+PROCESS-NAME,com.tencent.tmgp.sgame
+PROCESS-NAME,com.tencent.tmgp.pubgmhd
+PROCESS-NAME,com.tencent.ig
+PROCESS-NAME,com.levelinfinite.sgameGlobal
+PROCESS-NAME,com.tencent.lolm
 # ======================================================================================
 #=======================================叠纸无限暖暖=======================================
 # ======================================================================================
