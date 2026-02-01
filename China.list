@@ -1,12 +1,6 @@
-# =======================================================
-# 规则名称: Douyin / ByteDance CN (Watertight)
-# 覆盖范围: 抖音, 抖音火山版, 剪映(国内版), 巨量引擎
-# 核心策略: 识别国内特有域名 + 字节跳动中国 ASN
-# 建议策略: DIRECT (国内用户) / 回国代理 (海外用户)
-# =======================================================
-
-# [Part 1: 核心域名 (Core Domains)]
-# douyin.com 是主入口，amemv.com 是旧版 API 核心
+# ======================================================================================
+#======================================抖音=======================================
+# ======================================================================================
 DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,iesdouyin.com
 DOMAIN-SUFFIX,douyincdn.com
@@ -16,9 +10,6 @@ DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,idouyinvod.com
 DOMAIN-SUFFIX,cdndouyin.com
 DOMAIN-SUFFIX,douyinliving.com
-
-# [Part 2: 关联服务 (Legacy & Apps)]
-# aweme 是抖音内部的项目代号，amemv 是旧域名
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,aweme.tv
 DOMAIN-SUFFIX,douyin-shop.com
@@ -26,10 +17,6 @@ DOMAIN-SUFFIX,huoshan.com
 DOMAIN-SUFFIX,huoshanzhibo.com
 DOMAIN-SUFFIX,jianying.com
 DOMAIN-SUFFIX,xiaomingming.org
-
-# [Part 3: 字节跳动中国通用服务]
-# 这些域名服务于国内全系产品 (头条/西瓜/抖音)
-# 注意：tiktok 规则里有 snssdk.com，如果冲突，请将 TikTok 规则放在上方
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,toutiao.com
 DOMAIN-SUFFIX,ixigua.com
@@ -37,48 +24,23 @@ DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,byteimg.com
 DOMAIN-SUFFIX,volcengine.com
 DOMAIN-SUFFIX,volccdn.com
-
-# [Part 4: 暴力关键字 (Keywords)]
 DOMAIN-KEYWORD,douyin
 DOMAIN-KEYWORD,huoshan
 DOMAIN-KEYWORD,jianying
-# 匹配 core-c-001.douyinvod.com 等视频流
 DOMAIN-KEYWORD,douyinvod
-
-# =======================================================
-# [Part 5: 协议层兜底 (User-Agent)]
-# Aweme 是抖音安卓/iOS 包名的核心特征
-# =======================================================
 USER-AGENT,Douyin*
 USER-AGENT,Aweme*
 USER-AGENT,Jianying*
 USER-AGENT,LiveStream*
-
-# =======================================================
-# [Part 6: 物理层兜底 (IP-ASN)]
-# 字节跳动(中国)的自治域。
-# 绝大多数抖音国内流量都源自这里。
-# =======================================================
-
-# AS58466: ByteDance Technology Co., Ltd. (核心中国 ASN)
 IP-ASN,58466
-
-# AS394380: Volcengine (火山引擎 - 字节的云服务)
 IP-ASN,394380
-
-# AS147926: ByteDance (部分联通/电信加速节点)
 IP-ASN,147926
 
 
 
-# =======================================================
-# 规则名称: Bilibili Universe (Watertight)
-# 覆盖范围: B站视频, 直播, 漫画, 游戏, 链接跳转
-# 建议策略: DIRECT (国内) / 回国节点 (解锁番剧限制)
-# =======================================================
-
-# [Part 1: 核心域名 & 视频流]
-# bilivideo.com/.cn 是流量大户，必须全覆盖
+# ======================================================================================
+#=====================================哔哩哔哩bilibili=================================
+# ======================================================================================
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilibili.tv
 DOMAIN-SUFFIX,bilibili.co
@@ -87,9 +49,6 @@ DOMAIN-SUFFIX,bilivideo.cn
 DOMAIN-SUFFIX,bilivideo.net
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,hdslb.net
-
-# [Part 2: API & 辅助服务]
-# 漫画、游戏、API接口
 DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,biliapi.net
 DOMAIN-SUFFIX,biligame.com
@@ -99,134 +58,64 @@ DOMAIN-SUFFIX,bilibiliusercontent.com
 DOMAIN-SUFFIX,mcbbs.net
 DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,im9.com
-
-# [Part 3: 暴力关键字 (Keywords)]
-# 针对各种 CDN 分流节点 (如 cn-bj-1-bilivideo.com)
 DOMAIN-KEYWORD,bilibili
 DOMAIN-KEYWORD,bilivideo
-
-# =======================================================
-# [Part 4: 协议层兜底 (User-Agent)]
-# 适配 iOS/Android 客户端
-# =======================================================
 USER-AGENT,Bilibili*
 USER-AGENT,bili*
 USER-AGENT,BiliAnime*
 USER-AGENT,tv.danmaku.bili*
-
-# =======================================================
-# [Part 5: 进程层兜底 (Process Name)]
-# 适配 macOS / Windows 客户端
-# =======================================================
 PROCESS-NAME,Bilibili
 PROCESS-NAME,bilibili
 PROCESS-NAME,tv.danmaku.bili
-
-# =======================================================
-# [Part 6: 物理层兜底 (IP-ASN)]
-# B站拥有自己的 ASN，虽然大部分流量走 CDN，但核心 API 走这里
-# =======================================================
 # AS132203: Bilibili Inc.
 IP-ASN,132203
 
 
-
-# =======================================================
-# 规则名称: Xiaohongshu (Red) Watertight
-# 覆盖范围: 小红书 App, 网页版, 图片 CDN
-# 建议策略: DIRECT (国内) / 回国节点 (海外)
-# =======================================================
-
-# [Part 1: 核心域名]
+# ======================================================================================
+#======================================小红书=========================================
+# ======================================================================================
 DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-SUFFIX,xhscdn.com
 DOMAIN-SUFFIX,xhscdn.net
 DOMAIN-SUFFIX,xhslink.com
 DOMAIN-SUFFIX,xycommunity.com
-
-# [Part 2: 暴力关键字]
 DOMAIN-KEYWORD,xiaohongshu
-
-# =======================================================
-# [Part 3: 协议层兜底 (User-Agent)]
-# discovery 是小红书内部的工程代号
-# =======================================================
 USER-AGENT,Xiaohongshu*
 USER-AGENT,xhs*
 USER-AGENT,discovery*
 USER-AGENT,MicroMessenger*
 
-# =======================================================
-# [Part 4: 物理层说明]
-# 小红书主要使用阿里云 (Aliyun) 和腾讯云基础设施，无独立 ASN。
-# 依靠上述域名和 UA 已经足够“密不透风”。
-# =======================================================
+# ======================================================================================
+#======================================快手------=======================================
+# =======================================================================================
 
-
-
-
-
-# =======================================================
-# 规则名称: Kuaishou Universe (Watertight)
-# 覆盖范围: 快手, 快手极速版, A站(AcFun), 快手直播
-# 核心痛点: 解决 yximgs 图片加载失败和 gifshow API 连接慢
-# =======================================================
-
-# [Part 1: 核心域名 & 历史遗留]
-# gifshow.com 是快手最早的域名，至今仍承载核心 API
 DOMAIN-SUFFIX,kuaishou.com
 DOMAIN-SUFFIX,kuaishou.net
 DOMAIN-SUFFIX,gifshow.com
 DOMAIN-SUFFIX,ksapis.com
 DOMAIN-SUFFIX,ksyun.com
 
-# [Part 2: 静态资源 & CDN (最关键)]
-# yximgs 是快手的图片/视频 CDN，不加这个 APP 就是瞎子
 DOMAIN-SUFFIX,yximgs.com
 DOMAIN-SUFFIX,udatask.com
 DOMAIN-SUFFIX,jovcloud.com
 DOMAIN-SUFFIX,onezapp.com
-
-# [Part 3: 关联服务 (AcFun & Kwai)]
-# AcFun 现属快手旗下，共享部分基础设施
 DOMAIN-SUFFIX,acfun.cn
 DOMAIN-SUFFIX,acfun.tv
 DOMAIN-SUFFIX,kwai.com
 DOMAIN-SUFFIX,kwai.net
 DOMAIN-SUFFIX,kwai-pro.com
-
-# [Part 4: 暴力关键字 (Keywords)]
 DOMAIN-KEYWORD,kuaishou
 DOMAIN-KEYWORD,gifshow
 DOMAIN-KEYWORD,yximgs
 DOMAIN-KEYWORD,kwai
-
-# =======================================================
-# [Part 5: 协议层兜底 (User-Agent)]
-# 覆盖快手系 APP 及 Webview
-# =======================================================
 USER-AGENT,Kuaishou*
 USER-AGENT,Kwai*
 USER-AGENT,KsWebView*
 USER-AGENT,kwai-android*
 USER-AGENT,AcFun*
-
-# =======================================================
-# [Part 6: 进程层兜底 (Process Name)]
-# 适配可能存在的 PC/Mac 端应用
-# =======================================================
 PROCESS-NAME,Kuaishou
 PROCESS-NAME,kwai
-
-# =======================================================
-# [Part 7: 物理层兜底 (IP-ASN)]
-# 快手拥有独立的自治域，主要用于国内数据中心
-# =======================================================
-
-# AS55901: Beijing Kuaishou Technology Co., Ltd.
 IP-ASN,55901
-
-# AS135431: Kuaishou (部分海外/边缘节点)
 IP-ASN,135431
 
 # ======================================================================================
