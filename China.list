@@ -248,7 +248,76 @@ USER-AGENT,Nikki*
 USER-AGENT,PaperGames*
 PROCESS-NAME,InfinityNikki.exe
 PROCESS-NAME,InfoldLauncher.exe
-
+# ======================================================================================
+#=======================================paypal贝宝=======================================
+# ======================================================================================
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.cn
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypal.co.jp
+DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,paypal-mktg.com
+DOMAIN-SUFFIX,paypal-communication.com
+DOMAIN-SUFFIX,paypal-knowledge.com
+DOMAIN-SUFFIX,paypal-status.com
+DOMAIN-SUFFIX,paypal-corp.com
+DOMAIN-SUFFIX,paypal-billing.com
+DOMAIN-SUFFIX,paypal-marketing.com
+DOMAIN-SUFFIX,paypal.112.2o7.net
+DOMAIN-SUFFIX,pypl.com
+DOMAIN-SUFFIX,braintreegateway.com
+DOMAIN-SUFFIX,braintreepayments.com
+DOMAIN-SUFFIX,braintree-api.com
+DOMAIN-SUFFIX,venmo.com
+DOMAIN-SUFFIX,xoom.com
+DOMAIN-SUFFIX,paidy.com
+DOMAIN-SUFFIX,honey.is
+DOMAIN-SUFFIX,joinhoney.com
+DOMAIN-SUFFIX,simility.com
+DOMAIN-SUFFIX,swiftfinancial.com
+DOMAIN-SUFFIX,loanbuilder.com
+DOMAIN-SUFFIX,izettle.com
+DOMAIN-KEYWORD,paypal
+DOMAIN-KEYWORD,braintree
+DOMAIN-KEYWORD,venmo
+DOMAIN-KEYWORD,paidy
+USER-AGENT,PayPal*
+USER-AGENT,Venmo*
+USER-AGENT,Paidy*
+# ======================================================================================
+#======================================wise/transferwise================================
+# ======================================================================================
+DOMAIN-SUFFIX,wise.com
+DOMAIN-SUFFIX,transferwise.com
+DOMAIN-SUFFIX,wisecdn.com
+DOMAIN-SUFFIX,wisebeta.com
+DOMAIN-SUFFIX,transferwise.tech
+DOMAIN-SUFFIX,transferwise.net
+DOMAIN-SUFFIX,transferwise.work
+DOMAIN-SUFFIX,transferwise-cdn.com
+USER-AGENT,Wise*
+USER-AGENT,TransferWise*
+USER-AGENT,com.transferwise*
+# ======================================================================================
+#======================================n26银行/n26 bank================================
+# ======================================================================================
+DOMAIN-SUFFIX,n26.com
+DOMAIN-SUFFIX,n26.de
+DOMAIN-SUFFIX,n26.net
+DOMAIN-SUFFIX,n26.eu
+DOMAIN-SUFFIX,tech26.de
+DOMAIN-SUFFIX,tech26.com
+DOMAIN-SUFFIX,number26.de
+DOMAIN-SUFFIX,number26.com
+DOMAIN-SUFFIX,number26.eu
+DOMAIN-SUFFIX,n26cdn.com
+DOMAIN-SUFFIX,n26cdn.net
+DOMAIN-SUFFIX,idnow.de
+DOMAIN-SUFFIX,idnow.io
+DOMAIN-SUFFIX,idnow.com
+DOMAIN-KEYWORD,number26
+USER-AGENT,N26*
+USER-AGENT,Number26*
 
 # ======================================================================================
 #======================================国际地区ip兜底=======================================
