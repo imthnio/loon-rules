@@ -1,10 +1,9 @@
 # =======================================================
-# 规则名称: Telegram Watertight (IP-CIDR Fix)
-# 核心痛点: 修复 "Connecting..." / "一直在转圈"
-# 修复原理: 放弃查询归属地，直接强制接管官方 IP 段
+# Telegram 完整分流规则 (已基于 blackmatrix7 补全)
+# 修复：视频缓存慢、动态贴纸不加载问题
 # =======================================================
 
-# [Part 1: 核心域名 & 短链]
+# [Part 1: 核心域名 & 补全多媒体域名]
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.dog
@@ -19,6 +18,13 @@ DOMAIN-SUFFIX,legra.ph
 DOMAIN-SUFFIX,telegram-cdn.org
 DOMAIN-SUFFIX,tgusercontent.com
 DOMAIN-SUFFIX,cdn-telegram.org
+# --- 以下为本次补全的关键域名 ---
+DOMAIN-SUFFIX,comments.app
+DOMAIN-SUFFIX,stel.com
+DOMAIN-SUFFIX,quiz.directory
+DOMAIN-SUFFIX,telega.one
+DOMAIN,api.imem.app
+DOMAIN,api.swiftgram.app
 
 # [Part 2: 暴力关键字]
 DOMAIN-KEYWORD,telegram
@@ -36,8 +42,7 @@ PROCESS-NAME,Telegram.exe
 
 # =======================================================
 # [Part 4: 终极修复 - IP-CIDR (IPv4)]
-# 这里的 IP 是写死在 Telegram 客户端代码里的。
-# 不管 ASN 数据库怎么变，这些 IP 永远是 Telegram 的。
+# 包含欧洲、美洲及亚洲优化节点
 # =======================================================
 
 # 欧洲/全球核心 (DC2/DC4)
@@ -55,27 +60,26 @@ IP-CIDR,149.154.164.0/22
 IP-CIDR,149.154.168.0/22
 IP-CIDR,149.154.172.0/22
 
-# 辅助/遗留网段
+# 辅助/遗留网段 & 视频优化
 IP-CIDR,5.28.192.0/18
 IP-CIDR,109.239.140.0/24
 IP-CIDR,185.76.151.0/24
+# --- 重点：修复视频卡顿的关键段 ---
+IP-CIDR,95.161.64.0/20
 
 # =======================================================
 # [Part 5: 终极修复 - IP-CIDR6 (IPv6)]
-# 如果您的网络环境支持 IPv6，Telegram 会优先尝试 IPv6。
-# 漏了这些也会导致转圈。
 # =======================================================
 IP-CIDR6,2001:b28::/32
 IP-CIDR6,2001:67c:4e8::/48
 IP-CIDR6,2001:0b28::/32
-
-IP-CIDR6,2001:67c:4e8::/48
 IP-CIDR6,2001:b28:f23c::/47
 IP-CIDR6,2001:b28:f23d::/48
 IP-CIDR6,2001:b28:f23f::/48
+
 # =======================================================
 # [Part 6: ASN 备用兜底]
-# 放在最后作为双重保险
+# 必须存在的最后一道防线
 # =======================================================
 IP-ASN,62041
 IP-ASN,59930
