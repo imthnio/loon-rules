@@ -1,3 +1,21 @@
+# ==========================================
+# TikTok 补全与直播优化规则 (参考 blackmatrix7)
+# ==========================================
+
+# --- 核心缺失补全 ---
+DOMAIN-SUFFIX,sgsnssdk.com
+DOMAIN-SUFFIX,bytegecko.com
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,tiktokcdn-eu.com
+DOMAIN-SUFFIX,tiktokcdn-in.com
+DOMAIN-SUFFIX,tiktokv.eu
+DOMAIN-SUFFIX,ttlivecdn.com
+DOMAIN-SUFFIX,hls.ttlivecdn.com
+DOMAIN-SUFFIX,quic-tiktok-cdn.com
+IP-ASN,138699,no-resolve
+IP-ASN,396986,no-resolve
+IP-ASN,11983,no-resolve
+
 DOMAIN-SUFFIX,tiktok.us
 DOMAIN-SUFFIX,tiktok-usa.com
 DOMAIN-SUFFIX,tiktok-us.com
