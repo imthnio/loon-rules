@@ -5,9 +5,8 @@ DOMAIN-KEYWORD,giffgaff
 DOMAIN-SUFFIX,epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
 PROCESS-NAME,com.giffgaffmobile.app
 PROCESS-NAME,com.giffgaff.giffgaff
-PROCESS-NAME,giffgaff
-USER-AGENT,giffgaff*
-USER-AGENT,MyGiffgaff*
+USER-AGENT,*giffgaff*
+
 # ======================================================================================
 #======================================kraken======================================
 # ======================================================================================
@@ -17,9 +16,9 @@ DOMAIN-SUFFIX,krakenstatus.com
 DOMAIN-SUFFIX,payward.com
 DOMAIN-SUFFIX,inkonchain.com
 DOMAIN-KEYWORD,kraken
-USER-AGENT,Kraken*
 IP-ASN,1072,no-resolve
 IP-ASN,209274,no-resolve
+USER-AGENT,*Krak*
 # ======================================================================================
 #======================================trading212======================================
 # ======================================================================================
@@ -30,6 +29,7 @@ DOMAIN-SUFFIX,t212.com
 DOMAIN-SUFFIX,trading212resources.com
 DOMAIN-SUFFIX,avuscapital.com
 DOMAIN-KEYWORD,trading212
+USER-AGENT,*trading212*
 ################################################
 #####################bybit##################
 ################################################
@@ -39,11 +39,7 @@ DOMAIN-SUFFIX,bytick.com
 DOMAIN-SUFFIX,byfintech.com
 DOMAIN-SUFFIX,bybit.nl
 DOMAIN-SUFFIX,bybit.eu
-PROCESS-NAME,com.bybit.app
-PROCESS-NAME,com.bybit
-PROCESS-NAME,Bybit
-USER-AGENT,Bybit*
-USER-AGENT,BybitApp*
+USER-AGENT,*Bybit*
 
 # ======================================================================================
 #======================================Coinbase=======================================
@@ -70,16 +66,11 @@ DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,coinbasestatus.com
 DOMAIN-SUFFIX,coinbaseassets.com
 DOMAIN-SUFFIX,cbassets.net
-PROCESS-NAME,com.coinbase.consumer
-PROCESS-NAME,com.coinbase.android
-PROCESS-NAME,com.coinbase.wallet
-PROCESS-NAME,com.coinbase.pro
-PROCESS-NAME,Coinbase
-PROCESS-NAME,CoinbaseWallet
-USER-AGENT,Coinbase*
-USER-AGENT,CB-Mobile*
-USER-AGENT,CoinbasePro*
-USER-AGENT,CoinbaseWallet*
+
+USER-AGENT,*Coinbase*
+USER-AGENT,*CB-Mobile*
+USER-AGENT,*CoinbasePro*
+USER-AGENT,*CoinbaseWallet*
 # ======================================================================================
 #======================================尼日利亚卡=======================================
 # ======================================================================================
