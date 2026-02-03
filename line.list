@@ -33,20 +33,11 @@ DOMAIN-KEYWORD,linetv
 DOMAIN-KEYWORD,line-static
 
 # [Part 4: 协议层兜底 (User-Agent)]
-USER-AGENT,LINE*
-USER-AGENT,line*
-USER-AGENT,Line*
-USER-AGENT,LineTV*
-USER-AGENT,LineP*
 
-# [Part 5: 进程名兜底 (桌面端)]
-PROCESS-NAME,LINE
-PROCESS-NAME,LINE.exe
-PROCESS-NAME,LineCall
-PROCESS-NAME,LineModernHost
+USER-AGENT,*line*
 
-# [Part 6: 物理层 IP-ASN 终极兜底]
-# LINE / LY Corporation
+
+
 IP-ASN,38091
 IP-ASN,45187
 IP-ASN,135314
