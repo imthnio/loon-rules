@@ -31,9 +31,8 @@ DOMAIN-SUFFIX,rongliren.com
 DOMAIN-SUFFIX,dlyilian.com
 DOMAIN-SUFFIX,yiandrive.com
 ################################################
-############app###############
+=============####app###############=============
 ################################################
-PROCESS-NAME,*VidHub*
 USER-AGENT,*senplayer*
-USER-AGENT,*PotPlayer*
+USER-AGENT,*vidhub*
 
