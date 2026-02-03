@@ -1,99 +1,90 @@
 # ==========================================
-# TikTok 补全与直播优化规则 (参考 blackmatrix7)
+# TikTok 直播专用 · 最终加固版 (2026-02-03)
+# 核心参考: Blackmatrix7
+# 针对修复: 直播高负载卡顿、画面定格
+# 安全承诺: 100% 隔离抖音 (Douyin)
 # ==========================================
 
-# --- 核心缺失补全 ---
-DOMAIN-SUFFIX,tiktokcdn-eu.com
-DOMAIN-SUFFIX,tiktokcdn-in.com
-DOMAIN-SUFFIX,tiktokv.eu
+# --- 1. 核心直播加速区 (最优先) ---
+# 包含直播切片、推流和 HTTPDNS 调度，缺一不可
 DOMAIN-SUFFIX,ttlivecdn.com
 DOMAIN-SUFFIX,hls.ttlivecdn.com
+DOMAIN-SUFFIX,tlivecdn.com
 DOMAIN-SUFFIX,quic-tiktok-cdn.com
-IP-ASN,138699,no-resolve
-IP-ASN,396986,no-resolve
-IP-ASN,11983,no-resolve
+DOMAIN-SUFFIX,g-ms.tiktok.com
+DOMAIN-SUFFIX,mon.tiktokv.com
+DOMAIN-SUFFIX,mcs-sg.tiktok.com
+DOMAIN-SUFFIX,tnc16-aliec2.tiktokv.com
+DOMAIN-SUFFIX,m.tiktok.com
+DOMAIN-SUFFIX,www.tiktok.com
 
-DOMAIN-SUFFIX,tiktok.us
+# --- 2. 动态 CDN 兜底 (解决乱码域名) ---
+# 专门捕获 p16-tiktokcdn-com.akamaized.net 这类动态域名
+DOMAIN-KEYWORD,tiktokcdn-com
+DOMAIN-KEYWORD,ttlivecdn
+DOMAIN-KEYWORD,-tiktokcdn-us
+DOMAIN-KEYWORD,obj.tiktokcdns
+DOMAIN-KEYWORD,tiktok-us-oracle
+
+# --- 3. 国际版身份认证 (账号相关) ---
+# 严格排除 snssdk.com (抖音用)，仅保留国际版变体
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktok-shop.com
+DOMAIN-SUFFIX,tiktokshop.us
+DOMAIN-SUFFIX,tiktokd.net
+DOMAIN-SUFFIX,tiktokw.us
+DOMAIN-SUFFIX,tiktokv-us.com
+DOMAIN-SUFFIX,tiktokcdn-us.com
 DOMAIN-SUFFIX,tiktok-usa.com
 DOMAIN-SUFFIX,tiktok-us.com
 DOMAIN-SUFFIX,tiktokops.us
-DOMAIN-SUFFIX,tiktokcorp.us
-DOMAIN-SUFFIX,mytiktok-us.com
-DOMAIN-SUFFIX,tiktokv-us.com
-DOMAIN-SUFFIX,tiktokw.us
-DOMAIN-SUFFIX,tiktokshop.us
-DOMAIN-SUFFIX,seller-us.tiktok.com
 DOMAIN-SUFFIX,shop-us.tiktok.com
-DOMAIN-SUFFIX,tiktok-us-p16.com
-DOMAIN-SUFFIX,tiktok.co.jp
-DOMAIN-SUFFIX,t.tiktok.co.jp
-DOMAIN-SUFFIX,ads.tiktok.com
-DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,tiktokv.com
-DOMAIN-SUFFIX,tiktokcdn.com
-DOMAIN-SUFFIX,tiktokcdn-us.com
-DOMAIN-SUFFIX,tiktok-shop.com
-DOMAIN-SUFFIX,tiktokd.net
-DOMAIN-SUFFIX,tiktokd.org
-DOMAIN-SUFFIX,tiktokmusic.app
-DOMAIN-SUFFIX,tiktokfonts.com
-DOMAIN-SUFFIX,ttwebview.com
-DOMAIN-SUFFIX,ttwstatic.com
+DOMAIN-SUFFIX,seller-us.tiktok.com
 DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-SUFFIX,sgpstatp.com
 DOMAIN-SUFFIX,isnssdk.com
-DOMAIN-SUFFIX,ipstatp.com
-DOMAIN-SUFFIX,byteintlapi.com
+DOMAIN-SUFFIX,sgsnssdk.com
+DOMAIN-SUFFIX,tnsnssdk.com
+DOMAIN-SUFFIX,tiktok.com
+
+# --- 4. 字节跳动海外组件 (安全区) ---
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,byteoversea.net
 DOMAIN-SUFFIX,bytegecko-i18n.com
+DOMAIN-SUFFIX,byteintlapi.com
 DOMAIN-SUFFIX,bytedapm.com
 DOMAIN-SUFFIX,ttoversea.net
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,ibyteimg.com
-DOMAIN-SUFFIX,byteimg.com
 DOMAIN-SUFFIX,byteeffecttos.com
-DOMAIN-SUFFIX,byteeffecttos-g.com
-DOMAIN-SUFFIX,tlivecdn.com
-DOMAIN-SUFFIX,ttlivecdn.com
-DOMAIN-SUFFIX,quic-tiktok-cdn.com
+DOMAIN-SUFFIX,capcut.com
 DOMAIN-SUFFIX,lemon8-app.com
 DOMAIN-SUFFIX,lemon8cdn.com
-DOMAIN-SUFFIX,bdurl.net
-DOMAIN-SUFFIX,jumplite.com
-DOMAIN-SUFFIX,capcut.com
-DOMAIN-SUFFIX,viamaker.com
-DOMAIN-SUFFIX,trae.ai
-DOMAIN-SUFFIX,marscode.com
-DOMAIN-SUFFIX,mchost.guru
-DOMAIN-SUFFIX,pitaya-clientai.com
-DOMAIN,trae-api-sg.mchost.guru
 DOMAIN-SUFFIX,omgid.com
+
+# --- 5. 历史遗留与关联 ---
 DOMAIN-SUFFIX,musical.ly
 DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,musicalcdn.com
-DOMAIN-SUFFIX,giphy.com
-DOMAIN-SUFFIX,giphy.net
-DOMAIN-SUFFIX,giphymedia.com
-DOMAIN,p16-tiktokcdn-com.akamaized.net
-DOMAIN,p19-tiktokcdn-com.akamaized.net
-DOMAIN,lf16-effectcdn.byteeffecttos-g.com
-DOMAIN,lf16-pkgcdn.pitaya-clientai.com
-DOMAIN-KEYWORD,-tiktokcdn-com
-DOMAIN-KEYWORD,-tiktokcdn-us
-DOMAIN-KEYWORD,tiktok
 DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,lemon8
-DOMAIN-KEYWORD,tos-maliva
-DOMAIN-KEYWORD,obj.tiktokcdns
-DOMAIN-KEYWORD,tiktok-us-oracle
+
+# --- 6. 暴力关键词兜底 ---
+# 只要网址含 tiktok 且不属于抖音，强制代理
+DOMAIN-KEYWORD,tiktok
+
+# --- 7. 应用软件识别 (User-Agent) ---
 USER-AGENT,TikTok*
 USER-AGENT,TikTokUS*
 USER-AGENT,musical_ly*
 USER-AGENT,trill*
 USER-AGENT,Lemon8*
-USER-AGENT,CapCut*
-USER-AGENT,Trae*
-IP-ASN,11983,no-resolve
+
+# --- 8. 终极保险 (IP-ASN) ---
+# 如果域名都没匹配上，但IP属于字节跳动海外机房，强制代理
+# 这是解决"有声音无画面"的最强手段
 IP-ASN,138699,no-resolve
 IP-ASN,396986,no-resolve
+IP-ASN,11983,no-resolve
