@@ -150,20 +150,12 @@ DOMAIN-KEYWORD,xn--ngstr-lra8j
 # =======================================================
 # [Part 5: 协议层兜底 (User-Agent)]
 # 覆盖安装包下载、Webview、语音助手、后台同步
-# =======================================================
-USER-AGENT,AndroidDownloadManager*
-USER-AGENT,Dalvik*
-USER-AGENT,YouTube*
-USER-AGENT,Google*
-USER-AGENT,Gmail*
-USER-AGENT,Drive*
-USER-AGENT,Photos*
-USER-AGENT,GoogleMap*
-USER-AGENT,com.google*
-USER-AGENT,GSA*
-USER-AGENT,GoogleAssistant*
-USER-AGENT,GoogleHome*
-USER-AGENT,Chrome*
+
+USER-AGENT,*Gmail*
+USER-AGENT,*GoogleMap*
+USER-AGENT,*GoogleAssistant*
+USER-AGENT,*GoogleHome*
+USER-AGENT,*Chrome*
 USER-AGENT,*youtube*
 USER-AGENT,*google*
 
