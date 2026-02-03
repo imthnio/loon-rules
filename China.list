@@ -324,6 +324,8 @@ IP-ASN,45090
 # ======================================================================================
 #=======================================叠纸无限暖暖=======================================
 # ======================================================================================
+# 叠纸游戏 / Infinity Nikki（无限暖暖）最终优化规则 - 兼容国服 + 全球服 + CDN
+
 DOMAIN-SUFFIX,infinitynikki.com
 DOMAIN-SUFFIX,infinitynikki.net
 DOMAIN-SUFFIX,infoldgames.com
@@ -356,12 +358,24 @@ DOMAIN-SUFFIX,eleximg.com
 DOMAIN-SUFFIX,balladofantara.com
 DOMAIN-SUFFIX,theperceiver.com
 DOMAIN-SUFFIX,papergames.cdn.custom
+
+# 新增：国服核心域名
+DOMAIN-SUFFIX,nuanpaper.com
+
+# 新增：常见游戏CDN（UE5大作资源常用）
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,akamai.net
+DOMAIN-SUFFIX,akamaihd.net
+
 DOMAIN-KEYWORD,infinitynikki
 DOMAIN-KEYWORD,infoldgames
 DOMAIN-KEYWORD,papegames
 DOMAIN-KEYWORD,loveanddeepspace
 DOMAIN-KEYWORD,balladofantara
 DOMAIN-KEYWORD,theperceiver
+
 USER-AGENT,InfinityNikki*
 USER-AGENT,Infold*
 USER-AGENT,Deepspace*
@@ -373,10 +387,12 @@ USER-AGENT,PaperGames*
 USER-AGENT,BalladOfAntara*
 USER-AGENT,ThePerceiver*
 USER-AGENT,ProjectThePerceiver*
+
 PROCESS-NAME,InfinityNikki.exe
 PROCESS-NAME,InfoldLauncher.exe
 PROCESS-NAME,BalladOfAntara.exe
 PROCESS-NAME,ThePerceiver.exe
+
 IP-CIDR,47.75.0.0/16,no-resolve
 IP-CIDR,47.52.0.0/16,no-resolve
 IP-ASN,16509,no-resolve
