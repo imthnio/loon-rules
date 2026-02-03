@@ -138,6 +138,8 @@ IP-ASN,135431
 # ======================================================================================
 #=======================================苹果apple=======================================
 # ======================================================================================
+DOMAIN-SUFFIX,mail.icloud.com.cn
+DOMAIN-SUFFIX,mail.me.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-icloud.cn
 DOMAIN-SUFFIX,apple-livephotoskit.com
