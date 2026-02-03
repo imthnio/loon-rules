@@ -48,11 +48,11 @@ DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,tiktokmusic.app
 DOMAIN-SUFFIX,captcha-delivery.com
 DOMAIN-SUFFIX,arkoselabs.com
-USER-AGENT,TikTok*
-USER-AGENT,TikTokUS*
-USER-AGENT,musical_ly*
-USER-AGENT,trill*
-USER-AGENT,Lemon8*
+USER-AGENT,*TikTok*
+USER-AGENT,*TikTokUS*
+USER-AGENT,*musical_ly*
+USER-AGENT,*trill*
+USER-AGENT,*Lemon8*
 IP-ASN,138699,no-resolve
 IP-ASN,396982,no-resolve
 IP-ASN,149037,no-resolve
