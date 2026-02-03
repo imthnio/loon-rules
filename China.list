@@ -273,15 +273,12 @@ DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,paypal.me
 DOMAIN-SUFFIX,paypal.cn
 DOMAIN-SUFFIX,pypl.com
-
 DOMAIN-SUFFIX,paypal-mobile.com
 DOMAIN-SUFFIX,paypal-apps.com
 DOMAIN-SUFFIX,paypal-api.com
 DOMAIN-SUFFIX,paypal-billing.com
 DOMAIN-SUFFIX,paypal-giftcard.com
 DOMAIN-SUFFIX,paypal-prepaid.com
-
-
 DOMAIN-SUFFIX,paypal-communication.com
 DOMAIN-SUFFIX,paypal-communications.com
 DOMAIN-SUFFIX,paypal-mktg.com
@@ -298,8 +295,6 @@ DOMAIN-SUFFIX,paypal-op-labs.com
 DOMAIN-SUFFIX,paypal-pickup.com
 DOMAIN-SUFFIX,paypal.112.2o7.net
 DOMAIN-SUFFIX,fp-paypal.com
-
-# --- 4. 国际地区域名 (你是日本 IP，这些防止跨区支付失败) ---
 DOMAIN-SUFFIX,paypal.co.jp
 DOMAIN-SUFFIX,paypal.co.uk
 DOMAIN-SUFFIX,paypal.ca
@@ -310,18 +305,13 @@ DOMAIN-SUFFIX,paypal.eu
 DOMAIN-SUFFIX,braintreegateway.com
 DOMAIN-SUFFIX,braintreepayments.com
 DOMAIN-SUFFIX,braintree-api.com
-
 DOMAIN-SUFFIX,paidy.com
-
 DOMAIN-SUFFIX,venmo.com
 DOMAIN-SUFFIX,xoom.com
-
 DOMAIN-SUFFIX,zettle.com
 DOMAIN-SUFFIX,izettle.com
-
 DOMAIN-SUFFIX,honey.is
 DOMAIN-SUFFIX,joinhoney.com
-
 DOMAIN-SUFFIX,simility.com
 DOMAIN-SUFFIX,swiftfinancial.com
 DOMAIN-SUFFIX,loanbuilder.com
