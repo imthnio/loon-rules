@@ -9,10 +9,11 @@ DOMAIN-KEYWORD,shop.ii00.cc
 DOMAIN-SUFFIX,qdav.top
 DOMAIN-SUFFIX,emby.yun
 DOMAIN-SUFFIX,emos.lol
-DOMAIN-KEYWORDlemby.886223.xyz
-DOMAIN-KEYWORD,stream-1.miraiemby.com
-DOMAIN-KEYWORD,miraiemby.com
-DOMAIN-KEYWORD,emby.dnscf.dpdns.org
+DOMAIN-SUFFIX,lemby.886223.xyz
+DOMAIN-SUFFIX,stream-1.miraiemby.com
+DOMAIN-SUFFIX,miraiemby.com
+DOMAIN-SUFFIX,emby.dnscf.dpdns.org
+DOMAIN-SUFFIX,emby.dnscf.dpdns.org:443
 ################################################
 ################m3u8直播源################
 ################################################
