@@ -50,12 +50,9 @@ DOMAIN-KEYWORD,twimg
 # [Part 7: 协议层兜底 (User-Agent)]
 # 新增 Grok 独立 UA 识别
 # =======================================================
-USER-AGENT,Twitter*
-USER-AGENT,X*
-USER-AGENT,Grok*
-USER-AGENT,TweetDeck*
-USER-AGENT,Tweetbot*
-USER-AGENT,Twitterrific*
+USER-AGENT,*Twitter*
+USER-AGENT,*Grok*
+USER-AGENT,*Twitter*
 
 # =======================================================
 # [Part 8: 物理层兜底 (IP-ASN)]
