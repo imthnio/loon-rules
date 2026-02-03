@@ -1,79 +1,158 @@
 # =======================================================
-# 规则名称: Google Universe (Watertight)
-# 覆盖范围: Google搜索, YouTube, Gmail, Drive, Play商店, FCM推送, 验证码
-# 策略建议: 选择您的 PRO 节点或 Google 专用节点
+# 规则名称: Google Universe (Forensic / Zero-Trust)
+# 审计级别: 开发者抓包级 (Packet Inspection Level)
+# 适用: 解决一切“转圈”、“无网络”、“验证码错误”
 # =======================================================
 
-# [Part 1: 核心身份验证 & 基础服务]
-# 包含账号登录、验证码、静态资源、CN重定向
+# [Part 1: 核心身份 & 顶级域名 & 基础设施]
+# 包含 .google, .goog, 1e100 等所有物理资产
+DOMAIN-SUFFIX,google
+DOMAIN-SUFFIX,goog
+DOMAIN-SUFFIX,1e100.net
+DOMAIN-SUFFIX,265.com
+DOMAIN-SUFFIX,2mdn.net
+DOMAIN-SUFFIX,abc.xyz
+DOMAIN-SUFFIX,admob.com
+DOMAIN-SUFFIX,adsense.com
+DOMAIN-SUFFIX,advertisercommunity.com
+DOMAIN-SUFFIX,ampproject.org
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,androidify.com
+DOMAIN-SUFFIX,android-x86.org
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,app-measurement.net
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,autodraw.com
+DOMAIN-SUFFIX,beacon-v2.appspot.com
+DOMAIN-SUFFIX,blog.google
+DOMAIN-SUFFIX,blogblog.com
+DOMAIN-SUFFIX,blogger.com
+DOMAIN-SUFFIX,blogspot.com
+DOMAIN-SUFFIX,blogspot.hk
+DOMAIN-SUFFIX,blogspot.jp
+DOMAIN-SUFFIX,capitalg.com
+DOMAIN-SUFFIX,certificate-transparency.dev
+DOMAIN-SUFFIX,chrome.com
+DOMAIN-SUFFIX,chromeexperiments.com
+DOMAIN-SUFFIX,chromestatus.com
+DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,chromecast.com
+DOMAIN-SUFFIX,creativelab5.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,dartlang.org
+DOMAIN-SUFFIX,debug.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,dialogflow.com
+DOMAIN-SUFFIX,dns.google
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,drive.google.com
+DOMAIN-SUFFIX,fabric.io
+DOMAIN-SUFFIX,firebase.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,flutter.dev
+DOMAIN-SUFFIX,g.co
+DOMAIN-SUFFIX,g.page
+DOMAIN-SUFFIX,getmdl.io
+DOMAIN-SUFFIX,getoutline.org
+DOMAIN-SUFFIX,ggpht.cn
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,gmodules.com
+DOMAIN-SUFFIX,godoc.org
+DOMAIN-SUFFIX,golang.org
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,google.cn
 DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,google.dev
+DOMAIN-SUFFIX,google.org
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googleanalytics.com
+DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googlecode.com
+DOMAIN-SUFFIX,googlehome.com
+DOMAIN-SUFFIX,googlemail.com
+DOMAIN-SUFFIX,googleone.com
+DOMAIN-SUFFIX,googlepay.com
+DOMAIN-SUFFIX,googlephotos.com
+DOMAIN-SUFFIX,googleplay.com
+DOMAIN-SUFFIX,googlesource.com
+DOMAIN-SUFFIX,googlestore.com
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,googleusercontent.cn
 DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googlezip.net
+DOMAIN-SUFFIX,gstatic.cn
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gv.com
 DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,265.com
-DOMAIN-SUFFIX,2mdn.net
-DOMAIN-SUFFIX,app-measurement.com
-DOMAIN-SUFFIX,beacon-v2.appspot.com
+DOMAIN-SUFFIX,gwtproject.org
+DOMAIN-SUFFIX,itinerary.com
+DOMAIN-SUFFIX,local.google
+DOMAIN-SUFFIX,madebygoogle.com
+DOMAIN-SUFFIX,material.io
+DOMAIN-SUFFIX,pki.goog
+DOMAIN-SUFFIX,polymer-project.org
 DOMAIN-SUFFIX,recaptcha.net
-DOMAIN-SUFFIX,google.cn
+DOMAIN-SUFFIX,schema.org
+DOMAIN-SUFFIX,shattered.io
+DOMAIN-SUFFIX,synergyse.com
+DOMAIN-SUFFIX,telephony.goog
+DOMAIN-SUFFIX,tenor.com
+DOMAIN-SUFFIX,tensorflow.org
+DOMAIN-SUFFIX,tfhub.dev
+DOMAIN-SUFFIX,tiltbrush.com
+DOMAIN-SUFFIX,time.google.com
+DOMAIN-SUFFIX,waveprotocol.org
+DOMAIN-SUFFIX,waymo.com
+DOMAIN-SUFFIX,waze.com
+DOMAIN-SUFFIX,web.dev
+DOMAIN-SUFFIX,webmproject.org
+DOMAIN-SUFFIX,webrtc.org
+DOMAIN-SUFFIX,widevine.com
+DOMAIN-SUFFIX,withgoogle.com
+DOMAIN-SUFFIX,x.company
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-SUFFIX,zynamics.com
 
-# [Part 2: YouTube 视频矩阵]
-# 包含视频流、缩略图、短片
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
+# [Part 2: 极其隐蔽的云托管服务 (Cloud Hosting)]
+# ⚠️ 50% 的现代 App 后端跑在这些域名上，漏了会导致 App 空白
+DOMAIN-SUFFIX,firebaseapp.com
+DOMAIN-SUFFIX,cloudfunctions.net
+DOMAIN-SUFFIX,run.app
+
+# [Part 3: YouTube 完整矩阵]
 DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtube-nocookie.com
 DOMAIN-SUFFIX,youtubeeducation.com
 DOMAIN-SUFFIX,youtubegaming.com
 DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com
 
-# [Part 3: Android 生态 & Play 商店]
-# 包含应用下载、系统更新、FCM 推送
-DOMAIN-SUFFIX,android.com
-DOMAIN-SUFFIX,androidify.com
-DOMAIN-SUFFIX,ggpht.cn
-DOMAIN-SUFFIX,googleplay.com
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,firebaseio.com
-DOMAIN-SUFFIX,firebase.com
-
-# [Part 4: 生产力工具 & 云服务]
-# 包含 Gmail, Drive, Docs, Photos, GCP
-DOMAIN-SUFFIX,gmail.com
-DOMAIN-SUFFIX,googlemail.com
-DOMAIN-SUFFIX,googledrive.com
-DOMAIN-SUFFIX,googlephotos.com
-DOMAIN-SUFFIX,appspot.com
-DOMAIN-SUFFIX,blogger.com
-DOMAIN-SUFFIX,blogspot.com
-DOMAIN-SUFFIX,chromecast.com
-DOMAIN-SUFFIX,chrome.com
-DOMAIN-SUFFIX,chromium.org
-DOMAIN-SUFFIX,getoutline.org
-DOMAIN-SUFFIX,webmproject.org
-DOMAIN-SUFFIX,webrtc.org
-DOMAIN-SUFFIX,widevine.com
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-
-# [Part 5: 暴力关键字 (Keywords)]
-# 覆盖所有地区后缀 (如 google.co.jp, google.com.hk)
+# [Part 4: 暴力关键字 (Keywords)]
+# 兜底全球所有后缀
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,youtube
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,gvt
+DOMAIN-KEYWORD,xn--ngstr-lra8j
 
 # =======================================================
-# [Part 6: 协议层兜底 (User-Agent)]
-# 只要 App 敢自报家门，全部捕获
-# 注意：不包含 Chrome 浏览器 UA，以免误伤普通网页浏览
+# [Part 5: 协议层兜底 (User-Agent)]
+# 覆盖安装包下载、Webview、语音助手、后台同步
 # =======================================================
+USER-AGENT,AndroidDownloadManager*
+USER-AGENT,Dalvik*
 USER-AGENT,YouTube*
 USER-AGENT,Google*
 USER-AGENT,Gmail*
@@ -81,16 +160,31 @@ USER-AGENT,Drive*
 USER-AGENT,Photos*
 USER-AGENT,GoogleMap*
 USER-AGENT,com.google*
+USER-AGENT,GSA*
+USER-AGENT,GoogleAssistant*
+USER-AGENT,GoogleHome*
+USER-AGENT,Chrome*
+USER-AGENT,*youtube*
+USER-AGENT,*google*
 
 # =======================================================
-# [Part 7: 物理层兜底 (IP-ASN)]
-# Google 的终极防线。
-# 只要目标 IP 属于 Google LLC，无论域名如何乱变，强制接管。
+# [Part 6: 物理层兜底 (IP-ASN)]
+# Blackmatrix7 标准 ASN 列表，包含 Google Cloud 新节点
 # =======================================================
-
-# AS15169: Google LLC (核心 ASN，覆盖 99% 的 Google 服务)
+# Google LLC (核心流量)
 IP-ASN,15169
-
-# AS19527: Google Cloud (部分辅助服务)
-# 注意：如果您的代理流量有限，可考虑注释掉这条，但这会降低“密不透风”的程度
+# Google Cloud (云服务/App后端)
 IP-ASN,19527
+IP-ASN,36040
+IP-ASN,36385
+IP-ASN,36492
+IP-ASN,396982
+# Google Fiber (部分下载源)
+IP-ASN,16591
+IP-ASN,6432
+IP-ASN,43515
+# 亚太地区及其他 (缓存节点)
+IP-ASN,16550
+IP-ASN,11344
+IP-ASN,139070
+IP-ASN,139190
