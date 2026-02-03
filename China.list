@@ -301,10 +301,16 @@ USER-AGENT,com.transferwise*
 # ======================================================================================
 #======================================n26银行/n26 bank================================
 # ======================================================================================
+# > N26 Bank (Based on Blackmatrix7 & App Structure)
+# Main Domains
 DOMAIN-SUFFIX,n26.com
 DOMAIN-SUFFIX,n26.de
 DOMAIN-SUFFIX,n26.net
 DOMAIN-SUFFIX,n26.eu
+DOMAIN-SUFFIX,n26.org
+DOMAIN-SUFFIX,n26.app
+DOMAIN-SUFFIX,n26.co.uk
+# Infrastructure & Legacy
 DOMAIN-SUFFIX,tech26.de
 DOMAIN-SUFFIX,tech26.com
 DOMAIN-SUFFIX,number26.de
@@ -312,12 +318,18 @@ DOMAIN-SUFFIX,number26.com
 DOMAIN-SUFFIX,number26.eu
 DOMAIN-SUFFIX,n26cdn.com
 DOMAIN-SUFFIX,n26cdn.net
+# IDnow (Video Verification)
 DOMAIN-SUFFIX,idnow.de
 DOMAIN-SUFFIX,idnow.io
 DOMAIN-SUFFIX,idnow.com
+DOMAIN-SUFFIX,idnow.net
+# Keywords
 DOMAIN-KEYWORD,number26
+# User-Agents (Fallback)
 USER-AGENT,N26*
 USER-AGENT,Number26*
+USER-AGENT,IDnow*
+USER-AGENT,VideoIdent*
 
 
 # ======================================================================================
