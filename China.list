@@ -223,6 +223,7 @@ USER-AGENT,*AppleStore*
 USER-AGENT,*TestFlight*
 USER-AGENT,*FindMy*
 USER-AGENT,*com.apple.trustd*
+USER-AGENT,*icloud.com*
 
 
 
