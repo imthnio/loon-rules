@@ -14,16 +14,12 @@ USER-AGENT,MyGiffgaff*
 DOMAIN-SUFFIX,kraken.com
 DOMAIN-SUFFIX,krakenfutures.com
 DOMAIN-SUFFIX,krakenstatus.com
-DOMAIN-SUFFIX,cryptowat.ch
-PROCESS-NAME,com.kraken.mobile
-PROCESS-NAME,com.kraken.invest
-PROCESS-NAME,com.kraken.superwallet
-PROCESS-NAME,com.kraken.mobile.app
-PROCESS-NAME,com.kraken.invest.app
-PROCESS-NAME,kraken
+DOMAIN-SUFFIX,payward.com
+DOMAIN-SUFFIX,inkonchain.com
+DOMAIN-KEYWORD,kraken
 USER-AGENT,Kraken*
-USER-AGENT,Ktor client*
-USER-AGENT,okhttp*
+IP-ASN,1072,no-resolve
+IP-ASN,209274,no-resolve
 # ======================================================================================
 #======================================trading212======================================
 # ======================================================================================
