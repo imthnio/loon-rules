@@ -304,17 +304,22 @@ USER-AGENT,Paidy*
 # ======================================================================================
 #======================================wise/transferwise================================
 # ======================================================================================
+
 DOMAIN-SUFFIX,wise.com
-DOMAIN-SUFFIX,transferwise.com
-DOMAIN-SUFFIX,wisecdn.com
 DOMAIN-SUFFIX,wisebeta.com
-DOMAIN-SUFFIX,transferwise.tech
+DOMAIN-SUFFIX,wisecdn.com
+DOMAIN-SUFFIX,transferwise.com
 DOMAIN-SUFFIX,transferwise.net
+DOMAIN-SUFFIX,transferwise.tech
 DOMAIN-SUFFIX,transferwise.work
 DOMAIN-SUFFIX,transferwise-cdn.com
+DOMAIN-KEYWORD,transferwise
 USER-AGENT,Wise*
 USER-AGENT,TransferWise*
 USER-AGENT,com.transferwise*
+PROCESS-NAME,com.transferwise.android
+PROCESS-NAME,com.transferwise.iphone
+IP-ASN,208550,no-resolve
 # ======================================================================================
 #======================================n26银行/n26 bank================================
 # ======================================================================================
