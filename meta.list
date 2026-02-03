@@ -63,15 +63,15 @@ DOMAIN-KEYWORD,oculus
 # [Part 7: 协议层兜底 (User-Agent)]
 # 包含了所有 App 的内部代号
 # =======================================================
-USER-AGENT,Facebook*
-USER-AGENT,Instagram*
-USER-AGENT,Messenger*
-USER-AGENT,Threads*
-USER-AGENT,WhatsApp*
-USER-AGENT,Meta*
-USER-AGENT,Oculus*
-USER-AGENT,FBAN*
-USER-AGENT,FBAV*
+USER-AGENT,*Facebook*
+USER-AGENT,*Instagram*
+USER-AGENT,*Messenger*
+USER-AGENT,*Threads*
+USER-AGENT,*WhatsApp*
+USER-AGENT,*Meta*
+USER-AGENT,*Oculus*
+USER-AGENT,*FBAN*
+USER-AGENT,*FBAV*
 
 # =======================================================
 # [Part 8: 物理层兜底 (IP-ASN)]
