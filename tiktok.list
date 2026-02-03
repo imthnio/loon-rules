@@ -1,194 +1,61 @@
 # ==========================================
-# 直播拉流专用补丁 (Lag Killer)
-# 作用: 强制捕获所有 FLV/HLS/RTMP 直播数据流
-# 优先级: 必须放在所有规则的最上面!
+# TikTok 国际版 2026 终极直播优化版（基于你的规则 + blackmatrix7补全 + 社区高频缺失）
+# 优先级: 所有直播拉流规则必须放最上面！
+# 安全保证: 0误伤抖音（严格剔除所有snssdk/pstatp等）
 # ==========================================
 
-# --- 1. 暴力捕获“拉流”域名 (最关键!) ---
-# 直播卡顿 90% 是因为漏了这些 pull- (拉流) 开头的域名
+
 DOMAIN-KEYWORD,pull-f3
 DOMAIN-KEYWORD,pull-f5
 DOMAIN-KEYWORD,pull-flv
 DOMAIN-KEYWORD,pull-hls
 DOMAIN-KEYWORD,pull-l3
 DOMAIN-KEYWORD,pull-rtmp
-DOMAIN-KEYWORD,livestream
-DOMAIN-SUFFIX,mcdn.tiktokcdn.com
-DOMAIN-SUFFIX,v16a.tiktokcdn.com
-DOMAIN-SUFFIX,v19.tiktokcdn.com
-
-# --- 2. 强制代理 Akamai 动态节点 ---
-# 很多直播流藏在 akamaized.net 里，用正则精准捕获，不误伤苹果微软
-# 只要域名前面带 p11~p99 的 tiktokcdn，全部抓走
+DOMAIN-KEYWORD,pull-fc
+DOMAIN-KEYWORD,pull-free
+DOMAIN-KEYWORD,hls-fls.tiktokcdn
+DOMAIN-KEYWORD,flv-lf.tiktokcdn
+DOMAIN-SUFFIX,ttlivecdn.com
+DOMAIN-SUFFIX,hls.ttlivecdn.com
+DOMAIN-SUFFIX,tlivecdn.com
+DOMAIN-SUFFIX,livestream
 DOMAIN-KEYWORD,tiktokcdn-com.akamaized.net
-
-# --- 3. 游戏/OBS 推流专用 ---
-# 如果你看的是游戏直播（王者荣耀/PUBG），往往走这些域名
-DOMAIN-SUFFIX,cast.tiktok.com
-DOMAIN-SUFFIX,push-rtmp.tiktokcdn.com
-DOMAIN-SUFFIX,webcast.tiktokv.com
-
-# --- 4. 边缘计算节点 (Edge) ---
-# 解决“进直播间黑屏几秒才有画面”的问题
+DOMAIN-KEYWORD,tiktokcdn-com
+DOMAIN-SUFFIX,mon.tiktokv.com
+DOMAIN-SUFFIX,g-ms.tiktok.com
+DOMAIN-SUFFIX,log.tiktokv.com
+DOMAIN-SUFFIX,va.tiktokv.com
+DOMAIN-SUFFIX,room.tiktokv.com
 DOMAIN-SUFFIX,exp.tiktokv.com
 DOMAIN-SUFFIX,route.tiktokv.com
-DOMAIN-SUFFIX,mon.tiktokv.com
-
-
-
-
-# ==========================================
-# TikTok 网页版防白屏补丁 (Web Fix)
-# 修复: "Please wait..." / 验证码加载失败
-# ==========================================
-
-# --- 网页版核心验证 ---
-# 很多滑块验证码走这个域名
-DOMAIN-SUFFIX,captcha-delivery.com
-DOMAIN-SUFFIX,arkoselabs.com
-DOMAIN-SUFFIX,byte-oversea.com
-DOMAIN-SUFFIX,ibytedtos.com
-
-# --- 静态资源 CDN (网页版专用) ---
-# 网页版不仅用 tiktokcdn，还用这些
-DOMAIN-SUFFIX,tiktokcdn-us.com
-DOMAIN-SUFFIX,s16.tiktokcdn.com
-DOMAIN-SUFFIX,sf16-scmcdn-sg.ibytedtos.com
-DOMAIN-SUFFIX,sf16-website-login.neutral.ttwstatic.com
-DOMAIN-SUFFIX,ttwstatic.com
-
-
-
-# ==========================================
-# 亚洲直播优化补丁 (日本 JP / 台湾 TW)
-# 修复: 画面卡顿、回旋镖延迟
-# ==========================================
-
-# --- 日本 (Japan) 专属域名 ---
-# 日本版 TikTok 很多流量走这两个域名，漏了就会卡
 DOMAIN-SUFFIX,tiktok.co.jp
 DOMAIN-SUFFIX,t.tiktok.co.jp
 DOMAIN-SUFFIX,sf16-ies-music-jp.tiktokcdn.com
 DOMAIN-SUFFIX,p16-tiktokcdn-com.akamaized.net
-
-# --- 台湾 & 亚洲通用 (Akamai 调度) ---
-# 台湾直播流极其依赖 Akamai，必须强制捕获
-# 注意：以下规则专门解决"有声音无画面"
-DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,quic-tiktok-cdn.com
-DOMAIN-SUFFIX,ttlivecdn.com
-DOMAIN-SUFFIX,mcdn.tiktokcdn.com
-
-# --- 边缘计算节点 (Edge Computing) ---
-# 解决台湾地区直播转圈问题
-DOMAIN-SUFFIX,mon.tiktokv.com
-DOMAIN-SUFFIX,g-ms.tiktok.com
-
-
-# ==========================================
-# TikTok 2026 最终究极修正版
-# 检查级别: 显微镜级 (Paranoid Mode)
-# 针对痛点: 顽固的直播卡顿、画面黑屏
-# 安全级别: 抖音 0 误伤 (已移除所有模糊域名)
-# ==========================================
-
-# --- [A区] 直播生命线 (优先级最高) ---
-# 哪怕整个App都打不开，只要这几条通了，直播也能看
-# 包含 HTTP/3 (QUIC) 协议，防止运营商UDP阻断
-DOMAIN-SUFFIX,ttlivecdn.com
-DOMAIN-SUFFIX,hls.ttlivecdn.com
-DOMAIN-SUFFIX,tlivecdn.com
-DOMAIN-SUFFIX,quic-tiktok-cdn.com
-DOMAIN-SUFFIX,m.tiktok.com
-DOMAIN-SUFFIX,www.tiktok.com
-DOMAIN-SUFFIX,v.tiktok.com
-
-# --- [B区] 神经控制中枢 (解决"转圈"问题) ---
-# 包含全球调度、监控、API 接口
-# 修复: 只有声音无画面、评论加载失败
-DOMAIN-SUFFIX,g-ms.tiktok.com
-DOMAIN-SUFFIX,mon.tiktokv.com
-DOMAIN-SUFFIX,mcs-sg.tiktok.com
-DOMAIN-SUFFIX,tnc16-aliec2.tiktokv.com
-DOMAIN-SUFFIX,api16-normal-c-useast1a.tiktokv.com
-DOMAIN-SUFFIX,api19-normal-c-useast1a.tiktokv.com
-DOMAIN-SUFFIX,tik-tokapi.com
-DOMAIN-SUFFIX,tiktok-us-oracle.com
-
-# --- [C区] 身份认证 (严格国际版) ---
-# 核心原则: 只收录带 us/sg/i/eu 后缀的域名
-# 绝对没有 pstatp.com (抖音)
-# 绝对没有 snssdk.com (抖音)
 DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokcdn-us.com
 DOMAIN-SUFFIX,tiktokd.net
 DOMAIN-SUFFIX,tiktokd.org
-DOMAIN-SUFFIX,tiktokw.us
-DOMAIN-SUFFIX,tiktokv-us.com
-DOMAIN-SUFFIX,tiktokcdn-us.com
-DOMAIN-SUFFIX,tiktok-usa.com
-DOMAIN-SUFFIX,tiktok-us.com
-DOMAIN-SUFFIX,tiktokops.us
-DOMAIN-SUFFIX,tiktokcorp.us
-DOMAIN-SUFFIX,tiktok-shop.com
-DOMAIN-SUFFIX,shop-us.tiktok.com
-DOMAIN-SUFFIX,seller-us.tiktok.com
-DOMAIN-SUFFIX,tiktok.co.jp
-DOMAIN-SUFFIX,t.tiktok.co.jp
-DOMAIN-SUFFIX,tiktokv.eu
-DOMAIN-SUFFIX,tiktokcdn-eu.com
-DOMAIN-SUFFIX,tiktokcdn-in.com
-
-# --- [D区] 组件与资源 (防误伤精简版) ---
-# 已剔除所有"混血"域名，只保留纯血国际版
+DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ibyteimg.com
-DOMAIN-SUFFIX,ipstatp.com
-DOMAIN-SUFFIX,sgpstatp.com
-DOMAIN-SUFFIX,isnssdk.com
-DOMAIN-SUFFIX,sgsnssdk.com
-DOMAIN-SUFFIX,tnsnssdk.com
-DOMAIN-SUFFIX,byteoversea.com
-DOMAIN-SUFFIX,byteoversea.net
-DOMAIN-SUFFIX,bytegecko-i18n.com
-DOMAIN-SUFFIX,byteintlapi.com
 DOMAIN-SUFFIX,bytedapm.com
-DOMAIN-SUFFIX,ttoversea.net
-DOMAIN-SUFFIX,byteeffecttos-g.com
-DOMAIN-SUFFIX,capcut.com
-DOMAIN-SUFFIX,lemon8-app.com
-DOMAIN-SUFFIX,lemon8cdn.com
-DOMAIN-SUFFIX,omgid.com
-
-# --- [E区] 动态CDN捕获 (万能钥匙) ---
-# 只要网址里包含 tiktokcdn-com，无论前面是 p16 还是 p19，全部捕获
-# 这是解决 Akamai 节点动态变化的终极方案
-DOMAIN-KEYWORD,tiktokcdn-com
-DOMAIN-KEYWORD,ttlivecdn
-DOMAIN-KEYWORD,tiktok-us-oracle
-DOMAIN-KEYWORD,obj.tiktokcdns
-DOMAIN-KEYWORD,-tiktokcdn-us
-
-# --- [F区] 暴力兜底 ---
-DOMAIN-KEYWORD,tiktok
-
-# --- [G区] 历史遗留 ---
-DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,muscdn.com
-DOMAIN-SUFFIX,musicalcdn.com
-DOMAIN-KEYWORD,musical.ly
-
-# --- [H区] 软件指纹 ---
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,tiktokmusic.app
+DOMAIN-SUFFIX,captcha-delivery.com
+DOMAIN-SUFFIX,arkoselabs.com
 USER-AGENT,TikTok*
 USER-AGENT,TikTokUS*
 USER-AGENT,musical_ly*
 USER-AGENT,trill*
 USER-AGENT,Lemon8*
-
-# --- [I区] IP-ASN (核武器级兜底) ---
-# 强制不解析DNS，直接按IP归属地代理
-# 解决 DNS 污染最彻底的办法
 IP-ASN,138699,no-resolve
-IP-ASN,396986,no-resolve
+IP-ASN,396982,no-resolve
+IP-ASN,149037,no-resolve
 IP-ASN,11983,no-resolve
+DOMAIN-KEYWORD,tiktok
+DOMAIN-KEYWORD,ttlivecdn
