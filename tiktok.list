@@ -3,9 +3,6 @@
 # ==========================================
 
 # --- 核心缺失补全 ---
-DOMAIN-SUFFIX,sgsnssdk.com
-DOMAIN-SUFFIX,bytegecko.com
-DOMAIN-SUFFIX,bytedance.com
 DOMAIN-SUFFIX,tiktokcdn-eu.com
 DOMAIN-SUFFIX,tiktokcdn-in.com
 DOMAIN-SUFFIX,tiktokv.eu
