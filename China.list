@@ -548,23 +548,23 @@ DEST-PORT,60656
 #===============================================中国运营商================================
 # ======================================================================================
 # 中国电信 (China Telecom)
-IP-ASN,4134
-IP-ASN,4809
-IP-ASN,4812
+IP-ASN,4134,no-resolve
+IP-ASN,4809,no-resolve
+IP-ASN,4812,no-resolve
 # 中国联通 (China Unicom)
-IP-ASN,4837
-IP-ASN,17621
-IP-ASN,17622
-IP-ASN,17623
+IP-ASN,4837,no-resolve
+IP-ASN,17621,no-resolve
+IP-ASN,17622,no-resolve
+IP-ASN,17623,no-resolve
 # 中国移动 (China Mobile)
-IP-ASN,9808
-IP-ASN,24400
-IP-ASN,56040
-IP-ASN,56041
-IP-ASN,56042
+IP-ASN,9808,no-resolve
+IP-ASN,24400,no-resolve
+IP-ASN,56040,no-resolve
+IP-ASN,56041,no-resolve
+IP-ASN,56042,no-resolve
 # 中国广电 (China Broadcasting Network)
-IP-ASN,7497
-IP-ASN,24547
+IP-ASN,7497,no-resolve
+IP-ASN,24547,no-resolve
 # ======================================================================================
 #======================================国际地区ip兜底=======================================
 # ======================================================================================
