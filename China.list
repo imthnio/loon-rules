@@ -320,13 +320,9 @@ USER-AGENT,N26*
 USER-AGENT,Number26*
 
 
-# =========================================
-# 规则名称：美团 & 大众点评整合
-# 参考来源：Blackmatrix7 & 实时整合
-# 更新时间：2026-02-03
-# =========================================
-
-# --- 域名匹配 (核心业务) ---
+# ======================================================================================
+#=========================================美团=========================================
+# ======================================================================================
 DOMAIN-SUFFIX, meituan.com
 DOMAIN-SUFFIX, meituan.net
 DOMAIN-SUFFIX, meituan.top
@@ -335,32 +331,20 @@ DOMAIN-SUFFIX, sankuai.com
 DOMAIN-SUFFIX, dpfile.com
 DOMAIN-SUFFIX, maoyan.com
 DOMAIN-SUFFIX, meituan-travel.com
-
-# --- 关键词匹配 (防止变种) ---
 DOMAIN-KEYWORD, meituan
 DOMAIN-KEYWORD, dianping
 DOMAIN-KEYWORD, sankuai
-
-# --- User-Agent 兜底 (App 指纹) ---
-# 覆盖美团、外卖、点评客户端
 USER-AGENT, Meituan*
 USER-AGENT, Dianping*
 USER-AGENT, Waimai*
 USER-AGENT, *MeituanGroup*
-
-# --- IP-ASN 兜底 (服务器归属地) ---
-# AS56046: 北京三快科技 (美团的核心公司主体)
 IP-ASN, 56046
 
 
 
-# =========================================
-# 规则名称：阿里系整合 (支付宝/HK/淘宝/飞猪)
-# 参考来源：Blackmatrix7 & 实时整合
-# 更新时间：2026-02-03
-# =========================================
-
-# --- 1. 支付宝 & AlipayHK ---
+# ======================================================================================
+#=============================阿里巴巴淘宝支付宝alipayhk飞猪================================
+# ======================================================================================
 DOMAIN-SUFFIX, alipay.com
 DOMAIN-SUFFIX, alipay.cn
 DOMAIN-SUFFIX, alipay.hk
@@ -372,8 +356,6 @@ DOMAIN-SUFFIX, antfin.com
 DOMAIN-SUFFIX, antfinancial.com
 DOMAIN-SUFFIX, mybank.cn
 DOMAIN-SUFFIX, zhima.com
-
-# --- 2. 淘宝 & 天猫 (Taobao/Tmall) ---
 DOMAIN-SUFFIX, taobao.com
 DOMAIN-SUFFIX, taobao.org
 DOMAIN-SUFFIX, tmall.com
@@ -383,14 +365,10 @@ DOMAIN-SUFFIX, aliimg.com
 DOMAIN-SUFFIX, tbcache.com
 DOMAIN-SUFFIX, tanx.com
 DOMAIN-SUFFIX, mmstat.com
-
-# --- 3. 飞猪 (Fliggy) ---
 DOMAIN-SUFFIX, fliggy.com
 DOMAIN-SUFFIX, fliggy.hk
 DOMAIN-SUFFIX, alitrip.com
 DOMAIN-SUFFIX, alitrip.hk
-
-# --- 4. 关键词兜底 (Keywords) ---
 DOMAIN-KEYWORD, alipay
 DOMAIN-KEYWORD, alipayhk
 DOMAIN-KEYWORD, antgroup
@@ -398,9 +376,6 @@ DOMAIN-KEYWORD, taobao
 DOMAIN-KEYWORD, tmall
 DOMAIN-KEYWORD, fliggy
 DOMAIN-KEYWORD, alitrip
-
-# --- 5. User-Agent 兜底 (非常重要) ---
-# AliApp 是阿里系App通用的前缀，一条规则覆盖90%情况
 USER-AGENT, AliApp*
 USER-AGENT, Alipay*
 USER-AGENT, AlipayHK*
@@ -408,20 +383,16 @@ USER-AGENT, Taobao*
 USER-AGENT, Tmall*
 USER-AGENT, Fliggy*
 USER-AGENT, *AlipayClient*
-
-# --- 6. IP-ASN 兜底 (服务器归属地) ---
-# 涵盖 阿里巴巴(中国/国际) 和 蚂蚁集团 的核心服务器
-# AS37963: 阿里巴巴 (中国核心)
 IP-ASN, 37963
-# AS45102: 阿里巴巴 (国际)
 IP-ASN, 45102
 # AS133438: 蚂蚁集团
 IP-ASN, 133438
-# AS24429: 阿里巴巴 (部分CN服务)
 IP-ASN, 24429
 
 
-#拼多多
+# ======================================================================================
+#==========================================拼多多========================================
+# ======================================================================================
 DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,yangkeduo.com
 DOMAIN-SUFFIX,pinduoduo.net
@@ -439,7 +410,9 @@ USER-AGENT,android-async-http*
 
 
 
-###微信
+# ======================================================================================
+#=========================================微信wechat====================================
+# ======================================================================================
 DOMAIN-SUFFIX,weixin.qq.com
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,servicewechat.com
