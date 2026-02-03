@@ -43,12 +43,10 @@ DOMAIN-KEYWORD,douyin
 DOMAIN-KEYWORD,huoshan
 DOMAIN-KEYWORD,jianying
 DOMAIN-KEYWORD,ixigua
-USER-AGENT,Aweme*
-USER-AGENT,Douyin*
-USER-AGENT,Jianying*
-USER-AGENT,LiveStream*
-USER-AGENT,WebCast*
-USER-AGENT,Hotsoon*
+USER-AGENT,*Douyin*
+USER-AGENT,*Jianying*
+USER-AGENT,*LiveStream*
+USER-AGENT,*WebCast*
 IP-ASN,58466
 IP-ASN,138699
 IP-ASN,147926
@@ -77,14 +75,11 @@ DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,im9.com
 DOMAIN-KEYWORD,bilibili
 DOMAIN-KEYWORD,bilivideo
-USER-AGENT,Bilibili*
-USER-AGENT,bili*
-USER-AGENT,BiliAnime*
-USER-AGENT,tv.danmaku.bili*
-PROCESS-NAME,Bilibili
-PROCESS-NAME,bilibili
-PROCESS-NAME,tv.danmaku.bili
-# AS132203: Bilibili Inc.
+USER-AGENT,*Bilibili*
+USER-AGENT,*bili*
+USER-AGENT,*BiliAnime*
+USER-AGENT,*tv.danmaku.bili*
+
 IP-ASN,132203
 
 
@@ -97,10 +92,10 @@ DOMAIN-SUFFIX,xhscdn.net
 DOMAIN-SUFFIX,xhslink.com
 DOMAIN-SUFFIX,xycommunity.com
 DOMAIN-KEYWORD,xiaohongshu
-USER-AGENT,Xiaohongshu*
-USER-AGENT,xhs*
-USER-AGENT,discovery*
-USER-AGENT,MicroMessenger*
+USER-AGENT,*Xiaohongshu*
+USER-AGENT,*xhs*
+
+
 
 # ======================================================================================
 #======================================快手------=======================================
@@ -125,13 +120,12 @@ DOMAIN-KEYWORD,kuaishou
 DOMAIN-KEYWORD,gifshow
 DOMAIN-KEYWORD,yximgs
 DOMAIN-KEYWORD,kwai
-USER-AGENT,Kuaishou*
-USER-AGENT,Kwai*
-USER-AGENT,KsWebView*
-USER-AGENT,kwai-android*
-USER-AGENT,AcFun*
-PROCESS-NAME,Kuaishou
-PROCESS-NAME,kwai
+USER-AGENT,*Kuaishou*
+USER-AGENT,*Kwai*
+USER-AGENT,*KsWebView*
+USER-AGENT,*kwai-android*
+USER-AGENT,*AcFun*
+
 IP-ASN,55901
 IP-ASN,135431
 
@@ -224,18 +218,13 @@ DOMAIN-SUFFIX,smp-device-content.apple.com
 DOMAIN-SUFFIX,cdn-apple-pay.com
 DOMAIN-SUFFIX,devimages-cdn.apple.com
 DOMAIN-SUFFIX,testflight.apple.com
-USER-AGENT,AppStore*
-USER-AGENT,AppleStore*
-USER-AGENT,TestFlight*
-USER-AGENT,Clips*
-USER-AGENT,FindMy*
-USER-AGENT,com.apple.trustd*
-USER-AGENT,Maps*
-USER-AGENT,Wallet*
-PROCESS-NAME,storedownloadd
-PROCESS-NAME,com.apple.appstore
-PROCESS-NAME,com.apple.geod
-PROCESS-NAME,com.apple.maps
+USER-AGENT,*AppStore*
+USER-AGENT,*AppleStore*
+USER-AGENT,*TestFlight*
+USER-AGENT,*FindMy*
+USER-AGENT,*com.apple.trustd*
+
+
 
 # ======================================================================================
 #=======================================腾讯所有游戏=======================================
@@ -295,27 +284,19 @@ DOMAIN-KEYWORD,levelinfinite
 DOMAIN-KEYWORD,wegame
 DOMAIN-KEYWORD,王者荣耀
 DOMAIN-KEYWORD,和平精英
-USER-AGENT,Tencent*
-USER-AGENT,MicroMessenger*
-USER-AGENT,WeChat*
-USER-AGENT,QQ*
-USER-AGENT,SGame*
-USER-AGENT,HoK*
-USER-AGENT,PUBGM*
-USER-AGENT,GCloud*
-USER-AGENT,MSDK*
-USER-AGENT,TencentMidasConnect*
-USER-AGENT,TencentSecurity*
-USER-AGENT,QQNews*
-USER-AGENT,QQMail*
-USER-AGENT,TIM*
-PROCESS-NAME,com.tencent.tmgp.sgame
-PROCESS-NAME,com.tencent.tmgp.pubgmhd
-PROCESS-NAME,com.tencent.ig
-PROCESS-NAME,com.levelinfinite.sgameGlobal
-PROCESS-NAME,com.tencent.lolm
-PROCESS-NAME,com.tencent.mobileqq
-PROCESS-NAME,com.tencent.mm
+USER-AGENT,*Tencent*
+USER-AGENT,*WeChat*
+USER-AGENT,*SGame*
+USER-AGENT,*HoK*
+USER-AGENT,*PUBGM*
+USER-AGENT,*GCloud*
+USER-AGENT,*MSDK*
+USER-AGENT,*TencentMidasConnect*
+USER-AGENT,*TencentSecurity*
+USER-AGENT,*QQNews*
+USER-AGENT,*QQMail*
+USER-AGENT,*TIM*
+
 IP-ASN,132203
 IP-ASN,133478
 IP-ASN,132591
@@ -374,21 +355,18 @@ DOMAIN-KEYWORD,papegames
 DOMAIN-KEYWORD,loveanddeepspace
 DOMAIN-KEYWORD,balladofantara
 DOMAIN-KEYWORD,theperceiver
-USER-AGENT,InfinityNikki*
-USER-AGENT,Infold*
-USER-AGENT,Deepspace*
-USER-AGENT,LoveAndDeepspace*
-USER-AGENT,ShiningNikki*
-USER-AGENT,MrLove*
-USER-AGENT,Nikki*
-USER-AGENT,PaperGames*
-USER-AGENT,BalladOfAntara*
-USER-AGENT,ThePerceiver*
-USER-AGENT,ProjectThePerceiver*
-PROCESS-NAME,InfinityNikki.exe
-PROCESS-NAME,InfoldLauncher.exe
-PROCESS-NAME,BalladOfAntara.exe
-PROCESS-NAME,ThePerceiver.exe
+USER-AGENT,*InfinityNikki*
+USER-AGENT,*Infold*
+USER-AGENT,*Deepspace*
+USER-AGENT,*LoveAndDeepspace*
+USER-AGENT,*ShiningNikki*
+USER-AGENT,*MrLove*
+USER-AGENT,*Nikki*
+USER-AGENT,*PaperGames*
+USER-AGENT,*BalladOfAntara*
+USER-AGENT,*ThePerceiver*
+USER-AGENT,*ProjectThePerceiver*
+
 IP-CIDR,47.75.0.0/16,no-resolve
 IP-CIDR,47.52.0.0/16,no-resolve
 IP-ASN,16509,no-resolve
@@ -452,11 +430,11 @@ DOMAIN-KEYWORD,braintree
 DOMAIN-KEYWORD,venmo
 DOMAIN-KEYWORD,paidy
 DOMAIN-KEYWORD,xoom
-USER-AGENT,PayPal*
-USER-AGENT,Venmo*
-USER-AGENT,Paidy*
-USER-AGENT,PayPalBusiness*
-USER-AGENT,Braintree*
+USER-AGENT,*PayPal*
+USER-AGENT,*Venmo*
+USER-AGENT,*Paidy*
+USER-AGENT,*PayPalBusiness*
+USER-AGENT,*Braintree*
 IP-ASN,17012,no-resolve
 IP-ASN,1449,no-resolve
 # ======================================================================================
@@ -472,11 +450,9 @@ DOMAIN-SUFFIX,transferwise.tech
 DOMAIN-SUFFIX,transferwise.work
 DOMAIN-SUFFIX,transferwise-cdn.com
 DOMAIN-KEYWORD,transferwise
-USER-AGENT,Wise*
-USER-AGENT,TransferWise*
-USER-AGENT,com.transferwise*
-PROCESS-NAME,com.transferwise.android
-PROCESS-NAME,com.transferwise.iphone
+USER-AGENT,*Wise*
+USER-AGENT,*TransferWise*
+USER-AGENT,*com.transferwise*
 IP-ASN,208550,no-resolve
 # ======================================================================================
 #======================================n26银行/n26 bank================================
@@ -490,7 +466,7 @@ DOMAIN-SUFFIX,n26.eu
 DOMAIN-SUFFIX,n26.org
 DOMAIN-SUFFIX,n26.app
 DOMAIN-SUFFIX,n26.co.uk
-# Infrastructure & Legacy
+
 DOMAIN-SUFFIX,tech26.de
 DOMAIN-SUFFIX,tech26.com
 DOMAIN-SUFFIX,number26.de
@@ -498,18 +474,18 @@ DOMAIN-SUFFIX,number26.com
 DOMAIN-SUFFIX,number26.eu
 DOMAIN-SUFFIX,n26cdn.com
 DOMAIN-SUFFIX,n26cdn.net
-# IDnow (Video Verification)
+
 DOMAIN-SUFFIX,idnow.de
 DOMAIN-SUFFIX,idnow.io
 DOMAIN-SUFFIX,idnow.com
 DOMAIN-SUFFIX,idnow.net
-# Keywords
+
 DOMAIN-KEYWORD,number26
-# User-Agents (Fallback)
-USER-AGENT,N26*
-USER-AGENT,Number26*
-USER-AGENT,IDnow*
-USER-AGENT,VideoIdent*
+
+USER-AGENT,*N26*
+USER-AGENT,*Number26*
+USER-AGENT,*IDnow*
+USER-AGENT,*VideoIdent*
 
 
 # ======================================================================================
@@ -526,9 +502,9 @@ DOMAIN-SUFFIX, meituan-travel.com
 DOMAIN-KEYWORD, meituan
 DOMAIN-KEYWORD, dianping
 DOMAIN-KEYWORD, sankuai
-USER-AGENT, Meituan*
-USER-AGENT, Dianping*
-USER-AGENT, Waimai*
+USER-AGENT,* Meituan*
+USER-AGENT, *Dianping*
+USER-AGENT, *Waimai*
 USER-AGENT, *MeituanGroup*
 IP-ASN, 56046
 
@@ -568,12 +544,11 @@ DOMAIN-KEYWORD, taobao
 DOMAIN-KEYWORD, tmall
 DOMAIN-KEYWORD, fliggy
 DOMAIN-KEYWORD, alitrip
-USER-AGENT, AliApp*
-USER-AGENT, Alipay*
-USER-AGENT, AlipayHK*
-USER-AGENT, Taobao*
-USER-AGENT, Tmall*
-USER-AGENT, Fliggy*
+USER-AGENT, *AliApp*
+USER-AGENT, *Alipay*
+USER-AGENT, *AlipayHK*
+USER-AGENT, *Taobao*
+USER-AGENT, *Tmall*
 USER-AGENT, *AlipayClient*
 IP-ASN, 37963
 IP-ASN, 45102
@@ -596,9 +571,8 @@ DOMAIN-SUFFIX,pddtracking.com
 DOMAIN-SUFFIX,pddexpl.com
 DOMAIN-KEYWORD,pinduoduo
 DOMAIN-KEYWORD,yangkeduo
-USER-AGENT,Pinduoduo*
-USER-AGENT,PDD*
-USER-AGENT,android-async-http*
+USER-AGENT,*Pinduoduo*
+USER-AGENT,*PDD*
 
 
 
@@ -627,9 +601,8 @@ DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,qcloud.com
 DOMAIN-KEYWORD,weixin
 DOMAIN-KEYWORD,wechat
-USER-AGENT,MicroMessenger*
-USER-AGENT,WeChat*
-USER-AGENT,WeChatPay*
+USER-AGENT,*WeChat*
+USER-AGENT,*WeChatPay*
 IP-ASN,132203,no-resolve
 
 
@@ -640,7 +613,7 @@ IP-ASN,132203,no-resolve
 # ======================================================================================
 #=========================================币安交易所binance===============================
 # ======================================================================================
-USER-AGENT,Binance*
+USER-AGENT,*Binance*
 DOMAIN-KEYWORD,binance
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,binance.cc
@@ -699,7 +672,7 @@ DOMAIN-SUFFIX,neverless.app
 DOMAIN-SUFFIX,neverless.io
 DOMAIN-SUFFIX,neverless.money
 DOMAIN-KEYWORD,neverless
-USER-AGENT,Neverless*
+USER-AGENT,*Neverless*
 # ======================================================================================
 #======================================vps/ssh端口================================
 # ======================================================================================
