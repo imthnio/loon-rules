@@ -324,6 +324,10 @@ IP-ASN,45090
 # ======================================================================================
 #=======================================叠纸无限暖暖=======================================
 # ======================================================================================
+DOMAIN-SUFFIX,papegames.com
+DOMAIN,infinitynikki-pay.papegames.com
+DOMAIN-SUFFIX,pay.papegames.com
+DOMAIN-SUFFIX,account.papegames.com
 DOMAIN-SUFFIX,infinitynikki.com
 DOMAIN-SUFFIX,infinitynikki.net
 DOMAIN-SUFFIX,infoldgames.com
