@@ -605,7 +605,28 @@ IP-ASN,24547,no-resolve
 #=============================cloudflare/cdn/cf========================================
 # ======================================================================================
 DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare.net
+DOMAIN-SUFFIX,cloudflare.org
 DOMAIN-SUFFIX,cloudflare-cn.com
+DOMAIN-SUFFIX,cloudflare-cn.net
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,cloudflare-gateway.com
+DOMAIN-SUFFIX,cloudflare-ippuls.com
+DOMAIN-SUFFIX,cloudflare-quic.com
+DOMAIN-SUFFIX,cloudflare-test.com
+DOMAIN-SUFFIX,cloudflare-verify.com
+DOMAIN-SUFFIX,cloudflareclient.com
+DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,cloudflareok.com
+DOMAIN-SUFFIX,cloudflareresolve.com
+DOMAIN-SUFFIX,cloudflaressl.com
+DOMAIN-SUFFIX,cloudflarestatus.com
+DOMAIN-SUFFIX,cloudflarestream.com
+DOMAIN-SUFFIX,cloudflarethumbs.com
+DOMAIN-SUFFIX,cloudflaretnt.com
+DOMAIN-SUFFIX,cloudflareuam.com
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,pages.dev
 # ======================================================================================
 #======================================国际地区ip兜底=======================================
 # ======================================================================================
