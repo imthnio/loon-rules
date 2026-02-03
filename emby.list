@@ -31,8 +31,11 @@ DOMAIN-SUFFIX,akadatel.com
 DOMAIN-SUFFIX,rongliren.com
 DOMAIN-SUFFIX,dlyilian.com
 DOMAIN-SUFFIX,yiandrive.com
-
-
+################################################
+############app###############
+################################################
+DOMAIN-KEYWORD,VidHub
+DOMAIN-KEYWORD,SenPlayer
 PROCESS-NAME,VidHub*
 USER-AGENT,SenPlayer*
 USER-AGENT,PotPlayer*
