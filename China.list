@@ -452,6 +452,66 @@ USER-AGENT,WeChat*
 USER-AGENT,WeChatPay*
 IP-ASN,132203,no-resolve
 
+
+
+
+
+
+# ======================================================================================
+#=========================================币安binance====================================
+# ======================================================================================
+USER-AGENT,Binance*
+DOMAIN-KEYWORD,binance
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.cc
+DOMAIN-SUFFIX,binance.charity
+DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,binance.co
+DOMAIN-SUFFIX,binance.gd
+DOMAIN-SUFFIX,binance.gg
+DOMAIN-SUFFIX,binance.im
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,binance.je
+DOMAIN-SUFFIX,binance.ltd
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binance.net
+DOMAIN-SUFFIX,binance.org
+DOMAIN-SUFFIX,binance.sc
+DOMAIN-SUFFIX,binance.support
+DOMAIN-SUFFIX,binance.us
+DOMAIN-SUFFIX,binance.vision
+DOMAIN-SUFFIX,binance.website
+DOMAIN-SUFFIX,binanceapi.com
+DOMAIN-SUFFIX,binancecnt.com
+DOMAIN-SUFFIX,binanceops.com
+DOMAIN-SUFFIX,binanceservice.com
+DOMAIN-SUFFIX,bnappzh.com
+DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,bntrace.com
+DOMAIN-SUFFIX,mokexapp.io
+DOMAIN-SUFFIX,saas-exchange.com
+DOMAIN-SUFFIX,saasexch.co
+DOMAIN-SUFFIX,apps.binance.com
+DOMAIN-SUFFIX,binancezh.be
+DOMAIN-SUFFIX,binancezh.biz
+DOMAIN-SUFFIX,binancezh.cc
+DOMAIN-SUFFIX,binancezh.co
+DOMAIN-SUFFIX,binancezh.com
+DOMAIN-SUFFIX,binancezh.info
+DOMAIN-SUFFIX,binancezh.ink
+DOMAIN-SUFFIX,binancezh.kim
+DOMAIN-SUFFIX,binancezh.link
+DOMAIN-SUFFIX,binancezh.live
+DOMAIN-SUFFIX,binancezh.mobi
+DOMAIN-SUFFIX,binancezh.net
+DOMAIN-SUFFIX,binancezh.org
+DOMAIN-SUFFIX,binancezh.pro
+DOMAIN-SUFFIX,binancezh.sh
+DOMAIN-SUFFIX,binancezh.top
+DOMAIN-SUFFIX,bnbzh.com
+DOMAIN-SUFFIX,99def.com
+
+
 # ======================================================================================
 #======================================vps/ssh端口================================
 # ======================================================================================
