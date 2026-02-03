@@ -34,6 +34,7 @@ DOMAIN-SUFFIX,yiandrive.com
 ################################################
 ############app###############
 ################################################
+DOMAIN-SUFFIX,senplayer-hdr-media-player.updatestar.com
 DOMAIN-KEYWORD,VidHub
 DOMAIN-KEYWORD,SenPlayer
 PROCESS-NAME,VidHub*
