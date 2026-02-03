@@ -1,72 +1,85 @@
 # =======================================================
-# 规则名称: Meta Universe (Watertight)
-# 覆盖范围: Facebook, Instagram, WhatsApp, Threads, Messenger, Oculus
-# 核心策略: 域名全家桶 + App私有协议头 + 核心ASN直管
+# 规则名称: Meta Universe (God Mode)
+# 覆盖范围: FB, INS, WhatsApp, Threads, Oculus, Mapillary
+# 参考来源: GitHub (blackmatrix7) + Meta Developer Docs
+# 更新日志: 补全 ig.me, oninstagram, mapillary
 # =======================================================
 
-# [Part 1: 社交主站域名]
-# Facebook & Messenger
+# [Part 1: 社交主站与核心短链]
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,facebook.net
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fb.watch
+DOMAIN-SUFFIX,fb.gg
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,instagr.am
+DOMAIN-SUFFIX,ig.me
+DOMAIN-SUFFIX,oninstagram.com
+DOMAIN-SUFFIX,threads.net
+
+# [Part 2: WhatsApp 通讯专用]
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,wa.me
 DOMAIN-SUFFIX,messenger.com
 DOMAIN-SUFFIX,m.me
 
-# Instagram & Threads
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,instagr.am
-DOMAIN-SUFFIX,threads.net
-
-# Corporate & VR (Oculus)
-DOMAIN-SUFFIX,meta.com
-DOMAIN-SUFFIX,meta.quest
-DOMAIN-SUFFIX,oculus.com
-DOMAIN-SUFFIX,oculuscdn.com
-
-# [Part 2: 核心 CDN 与 静态资源]
-# 图片、视频、头像、JS脚本加载的关键
-# 如果这里漏了，App 就会出现“只有文字没有图”的情况
+# [Part 3: 幕后基建 (地基)]
+# 这一块是“流畅度”的关键，缺一不可
 DOMAIN-SUFFIX,fbcdn.net
 DOMAIN-SUFFIX,fbsbx.com
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,fbthirdpartypixel.com
-DOMAIN-SUFFIX,atdmt.com
+DOMAIN-SUFFIX,tfbnw.net
+DOMAIN-SUFFIX,fbinfra.net
+DOMAIN-SUFFIX,fbpigeon.com
+DOMAIN-SUFFIX,facebookmail.com
 DOMAIN-SUFFIX,accountkit.com
+DOMAIN-SUFFIX,internet.org
+DOMAIN-SUFFIX,crowdtangle.com
 
-# [Part 3: 暴力关键字 (Keywords)]
-# 覆盖短链接及潜在的新域名
+# [Part 4: 地图与周边服务]
+# 修复“无法加载位置”的问题
+DOMAIN-SUFFIX,mapillary.com
+
+# [Part 5: 硬件与元宇宙 (VR)]
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,meta.quest
+DOMAIN-SUFFIX,oculus.com
+DOMAIN-SUFFIX,oculuscdn.com
+DOMAIN-SUFFIX,facebook-hardware.com
+DOMAIN-SUFFIX,facebook-dianping.com
+
+# [Part 6: 暴力关键字 (最后的防线)]
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,threads
+DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,fbcdn
 DOMAIN-KEYWORD,oculus
 
 # =======================================================
-# [Part 4: 协议层兜底 (User-Agent)]
-# Meta 系 App 的 User-Agent 特征非常明显
-# FBAN/FBAV 是 Facebook App 内部使用的标识符，必须加
+# [Part 7: 协议层兜底 (User-Agent)]
+# 包含了所有 App 的内部代号
 # =======================================================
 USER-AGENT,Facebook*
 USER-AGENT,Instagram*
 USER-AGENT,Messenger*
 USER-AGENT,Threads*
+USER-AGENT,WhatsApp*
 USER-AGENT,Meta*
 USER-AGENT,Oculus*
 USER-AGENT,FBAN*
 USER-AGENT,FBAV*
 
 # =======================================================
-# [Part 5: 物理层兜底 (IP-ASN)]
-# Meta 的终极防线。
-# Meta 拥有全球第二大的独立网络 AS32934。
-# 无论是 WhatsApp 的通话信令，还是 Instagram 的视频流，
-# 只要落入这个 ASN，插翅难逃。
+# [Part 8: 物理层兜底 (IP-ASN)]
+# 这里的三个 ASN 覆盖了 Meta 全球 99.99% 的服务器
+# 32934 = 主力
+# 63293 = 辅助
+# 14981 = Oculus/VR 专用
 # =======================================================
-
-# AS32934: Facebook, Inc. (核心 ASN，承载 90% 流量)
 IP-ASN,32934
-
-# AS63293: Facebook (辅助基础设施)
 IP-ASN,63293
+IP-ASN,14981
