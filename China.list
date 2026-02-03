@@ -509,6 +509,23 @@ USER-AGENT, *Waimai*
 USER-AGENT, *MeituanGroup*
 IP-ASN, 56046
 
+# ==================================
+# NAME: Doubao AI (ByteDance China)
+# DESCRIPTION: 豆包 - 字节跳动 AI 助手
+# STRATEGY: 必须走 中国大陆节点 (China Proxy)
+# ==================================
+
+# 1. 核心域名
+DOMAIN-SUFFIX,doubao.com
+DOMAIN-SUFFIX,doubao.cn
+
+# 2. 关联服务 (扣子国内版/其他入口)
+DOMAIN-SUFFIX,coze.cn
+
+# 3. 关键词 & UA
+DOMAIN-KEYWORD,doubao
+USER-AGENT,*Doubao*
+USER-AGENT,*AI_Mobile*
 
 
 # ======================================================================================
