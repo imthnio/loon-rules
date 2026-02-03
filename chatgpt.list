@@ -110,12 +110,13 @@ IP-ASN, 20473, no-resolve
 --------------------------------------------------
 8. User-Agent
 --------------------------------------------------
-USER-AGENT, Claude*
-USER-AGENT, ClaudeClient*
-USER-AGENT, Anthropic*
-USER-AGENT, ChatGPT*
-USER-AGENT, OpenAI*
-USER-AGENT, OpenAIClient*
+USER-AGENT,*Claude*
+USER-AGENT,*ClaudeClient*
+USER-AGENT,*Anthropic*
+USER-AGENT,*ChatGPT*
+USER-AGENT,*OpenAI*
+USER-AGENT,*OpenAIClient*
+USER-AGENT,*sora*
 --------------------------------------------------
 9. Process Name (Desktop / PWA)
 --------------------------------------------------
