@@ -1,4 +1,26 @@
 # ==========================================
+# TikTok 网页版防白屏补丁 (Web Fix)
+# 修复: "Please wait..." / 验证码加载失败
+# ==========================================
+
+# --- 网页版核心验证 ---
+# 很多滑块验证码走这个域名
+DOMAIN-SUFFIX,captcha-delivery.com
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,byte-oversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+
+# --- 静态资源 CDN (网页版专用) ---
+# 网页版不仅用 tiktokcdn，还用这些
+DOMAIN-SUFFIX,tiktokcdn-us.com
+DOMAIN-SUFFIX,s16.tiktokcdn.com
+DOMAIN-SUFFIX,sf16-scmcdn-sg.ibytedtos.com
+DOMAIN-SUFFIX,sf16-website-login.neutral.ttwstatic.com
+DOMAIN-SUFFIX,ttwstatic.com
+
+
+
+# ==========================================
 # 亚洲直播优化补丁 (日本 JP / 台湾 TW)
 # 修复: 画面卡顿、回旋镖延迟
 # ==========================================
