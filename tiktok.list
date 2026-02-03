@@ -1,4 +1,43 @@
 # ==========================================
+# 直播拉流专用补丁 (Lag Killer)
+# 作用: 强制捕获所有 FLV/HLS/RTMP 直播数据流
+# 优先级: 必须放在所有规则的最上面!
+# ==========================================
+
+# --- 1. 暴力捕获“拉流”域名 (最关键!) ---
+# 直播卡顿 90% 是因为漏了这些 pull- (拉流) 开头的域名
+DOMAIN-KEYWORD,pull-f3
+DOMAIN-KEYWORD,pull-f5
+DOMAIN-KEYWORD,pull-flv
+DOMAIN-KEYWORD,pull-hls
+DOMAIN-KEYWORD,pull-l3
+DOMAIN-KEYWORD,pull-rtmp
+DOMAIN-KEYWORD,livestream
+DOMAIN-SUFFIX,mcdn.tiktokcdn.com
+DOMAIN-SUFFIX,v16a.tiktokcdn.com
+DOMAIN-SUFFIX,v19.tiktokcdn.com
+
+# --- 2. 强制代理 Akamai 动态节点 ---
+# 很多直播流藏在 akamaized.net 里，用正则精准捕获，不误伤苹果微软
+# 只要域名前面带 p11~p99 的 tiktokcdn，全部抓走
+DOMAIN-KEYWORD,tiktokcdn-com.akamaized.net
+
+# --- 3. 游戏/OBS 推流专用 ---
+# 如果你看的是游戏直播（王者荣耀/PUBG），往往走这些域名
+DOMAIN-SUFFIX,cast.tiktok.com
+DOMAIN-SUFFIX,push-rtmp.tiktokcdn.com
+DOMAIN-SUFFIX,webcast.tiktokv.com
+
+# --- 4. 边缘计算节点 (Edge) ---
+# 解决“进直播间黑屏几秒才有画面”的问题
+DOMAIN-SUFFIX,exp.tiktokv.com
+DOMAIN-SUFFIX,route.tiktokv.com
+DOMAIN-SUFFIX,mon.tiktokv.com
+
+
+
+
+# ==========================================
 # TikTok 网页版防白屏补丁 (Web Fix)
 # 修复: "Please wait..." / 验证码加载失败
 # ==========================================
