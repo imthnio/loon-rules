@@ -1,4 +1,30 @@
 # ==========================================
+# 亚洲直播优化补丁 (日本 JP / 台湾 TW)
+# 修复: 画面卡顿、回旋镖延迟
+# ==========================================
+
+# --- 日本 (Japan) 专属域名 ---
+# 日本版 TikTok 很多流量走这两个域名，漏了就会卡
+DOMAIN-SUFFIX,tiktok.co.jp
+DOMAIN-SUFFIX,t.tiktok.co.jp
+DOMAIN-SUFFIX,sf16-ies-music-jp.tiktokcdn.com
+DOMAIN-SUFFIX,p16-tiktokcdn-com.akamaized.net
+
+# --- 台湾 & 亚洲通用 (Akamai 调度) ---
+# 台湾直播流极其依赖 Akamai，必须强制捕获
+# 注意：以下规则专门解决"有声音无画面"
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,quic-tiktok-cdn.com
+DOMAIN-SUFFIX,ttlivecdn.com
+DOMAIN-SUFFIX,mcdn.tiktokcdn.com
+
+# --- 边缘计算节点 (Edge Computing) ---
+# 解决台湾地区直播转圈问题
+DOMAIN-SUFFIX,mon.tiktokv.com
+DOMAIN-SUFFIX,g-ms.tiktok.com
+
+
+# ==========================================
 # TikTok 2026 最终究极修正版
 # 检查级别: 显微镜级 (Paranoid Mode)
 # 针对痛点: 顽固的直播卡顿、画面黑屏
