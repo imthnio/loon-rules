@@ -319,6 +319,29 @@ DOMAIN-KEYWORD,number26
 USER-AGENT,N26*
 USER-AGENT,Number26*
 
+
+# ==================================
+# NAME: AlipayHK (Hong Kong Only)
+# DESCRIPTION: 仅包含香港版专用域名，不含国内共用部分
+# STRATEGY: Hong Kong Proxy
+# ==================================
+
+# 1. 核心专用域名
+DOMAIN-SUFFIX,alipayhk.com
+DOMAIN-SUFFIX,alipay.hk
+
+# 2. 专用 User-Agent (特征识别)
+# 国内版是 AliApp(AP...)，香港版是 AliApp(HK...)
+USER-AGENT,AlipayHK*
+USER-AGENT,AliApp(HK*
+
+# 3. 进程名分流 (最精准的隔离方式)
+# 如果你是 Loon/Surge，这行能确保只有 HK App 走代理
+PROCESS-NAME,com.alipay.in.hk
+PROCESS-NAME,hk.alipay.wallet
+
+
+
 #拼多多
 DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,yangkeduo.com
