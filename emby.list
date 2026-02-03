@@ -33,12 +33,7 @@ DOMAIN-SUFFIX,yiandrive.com
 ################################################
 ############app###############
 ################################################
-DOMAIN-KEYWORD,VidHub
-DOMAIN-KEYWORD,SenPlayer
-PROCESS-NAME,VidHub*
-USER-AGENT,SenPlayer*
-USER-AGENT,PotPlayer*
-USER-AGENT,VLC*
-USER-AGENT,IINA*
-USER-AGENT,Lavf/*
-USER-AGENT,libmpv*
+PROCESS-NAME,*VidHub*
+USER-AGENT,*senplayer*
+USER-AGENT,*PotPlayer*
+
