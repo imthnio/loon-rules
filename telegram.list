@@ -31,14 +31,11 @@ DOMAIN-KEYWORD,telegram
 DOMAIN-KEYWORD,nicegram
 
 # [Part 3: 协议层 & 进程兜底]
-USER-AGENT,Telegram*
-USER-AGENT,Nicegram*
-USER-AGENT,iMe*
-USER-AGENT,Turrit*
-USER-AGENT,Swiftgram*
-USER-AGENT,Unigram*
-PROCESS-NAME,Telegram
-PROCESS-NAME,Telegram.exe
+USER-AGENT,*Telegram*
+USER-AGENT,*Nicegram*
+USER-AGENT,*Turrit*
+USER-AGENT,*Swiftgram*
+USER-AGENT,*Unigram*
 
 # =======================================================
 # [Part 4: 终极修复 - IP-CIDR (IPv4)]
