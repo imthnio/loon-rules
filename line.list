@@ -1,60 +1,55 @@
 # =======================================================
-# 规则名称: LINE Ultimate (Watertight)
-# 覆盖范围: LINE 聊天, 贴纸, 语音视频通话, LINE Pay, Timeline
-# 核心策略: 解决 "无法发送图片" 和 "通话连接中" 问题
+# 规则名称: LINE Ultimate (LY Corp Edition)
+# 维护标准: 参考 blackmatrix7 (2026 最新版)
+# 覆盖范围: LINE 全量业务, LINE Pay, 视频通话, 贴纸资源
 # =======================================================
 
-# [Part 1: 核心域名 (Core Domains)]
-# line.me 是主入口，line-apps.com 承载 API
+# [Part 1: 核心业务域名]
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,line-apps.com
+DOMAIN-SUFFIX,line-cdn.net
 DOMAIN-SUFFIX,line-scdn.net
-DOMAIN-SUFFIX,linetv.tw
-DOMAIN-SUFFIX,pstatic.net
+DOMAIN-SUFFIX,line-stk.me
+DOMAIN-SUFFIX,lin.ee
+DOMAIN-SUFFIX,line.biz
+DOMAIN-SUFFIX,line-pay.com
+DOMAIN-SUFFIX,line-website.com
+DOMAIN-SUFFIX,linecorp.com
+DOMAIN-SUFFIX,lycorp.co.jp
+
+# [Part 2: 基础设施与母公司 (NAVER/Yahoo)]
 DOMAIN-SUFFIX,naver.jp
 DOMAIN-SUFFIX,naver.com
 DOMAIN-SUFFIX,nhncorp.jp
+DOMAIN-SUFFIX,pstatic.net
 DOMAIN-SUFFIX,nelo2.com
+DOMAIN-SUFFIX,nhn.jp
+DOMAIN-SUFFIX,yimg.jp
 
-# [Part 2: 静态资源与 CDN (Critical)]
-# 这里的域名决定了你的表情包能不能发出去
-DOMAIN-SUFFIX,obs.line-scdn.net
-DOMAIN-SUFFIX,profile.line-scdn.net
-DOMAIN-SUFFIX,shop.line.me
-DOMAIN-SUFFIX,stickershop.line-scdn.net
-
-# [Part 3: 暴力关键字 (Keywords)]
-# !!! 警告：绝不能使用 "line" 作为纯关键字 !!!
-# 因为 online, deadline, headline 都会被误杀。
-# 这里只匹配特定的组合。
+# [Part 3: 暴力关键字 (极致补全)]
 DOMAIN-KEYWORD,line-apps
 DOMAIN-KEYWORD,line-scdn
 DOMAIN-KEYWORD,linetv
+DOMAIN-KEYWORD,line-static
 
-# =======================================================
 # [Part 4: 协议层兜底 (User-Agent)]
-# 覆盖手机端 App
-# =======================================================
 USER-AGENT,LINE*
+USER-AGENT,line*
 USER-AGENT,Line*
 USER-AGENT,LineTV*
+USER-AGENT,LineP*
 
-# =======================================================
-# [Part 5: 进程层兜底 (Process Name)]
-# 适配 Windows / macOS 桌面版客户端
-# =======================================================
+# [Part 5: 进程名兜底 (桌面端)]
 PROCESS-NAME,LINE
 PROCESS-NAME,LINE.exe
+PROCESS-NAME,LineCall
+PROCESS-NAME,LineModernHost
 
-# =======================================================
-# [Part 6: 物理层兜底 (IP-ASN)]
-# LINE Corporation 的自有网络。
-# 这是保障语音/视频通话不掉线的关键。
-# =======================================================
-
-# AS38091: LINE Corporation (核心节点)
+# [Part 6: 物理层 IP-ASN 终极兜底]
+# LINE / LY Corporation
 IP-ASN,38091
-
-# AS23999: NAVER Business Platform (后端基础设施)
-# LINE 的数据大量存储在母公司/关联公司 NAVER 的服务器上
+IP-ASN,45187
+IP-ASN,135314
+# NAVER Business Platform
 IP-ASN,23999
+IP-ASN,46077
