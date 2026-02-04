@@ -3,7 +3,6 @@
 # 审计级别: 开发者抓包级 (Packet Inspection Level)
 # 适用: 解决一切“转圈”、“无网络”、“验证码错误”
 # =======================================================
-
 DOMAIN,voice.telephony.goog
 DOMAIN-SUFFIX,0emm.com
 DOMAIN-SUFFIX,1e100.net
@@ -62,6 +61,7 @@ DOMAIN-SUFFIX,blink.org
 DOMAIN-SUFFIX,blog.google
 DOMAIN-SUFFIX,blogblog.com
 DOMAIN-SUFFIX,blogger.com
+DOMAIN-SUFFIX,blogspot.com
 DOMAIN-SUFFIX,blogspot.ae
 DOMAIN-SUFFIX,blogspot.al
 DOMAIN-SUFFIX,blogspot.am
@@ -80,7 +80,6 @@ DOMAIN-SUFFIX,blogspot.co.ke
 DOMAIN-SUFFIX,blogspot.co.nz
 DOMAIN-SUFFIX,blogspot.co.uk
 DOMAIN-SUFFIX,blogspot.co.za
-DOMAIN-SUFFIX,blogspot.com
 DOMAIN-SUFFIX,blogspot.com.ar
 DOMAIN-SUFFIX,blogspot.com.au
 DOMAIN-SUFFIX,blogspot.com.br
@@ -704,139 +703,42 @@ DOMAIN-KEYWORD,recaptcha
 USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
 USER-AGENT,*com.google.Drive*
 USER-AGENT,Google.Drive*
+USER-AGENT,*Gmail*
+USER-AGENT,*GoogleMap*
+USER-AGENT,*GoogleAssistant*
+USER-AGENT,*GoogleHome*
+USER-AGENT,*Chrome*
+USER-AGENT,*youtube*
+USER-AGENT,*google*
 IP-CIDR,172.110.32.0/21,no-resolve
 IP-CIDR,173.194.0.0/16,no-resolve
 IP-CIDR,216.73.80.0/20,no-resolve
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR6,2620:120:e000::/40,no-resolve
-
 # [Part 1: 核心身份 & 顶级域名 & 基础设施]
 # 包含 .google, .goog, 1e100 等所有物理资产
 DOMAIN-SUFFIX,google
 DOMAIN-SUFFIX,goog
-DOMAIN-SUFFIX,1e100.net
-DOMAIN-SUFFIX,265.com
-DOMAIN-SUFFIX,2mdn.net
-DOMAIN-SUFFIX,abc.xyz
-DOMAIN-SUFFIX,admob.com
-DOMAIN-SUFFIX,adsense.com
-DOMAIN-SUFFIX,advertisercommunity.com
-DOMAIN-SUFFIX,ampproject.org
-DOMAIN-SUFFIX,android.com
-DOMAIN-SUFFIX,androidify.com
 DOMAIN-SUFFIX,android-x86.org
-DOMAIN-SUFFIX,app-measurement.com
-DOMAIN-SUFFIX,app-measurement.net
-DOMAIN-SUFFIX,appspot.com
-DOMAIN-SUFFIX,autodraw.com
 DOMAIN-SUFFIX,beacon-v2.appspot.com
-DOMAIN-SUFFIX,blog.google
-DOMAIN-SUFFIX,blogblog.com
-DOMAIN-SUFFIX,blogger.com
-DOMAIN-SUFFIX,blogspot.com
-DOMAIN-SUFFIX,blogspot.hk
-DOMAIN-SUFFIX,blogspot.jp
-DOMAIN-SUFFIX,capitalg.com
-DOMAIN-SUFFIX,certificate-transparency.dev
-DOMAIN-SUFFIX,chrome.com
-DOMAIN-SUFFIX,chromeexperiments.com
-DOMAIN-SUFFIX,chromestatus.com
-DOMAIN-SUFFIX,chromium.org
-DOMAIN-SUFFIX,chromecast.com
-DOMAIN-SUFFIX,creativelab5.com
-DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-SUFFIX,dartlang.org
-DOMAIN-SUFFIX,debug.com
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,dialogflow.com
 DOMAIN-SUFFIX,dns.google
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,drive.google.com
 DOMAIN-SUFFIX,fabric.io
 DOMAIN-SUFFIX,firebase.com
-DOMAIN-SUFFIX,firebaseio.com
-DOMAIN-SUFFIX,flutter.dev
-DOMAIN-SUFFIX,g.co
-DOMAIN-SUFFIX,g.page
-DOMAIN-SUFFIX,getmdl.io
-DOMAIN-SUFFIX,getoutline.org
 DOMAIN-SUFFIX,ggpht.cn
 DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,gmail.com
-DOMAIN-SUFFIX,gmodules.com
-DOMAIN-SUFFIX,godoc.org
-DOMAIN-SUFFIX,golang.org
-DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,google.cn
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,google.dev
-DOMAIN-SUFFIX,google.org
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,googleanalytics.com
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,googlecode.com
 DOMAIN-SUFFIX,googlehome.com
-DOMAIN-SUFFIX,googlemail.com
 DOMAIN-SUFFIX,googleone.com
 DOMAIN-SUFFIX,googlepay.com
-DOMAIN-SUFFIX,googlephotos.com
-DOMAIN-SUFFIX,googleplay.com
-DOMAIN-SUFFIX,googlesource.com
-DOMAIN-SUFFIX,googlestore.com
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,googletagservices.com
-DOMAIN-SUFFIX,googleusercontent.cn
-DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,googlezip.net
-DOMAIN-SUFFIX,gstatic.cn
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,gv.com
-DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,gwtproject.org
 DOMAIN-SUFFIX,itinerary.com
 DOMAIN-SUFFIX,local.google
 DOMAIN-SUFFIX,madebygoogle.com
-DOMAIN-SUFFIX,material.io
-DOMAIN-SUFFIX,pki.goog
-DOMAIN-SUFFIX,polymer-project.org
-DOMAIN-SUFFIX,recaptcha.net
-DOMAIN-SUFFIX,schema.org
-DOMAIN-SUFFIX,shattered.io
-DOMAIN-SUFFIX,synergyse.com
-DOMAIN-SUFFIX,telephony.goog
 DOMAIN-SUFFIX,tenor.com
-DOMAIN-SUFFIX,tensorflow.org
-DOMAIN-SUFFIX,tfhub.dev
-DOMAIN-SUFFIX,tiltbrush.com
 DOMAIN-SUFFIX,time.google.com
-DOMAIN-SUFFIX,waveprotocol.org
-DOMAIN-SUFFIX,waymo.com
-DOMAIN-SUFFIX,waze.com
-DOMAIN-SUFFIX,web.dev
-DOMAIN-SUFFIX,webmproject.org
-DOMAIN-SUFFIX,webrtc.org
-DOMAIN-SUFFIX,widevine.com
-DOMAIN-SUFFIX,withgoogle.com
-DOMAIN-SUFFIX,x.company
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-DOMAIN-SUFFIX,zynamics.com
-
-
-
-
-
-
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,makersuite.google.com
 DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,generativeai.google
@@ -845,13 +747,8 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
-
 # [Part 2: 极其隐蔽的云托管服务 (Cloud Hosting)]
 # ⚠️ 50% 的现代 App 后端跑在这些域名上，漏了会导致 App 空白
-DOMAIN-SUFFIX,firebaseapp.com
-DOMAIN-SUFFIX,cloudfunctions.net
-DOMAIN-SUFFIX,run.app
-
 # [Part 3: YouTube 完整矩阵]
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,youtube.com
@@ -862,28 +759,14 @@ DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
-
 # [Part 4: 暴力关键字 (Keywords)]
 # 兜底全球所有后缀
-DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,youtube
-DOMAIN-KEYWORD,blogspot
-DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,gvt
 DOMAIN-KEYWORD,xn--ngstr-lra8j
-
 # =======================================================
 # [Part 5: 协议层兜底 (User-Agent)]
 # 覆盖安装包下载、Webview、语音助手、后台同步
-
-USER-AGENT,*Gmail*
-USER-AGENT,*GoogleMap*
-USER-AGENT,*GoogleAssistant*
-USER-AGENT,*GoogleHome*
-USER-AGENT,*Chrome*
-USER-AGENT,*youtube*
-USER-AGENT,*google*
-
 # =======================================================
 # [Part 6: 物理层兜底 (IP-ASN)]
 # Blackmatrix7 标准 ASN 列表，包含 Google Cloud 新节点
