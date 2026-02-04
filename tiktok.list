@@ -1,39 +1,91 @@
-DOMAIN,lf16-effectcdn.byteeffecttos-g.com
-DOMAIN,lf16-pkgcdn.pitaya-clientai.com
-DOMAIN,p16-tiktokcdn-com.akamaized.net
-DOMAIN,trae-api-sg.mchost.guru
-DOMAIN-SUFFIX,bytedapm.com
-DOMAIN-SUFFIX,bytegecko-i18n.com
-DOMAIN-SUFFIX,byteintlapi.com
-DOMAIN-SUFFIX,byteoversea.com
-DOMAIN-SUFFIX,capcut.com
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,ibyteimg.com
-DOMAIN-SUFFIX,ipstatp.com
-DOMAIN-SUFFIX,isnssdk.com
-DOMAIN-SUFFIX,marscode.com
-DOMAIN-SUFFIX,muscdn.com
-DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,sgpstatp.com
-DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,tik-tokapi.com
+# ==============================================
+# TikTok & ByteDance International (2026 最终修正版)
+# 策略：全量覆盖国际域名 + UserAgent 智能兜底 + 绝对隔离国内域名
+# ==============================================
+
+# -----------------
+# 1. TikTok 核心业务 (视频/直播/网页/CDN)
+# -----------------
 DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,tiktokcdn-us.com
+DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokd.net
 DOMAIN-SUFFIX,tiktokd.org
 DOMAIN-SUFFIX,tiktokmusic.app
-DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktokcdn-us.com
+DOMAIN-SUFFIX,tiktokcdn-eu.com
 DOMAIN-SUFFIX,tiktokv.us
-DOMAIN-SUFFIX,trae.ai
-DOMAIN-SUFFIX,ttwebview.com
-DOMAIN-KEYWORD,musical.ly
-DOMAIN-KEYWORD,tiktok
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+# [直播] 关键直播流域名
+DOMAIN-SUFFIX,tlivecdn.com
+# [网页] 关键网页版域名
+DOMAIN-SUFFIX,tiktokw.com
+# [加速] QUIC 协议域名
+DOMAIN-SUFFIX,quic-tiktokcdn.com
+
+# -----------------
+# 2. 字节跳动国际版基础架构 (API/图片/配置)
+# -----------------
+# byteoversea = 字节海外企业架构
+DOMAIN-SUFFIX,byteoversea.com
+# ibytedtos = 国际版对象存储 (International)
+DOMAIN-SUFFIX,ibytedtos.com
+# ibyteimg = 国际版图片服务 (International)
+DOMAIN-SUFFIX,ibyteimg.com
+# isnssdk = 国际版通用 API (International)
+DOMAIN-SUFFIX,isnssdk.com
+# [重点新增] sgsnssdk = 亚洲/新加坡专用 API (缺失会导致日本节点部分功能异常)
+DOMAIN-SUFFIX,sgsnssdk.com
+# sgpstatp = 新加坡静态资源
+DOMAIN-SUFFIX,sgpstatp.com
+# ipstatp = 国际版静态资源
+DOMAIN-SUFFIX,ipstatp.com
+# byteintlapi = 国际 API
+DOMAIN-SUFFIX,byteintlapi.com
+# bytegecko-i18n = 国际化 Gecko 引擎
+DOMAIN-SUFFIX,bytegecko-i18n.com
+# byteeffecttos-g = 国际版特效 (Global)
+DOMAIN-SUFFIX,byteeffecttos-g.com
+
+# -----------------
+# 3. 关联国际产品 (Trae, Lemon8, CapCut)
+# -----------------
+DOMAIN-SUFFIX,capcut.com
 DOMAIN-SUFFIX,lemon8-app.com
 DOMAIN-SUFFIX,lemon8cdn.com
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,marscode.com
+
+# -----------------
+# 4. 特殊 CDN 节点 (Akamai 等)
+# -----------------
+# 必须精确匹配，不能用后缀，否则会误伤其他 Akamai 客户
+DOMAIN,p16-tiktokcdn-com.akamaized.net
+DOMAIN,trae-api-sg.mchost.guru
+
+# -----------------
+# 5. 关键词与兜底
+# -----------------
+DOMAIN-KEYWORD,musical.ly
+DOMAIN-KEYWORD,tiktok
+
+# -----------------
+# 6. 智能兜底 (User-Agent)
+# -----------------
+# 这是最后一道防线：
+# 就算有漏网的共用域名(如 ttwebview)，只有当 User-Agent 是 TikTok 时才走代理
+# 抖音的 User-Agent (Aweme) 会自动直连
+USER-AGENT,TikTok*
 USER-AGENT,*tiktok*
 USER-AGENT,*tiktokus*
 USER-AGENT,*musical_ly*
 USER-AGENT,*trill*
 USER-AGENT,*lemon8*
 USER-AGENT,*CapCut*
+
+# -----------------
+# 7. 强力兜底 (IP-ASN)
+# -----------------
+IP-ASN,138699
