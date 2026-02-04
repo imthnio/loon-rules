@@ -50,16 +50,15 @@ DOMAIN-SUFFIX,marscode.com
 DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,tiktok
 
-USER-AGENT,*tiktok*
-USER-AGENT,*tiktokus*
+USER-AGENT,*tikto*
 USER-AGENT,*musical*
-USER-AGENT,*aweme*
 USER-AGENT,*trill*
 USER-AGENT,*lemon8*
 USER-AGENT,*CapCut*
-
+USER-AGENT,*ibytedance*
 # -----------------
 # 7. 强力兜底 (IP-ASN)
 # -----------------
 # 属于 ByteDance 的 IP 段
-IP-ASN,138699
+IP-ASN,396986
+IP-ASN,32505
