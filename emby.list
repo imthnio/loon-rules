@@ -33,6 +33,6 @@ DOMAIN-SUFFIX,yiandrive.com
 ################################################
 =============####app###############=============
 ################################################
-USER-AGENT,*senplayer*
-USER-AGENT,*vidhub*
+USER-AGENT,*senplay*
+USER-AGENT,*vidh*
 
