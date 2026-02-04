@@ -1,6 +1,8 @@
 # =====================================
 # TikTok 国际版分流规则 (Blackmatrix7 标准修正版)
 # =====================================
+DOMAIN-SUFFIX,tiktokcdn.liveplay.myqcloud.com
+
 
 # [核心] 网页与API关键域名
 DOMAIN-SUFFIX,tiktok.com
