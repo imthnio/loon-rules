@@ -115,14 +115,14 @@ DOMAIN-SUFFIX,shop.davinci-pay.com
 ########################################################
 ####################################图床
 ########################################################
-DOMAIN-SUFFIX,c.wss.cc
-DOMAIN-SUFFIX,photo.lily.lat
-DOMAIN-SUFFIX,img.xwyue.com
-DOMAIN-SUFFIX,ccgimg.com
-DOMAIN-SUFFIX,695402.xyz
-DOMAIN-SUFFIX,111666.best
-DOMAIN-SUFFIX,img.baisi.ru
-DOMAIN-SUFFIX,imgbb.com
+DOMAIN-SUFFIX,c.wss.cc,no-resolve
+DOMAIN-SUFFIX,photo.lily.lat,no-resolve
+DOMAIN-SUFFIX,img.xwyue.com,no-resolve
+DOMAIN-SUFFIX,ccgimg.com,no-resolve
+DOMAIN-SUFFIX,695402.xyz,no-resolve
+DOMAIN-SUFFIX,111666.best,no-resolve
+DOMAIN-SUFFIX,img.baisi.ru,no-resolve
+DOMAIN-SUFFIX,imgbb.com,no-resolve
 
 
 
@@ -134,9 +134,9 @@ DOMAIN-SUFFIX,mail.tal.ccwu.cc
 ########################################################
 ########################动态壁纸
 ########################################################
-DOMAIN-SUFFIX,bbs.huoying666.com
-DOMAIN-SUFFIX,livewallp.com
-DOMAIN-SUFFIX,motionbgs.com
+DOMAIN-SUFFIX,bbs.huoying666.com,no-resolve
+DOMAIN-SUFFIX,livewallp.com,no-resolve
+DOMAIN-SUFFIX,motionbgs.com,no-resolve
 
 
 ########################################################
