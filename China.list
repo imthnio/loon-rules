@@ -1,67 +1,76 @@
 # ======================================================================================
 #======================================抖音=======================================
 # ======================================================================================
-DOMAIN,lf3-static.bytednsdoc.com
-DOMAIN,v5-dy-o-abtest.zjcdn.com
-DOMAIN-SUFFIX,amemv.com
-DOMAIN-SUFFIX,douyincdn.com
-DOMAIN-SUFFIX,douyinpic.com
-DOMAIN-SUFFIX,douyinstatic.com
-DOMAIN-SUFFIX,douyinvod.com
-DOMAIN-SUFFIX,idouyinvod.com
-DOMAIN-SUFFIX,ixigua.com
-DOMAIN-SUFFIX,ixiguavideo.com
-DOMAIN-SUFFIX,pstatp.com
-DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,toutiao.com
-DOMAIN-KEYWORD,douyin
-DOMAIN-KEYWORD,huoshan
-DOMAIN-KEYWORD,jianying
-USER-AGENT,*Douyin*
-USER-AGENT,*Jianying*
+DOMAIN,lf3-static.bytednsdoc.com,no-resolve
+DOMAIN,v5-dy-o-abtest.zjcdn.com,no-resolve
+DOMAIN-SUFFIX,amemv.com,no-resolve
+DOMAIN-SUFFIX,douyincdn.com,no-resolve
+DOMAIN-SUFFIX,douyinpic.com,no-resolve
+DOMAIN-SUFFIX,douyinstatic.com,no-resolve
+DOMAIN-SUFFIX,douyinvod.com,no-resolve
+DOMAIN-SUFFIX,idouyinvod.com,no-resolve
+DOMAIN-SUFFIX,ixigua.com,no-resolve
+DOMAIN-SUFFIX,ixiguavideo.com,no-resolve
+DOMAIN-SUFFIX,pstatp.com,no-resolve
+DOMAIN-SUFFIX,snssdk.com,no-resolve
+DOMAIN-SUFFIX,toutiao.com,no-resolve
+DOMAIN-KEYWORD,douyin,no-resolve
+DOMAIN-KEYWORD,huoshan,no-resolve
+DOMAIN-KEYWORD,jianying,no-resolve
+USER-AGENT,*Douyin*,no-resolve
+USER-AGENT,*Jianying*,no-resolve
 
 
+
+DOMAIN-SUFFIX,doubao.com,no-resolve
+DOMAIN-SUFFIX,doubao.cn,no-resolve
+
+DOMAIN-SUFFIX,coze.cn,no-resolve
+
+DOMAIN-KEYWORD,doubao,no-resolve
+USER-AGENT,*Doubao*,no-resolve
+USER-AGENT,*AI_Mobile*,no-resolve
 # ======================================================================================
 #=====================================哔哩哔哩bilibili=================================
 # ======================================================================================
-DOMAIN-SUFFIX,bilibili.com
-DOMAIN-SUFFIX,bilibili.tv
-DOMAIN-SUFFIX,bilibili.co
-DOMAIN-SUFFIX,bilivideo.com
-DOMAIN-SUFFIX,bilivideo.cn
-DOMAIN-SUFFIX,bilivideo.net
-DOMAIN-SUFFIX,hdslb.com
-DOMAIN-SUFFIX,hdslb.net
-DOMAIN-SUFFIX,biliapi.com
-DOMAIN-SUFFIX,biliapi.net
-DOMAIN-SUFFIX,biligame.com
-DOMAIN-SUFFIX,biligame.net
-DOMAIN-SUFFIX,bilicomic.com
-DOMAIN-SUFFIX,bilibiliusercontent.com
-DOMAIN-SUFFIX,mcbbs.net
-DOMAIN-SUFFIX,acg.tv
-DOMAIN-SUFFIX,im9.com
-DOMAIN-KEYWORD,bilibili
-DOMAIN-KEYWORD,bilivideo
-USER-AGENT,*Bilibili*
-USER-AGENT,*bili*
-USER-AGENT,*BiliAnime*
-USER-AGENT,*tv.danmaku.bili*
+DOMAIN-SUFFIX,bilibili.com,no-resolve
+DOMAIN-SUFFIX,bilibili.tv,no-resolve
+DOMAIN-SUFFIX,bilibili.co,no-resolve
+DOMAIN-SUFFIX,bilivideo.com,no-resolve
+DOMAIN-SUFFIX,bilivideo.cn,no-resolve
+DOMAIN-SUFFIX,bilivideo.net,no-resolve
+DOMAIN-SUFFIX,hdslb.com,no-resolve
+DOMAIN-SUFFIX,hdslb.net,no-resolve
+DOMAIN-SUFFIX,biliapi.com,no-resolve
+DOMAIN-SUFFIX,biliapi.net,no-resolve
+DOMAIN-SUFFIX,biligame.com,no-resolve
+DOMAIN-SUFFIX,biligame.net,no-resolve
+DOMAIN-SUFFIX,bilicomic.com,no-resolve
+DOMAIN-SUFFIX,bilibiliusercontent.com,no-resolve
+DOMAIN-SUFFIX,mcbbs.net,no-resolve
+DOMAIN-SUFFIX,acg.tv,no-resolve
+DOMAIN-SUFFIX,im9.com,no-resolve
+DOMAIN-KEYWORD,bilibili,no-resolve
+DOMAIN-KEYWORD,bilivideo,no-resolve
+USER-AGENT,*Bilibili*,no-resolve
+USER-AGENT,*bili*,no-resolve
+USER-AGENT,*BiliAnime*,no-resolve
+USER-AGENT,*tv.danmaku.bili*,no-resolve
 
-IP-ASN,132203
+IP-ASN,132203,no-resolve
 
 
 # ======================================================================================
 #======================================小红书=========================================
 # ======================================================================================
-DOMAIN-SUFFIX,xiaohongshu.com
-DOMAIN-SUFFIX,xhscdn.com
-DOMAIN-SUFFIX,xhscdn.net
-DOMAIN-SUFFIX,xhslink.com
-DOMAIN-SUFFIX,xycommunity.com
-DOMAIN-KEYWORD,xiaohongshu
-USER-AGENT,*Xiaohongshu*
-USER-AGENT,*xhs*
+DOMAIN-SUFFIX,xiaohongshu.com,no-resolve
+DOMAIN-SUFFIX,xhscdn.com,no-resolve
+DOMAIN-SUFFIX,xhscdn.net,no-resolve
+DOMAIN-SUFFIX,xhslink.com,no-resolve
+DOMAIN-SUFFIX,xycommunity.com,no-resolve
+DOMAIN-KEYWORD,xiaohongshu,no-resolve
+USER-AGENT,*Xiaohongshu*,no-resolve
+USER-AGENT,*xhs*,no-resolve
 
 
 
@@ -69,9 +78,9 @@ USER-AGENT,*xhs*
 #======================================快手------=======================================
 # =======================================================================================
 
-DOMAIN-SUFFIX,kuaishou.com
-DOMAIN-SUFFIX,kuaishou.net
-DOMAIN-SUFFIX,gifshow.com
+DOMAIN-SUFFIX,kuaishou.com,no-resolve
+DOMAIN-SUFFIX,kuaishou.net,no-resolve
+DOMAIN-SUFFIX,gifshow.com,no-resolve
 DOMAIN-SUFFIX,ksapis.com
 DOMAIN-SUFFIX,ksyun.com
 
@@ -79,56 +88,56 @@ DOMAIN-SUFFIX,yximgs.com
 DOMAIN-SUFFIX,udatask.com
 DOMAIN-SUFFIX,jovcloud.com
 DOMAIN-SUFFIX,onezapp.com
-DOMAIN-SUFFIX,acfun.cn
+DOMAIN-SUFFIX,acfun.cn,no-resolve
 DOMAIN-SUFFIX,acfun.tv
 DOMAIN-SUFFIX,kwai.com
 DOMAIN-SUFFIX,kwai.net
-DOMAIN-SUFFIX,kwai-pro.com
-DOMAIN-KEYWORD,kuaishou
-DOMAIN-KEYWORD,gifshow
-DOMAIN-KEYWORD,yximgs
-DOMAIN-KEYWORD,kwai
-USER-AGENT,*Kuaishou*
-USER-AGENT,*Kwai*
-USER-AGENT,*KsWebView*
-USER-AGENT,*kwai-android*
-USER-AGENT,*AcFun*
+DOMAIN-SUFFIX,kwai-pro.com,no-resolve
+DOMAIN-KEYWORD,kuaishou,no-resolve
+DOMAIN-KEYWORD,gifshow,no-resolve
+DOMAIN-KEYWORD,yximgs,no-resolve
+DOMAIN-KEYWORD,kwai,no-resolve
+USER-AGENT,*Kuaishou*,no-resolve
+USER-AGENT,*Kwai*,no-resolve
+USER-AGENT,*KsWebView*,no-resolve
+USER-AGENT,*kwai-android*,no-resolve
+USER-AGENT,*AcFun*,no-resolve
 
-IP-ASN,55901
-IP-ASN,135431
+IP-ASN,55901,no-resolve
+IP-ASN,135431,no-resolve
 
 # ======================================================================================
 #=======================================苹果apple=======================================
 # ======================================================================================
-DOMAIN-SUFFIX,mail.icloud.com.cn
-DOMAIN-SUFFIX,mail.me.com
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,apple-icloud.cn
-DOMAIN-SUFFIX,apple-livephotoskit.com
-DOMAIN-SUFFIX,appleicloud.cn
-DOMAIN-SUFFIX,applemx-icloud.com
-DOMAIN-SUFFIX,apzones.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,gc.apple.com
-DOMAIN-SUFFIX,icloud-apple.cn
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,icloud-isupport.com
-DOMAIN-SUFFIX,icloud-sandbox.com
-DOMAIN-SUFFIX,icloud.apple.com
-DOMAIN-SUFFIX,icloud.ch
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud.com.cn
-DOMAIN-SUFFIX,icloud.de
-DOMAIN-SUFFIX,icloud.ee
-DOMAIN-SUFFIX,icloud.fi
-DOMAIN-SUFFIX,icloud.fr
-DOMAIN-SUFFIX,icloud.hu
-DOMAIN-SUFFIX,icloud.ie
-DOMAIN-SUFFIX,icloud.is
-DOMAIN-SUFFIX,icloud.jp
-DOMAIN-SUFFIX,icloud.lv
-DOMAIN-SUFFIX,icloud.net.cn
-DOMAIN-SUFFIX,icloud.om
+DOMAIN-SUFFIX,mail.icloud.com.cn,no-resolve
+DOMAIN-SUFFIX,mail.me.com,no-resolve
+DOMAIN-SUFFIX,apple-cloudkit.com,no-resolve
+DOMAIN-SUFFIX,apple-icloud.cn,no-resolve
+DOMAIN-SUFFIX,apple-livephotoskit.com,no-resolve
+DOMAIN-SUFFIX,appleicloud.cn,no-resolve
+DOMAIN-SUFFIX,applemx-icloud.com,no-resolve
+DOMAIN-SUFFIX,apzones.com,no-resolve
+DOMAIN-SUFFIX,cdn-apple.com,no-resolve
+DOMAIN-SUFFIX,gc.apple.com,no-resolve
+DOMAIN-SUFFIX,icloud-apple.cn,no-resolve
+DOMAIN-SUFFIX,icloud-content.com,no-resolve
+DOMAIN-SUFFIX,icloud-isupport.com,no-resolve
+DOMAIN-SUFFIX,icloud-sandbox.com,no-resolve
+DOMAIN-SUFFIX,icloud.apple.com,no-resolve
+DOMAIN-SUFFIX,icloud.ch,no-resolve
+DOMAIN-SUFFIX,icloud.com,no-resolve
+DOMAIN-SUFFIX,icloud.com.cn,no-resolve
+DOMAIN-SUFFIX,icloud.de,no-resolve
+DOMAIN-SUFFIX,icloud.ee,no-resolve
+DOMAIN-SUFFIX,icloud.fi,no-resolve
+DOMAIN-SUFFIX,icloud.fr,no-resolve
+DOMAIN-SUFFIX,icloud.hu,no-resolve
+DOMAIN-SUFFIX,icloud.ie,no-resolve
+DOMAIN-SUFFIX,icloud.is,no-resolve
+DOMAIN-SUFFIX,icloud.jp,no-resolve
+DOMAIN-SUFFIX,icloud.lv,no-resolve
+DOMAIN-SUFFIX,icloud.net.cn,no-resolve
+DOMAIN-SUFFIX,icloud.om,no-resolve
 DOMAIN-SUFFIX,icloud.org
 DOMAIN-SUFFIX,icloud.pt
 DOMAIN-SUFFIX,icloud.ro
@@ -176,38 +185,38 @@ DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,itunes.com
-DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,apple-dns.net
-DOMAIN-SUFFIX,ls.apple.com
-DOMAIN-SUFFIX,gs-loc.apple.com
-DOMAIN-SUFFIX,smp-device-content.apple.com
-DOMAIN-SUFFIX,cdn-apple-pay.com
-DOMAIN-SUFFIX,devimages-cdn.apple.com
-DOMAIN-SUFFIX,testflight.apple.com
-USER-AGENT,*AppStore*
-USER-AGENT,*AppleStore*
-USER-AGENT,*TestFlight*
-USER-AGENT,*FindMy*
-USER-AGENT,*com.apple.trustd*
-USER-AGENT,*icloud.com*
+DOMAIN-SUFFIX,me.com,no-resolve
+DOMAIN-SUFFIX,itunes.com,no-resolve
+DOMAIN-SUFFIX,itunes.apple.com,no-resolve
+DOMAIN-SUFFIX,apple-dns.net,no-resolve
+DOMAIN-SUFFIX,ls.apple.com,no-resolve
+DOMAIN-SUFFIX,gs-loc.apple.com,no-resolve
+DOMAIN-SUFFIX,smp-device-content.apple.com,no-resolve
+DOMAIN-SUFFIX,cdn-apple-pay.com,no-resolve
+DOMAIN-SUFFIX,devimages-cdn.apple.com,no-resolve
+DOMAIN-SUFFIX,testflight.apple.com,no-resolve
+USER-AGENT,*AppStore*,no-resolve
+USER-AGENT,*AppleStore*,no-resolve
+USER-AGENT,*TestFlight*,no-resolve
+USER-AGENT,*FindMy*,no-resolve
+USER-AGENT,*com.apple.trustd*,no-resolve
+USER-AGENT,*icloud.com*,no-resolve
 
 
 
 # ======================================================================================
 #=======================================腾讯所有游戏=======================================
 # ======================================================================================
-DOMAIN-SUFFIX,tencent.com
-DOMAIN-SUFFIX,tencent.com.cn
-DOMAIN-SUFFIX,qq.com
-DOMAIN-SUFFIX,game.qq.com
-DOMAIN-SUFFIX,pvp.qq.com
-DOMAIN-SUFFIX,smoba.qq.com
-DOMAIN-SUFFIX,gp.qq.com
-DOMAIN-SUFFIX,igamecj.com
-DOMAIN-SUFFIX,msdk.qq.com
-DOMAIN-SUFFIX,tpns.qq.com
+DOMAIN-SUFFIX,tencent.com,no-resolve
+DOMAIN-SUFFIX,tencent.com.cn,no-resolve
+DOMAIN-SUFFIX,qq.com,no-resolve
+DOMAIN-SUFFIX,game.qq.com,no-resolve
+DOMAIN-SUFFIX,pvp.qq.com,no-resolve
+DOMAIN-SUFFIX,smoba.qq.com,no-resolve
+DOMAIN-SUFFIX,gp.qq.com,no-resolve
+DOMAIN-SUFFIX,igamecj.com,no-resolve
+DOMAIN-SUFFIX,msdk.qq.com,no-resolve
+DOMAIN-SUFFIX,tpns.qq.com,no-resolve
 DOMAIN-SUFFIX,tencent-gcloud.com
 DOMAIN-SUFFIX,gcloudcs.com
 DOMAIN-SUFFIX,gcloud.com
@@ -221,10 +230,10 @@ DOMAIN-SUFFIX,microfun.com
 DOMAIN-SUFFIX,tim.qq.com
 DOMAIN-SUFFIX,qzone.com
 DOMAIN-SUFFIX,tenpay.com
-DOMAIN-SUFFIX,wegame.com
-DOMAIN-SUFFIX,wegame.com.cn
-DOMAIN-SUFFIX,levelinfinite.com
-DOMAIN-SUFFIX,levelinfinite.net
+DOMAIN-SUFFIX,wegame.com,no-resolve
+DOMAIN-SUFFIX,wegame.com.cn,no-resolve
+DOMAIN-SUFFIX,levelinfinite.com,no-resolve
+DOMAIN-SUFFIX,levelinfinite.net,no-resolve
 DOMAIN-SUFFIX,proximabeta.com
 DOMAIN-SUFFIX,pubgmobile.com
 DOMAIN-SUFFIX,pubgame.com
@@ -244,49 +253,49 @@ DOMAIN-SUFFIX,trace.qq.com
 DOMAIN-SUFFIX,btrace.qq.com
 DOMAIN-SUFFIX,m.qpic.cn
 DOMAIN-SUFFIX,servicewechat.com
-DOMAIN-KEYWORD,tencent
-DOMAIN-KEYWORD,qq.com
-DOMAIN-KEYWORD,smoba
-DOMAIN-KEYWORD,moba
-DOMAIN-KEYWORD,daolu
-DOMAIN-KEYWORD,levelinfinite
-DOMAIN-KEYWORD,wegame
-DOMAIN-KEYWORD,王者荣耀
-DOMAIN-KEYWORD,和平精英
-USER-AGENT,*Tencent*
-USER-AGENT,*WeChat*
-USER-AGENT,*SGame*
-USER-AGENT,*HoK*
-USER-AGENT,*PUBGM*
-USER-AGENT,*GCloud*
-USER-AGENT,*MSDK*
-USER-AGENT,*TencentMidasConnect*
-USER-AGENT,*TencentSecurity*
-USER-AGENT,*QQNews*
-USER-AGENT,*QQMail*
-USER-AGENT,*TIM*
+DOMAIN-KEYWORD,tencent,no-resolve
+DOMAIN-KEYWORD,qq.com,no-resolve
+DOMAIN-KEYWORD,smoba,no-resolve
+DOMAIN-KEYWORD,moba,no-resolve
+DOMAIN-KEYWORD,daolu,no-resolve
+DOMAIN-KEYWORD,levelinfinite,no-resolve
+DOMAIN-KEYWORD,wegame,no-resolve
+DOMAIN-KEYWORD,王者荣耀,no-resolve
+DOMAIN-KEYWORD,和平精英,no-resolve
+USER-AGENT,*Tencent*,no-resolve
+USER-AGENT,*WeChat*,no-resolve
+USER-AGENT,*SGame*,no-resolve
+USER-AGENT,*HoK*,no-resolve
+USER-AGENT,*PUBGM*,no-resolve
+USER-AGENT,*GCloud*,no-resolve
+USER-AGENT,*MSDK*,no-resolve
+USER-AGENT,*TencentMidasConnect*,no-resolve
+USER-AGENT,*TencentSecurity*,no-resolve
+USER-AGENT,*QQNews*,no-resolve
+USER-AGENT,*QQMail*,no-resolve
+USER-AGENT,*TIM*,no-resolve
 
-IP-ASN,132203
-IP-ASN,133478
-IP-ASN,132591
-IP-ASN,100803
-IP-ASN,45090
+IP-ASN,132203,no-resolve
+IP-ASN,133478,no-resolve
+IP-ASN,132591,no-resolve
+IP-ASN,100803,no-resolve
+IP-ASN,45090,no-resolve
 # ======================================================================================
 #=======================================叠纸无限暖暖=======================================
 # ======================================================================================
-DOMAIN-SUFFIX,papegames.com
-DOMAIN,infinitynikki-pay.papegames.com
-DOMAIN-SUFFIX,pay.papegames.com
-DOMAIN-SUFFIX,account.papegames.com
-DOMAIN-SUFFIX,infinitynikki.com
-DOMAIN-SUFFIX,infinitynikki.net
-DOMAIN-SUFFIX,infoldgames.com
-DOMAIN-SUFFIX,infold.com
-DOMAIN-SUFFIX,infold.link
-DOMAIN-SUFFIX,infoldaccount.com
-DOMAIN-SUFFIX,infold-wb.com
-DOMAIN-SUFFIX,papegames.com
-DOMAIN-SUFFIX,papegames.cn
+DOMAIN-SUFFIX,papegames.com,no-resolve
+DOMAIN,infinitynikki-pay.papegames.com,no-resolve
+DOMAIN-SUFFIX,pay.papegames.com,no-resolve
+DOMAIN-SUFFIX,account.papegames.com,no-resolve
+DOMAIN-SUFFIX,infinitynikki.com,no-resolve
+DOMAIN-SUFFIX,infinitynikki.net,no-resolve
+DOMAIN-SUFFIX,infoldgames.com,no-resolve
+DOMAIN-SUFFIX,infold.com,no-resolve
+DOMAIN-SUFFIX,infold.link,no-resolve
+DOMAIN-SUFFIX,infoldaccount.com,no-resolve
+DOMAIN-SUFFIX,infold-wb.com,no-resolve
+DOMAIN-SUFFIX,papegames.com,no-resolve
+DOMAIN-SUFFIX,papegames.cn,no-resolve
 DOMAIN-SUFFIX,papegames.com.cn
 DOMAIN-SUFFIX,papegames.hk
 DOMAIN-SUFFIX,papegames.net
@@ -324,17 +333,17 @@ DOMAIN-KEYWORD,papegames
 DOMAIN-KEYWORD,loveanddeepspace
 DOMAIN-KEYWORD,balladofantara
 DOMAIN-KEYWORD,theperceiver
-USER-AGENT,*InfinityNikki*
-USER-AGENT,*Infold*
-USER-AGENT,*Deepspace*
-USER-AGENT,*LoveAndDeepspace*
-USER-AGENT,*ShiningNikki*
-USER-AGENT,*MrLove*
-USER-AGENT,*Nikki*
-USER-AGENT,*PaperGames*
-USER-AGENT,*BalladOfAntara*
-USER-AGENT,*ThePerceiver*
-USER-AGENT,*ProjectThePerceiver*
+USER-AGENT,*InfinityNikki*,no-resolve
+USER-AGENT,*Infold*,no-resolve
+USER-AGENT,*Deepspace*,no-resolve
+USER-AGENT,*LoveAndDeepspace*,no-resolve
+USER-AGENT,*ShiningNikki*,no-resolve
+USER-AGENT,*MrLove*,no-resolve
+USER-AGENT,*Nikki*,no-resolve
+USER-AGENT,*PaperGames*,no-resolve
+USER-AGENT,*BalladOfAntara*,no-resolve
+USER-AGENT,*ThePerceiver*,no-resolve
+USER-AGENT,*ProjectThePerceiver*,no-resolve
 
 IP-CIDR,47.75.0.0/16,no-resolve
 IP-CIDR,47.52.0.0/16,no-resolve
@@ -343,40 +352,40 @@ IP-ASN,15169,no-resolve
 # ======================================================================================
 #=======================================paypal贝宝=======================================
 # ======================================================================================
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypalobjects.com
-DOMAIN-SUFFIX,paypal.me
-DOMAIN-SUFFIX,paypal.cn
-DOMAIN-SUFFIX,pypl.com
-DOMAIN-SUFFIX,paypal-mobile.com
-DOMAIN-SUFFIX,paypal-apps.com
-DOMAIN-SUFFIX,paypal-api.com
-DOMAIN-SUFFIX,paypal-billing.com
-DOMAIN-SUFFIX,paypal-giftcard.com
-DOMAIN-SUFFIX,paypal-prepaid.com
-DOMAIN-SUFFIX,paypal-communication.com
-DOMAIN-SUFFIX,paypal-communications.com
-DOMAIN-SUFFIX,paypal-mktg.com
-DOMAIN-SUFFIX,paypal-corp.com
-DOMAIN-SUFFIX,paypal-knowledge.com
-DOMAIN-SUFFIX,paypal-status.com
-DOMAIN-SUFFIX,paypal-community.com
-DOMAIN-SUFFIX,paypal-experience.com
-DOMAIN-SUFFIX,paypal-search.com
-DOMAIN-SUFFIX,paypal-special-offer.com
-DOMAIN-SUFFIX,paypal-forward.com
-DOMAIN-SUFFIX,paypal-donations.com
-DOMAIN-SUFFIX,paypal-op-labs.com
-DOMAIN-SUFFIX,paypal-pickup.com
-DOMAIN-SUFFIX,paypal.112.2o7.net
-DOMAIN-SUFFIX,fp-paypal.com
-DOMAIN-SUFFIX,paypal.co.jp
-DOMAIN-SUFFIX,paypal.co.uk
-DOMAIN-SUFFIX,paypal.ca
-DOMAIN-SUFFIX,paypal.com.au
-DOMAIN-SUFFIX,paypal.com.sg
-DOMAIN-SUFFIX,paypal.com.hk
-DOMAIN-SUFFIX,paypal.eu
+DOMAIN-SUFFIX,paypal.com,no-resolve
+DOMAIN-SUFFIX,paypalobjects.com,no-resolve
+DOMAIN-SUFFIX,paypal.me,no-resolve
+DOMAIN-SUFFIX,paypal.cn,no-resolve
+DOMAIN-SUFFIX,pypl.com,no-resolve
+DOMAIN-SUFFIX,paypal-mobile.com,no-resolve
+DOMAIN-SUFFIX,paypal-apps.com,no-resolve
+DOMAIN-SUFFIX,paypal-api.com,no-resolve
+DOMAIN-SUFFIX,paypal-billing.com,no-resolve
+DOMAIN-SUFFIX,paypal-giftcard.com,no-resolve
+DOMAIN-SUFFIX,paypal-prepaid.com,no-resolve
+DOMAIN-SUFFIX,paypal-communication.com,no-resolve
+DOMAIN-SUFFIX,paypal-communications.com,no-resolve
+DOMAIN-SUFFIX,paypal-mktg.com,no-resolve
+DOMAIN-SUFFIX,paypal-corp.com,no-resolve
+DOMAIN-SUFFIX,paypal-knowledge.com,no-resolve
+DOMAIN-SUFFIX,paypal-status.com,no-resolve
+DOMAIN-SUFFIX,paypal-community.com,no-resolve
+DOMAIN-SUFFIX,paypal-experience.com,no-resolve
+DOMAIN-SUFFIX,paypal-search.com,no-resolve
+DOMAIN-SUFFIX,paypal-special-offer.com,no-resolve
+DOMAIN-SUFFIX,paypal-forward.com,no-resolve
+DOMAIN-SUFFIX,paypal-donations.com,no-resolve
+DOMAIN-SUFFIX,paypal-op-labs.com,no-resolve
+DOMAIN-SUFFIX,paypal-pickup.com,no-resolve
+DOMAIN-SUFFIX,paypal.112.2o7.net,no-resolve
+DOMAIN-SUFFIX,fp-paypal.com,no-resolve
+DOMAIN-SUFFIX,paypal.co.jp,no-resolve
+DOMAIN-SUFFIX,paypal.co.uk,no-resolve
+DOMAIN-SUFFIX,paypal.ca,no-resolve
+DOMAIN-SUFFIX,paypal.com.au,no-resolve
+DOMAIN-SUFFIX,paypal.com.sg,no-resolve
+DOMAIN-SUFFIX,paypal.com.hk,no-resolve
+DOMAIN-SUFFIX,paypal.eu,no-resolve
 DOMAIN-SUFFIX,braintreegateway.com
 DOMAIN-SUFFIX,braintreepayments.com
 DOMAIN-SUFFIX,braintree-api.com
@@ -388,17 +397,17 @@ DOMAIN-SUFFIX,izettle.com
 DOMAIN-SUFFIX,honey.is
 DOMAIN-SUFFIX,joinhoney.com
 DOMAIN-SUFFIX,simility.com
-DOMAIN-SUFFIX,swiftfinancial.com
-DOMAIN-SUFFIX,loanbuilder.com
-DOMAIN-SUFFIX,paydiant.com
-DOMAIN-SUFFIX,hyperwallet.com
-DOMAIN-SUFFIX,hyperwallet-api.com
-DOMAIN-SUFFIX,billmelater.com
-DOMAIN-KEYWORD,paypal
-DOMAIN-KEYWORD,braintree
-DOMAIN-KEYWORD,venmo
-DOMAIN-KEYWORD,paidy
-DOMAIN-KEYWORD,xoom
+DOMAIN-SUFFIX,swiftfinancial.com,no-resolve
+DOMAIN-SUFFIX,loanbuilder.com,no-resolve
+DOMAIN-SUFFIX,paydiant.com,no-resolve
+DOMAIN-SUFFIX,hyperwallet.com,no-resolve
+DOMAIN-SUFFIX,hyperwallet-api.com,no-resolve
+DOMAIN-SUFFIX,billmelater.com,no-resolve
+DOMAIN-KEYWORD,paypal,no-resolve
+DOMAIN-KEYWORD,braintree,no-resolve
+DOMAIN-KEYWORD,venmo,no-resolve
+DOMAIN-KEYWORD,paidy,no-resolve
+DOMAIN-KEYWORD,xoom,no-resolve
 USER-AGENT,*PayPal*
 USER-AGENT,*Venmo*
 USER-AGENT,*Paidy*
@@ -426,30 +435,29 @@ IP-ASN,208550,no-resolve
 # ======================================================================================
 #======================================n26银行/n26 bank================================
 # ======================================================================================
-# > N26 Bank (Based on Blackmatrix7 & App Structure)
-# Main Domains
-DOMAIN-SUFFIX,n26.com
-DOMAIN-SUFFIX,n26.de
-DOMAIN-SUFFIX,n26.net
-DOMAIN-SUFFIX,n26.eu
-DOMAIN-SUFFIX,n26.org
-DOMAIN-SUFFIX,n26.app
-DOMAIN-SUFFIX,n26.co.uk
 
-DOMAIN-SUFFIX,tech26.de
-DOMAIN-SUFFIX,tech26.com
-DOMAIN-SUFFIX,number26.de
-DOMAIN-SUFFIX,number26.com
-DOMAIN-SUFFIX,number26.eu
-DOMAIN-SUFFIX,n26cdn.com
-DOMAIN-SUFFIX,n26cdn.net
+DOMAIN-SUFFIX,n26.com,no-resolve
+DOMAIN-SUFFIX,n26.de,no-resolve
+DOMAIN-SUFFIX,n26.net,no-resolve
+DOMAIN-SUFFIX,n26.eu,no-resolve
+DOMAIN-SUFFIX,n26.org,no-resolve
+DOMAIN-SUFFIX,n26.app,no-resolve
+DOMAIN-SUFFIX,n26.co.uk,no-resolve
 
-DOMAIN-SUFFIX,idnow.de
-DOMAIN-SUFFIX,idnow.io
-DOMAIN-SUFFIX,idnow.com
-DOMAIN-SUFFIX,idnow.net
+DOMAIN-SUFFIX,tech26.de,no-resolve
+DOMAIN-SUFFIX,tech26.com,no-resolve
+DOMAIN-SUFFIX,number26.de,no-resolve
+DOMAIN-SUFFIX,number26.com,no-resolve
+DOMAIN-SUFFIX,number26.eu,no-resolve
+DOMAIN-SUFFIX,n26cdn.com,no-resolve
+DOMAIN-SUFFIX,n26cdn.net,no-resolve
 
-DOMAIN-KEYWORD,number26
+DOMAIN-SUFFIX,idnow.de,no-resolve
+DOMAIN-SUFFIX,idnow.io,no-resolve
+DOMAIN-SUFFIX,idnow.com,no-resolve
+DOMAIN-SUFFIX,idnow.net,no-resolve
+
+DOMAIN-KEYWORD,number26,no-resolve
 
 USER-AGENT,*N26*
 USER-AGENT,*Number26*
@@ -460,54 +468,36 @@ USER-AGENT,*VideoIdent*
 # ======================================================================================
 #=========================================美团=========================================
 # ======================================================================================
-DOMAIN-SUFFIX, meituan.com
-DOMAIN-SUFFIX, meituan.net
-DOMAIN-SUFFIX, meituan.top
-DOMAIN-SUFFIX, dianping.com
-DOMAIN-SUFFIX, sankuai.com
-DOMAIN-SUFFIX, dpfile.com
-DOMAIN-SUFFIX, maoyan.com
-DOMAIN-SUFFIX, meituan-travel.com
-DOMAIN-KEYWORD, meituan
-DOMAIN-KEYWORD, dianping
-DOMAIN-KEYWORD, sankuai
-USER-AGENT,* Meituan*
-USER-AGENT, *Dianping*
-USER-AGENT, *Waimai*
-USER-AGENT, *MeituanGroup*
-IP-ASN, 56046
-
-# ==================================
-# NAME: Doubao AI (ByteDance China)
-# DESCRIPTION: 豆包 - 字节跳动 AI 助手
-# STRATEGY: 必须走 中国大陆节点 (China Proxy)
-# ==================================
-
-# 1. 核心域名
-DOMAIN-SUFFIX,doubao.com
-DOMAIN-SUFFIX,doubao.cn
-
-# 2. 关联服务 (扣子国内版/其他入口)
-DOMAIN-SUFFIX,coze.cn
-
-# 3. 关键词 & UA
-DOMAIN-KEYWORD,doubao
-USER-AGENT,*Doubao*
-USER-AGENT,*AI_Mobile*
+DOMAIN-SUFFIX, meituan.com,no-resolve
+DOMAIN-SUFFIX, meituan.net,no-resolve
+DOMAIN-SUFFIX, meituan.top,no-resolve
+DOMAIN-SUFFIX, dianping.com,no-resolve
+DOMAIN-SUFFIX, sankuai.com,no-resolve
+DOMAIN-SUFFIX, dpfile.com,no-resolve
+DOMAIN-SUFFIX, maoyan.com,no-resolve
+DOMAIN-SUFFIX, meituan-travel.com,no-resolve
+DOMAIN-KEYWORD, meituan,no-resolve
+DOMAIN-KEYWORD, dianping,no-resolve
+DOMAIN-KEYWORD, sankuai,no-resolve
+USER-AGENT,* Meituan*,no-resolve
+USER-AGENT, *Dianping*,no-resolve
+USER-AGENT, *Waimai*,no-resolve
+USER-AGENT, *MeituanGroup*,no-resolve
+IP-ASN, 56046,no-resolve
 
 
 # ======================================================================================
 #=============================阿里巴巴淘宝支付宝alipayhk飞猪================================
 # ======================================================================================
-DOMAIN-SUFFIX, alipay.com
-DOMAIN-SUFFIX, alipay.cn
-DOMAIN-SUFFIX, alipay.hk
-DOMAIN-SUFFIX, alipayhk.com
-DOMAIN-SUFFIX, alipayobjects.com
-DOMAIN-SUFFIX, alipay-eco.com
-DOMAIN-SUFFIX, antgroup.com
-DOMAIN-SUFFIX, antfin.com
-DOMAIN-SUFFIX, antfinancial.com
+DOMAIN-SUFFIX, alipay.com,no-resolve
+DOMAIN-SUFFIX, alipay.cn,no-resolve
+DOMAIN-SUFFIX, alipay.hk,no-resolve
+DOMAIN-SUFFIX, alipayhk.com,no-resolve
+DOMAIN-SUFFIX, alipayobjects.com,no-resolve
+DOMAIN-SUFFIX, alipay-eco.com,no-resolve
+DOMAIN-SUFFIX, antgroup.com,no-resolve
+DOMAIN-SUFFIX, antfin.com,no-resolve
+DOMAIN-SUFFIX, antfinancial.com,no-resolve
 DOMAIN-SUFFIX, mybank.cn
 DOMAIN-SUFFIX, zhima.com
 DOMAIN-SUFFIX, taobao.com
@@ -536,11 +526,11 @@ USER-AGENT, *AlipayHK*
 USER-AGENT, *Taobao*
 USER-AGENT, *Tmall*
 USER-AGENT, *AlipayClient*
-IP-ASN, 37963
-IP-ASN, 45102
+IP-ASN, 37963,no-resolve
+IP-ASN, 45102,no-resolve
 # AS133438: 蚂蚁集团
-IP-ASN, 133438
-IP-ASN, 24429
+IP-ASN, 133438,no-resolve
+IP-ASN, 24429,no-resolve
 
 
 # ======================================================================================
@@ -551,12 +541,12 @@ DOMAIN-SUFFIX,yangkeduo.com
 DOMAIN-SUFFIX,pinduoduo.net
 DOMAIN-SUFFIX,pddpic.com
 DOMAIN-SUFFIX,pddmirror.com
-DOMAIN-SUFFIX,pddugc.com
-DOMAIN-SUFFIX,pddstation.com
-DOMAIN-SUFFIX,pddtracking.com
-DOMAIN-SUFFIX,pddexpl.com
-DOMAIN-KEYWORD,pinduoduo
-DOMAIN-KEYWORD,yangkeduo
+DOMAIN-SUFFIX,pddugc.com,no-resolve
+DOMAIN-SUFFIX,pddstation.com,no-resolve
+DOMAIN-SUFFIX,pddtracking.com,no-resolve
+DOMAIN-SUFFIX,pddexpl.com,no-resolve
+DOMAIN-KEYWORD,pinduoduo,no-resolve
+DOMAIN-KEYWORD,yangkeduo,no-resolve
 USER-AGENT,*Pinduoduo*
 USER-AGENT,*PDD*
 
@@ -565,23 +555,23 @@ USER-AGENT,*PDD*
 # ======================================================================================
 #=========================================微信wechat/qq====================================
 # ======================================================================================
-DOMAIN-SUFFIX, qq.com
-DOMAIN-SUFFIX, tencent.com
+DOMAIN-SUFFIX, qq.com,no-resolve
+DOMAIN-SUFFIX, tencent.com,no-resolve
 DOMAIN-SUFFIX, qlogo.cn
 DOMAIN-SUFFIX, qpic.cn
 DOMAIN-SUFFIX, idqqimg.com
 DOMAIN-SUFFIX, gtimg.cn
-DOMAIN-SUFFIX, gtimg.com
-DOMAIN-SUFFIX, url.cn
-DOMAIN-SUFFIX, myqcloud.com
-DOMAIN-SUFFIX, tencent-cloud.net
+DOMAIN-SUFFIX, gtimg.com,no-resolve
+DOMAIN-SUFFIX, url.cn,no-resolve
+DOMAIN-SUFFIX, myqcloud.com,no-resolve
+DOMAIN-SUFFIX, tencent-cloud.net,no-resolve
 
 
-DOMAIN-SUFFIX,weixin.qq.com
-DOMAIN-SUFFIX,wechat.com
-DOMAIN-SUFFIX,servicewechat.com
-DOMAIN-SUFFIX,tenpay.com
-DOMAIN-SUFFIX,wechatpay.com
+DOMAIN-SUFFIX,weixin.qq.com,no-resolve
+DOMAIN-SUFFIX,wechat.com,no-resolve
+DOMAIN-SUFFIX,servicewechat.com,no-resolve
+DOMAIN-SUFFIX,tenpay.com,no-resolve
+DOMAIN-SUFFIX,wechatpay.com,no-resolve
 DOMAIN-SUFFIX,wx.qq.com
 DOMAIN-SUFFIX,wxs.qq.com
 DOMAIN-SUFFIX,wx.qlogo.cn
@@ -592,13 +582,13 @@ DOMAIN-SUFFIX,wechatos.net
 DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,qlogo.cn
 DOMAIN-SUFFIX,gtimg.cn
-DOMAIN-SUFFIX,gtimg.com
-DOMAIN-SUFFIX,idqqimg.com
-DOMAIN-SUFFIX,qq.com
-DOMAIN-SUFFIX,tencent.com
-DOMAIN-SUFFIX,qcloud.com
-DOMAIN-KEYWORD,weixin
-DOMAIN-KEYWORD,wechat
+DOMAIN-SUFFIX,gtimg.com,no-resolve
+DOMAIN-SUFFIX,idqqimg.com,no-resolve
+DOMAIN-SUFFIX,qq.com,no-resolve
+DOMAIN-SUFFIX,tencent.com,no-resolve
+DOMAIN-SUFFIX,qcloud.com,no-resolve
+DOMAIN-KEYWORD,weixin,no-resolve
+DOMAIN-KEYWORD,wechat,no-resolve
 USER-AGENT,*WeChat*
 USER-AGENT,*WeChatPay*
 USER-AGENT, *QQ*
@@ -661,22 +651,22 @@ DOMAIN-SUFFIX,binancezh.kim
 DOMAIN-SUFFIX,binancezh.link
 DOMAIN-SUFFIX,binancezh.live
 DOMAIN-SUFFIX,binancezh.mobi
-DOMAIN-SUFFIX,binancezh.net
-DOMAIN-SUFFIX,binancezh.org
-DOMAIN-SUFFIX,binancezh.pro
-DOMAIN-SUFFIX,binancezh.sh
-DOMAIN-SUFFIX,binancezh.top
-DOMAIN-SUFFIX,bnbzh.com
-DOMAIN-SUFFIX,99def.com
+DOMAIN-SUFFIX,binancezh.net,no-resolve
+DOMAIN-SUFFIX,binancezh.org,no-resolve
+DOMAIN-SUFFIX,binancezh.pro,no-resolve
+DOMAIN-SUFFIX,binancezh.sh,no-resolve
+DOMAIN-SUFFIX,binancezh.top,no-resolve
+DOMAIN-SUFFIX,bnbzh.com,no-resolve
+DOMAIN-SUFFIX,99def.com,no-resolve
 
 # ======================================================================================
 #=========================================neverless交易所===============================
 # ======================================================================================
-DOMAIN-SUFFIX,neverless.com
-DOMAIN-SUFFIX,neverless.app
-DOMAIN-SUFFIX,neverless.io
-DOMAIN-SUFFIX,neverless.money
-DOMAIN-KEYWORD,neverless
+DOMAIN-SUFFIX,neverless.com,no-resolve
+DOMAIN-SUFFIX,neverless.app,no-resolve
+DOMAIN-SUFFIX,neverless.io,no-resolve
+DOMAIN-SUFFIX,neverless.money,no-resolve
+DOMAIN-KEYWORD,neverless,no-resolve
 USER-AGENT,*Neverless*
 # ======================================================================================
 #======================================vps/ssh端口================================
@@ -790,28 +780,28 @@ DOMAIN-SUFFIX,jdwl.com
 DOMAIN-SUFFIX,ky-express.com  # 跨越速运
 
 # --- 云计算与技术 ---
-DOMAIN-SUFFIX,jcloud.com
-DOMAIN-SUFFIX,jcloud-cdn.com
-DOMAIN-SUFFIX,jcloudcs.com
-DOMAIN-SUFFIX,jdcloud.com
-DOMAIN-SUFFIX,jdfcloud.com
-DOMAIN-SUFFIX,jddebug.com
-DOMAIN-SUFFIX,jdx.com
-DOMAIN-SUFFIX,jingshukj.com
-DOMAIN-SUFFIX,blackhole.mobi
+DOMAIN-SUFFIX,jcloud.com,no-resolve
+DOMAIN-SUFFIX,jcloud-cdn.com,no-resolve
+DOMAIN-SUFFIX,jcloudcs.com,no-resolve
+DOMAIN-SUFFIX,jdcloud.com,no-resolve
+DOMAIN-SUFFIX,jdfcloud.com,no-resolve
+DOMAIN-SUFFIX,jddebug.com,no-resolve
+DOMAIN-SUFFIX,jdx.com,no-resolve
+DOMAIN-SUFFIX,jingshukj.com,no-resolve
+DOMAIN-SUFFIX,blackhole.mobi,no-resolve
 
 # --- 国际业务 ---
-DOMAIN-SUFFIX,joybuy.com
-DOMAIN-SUFFIX,joybuy.es
-DOMAIN-SUFFIX,jd.hk
-DOMAIN-SUFFIX,jd.ru
-DOMAIN-SUFFIX,jd.co.th
+DOMAIN-SUFFIX,joybuy.com,no-resolve
+DOMAIN-SUFFIX,joybuy.es,no-resolve
+DOMAIN-SUFFIX,jd.hk,no-resolve
+DOMAIN-SUFFIX,jd.ru,no-resolve
+DOMAIN-SUFFIX,jd.co.th,no-resolve
 
-IP-ASN,137753
-IP-ASN,131486
-IP-ASN,137805
-IP-ASN,204610
-IP-ASN,209266
+IP-ASN,137753,no-resolve
+IP-ASN,131486,no-resolve
+IP-ASN,137805,no-resolve
+IP-ASN,204610,no-resolve
+IP-ASN,209266,no-resolve
 # ======================================================================================
 #======================================国际地区ip兜底=======================================
 # ======================================================================================
