@@ -803,3 +803,5 @@ IP-ASN,137805,no-resolve
 IP-ASN,204610,no-resolve
 IP-ASN,209266,no-resolve
 
+
+GEOIP,CN
