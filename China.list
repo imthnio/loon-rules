@@ -777,18 +777,18 @@ DOMAIN-SUFFIX,jddglobal.com
 DOMAIN-SUFFIX,jdl.cn
 DOMAIN-SUFFIX,jdl.com
 DOMAIN-SUFFIX,jdwl.com
-DOMAIN-SUFFIX,ky-express.com  # 跨越速运
+DOMAIN-SUFFIX,ky-express.com
 
 # --- 云计算与技术 ---
-DOMAIN-SUFFIX,jcloud.com,no-resolve
-DOMAIN-SUFFIX,jcloud-cdn.com,no-resolve
-DOMAIN-SUFFIX,jcloudcs.com,no-resolve
-DOMAIN-SUFFIX,jdcloud.com,no-resolve
-DOMAIN-SUFFIX,jdfcloud.com,no-resolve
-DOMAIN-SUFFIX,jddebug.com,no-resolve
-DOMAIN-SUFFIX,jdx.com,no-resolve
-DOMAIN-SUFFIX,jingshukj.com,no-resolve
-DOMAIN-SUFFIX,blackhole.mobi,no-resolve
+DOMAIN-SUFFIX,jcloud.com
+DOMAIN-SUFFIX,jcloud-cdn.com
+DOMAIN-SUFFIX,jcloudcs.com,
+DOMAIN-SUFFIX,jdcloud.com
+DOMAIN-SUFFIX,jdfcloud.com
+DOMAIN-SUFFIX,jddebug.com
+DOMAIN-SUFFIX,jdx.com
+DOMAIN-SUFFIX,jingshukj.com
+DOMAIN-SUFFIX,blackhole.mobi
 
 # --- 国际业务 ---
 DOMAIN-SUFFIX,joybuy.com,no-resolve
@@ -802,7 +802,4 @@ IP-ASN,131486,no-resolve
 IP-ASN,137805,no-resolve
 IP-ASN,204610,no-resolve
 IP-ASN,209266,no-resolve
-# ======================================================================================
-#======================================国际地区ip兜底=======================================
-# ======================================================================================
-GEOIP,CN,no-resolve
+
