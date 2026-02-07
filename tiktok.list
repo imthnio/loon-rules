@@ -1,10 +1,16 @@
+
 # =====================================
-# TikTok 国际版分流规则 (Blackmatrix7 标准修正版)
-# =====================================
+
+# [新增] 字节出海基础设施 (直播/图片核心)
+DOMAIN-SUFFIX,ibyteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+
+# [原有] 用户自定义/特殊直播CDN
 DOMAIN-SUFFIX,tiktokcdn.liveplay.myqcloud.com
 
-
-# [核心] 网页与API关键域名
+# -----------------
+# 1. TikTok 核心域名
+# -----------------
 DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokcdn.com
@@ -15,7 +21,16 @@ DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,tiktokw.com
 DOMAIN-SUFFIX,ttdns2.com
 
-# [CDN] 区域加速与静态资源
+# -----------------
+# 2. Lemon8 核心域名
+# -----------------
+DOMAIN-SUFFIX,lemon8-app.com
+DOMAIN-SUFFIX,lemon8cdn.com
+DOMAIN-SUFFIX,bdurl.net
+
+# -----------------
+# 3. 区域加速与CDN (国际专用)
+# -----------------
 DOMAIN-SUFFIX,tiktokcdn-us.com
 DOMAIN-SUFFIX,tiktokcdn-eu.com
 DOMAIN-SUFFIX,tiktokv.us
@@ -23,44 +38,45 @@ DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,musical.ly
 DOMAIN-SUFFIX,tlivecdn.com
 
-
 # -----------------
-# 2. 字节跳动国际版基础架构
+# 4. 字节跳动国际版API
 # -----------------
-
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,ibyteimg.com
-DOMAIN-SUFFIX,ipstatp.com
+# 仅保留 sg(新加坡)/i(国际) 开头的域名，避开 domestic(国内)
 DOMAIN-SUFFIX,isnssdk.com
 DOMAIN-SUFFIX,sgpstatp.com
 DOMAIN-SUFFIX,sgsnssdk.com
 
 # -----------------
-# 3. 关联国际产品 (CapCut, Lemon8 等)
+# 5. 关联国际产品 (CapCut 等)
 # -----------------
 DOMAIN-SUFFIX,capcut.com
-DOMAIN-SUFFIX,lemon8-app.com
-DOMAIN-SUFFIX,lemon8cdn.com
 DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,marscode.com
 
-
-
 # -----------------
-# 5. 关键词 (防止域名变动)
+# 6. 关键词
 # -----------------
 DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,tiktok
+DOMAIN-KEYWORD,lemon8
+# -----------------
 
+
+USER-AGENT,musical_ly*
 USER-AGENT,*tikto*
 USER-AGENT,*musical*
 USER-AGENT,*trill*
 USER-AGENT,*lemon8*
 USER-AGENT,*CapCut*
-USER-AGENT,*ibytedance*
+USER-AGENT,Helo*
+
 # -----------------
-# 7. 强力兜底 (IP-ASN)
+# 8. 强力兜底 (IP-ASN)
 # -----------------
-# 属于 ByteDance 的 IP 段
+# 仅涵盖 ByteDance 海外机房
 IP-ASN,396986
+IP-ASN,11862
+IP-ASN,134406
+
+# Akamai (国际直播流CDN)
 IP-ASN,32505
