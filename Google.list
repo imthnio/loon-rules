@@ -1,8 +1,67 @@
 # =======================================================
-# 规则名称: Google Universe (Forensic / Zero-Trust)
-# 审计级别: 开发者抓包级 (Packet Inspection Level)
-# 适用: 解决一切“转圈”、“无网络”、“验证码错误”
+# 规则名称: Google Universe (Ultimate / Forensic / Zero-Trust)
+# 核心来源: 用户原始列表 + Blackmatrix7 + Gemini 深度补全
+# 适用场景: 解决一切转圈、断流、卫星图黑屏、AI无响应、无网络提示
+# 更新时间: 2026-02 (整合版)
 # =======================================================
+
+# [Part 0: 核心修复补丁 - Gemini AI & 地图卫星 & 系统底层]
+# ⚠️ 最优先匹配，解决"能打开网页但App不好用"的问题
+DOMAIN,gemini.google.com
+DOMAIN,bard.google.com
+DOMAIN,generativeai.google
+DOMAIN,ai.google.dev
+DOMAIN,aistudio.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,makersuite.google.com
+DOMAIN,proactivebackend-pa.googleapis.com
+DOMAIN,grts-pa.googleapis.com
+DOMAIN,composertts-pa.googleapis.com
+DOMAIN,file-pa.googleapis.com
+DOMAIN,aicore.googleapis.com
+DOMAIN-KEYWORD,generativelanguage
+DOMAIN-KEYWORD,pa.googleapis.com
+DOMAIN,kh.google.com
+DOMAIN,khm.google.com
+DOMAIN,khm0.google.com
+DOMAIN,khm1.google.com
+DOMAIN,khms.google.com
+DOMAIN,khms0.google.com
+DOMAIN,khms1.google.com
+DOMAIN,khms2.google.com
+DOMAIN,khms3.google.com
+DOMAIN,cbk0.google.com
+DOMAIN,cbk1.google.com
+DOMAIN,geo0.ggpht.com
+DOMAIN,geo1.ggpht.com
+DOMAIN,geo2.ggpht.com
+DOMAIN,geo3.ggpht.com
+DOMAIN,connectivitycheck.gstatic.com
+DOMAIN,connectivitycheck.android.com
+DOMAIN,android.clients.google.com
+DOMAIN,mtalk.google.com
+DOMAIN,alt1-mtalk.google.com
+DOMAIN,alt2-mtalk.google.com
+DOMAIN,alt3-mtalk.google.com
+DOMAIN,alt4-mtalk.google.com
+DOMAIN,alt5-mtalk.google.com
+DOMAIN,alt6-mtalk.google.com
+DOMAIN,alt7-mtalk.google.com
+DOMAIN,alt8-mtalk.google.com
+DOMAIN,mqtt-p.googleapis.com
+DOMAIN,checkin.googleapis.com
+DOMAIN,device-provisioning.googleapis.com
+DOMAIN,safebrowsing.googleapis.com
+DOMAIN,safebrowsing.google.com
+DOMAIN,fonts.googleapis.com
+DOMAIN,fonts.gstatic.com
+DOMAIN,lens.google.com
+DOMAIN,ogs.google.com
+DOMAIN,youtubei.googleapis.com
+DOMAIN,yt3.ggpht.com
+DOMAIN,yt3.googleusercontent.com
+
+# [Part 1: 用户原始完整列表]
 DOMAIN,voice.telephony.goog
 DOMAIN-SUFFIX,0emm.com
 DOMAIN-SUFFIX,1e100.net
@@ -695,30 +754,6 @@ DOMAIN-SUFFIX,zukunftswerkstatt.de
 DOMAIN-SUFFIX,zynamics.com
 DOMAIN-SUFFIX,googledrive.com
 DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-KEYWORD,appspot
-DOMAIN-KEYWORD,blogspot
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,recaptcha
-USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
-USER-AGENT,*com.google.Drive*
-USER-AGENT,Google.Drive*
-USER-AGENT,*Gmail*
-USER-AGENT,*GoogleMap*
-USER-AGENT,*GoogleAssistant*
-USER-AGENT,*GoogleHome*
-USER-AGENT,*Chrome*
-USER-AGENT,*youtube*
-USER-AGENT,*google*
-IP-CIDR,172.110.32.0/21,no-resolve
-IP-CIDR,173.194.0.0/16,no-resolve
-IP-CIDR,216.73.80.0/20,no-resolve
-IP-CIDR,74.125.0.0/16,no-resolve
-IP-CIDR6,2620:120:e000::/40,no-resolve
-# [Part 1: 核心身份 & 顶级域名 & 基础设施]
-# 包含 .google, .goog, 1e100 等所有物理资产
-DOMAIN-SUFFIX,google
-DOMAIN-SUFFIX,goog
 DOMAIN-SUFFIX,android-x86.org
 DOMAIN-SUFFIX,beacon-v2.appspot.com
 DOMAIN-SUFFIX,dns.google
@@ -735,21 +770,6 @@ DOMAIN-SUFFIX,local.google
 DOMAIN-SUFFIX,madebygoogle.com
 DOMAIN-SUFFIX,tenor.com
 DOMAIN-SUFFIX,time.google.com
-DOMAIN,ai.google.dev
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,makersuite.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,apis.google.com
-DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,developerprofiles
-DOMAIN-KEYWORD,generativelanguage
-# [Part 2: 极其隐蔽的云托管服务 (Cloud Hosting)]
-# ⚠️ 50% 的现代 App 后端跑在这些域名上，漏了会导致 App 空白
-# [Part 3: YouTube 完整矩阵]
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtube-nocookie.com
@@ -759,32 +779,52 @@ DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
-# [Part 4: 暴力关键字 (Keywords)]
-# 兜底全球所有后缀
+DOMAIN-KEYWORD,appspot
+DOMAIN-KEYWORD,blogspot
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,recaptcha
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativelanguage
 DOMAIN-KEYWORD,youtube
 DOMAIN-KEYWORD,gvt
 DOMAIN-KEYWORD,xn--ngstr-lra8j
-# =======================================================
-# [Part 5: 协议层兜底 (User-Agent)]
-# 覆盖安装包下载、Webview、语音助手、后台同步
-# =======================================================
-# [Part 6: 物理层兜底 (IP-ASN)]
-# Blackmatrix7 标准 ASN 列表，包含 Google Cloud 新节点
-# =======================================================
-# Google LLC (核心流量)
-IP-ASN,15169
-# Google Cloud (云服务/App后端)
-IP-ASN,19527
-IP-ASN,36040
-IP-ASN,36385
-IP-ASN,36492
-IP-ASN,396982
-# Google Fiber (部分下载源)
-IP-ASN,16591
-IP-ASN,6432
-IP-ASN,43515
-# 亚太地区及其他 (缓存节点)
-IP-ASN,16550
-IP-ASN,11344
-IP-ASN,139070
-IP-ASN,139190
+
+# [Part 2: 增强协议兜底]
+USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
+USER-AGENT,*com.google.Drive*
+USER-AGENT,Google.Drive*
+USER-AGENT,*Gmail*
+USER-AGENT,*GoogleMap*
+USER-AGENT,*GoogleAssistant*
+USER-AGENT,*GoogleHome*
+USER-AGENT,*Chrome*
+USER-AGENT,*youtube*
+USER-AGENT,*google*
+USER-AGENT,com.google.android.apps.maps*
+USER-AGENT,com.google.android.gms*
+USER-AGENT,*YouTube*
+USER-AGENT,*Google*
+
+# [Part 3: Blackmatrix7 终极 IP 物理层兜底]
+IP-CIDR,172.110.32.0/21,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,216.73.80.0/20,no-resolve
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR6,2620:120:e000::/40,no-resolve
+IP-ASN,15169,no-resolve
+IP-ASN,16591,no-resolve
+IP-ASN,19527,no-resolve
+IP-ASN,36040,no-resolve
+IP-ASN,36385,no-resolve
+IP-ASN,36492,no-resolve
+IP-ASN,396982,no-resolve
+IP-ASN,394639,no-resolve
+IP-ASN,395973,no-resolve
+IP-ASN,139070,no-resolve
+IP-ASN,139190,no-resolve
+IP-ASN,43515,no-resolve
+IP-ASN,6432,no-resolve
+IP-ASN,16550,no-resolve
+IP-ASN,11344,no-resolve
