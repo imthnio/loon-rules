@@ -1,5 +1,5 @@
 #ip检测网站
-DOMAIN-SUFFIX,ping0.cc
+DOMAIN-KEYWORD,ping0.cc
 DOMAIN-SUFFIX,ippure.com
 DOMAIN-KEYWORD,iplark.com
 DOMAIN-SUFFIX,ip2location.com
@@ -12,4 +12,3 @@ DOMAIN-SUFFIX,ipip0.net
 DOMAIN-SUFFIX,ip.skk.moe
 DOMAIN-KEYWORD,ippure
 DOMAIN-SUFFIX,itdog.cn
-DOMAIN-SUFFIX,ping0.cc
