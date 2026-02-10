@@ -68,53 +68,55 @@ DOMAIN-SUFFIX,huggingface.co
 # ======================================================================================
 #=====================================视频解析下载======================================
 # ======================================================================================
-DOMAIN-SUFFIX,en.loader.to,no-resolve
-DOMAIN-SUFFIX,savenow.to,no-resolve
-DOMAIN-SUFFIX,downcloud.cc,no-resolve
-DOMAIN-SUFFIX,traefik.me,no-resolve
-DOMAIN-SUFFIX,cutcut.top,no-resolve
-DOMAIN-SUFFIX,jjdd666.cc,no-resolve
-DOMAIN-SUFFIX,idaohang123.com,no-resolve
-DOMAIN-SUFFIX,easydown.or,no-resolve
-DOMAIN-SUFFIX,ytdn.netlify.app,no-resolve
-DOMAIN-SUFFIX,savenow.to,no-resolve
+DOMAIN-SUFFIX,en.loader.to
+DOMAIN-SUFFIX,savenow.to
+DOMAIN-SUFFIX,downcloud.cc
+DOMAIN-SUFFIX,traefik.me
+DOMAIN-SUFFIX,cutcut.top
+DOMAIN-SUFFIX,jjdd666.cc
+DOMAIN-SUFFIX,idaohang123.com
+DOMAIN-SUFFIX,easydown.or
+DOMAIN-SUFFIX,ytdn.netlify.app
+DOMAIN-SUFFIX,savenow.to
+DOMAIN-SUFFIX,cutcut.top
 
 # ======================================================================================
 #===================================#刷粉丝刷粉刷赞======================================
 # ======================================================================================
-DOMAIN-SUFFIX,home.ff31.shop,no-resolve
-DOMAIN-SUFFIX,2786.3q888.top,no-resolve
-DOMAIN-SUFFIX,smm1ok.com,no-resolve
-DOMAIN-SUFFIX,kssq.net,no-resolve
-DOMAIN-SUFFIX,huosq.top,no-resolve
-DOMAIN-SUFFIX,9889.ren,no-resolve
+DOMAIN-SUFFIX,home.ff31.shop
+DOMAIN-SUFFIX,2786.3q888.top
+DOMAIN-SUFFIX,smm1ok.com
+DOMAIN-SUFFIX,kssq.net
+DOMAIN-SUFFIX,huosq.top
+DOMAIN-SUFFIX,9889.ren
+
 # ======================================================================================
 #=========================================账号购买======================================
 # ======================================================================================
 
-DOMAIN-SUFFIX,tuitezhanghao-goumai.com,no-resolve
-DOMAIN-SUFFIX,youxiang555.com,no-resolve
-DOMAIN-SUFFIX,henduohao.com,no-resolve
+DOMAIN-SUFFIX,tuitezhanghao-goumai.com
+DOMAIN-SUFFIX,youxiang555.com
+DOMAIN-SUFFIX,henduohao.com
 # ======================================================================================
 #=======================================看动漫次元城======================================
 # ======================================================================================
-DOMAIN-SUFFIX,cycani.org,no-resolve
+DOMAIN-SUFFIX,cycani.org
 
 # ======================================================================================
 #========================================阅后即焚======================================
 # ======================================================================================
-DOMAIN-SUFFIX,cryptgeon.org,no-resolve
+DOMAIN-SUFFIX,cryptgeon.org
 
 
 # ======================================================================================
 #=======================================文件传送传输=====================================
 # ======================================================================================
 
-DOMAIN-SUFFIX,tuitehao.cc,no-resolve
-DOMAIN-SUFFIX,ww6559.com,no-resolve
-DOMAIN-SUFFIX,easychuan.cn,no-resolve
-DOMAIN-KEYWORD,wenshushu,no-resolve
-DOMAIN-SUFFIX,c.wss.ink,no-resolve
+DOMAIN-SUFFIX,tuitehao.cc
+DOMAIN-SUFFIX,ww6559.com
+DOMAIN-SUFFIX,easychuan.cn
+DOMAIN-KEYWORD,wenshushu
+DOMAIN-SUFFIX,c.wss.ink
 
 
 # ======================================================================================
@@ -132,14 +134,14 @@ DOMAIN-SUFFIX,shop.davinci-pay.com,no-resolve
 #================================================图床===================================
 # ======================================================================================
 
-DOMAIN-SUFFIX,c.wss.cc,no-resolve
-DOMAIN-SUFFIX,photo.lily.lat,no-resolve
-DOMAIN-SUFFIX,img.xwyue.com,no-resolve
-DOMAIN-SUFFIX,ccgimg.com,no-resolve
-DOMAIN-SUFFIX,695402.xyz,no-resolve
-DOMAIN-SUFFIX,111666.best,no-resolve
-DOMAIN-SUFFIX,img.baisi.ru,no-resolve
-DOMAIN-SUFFIX,imgbb.com,no-resolve
+DOMAIN-SUFFIX,c.wss.cc
+DOMAIN-SUFFIX,photo.lily.lat
+DOMAIN-SUFFIX,img.xwyue.com
+DOMAIN-SUFFIX,ccgimg.com
+DOMAIN-SUFFIX,695402.xyz
+DOMAIN-SUFFIX,111666.best
+DOMAIN-SUFFIX,img.baisi.ru
+DOMAIN-SUFFIX,imgbb.com
 
 
 
@@ -147,16 +149,16 @@ DOMAIN-SUFFIX,imgbb.com,no-resolve
 #====================================星空mail星空邮箱===================================
 # ======================================================================================
 
-DOMAIN-SUFFIX,mail.tal.ccwu.cc,no-resolve
+DOMAIN-SUFFIX,mail.tal.ccwu.cc
 
 # ======================================================================================
 #=========================================动态壁纸/静态壁纸===================================
 # ======================================================================================
 
-DOMAIN-SUFFIX,bbs.huoying666.com,no-resolve
-DOMAIN-SUFFIX,livewallp.com,no-resolve
-DOMAIN-SUFFIX,motionbgs.com,no-resolve
-DOMAIN-SUFFIX,wallhaven.cc,no-resolve
+DOMAIN-SUFFIX,bbs.huoying666.com
+DOMAIN-SUFFIX,livewallp.com
+DOMAIN-SUFFIX,motionbgs.com
+DOMAIN-SUFFIX,wallhaven.cc
 
 ########################################################
 ########################短信接码验证码国际全球接码
