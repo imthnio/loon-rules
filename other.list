@@ -1,30 +1,31 @@
 # ======================================================================================
 #=====================================乱七八糟===========================================
 # ======================================================================================
-DOMAIN-SUFFIX,beiyoujiang.com,no-resolve
-DOMAIN-SUFFIX,beiyoujiang.com,no-resolve
-DOMAIN-SUFFIX,starvm.top,no-resolve
-DOMAIN-SUFFIX,feijipan.com,no-resolve
-DOMAIN-SUFFIX,xinstore.org,no-resolve
-DOMAIN-SUFFIX,jzbk.net,no-resolve
-DOMAIN-SUFFIX,wiki.repcz.link,no-resolve
-DOMAIN-SUFFIX,baicai.xlog.app,no-resolve
-DOMAIN-SUFFIX,Report.Check.Place,no-resolve
-DOMAIN-SUFFIX,akirabox.com,no-resolve
-DOMAIN-SUFFIX,mediafire.com,no-resolve
-DOMAIN-SUFFIX,aplxs.com,no-resolve
-DOMAIN-SUFFIX,freepass.ai,no-resolve
-DOMAIN-SUFFIX,xiaolvfang.com,no-resolve
-DOMAIN-SUFFIX,novipnoad.net,no-resolve
-DOMAIN-SUFFIX,findno.tv,no-resolve
-DOMAIN-SUFFIX,en.wwew.shwsqjd.com,no-resolve
-DOMAIN-SUFFIX,shwsqjd.com,no-resolve
-DOMAIN-SUFFIX,shop.mjji.de,no-resolve
-DOMAIN-SUFFIX,whatshub.top,no-resolve
-DOMAIN-SUFFIX,yfamilys.com,no-resolve
-DOMAIN-SUFFIX,zcjd.pw,no-resolve
-DOMAIN-SUFFIX,bhwa233.com,no-resolve
+DOMAIN-SUFFIX,beiyoujiang.com
+DOMAIN-SUFFIX,beiyoujiang.com
+DOMAIN-SUFFIX,starvm.top
+DOMAIN-SUFFIX,feijipan.com
+DOMAIN-SUFFIX,xinstore.org
+DOMAIN-SUFFIX,jzbk.net
+DOMAIN-SUFFIX,wiki.repcz.link
+DOMAIN-SUFFIX,baicai.xlog.app
+DOMAIN-SUFFIX,Report.Check.Place
+DOMAIN-SUFFIX,akirabox.com
+DOMAIN-SUFFIX,mediafire.com
+DOMAIN-SUFFIX,aplxs.com
+DOMAIN-SUFFIX,freepass.ai
+DOMAIN-SUFFIX,xiaolvfang.com
+DOMAIN-SUFFIX,novipnoad.net
+DOMAIN-SUFFIX,findno.tv
+DOMAIN-SUFFIX,en.wwew.shwsqjd.com
+DOMAIN-SUFFIX,shwsqjd.com
+DOMAIN-SUFFIX,shop.mjji.de
+DOMAIN-SUFFIX,whatshub.top
+DOMAIN-SUFFIX,yfamilys.com
+DOMAIN-SUFFIX,zcjd.pw
+DOMAIN-SUFFIX,bhwa233.com
 DOMAIN-SUFFIX,ddgksf2013.top
+DOMAIN-SUFFIX,acgndog.com
 # ======================================================================================
 #===================================安卓app软件下载======================================
 # ======================================================================================
