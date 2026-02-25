@@ -1,10 +1,8 @@
-# NAME: Honor of Kings Global (HoK) - 补全版 (blackmatrix7 参考)
-# DESCRIPTION: 王者荣耀国际服 & Level Infinite
-# PUBLISHER: Level Infinite (Proxima Beta)
-# UPDATED: 2026-02-26 (基于 blackmatrix7 #1335 + Tencent Cloud Intl ASN 实时查证)
-# ==================================
+#============================================================================================
+#==================================王者荣耀国际服==============================================
+#===========================================================================================
 
-# 1. Game Core Domains (游戏核心 - 补全 blackmatrix7 讨论域名)
+
 DOMAIN-SUFFIX,honorofkings.com
 DOMAIN-SUFFIX,hok-global.com
 DOMAIN-SUFFIX,hokglobal.net
@@ -12,7 +10,6 @@ DOMAIN-SUFFIX,hok.intlgame.com
 DOMAIN-SUFFIX,hok-dr.intlgame.com
 DOMAIN-SUFFIX,update.honorofkings.com
 DOMAIN-SUFFIX,honorofkings.map.qq.com
-# 2. Level Infinite Infra (账号与登录 - 补全)
 DOMAIN-SUFFIX,levelinfinite.com
 DOMAIN-SUFFIX,levelinfinite.net
 DOMAIN-SUFFIX,proximabeta.com
@@ -20,26 +17,42 @@ DOMAIN-SUFFIX,proximabeta.net
 DOMAIN-SUFFIX,proxima.beta
 DOMAIN-SUFFIX,sgameglobal.com
 DOMAIN-KEYWORD,sgameglobal
-
-# 3. Tencent Cloud Intl (海外云服务 - GVoice/GCloud/ACE)
 DOMAIN-SUFFIX,intlgame.com
 DOMAIN-SUFFIX,tencent-gcloud.com
 DOMAIN-SUFFIX,gcloudcs.com
 DOMAIN-SUFFIX,game.im
-
-# 4. User-Agent (App 指纹 - 已完整，无需补)
 USER-AGENT,HonorOfKings*
 USER-AGENT,HoK*
 USER-AGENT,HOK*
 USER-AGENT,LevelInfinite*
-
-# 5. Process Name (Android 分流 - 已完整)
 PROCESS-NAME,com.levelinfinite.sgameGlobal
-
-# 6. IP-ASN / IP-CIDR (兜底 - 关键修复)
-# 替换原 132203 为 ACE Intl 专属，避免误伤国内 + 修复更新失败
 IP-ASN,139341
-# IP-CIDR,43.132.0.0/16,no-resolve
-# IP-CIDR,183.192.65.0/16,no-resolve
+IP-CIDR,43.132.0.0/16,no-resolve
+IP-CIDR,183.192.65.0/16,no-resolve
 
-# 注意：以上所有分流走 PROXY（国际服节点），国内王者荣耀因不同 UA/PROCESS/DOMAIN/ASN 完全绕过，不会误伤。
+
+#============================================================================================
+#==================================和平精英国际服==============================================
+#===========================================================================================
+
+
+DOMAIN-SUFFIX,pubgmobile.com
+DOMAIN-SUFFIX,gpubgm.com
+DOMAIN-SUFFIX,igamecj.com
+DOMAIN-SUFFIX,update.pubgmobile.com
+DOMAIN-SUFFIX,cdn.pubgmobile.com
+DOMAIN-SUFFIX,napubgm.broker.amsoveasea.com
+DOMAIN-SUFFIX,pubgm.proximabeta.com
+DOMAIN-SUFFIX,levelinfinite.com
+DOMAIN-SUFFIX,levelinfinite.net
+DOMAIN-SUFFIX,proximabeta.com
+DOMAIN-SUFFIX,proximabeta.net
+DOMAIN-SUFFIX,proxima.beta
+DOMAIN-SUFFIX,intlgame.com
+DOMAIN-SUFFIX,tencent-gcloud.com
+DOMAIN-SUFFIX,gcloudcs.com
+USER-AGENT,PUBGMOBILE*
+USER-AGENT,PUBG MOBILE*
+USER-AGENT,PUBG*
+USER-AGENT,LevelInfinite*
+PROCESS-NAME,com.tencent.ig
