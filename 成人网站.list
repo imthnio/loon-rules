@@ -170,3 +170,58 @@ DOMAIN-SUFFIX,sc18comic.com
 # ============================================
 DOMAIN-SUFFIX,theporndud.com
 DOMAIN-SUFFIX,pdude.link
+
+
+# ============================================
+# 国际核心: MindGeek (Pornhub/RedTube)  - 参考 blackmatrix7 GlobalMedia + Accademia Pornhub_Domain
+# ============================================
+# ... 您的原有规则保持不变 ...
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,phprcdn.com
+DOMAIN-SUFFIX,ph-cdn.com
+# 新增（blackmatrix7 Global_Classical 包含大量镜像，防视频加载失败）
+DOMAIN-SUFFIX,pornhubforandroid.com
+DOMAIN-SUFFIX,pornhubstories.com
+DOMAIN-SUFFIX,pornhub.tv
+# IP-ASN 兜底（Aylo/Pornhub 主网络）
+IP-ASN,55222,PROXY  # Pornhub 核心 ASN
+IP-ASN,201262,PROXY
+
+
+DOMAIN-SUFFIX,xvideos-cdn.com
+DOMAIN-SUFFIX,xnxx-cdn.com
+DOMAIN-SUFFIX,hls-xvideos.com
+DOMAIN-SUFFIX,hw-cdn.com
+
+DOMAIN-SUFFIX,hwcdn.net
+
+DOMAIN-SUFFIX,xhcdn.com
+
+DOMAIN-SUFFIX,ahcdn.com
+
+DOMAIN-SUFFIX,missav.com
+
+DOMAIN-SUFFIX,surrit.com
+DOMAIN-SUFFIX,sixyik.com
+DOMAIN-SUFFIX,cashe.my
+DOMAIN-SUFFIX,alayar.com
+
+DOMAIN-SUFFIX,myavlive.com
+DOMAIN-SUFFIX,doppiocdn.com
+DOMAIN-SUFFIX,saawsedge.com
+DOMAIN-SUFFIX,tsyndicate.com
+
+DOMAIN-SUFFIX,91porn.org
+DOMAIN-SUFFIX,91pornx.com
+
+DOMAIN-SUFFIX,sc-cdn.net
+DOMAIN-SUFFIX,nhentai.net
+
+DOMAIN-SUFFIX,ehgt.org
+
+DOMAIN-SUFFIX,hath.network
+DOMAIN-SUFFIX,hentaiverse.org
+DOMAIN-SUFFIX,ehwiki.org
+
+IP-ASN,1781751280/21
+
