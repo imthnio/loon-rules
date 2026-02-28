@@ -2,7 +2,6 @@
 #==================================王者荣耀国际服==============================================
 #===========================================================================================
 
-
 DOMAIN-SUFFIX,honorofkings.com
 DOMAIN-SUFFIX,hok-global.com
 DOMAIN-SUFFIX,hokglobal.net
@@ -21,15 +20,21 @@ DOMAIN-SUFFIX,intlgame.com
 DOMAIN-SUFFIX,tencent-gcloud.com
 DOMAIN-SUFFIX,gcloudcs.com
 DOMAIN-SUFFIX,game.im
+
+DOMAIN-SUFFIX,cos.ap-southeast-1.myqcloud.com
+DOMAIN-SUFFIX,cos.ap-southeast.myqcloud.com
+DOMAIN-SUFFIX,cos.ap-hongkong.myqcloud.com
+DOMAIN-KEYWORD,cos.ap-southeast
+
+
 USER-AGENT,HonorOfKings*
 USER-AGENT,HoK*
 USER-AGENT,HOK*
 USER-AGENT,LevelInfinite*
-PROCESS-NAME,com.levelinfinite.sgameGlobal
-IP-ASN,139341
-IP-CIDR,43.132.0.0/16,no-resolve
-IP-CIDR,183.192.65.0/16,no-resolve
 
+IP-ASN,139341
+IP-CIDR,43.132.0.0/16
+IP-CIDR,183.192.65.0/16
 
 #============================================================================================
 #==================================和平精英国际服==============================================
