@@ -824,6 +824,8 @@ DOMAIN-KEYWORD,generativelanguage
 DOMAIN-KEYWORD,youtube
 DOMAIN-KEYWORD,gvt
 DOMAIN-KEYWORD,xn--ngstr-lra8j
+DOMAIN-KEYWORD,googlevideo
+
 
 # [Part 2: 增强协议兜底]
 USER-AGENT,*com.google.Drive*
