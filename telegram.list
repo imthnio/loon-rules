@@ -1,85 +1,51 @@
-# =======================================================
-# Telegram 完整分流规则 (已基于 blackmatrix7 补全)
-# 修复：视频缓存慢、动态贴纸不加载问题
-# =======================================================
-
-# [Part 1: 核心域名 & 补全多媒体域名]
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.dog
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tx.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,tg.dev
-DOMAIN-SUFFIX,graph.org
-DOMAIN-SUFFIX,legra.ph
-DOMAIN-SUFFIX,telegram-cdn.org
-DOMAIN-SUFFIX,tgusercontent.com
-DOMAIN-SUFFIX,cdn-telegram.org
-# --- 以下为本次补全的关键域名 ---
-DOMAIN-SUFFIX,comments.app
-DOMAIN-SUFFIX,stel.com
-DOMAIN-SUFFIX,quiz.directory
-DOMAIN-SUFFIX,telega.one
+# NAME: Telegram
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-09-10 02:08:26
+# DOMAIN: 2
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 22
+# IP-ASN: 5
+# IP-CIDR: 6
+# IP-CIDR6: 4
+# TOTAL: 40
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
-
-# [Part 2: 暴力关键字]
-DOMAIN-KEYWORD,telegram
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,comments.app
+DOMAIN-SUFFIX,contest.com
+DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,legra.ph
+DOMAIN-SUFFIX,mbrx.app
+DOMAIN-SUFFIX,quiz.directory
+DOMAIN-SUFFIX,stel.com
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telega.one
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,telegramdownload.com
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,tg.dev
+DOMAIN-SUFFIX,tx.me
+DOMAIN-SUFFIX,usercontent.dev
 DOMAIN-KEYWORD,nicegram
-
-# [Part 3: 协议层 & 进程兜底]
-USER-AGENT,*Telegram*
-USER-AGENT,*Nicegram*
-USER-AGENT,*Turrit*
-USER-AGENT,*Swiftgram*
-USER-AGENT,*Unigram*
-
-# =======================================================
-# [Part 4: 终极修复 - IP-CIDR (IPv4)]
-# 包含欧洲、美洲及亚洲优化节点
-# =======================================================
-
-# 欧洲/全球核心 (DC2/DC4)
-IP-CIDR,91.108.0.0/16
-IP-CIDR,91.108.4.0/22
-IP-CIDR,91.108.8.0/22
-IP-CIDR,91.108.12.0/22
-IP-CIDR,91.108.16.0/22
-IP-CIDR,91.108.20.0/22
-IP-CIDR,91.108.56.0/22
-
-# 美洲/全球 (DC1/DC3)
-IP-CIDR,149.154.160.0/20
-IP-CIDR,149.154.164.0/22
-IP-CIDR,149.154.168.0/22
-IP-CIDR,149.154.172.0/22
-
-# 辅助/遗留网段 & 视频优化
-IP-CIDR,5.28.192.0/18
-IP-CIDR,109.239.140.0/24
-IP-CIDR,185.76.151.0/24
-# --- 重点：修复视频卡顿的关键段 ---
-IP-CIDR,95.161.64.0/20
-
-# =======================================================
-# [Part 5: 终极修复 - IP-CIDR6 (IPv6)]
-# =======================================================
-IP-CIDR6,2001:b28::/32
-IP-CIDR6,2001:67c:4e8::/48
-IP-CIDR6,2001:0b28::/32
-IP-CIDR6,2001:b28:f23c::/47
-IP-CIDR6,2001:b28:f23d::/48
-IP-CIDR6,2001:b28:f23f::/48
-
-# =======================================================
-# [Part 6: ASN 备用兜底]
-# 必须存在的最后一道防线
-# =======================================================
-IP-ASN,62041
-IP-ASN,59930
-IP-ASN,44907
-IP-ASN,211157
-IP-ASN,60239
+IP-ASN,211157,no-resolve
+IP-ASN,44907,no-resolve
+IP-ASN,59930,no-resolve
+IP-ASN,62014,no-resolve
+IP-ASN,62041,no-resolve
+IP-CIDR,109.239.140.0/24,no-resolve
+IP-CIDR,139.59.210.98/32,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,196.55.216.167/32,no-resolve
+IP-CIDR,5.28.192.0/18,no-resolve
+IP-CIDR,91.108.0.0/16,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23c::/47,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,no-resolve
+IP-CIDR6,2a0a:f280::/29,no-resolve
