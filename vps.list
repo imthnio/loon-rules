@@ -50,3 +50,4 @@ DOMAIN-SUFFIX,vmrack.net
 DOMAIN-SUFFIX,sadidc.com
 DOMAIN-SUFFIX,robovps.biz
 DOMAIN-SUFFIX,aeza.net
+IP-CIDR,188.119.64.21/32
