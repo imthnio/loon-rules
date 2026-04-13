@@ -28,9 +28,10 @@ DOMAIN-SUFFIX,sales.sososo.io
 DOMAIN-SUFFIX,saving.bcbay.com
 DOMAIN-SUFFIX,lazycats.online
 DOMAIN-SUFFIX,akile.io
-DOMAIN-SUFFIX,dash.uzuma.ru
-DOMAIN-SUFFIX,uzuma.ru
+DOMAIN-KEYWORD,dash.uzuma.ru
+DOMAIN-KEYWORD,uzuma.ru
 DOMAIN-KEYWORD,uzumaru
+DOMAIN-SUFFIX,next-dash.uzuma.ru
 DOMAIN-SUFFIX,billing.aethercloud.io
 DOMAIN-SUFFIX,aethercloud.io
 DOMAIN-SUFFIX,netcup.com
