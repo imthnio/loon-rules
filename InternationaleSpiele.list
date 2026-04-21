@@ -2,39 +2,22 @@
 #==================================王者荣耀国际服==============================================
 #===========================================================================================
 
-DOMAIN-SUFFIX,honorofkings.com
-DOMAIN-SUFFIX,hok-global.com
-DOMAIN-SUFFIX,hokglobal.net
-DOMAIN-SUFFIX,hok.intlgame.com
-DOMAIN-SUFFIX,hok-dr.intlgame.com
-DOMAIN-SUFFIX,update.honorofkings.com
-DOMAIN-SUFFIX,honorofkings.map.qq.com
-DOMAIN-SUFFIX,levelinfinite.com
-DOMAIN-SUFFIX,levelinfinite.net
-DOMAIN-SUFFIX,proximabeta.com
-DOMAIN-SUFFIX,proximabeta.net
-DOMAIN-SUFFIX,proxima.beta
-DOMAIN-SUFFIX,sgameglobal.com
-DOMAIN-KEYWORD,sgameglobal
-DOMAIN-SUFFIX,intlgame.com
-DOMAIN-SUFFIX,tencent-gcloud.com
-DOMAIN-SUFFIX,gcloudcs.com
-DOMAIN-SUFFIX,game.im
+#!name=王者荣耀国际版
+#!desc=分流选择支持的地区
+#!author=奶思
+#!homepage=https://github.com/fmz200/wool_scripts
+#!icon=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/wangzherongyao.png
+#!raw-url=https://github.com/fmz200/wool_scripts/raw/main/Loon/rule/HonorOfKings.list
+#!tg-channel=https://t.me/inaisi
+#!date=2026-04-21 16:16:55
+#############################################
 
-DOMAIN-SUFFIX,cos.ap-southeast-1.myqcloud.com
-DOMAIN-SUFFIX,cos.ap-southeast.myqcloud.com
-DOMAIN-SUFFIX,cos.ap-hongkong.myqcloud.com
-DOMAIN-KEYWORD,cos.ap-southeast
-
-
-USER-AGENT,HonorOfKings*
-USER-AGENT,HoK*
-USER-AGENT,HOK*
-USER-AGENT,LevelInfinite*
-
-IP-ASN,139341
-IP-CIDR,43.132.0.0/16
-IP-CIDR,183.192.65.0/16
+IP-CIDR, 183.192.65.101/16, no-resolve
+IP-CIDR, 43.132.55.55/16, no-resolve
+DOMAIN-SUFFIX, intlgame.com
+DOMAIN-SUFFIX, sgameglobal.com
+DOMAIN-SUFFIX, appsflyersdk.com
+DOMAIN-KEYWORD, sgameglobal.com
 
 #============================================================================================
 #==================================和平精英国际服==============================================
