@@ -1,7 +1,5 @@
 # =======================================================
 # 规则名称: X (Twitter) & Grok AI (Watertight)
-# 覆盖范围: X 主站, Grok 对话, xAI 官网, 媒体资源, 直播
-# 核心策略: 社交网络 + AI 模型双重覆盖
 # =======================================================
 
 # [Part 1: Grok AI & xAI 专属 (New)]
@@ -28,37 +26,35 @@ DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twimg.org
 DOMAIN-SUFFIX,pbs.twimg.com
 DOMAIN-SUFFIX,video.twimg.com
-
-# [Part 4: 短链接与 API]
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,api.twitter.com
 DOMAIN-SUFFIX,upload.twitter.com
 DOMAIN-SUFFIX,mobile.twitter.com
 
-# [Part 5: 辅助服务]
+
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,ads-twitter.com
 
-# [Part 6: 关键字匹配]
-# 注意：不建议使用 "grok" 纯关键字，会误杀 "ngrok" 等开发工具
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,twimg
 
-# =======================================================
-# [Part 7: 协议层兜底 (User-Agent)]
-# 新增 Grok 独立 UA 识别
-# =======================================================
 USER-AGENT,*Twitter*
 USER-AGENT,*Grok*
 USER-AGENT,*Twitter*
 
+IP-ASN,13414
+
+
+
 # =======================================================
-# [Part 8: 物理层兜底 (IP-ASN)]
-# Grok 集成版直接复用 Twitter 的 ASN
-# Grok 网页版部分后端托管在 Oracle Cloud，但入口通常经过 X 的反代
+# ===# ===# ===# ===snap
 # =======================================================
 
-# AS13414: Twitter Inc. (X & Grok Integrated)
-IP-ASN,13414
+DOMAIN-SUFFIX,sc-cdn.net
+DOMAIN-SUFFIX,snap-dev.net
+DOMAIN-SUFFIX,snap.com
+DOMAIN-SUFFIX,snapads.com
+DOMAIN-SUFFIX,snapchat.com
+DOMAIN-SUFFIX,snapkit.co
