@@ -29,7 +29,6 @@ DOMAIN-SUFFIX,coze.cn
 
 DOMAIN-KEYWORD,doubao
 USER-AGENT,*Doubao*
-USER-AGENT,*AI_Mobile*
 # ======================================================================================
 #=====================================哔哩哔哩bilibili=================================
 # ======================================================================================
@@ -106,101 +105,7 @@ USER-AGENT,*AcFun*
 IP-ASN,55901
 IP-ASN,135431
 
-# ======================================================================================
-#=======================================苹果apple=======================================
-# ======================================================================================
-DOMAIN-SUFFIX,mail.icloud.com.cn
-DOMAIN-SUFFIX,mail.me.com
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,apple-icloud.cn
-DOMAIN-SUFFIX,apple-livephotoskit.com
-DOMAIN-SUFFIX,appleicloud.cn
-DOMAIN-SUFFIX,applemx-icloud.com
-DOMAIN-SUFFIX,apzones.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,gc.apple.com
-DOMAIN-SUFFIX,icloud-apple.cn
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,icloud-isupport.com
-DOMAIN-SUFFIX,icloud-sandbox.com
-DOMAIN-SUFFIX,icloud.apple.com
-DOMAIN-SUFFIX,icloud.ch
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud.com.cn
-DOMAIN-SUFFIX,icloud.de
-DOMAIN-SUFFIX,icloud.ee
-DOMAIN-SUFFIX,icloud.fi
-DOMAIN-SUFFIX,icloud.fr
-DOMAIN-SUFFIX,icloud.hu
-DOMAIN-SUFFIX,icloud.ie
-DOMAIN-SUFFIX,icloud.is
-DOMAIN-SUFFIX,icloud.jp
-DOMAIN-SUFFIX,icloud.lv
-DOMAIN-SUFFIX,icloud.net.cn
-DOMAIN-SUFFIX,icloud.om
-DOMAIN-SUFFIX,icloud.org
-DOMAIN-SUFFIX,icloud.pt
-DOMAIN-SUFFIX,icloud.ro
-DOMAIN-SUFFIX,icloud.se
-DOMAIN-SUFFIX,icloud.si
-DOMAIN-SUFFIX,icloud.sk
-DOMAIN-SUFFIX,icloud.vn
-DOMAIN-SUFFIX,icloudads.net
-DOMAIN-SUFFIX,icloudapple.cn
-DOMAIN-SUFFIX,icloudbox.net
-DOMAIN-SUFFIX,icloudbrowser.net
-DOMAIN-SUFFIX,icloude.com
-DOMAIN-SUFFIX,icloudhome.com
-DOMAIN-SUFFIX,icloudmail.net
-DOMAIN-SUFFIX,icloudmusic.net
-DOMAIN-SUFFIX,icloudnet.net
-DOMAIN-SUFFIX,icloudo.com
-DOMAIN-SUFFIX,icloudo.de
-DOMAIN-SUFFIX,icloudo.net
-DOMAIN-SUFFIX,icloudos.de
-DOMAIN-SUFFIX,icloudos.net
-DOMAIN-SUFFIX,icloudpay.net
-DOMAIN-SUFFIX,icloudsecure.net
-DOMAIN-SUFFIX,icloudsetup.com
-DOMAIN-SUFFIX,ios-icloud.com
-DOMAIN-SUFFIX,iwork.apple.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,myicloud.net
-DOMAIN-SUFFIX,mylcloud.net
-DOMAIN-SUFFIX,www-cdn.icloud.com.akadns.net
-DOMAIN-SUFFIX,wwwicloud.com
-DOMAIN-KEYWORD,icloud.com.akadns.net
-DOMAIN-SUFFIX,apple.com.cn
-DOMAIN-SUFFIX,apple.cn
-DOMAIN-SUFFIX,icloud.com.cn
 
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,appldnld.apple.com
-DOMAIN-SUFFIX,swcdn.apple.com
-DOMAIN-SUFFIX,updates-http.cdn-apple.com
-
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,itunes.com
-DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,apple-dns.net
-DOMAIN-SUFFIX,ls.apple.com
-DOMAIN-SUFFIX,gs-loc.apple.com
-DOMAIN-SUFFIX,smp-device-content.apple.com
-DOMAIN-SUFFIX,cdn-apple-pay.com
-DOMAIN-SUFFIX,devimages-cdn.apple.com
-DOMAIN-SUFFIX,testflight.apple.com
-USER-AGENT,*AppStore*
-USER-AGENT,*AppleStore*
-USER-AGENT,*TestFlight*
-USER-AGENT,*FindMy*
-USER-AGENT,*com.apple.trustd*
-USER-AGENT,*icloud.com*
 
 
 
@@ -349,120 +254,9 @@ IP-CIDR,47.75.0.0/16
 IP-CIDR,47.52.0.0/16
 IP-ASN,16509
 IP-ASN,15169
-# ======================================================================================
-#=======================================paypal贝宝=======================================
-# ======================================================================================
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypalobjects.com
-DOMAIN-SUFFIX,paypal.me
-DOMAIN-SUFFIX,paypal.cn
-DOMAIN-SUFFIX,pypl.com
-DOMAIN-SUFFIX,paypal-mobile.com
-DOMAIN-SUFFIX,paypal-apps.com
-DOMAIN-SUFFIX,paypal-api.com
-DOMAIN-SUFFIX,paypal-billing.com
-DOMAIN-SUFFIX,paypal-giftcard.com
-DOMAIN-SUFFIX,paypal-prepaid.com
-DOMAIN-SUFFIX,paypal-communication.com
-DOMAIN-SUFFIX,paypal-communications.com
-DOMAIN-SUFFIX,paypal-mktg.com
-DOMAIN-SUFFIX,paypal-corp.com
-DOMAIN-SUFFIX,paypal-knowledge.com
-DOMAIN-SUFFIX,paypal-status.com
-DOMAIN-SUFFIX,paypal-community.com
-DOMAIN-SUFFIX,paypal-experience.com
-DOMAIN-SUFFIX,paypal-search.com
-DOMAIN-SUFFIX,paypal-special-offer.com
-DOMAIN-SUFFIX,paypal-forward.com
-DOMAIN-SUFFIX,paypal-donations.com
-DOMAIN-SUFFIX,paypal-op-labs.com
-DOMAIN-SUFFIX,paypal-pickup.com
-DOMAIN-SUFFIX,paypal.112.2o7.net
-DOMAIN-SUFFIX,fp-paypal.com
-DOMAIN-SUFFIX,paypal.co.jp
-DOMAIN-SUFFIX,paypal.co.uk
-DOMAIN-SUFFIX,paypal.ca
-DOMAIN-SUFFIX,paypal.com.au
-DOMAIN-SUFFIX,paypal.com.sg
-DOMAIN-SUFFIX,paypal.com.hk
-DOMAIN-SUFFIX,paypal.eu
-DOMAIN-SUFFIX,braintreegateway.com
-DOMAIN-SUFFIX,braintreepayments.com
-DOMAIN-SUFFIX,braintree-api.com
-DOMAIN-SUFFIX,paidy.com
-DOMAIN-SUFFIX,venmo.com
-DOMAIN-SUFFIX,xoom.com
-DOMAIN-SUFFIX,zettle.com
-DOMAIN-SUFFIX,izettle.com
-DOMAIN-SUFFIX,honey.is
-DOMAIN-SUFFIX,joinhoney.com
-DOMAIN-SUFFIX,simility.com
-DOMAIN-SUFFIX,swiftfinancial.com
-DOMAIN-SUFFIX,loanbuilder.com
-DOMAIN-SUFFIX,paydiant.com
-DOMAIN-SUFFIX,hyperwallet.com
-DOMAIN-SUFFIX,hyperwallet-api.com
-DOMAIN-SUFFIX,billmelater.com
-DOMAIN-KEYWORD,paypal
-DOMAIN-KEYWORD,braintree
-DOMAIN-KEYWORD,venmo
-DOMAIN-KEYWORD,paidy
-DOMAIN-KEYWORD,xoom
-USER-AGENT,*PayPal*
-USER-AGENT,*Venmo*
-USER-AGENT,*Paidy*
-USER-AGENT,*PayPalBusiness*
-USER-AGENT,*Braintree*
-IP-ASN,17012
-IP-ASN,1449
-# ======================================================================================
-#======================================wise/transferwise================================
-# ======================================================================================
 
-DOMAIN-SUFFIX,wise.com
-DOMAIN-SUFFIX,wisebeta.com
-DOMAIN-SUFFIX,wisecdn.com
-DOMAIN-SUFFIX,transferwise.com
-DOMAIN-SUFFIX,transferwise.net
-DOMAIN-SUFFIX,transferwise.tech
-DOMAIN-SUFFIX,transferwise.work
-DOMAIN-SUFFIX,transferwise-cdn.com
-DOMAIN-KEYWORD,transferwise
-USER-AGENT,*Wise*
-USER-AGENT,*TransferWise*
-USER-AGENT,*com.transferwise*
-IP-ASN,208550
-# ======================================================================================
-#======================================n26银行/n26 bank================================
-# ======================================================================================
 
-DOMAIN-SUFFIX,n26.com
-DOMAIN-SUFFIX,n26.de
-DOMAIN-SUFFIX,n26.net
-DOMAIN-SUFFIX,n26.eu
-DOMAIN-SUFFIX,n26.org
-DOMAIN-SUFFIX,n26.app
-DOMAIN-SUFFIX,n26.co.uk
 
-DOMAIN-SUFFIX,tech26.de
-DOMAIN-SUFFIX,tech26.com
-DOMAIN-SUFFIX,number26.de
-DOMAIN-SUFFIX,number26.com
-DOMAIN-SUFFIX,number26.eu
-DOMAIN-SUFFIX,n26cdn.com
-DOMAIN-SUFFIX,n26cdn.net
-
-DOMAIN-SUFFIX,idnow.de
-DOMAIN-SUFFIX,idnow.io
-DOMAIN-SUFFIX,idnow.com
-DOMAIN-SUFFIX,idnow.net
-
-DOMAIN-KEYWORD,number26
-
-USER-AGENT,*N26*
-USER-AGENT,*Number26*
-USER-AGENT,*IDnow*
-USER-AGENT,*VideoIdent*
 
 
 # ======================================================================================
@@ -605,76 +399,10 @@ IP-ASN, 56040
 
 
 
-# ======================================================================================
-#=========================================币安交易所binance===============================
-# ======================================================================================
-USER-AGENT,*Binance*
-DOMAIN-KEYWORD,binance
-DOMAIN-SUFFIX,binance.com
-DOMAIN-SUFFIX,binance.cc
-DOMAIN-SUFFIX,binance.charity
-DOMAIN-SUFFIX,binance.cloud
-DOMAIN-SUFFIX,binance.co
-DOMAIN-SUFFIX,binance.gd
-DOMAIN-SUFFIX,binance.gg
-DOMAIN-SUFFIX,binance.im
-DOMAIN-SUFFIX,binance.info
-DOMAIN-SUFFIX,binance.je
-DOMAIN-SUFFIX,binance.ltd
-DOMAIN-SUFFIX,binance.me
-DOMAIN-SUFFIX,binance.net
-DOMAIN-SUFFIX,binance.org
-DOMAIN-SUFFIX,binance.sc
-DOMAIN-SUFFIX,binance.support
-DOMAIN-SUFFIX,binance.us
-DOMAIN-SUFFIX,binance.vision
-DOMAIN-SUFFIX,binance.website
-DOMAIN-SUFFIX,binanceapi.com
-DOMAIN-SUFFIX,binancecnt.com
-DOMAIN-SUFFIX,binanceops.com
-DOMAIN-SUFFIX,binanceservice.com
-DOMAIN-SUFFIX,bnappzh.com
-DOMAIN-SUFFIX,bnbstatic.com
-DOMAIN-SUFFIX,bntrace.com
-DOMAIN-SUFFIX,mokexapp.io
-DOMAIN-SUFFIX,saas-exchange.com
-DOMAIN-SUFFIX,saasexch.co
-DOMAIN-SUFFIX,apps.binance.com
-DOMAIN-SUFFIX,binancezh.be
-DOMAIN-SUFFIX,binancezh.biz
-DOMAIN-SUFFIX,binancezh.cc
-DOMAIN-SUFFIX,binancezh.co
-DOMAIN-SUFFIX,binancezh.com
-DOMAIN-SUFFIX,binancezh.info
-DOMAIN-SUFFIX,binancezh.ink
-DOMAIN-SUFFIX,binancezh.kim
-DOMAIN-SUFFIX,binancezh.link
-DOMAIN-SUFFIX,binancezh.live
-DOMAIN-SUFFIX,binancezh.mobi
-DOMAIN-SUFFIX,binancezh.net
-DOMAIN-SUFFIX,binancezh.org
-DOMAIN-SUFFIX,binancezh.pro
-DOMAIN-SUFFIX,binancezh.sh
-DOMAIN-SUFFIX,binancezh.top
-DOMAIN-SUFFIX,bnbzh.com
-DOMAIN-SUFFIX,99def.com
 
-# ======================================================================================
-#=========================================neverless交易所===============================
-# ======================================================================================
-DOMAIN-SUFFIX,neverless.com
-DOMAIN-SUFFIX,neverless.app
-DOMAIN-SUFFIX,neverless.io
-DOMAIN-SUFFIX,neverless.money
-DOMAIN-KEYWORD,neverless
-USER-AGENT,*Neverless*
-# ======================================================================================
-#======================================vps/ssh端口================================
-# ======================================================================================
-DEST-PORT,22
-DEST-PORT,28379
-DEST-PORT,10027
-DEST-PORT,60656
+
+
+
 # ======================================================================================
 #===============================================中国运营商================================
 # ======================================================================================
@@ -697,32 +425,7 @@ IP-ASN,56042
 IP-ASN,7497
 IP-ASN,24547
 
-# ======================================================================================
-#=============================cloudflare/cdn/cf========================================
-# ======================================================================================
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudflare.net
-DOMAIN-SUFFIX,cloudflare.org
-DOMAIN-SUFFIX,cloudflare-cn.com
-DOMAIN-SUFFIX,cloudflare-cn.net
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,cloudflare-gateway.com
-DOMAIN-SUFFIX,cloudflare-ippuls.com
-DOMAIN-SUFFIX,cloudflare-quic.com
-DOMAIN-SUFFIX,cloudflare-test.com
-DOMAIN-SUFFIX,cloudflare-verify.com
-DOMAIN-SUFFIX,cloudflareclient.com
-DOMAIN-SUFFIX,cloudflareinsights.com
-DOMAIN-SUFFIX,cloudflareok.com
-DOMAIN-SUFFIX,cloudflareresolve.com
-DOMAIN-SUFFIX,cloudflaressl.com
-DOMAIN-SUFFIX,cloudflarestatus.com
-DOMAIN-SUFFIX,cloudflarestream.com
-DOMAIN-SUFFIX,cloudflarethumbs.com
-DOMAIN-SUFFIX,cloudflaretnt.com
-DOMAIN-SUFFIX,cloudflareuam.com
-DOMAIN-SUFFIX,workers.dev
-DOMAIN-SUFFIX,pages.dev
+
 
 
 
