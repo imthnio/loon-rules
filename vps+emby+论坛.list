@@ -1,4 +1,8 @@
-#nodseek&数字居民论坛&nodeloc
+
+
+########################################################################################
+###########################################论坛############################################
+########################################################################################
 DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,linux.docom
 DOMAIN-SUFFIX,nodeloc.com
@@ -17,11 +21,33 @@ DOMAIN-SUFFIX,cdn.nodeimage.com
 
 
 
+########################################################################################
+###########################################emby############################################
+########################################################################################
+DOMAIN-KEYWORD,lemby.886223.xyz
+DOMAIN-KEYWORD,link00.okemby.org
+DOMAIN-SUFFIX,cf.lemby.me
+DOMAIN-KEYWORD,yinhai.aiinyue.com
+DOMAIN-KEYWORD,docs.mefun.org
+DOMAIN-KEYWORD,music.mefun.org
+DOMAIN-KEYWORD,shop.ii00.cc
+DOMAIN-SUFFIX,qdav.top
+DOMAIN-SUFFIX,emby.yun
+DOMAIN-SUFFIX,emos.lol
+DOMAIN-KEYWORD,lemby.886223.xyz
+DOMAIN-SUFFIX,stream-1.miraiemby.com
+DOMAIN-KEYWORD,miraiemby.com
+DOMAIN-SUFFIX,emby.dnscf.dpdns.org
+DOMAIN-KEYWORD,gy.emby.yun
+DOMAIN-SUFFIX,eu-it-1.vds.qzz.io
+DOMAIN-SUFFIX,hgemby.qzz.io
 
+USER-AGENT,*senplay*
+USER-AGENT,*vidh*
 
-
-######################vps
-
+########################################################################################
+############################################vps############################################
+########################################################################################
 DOMAIN-SUFFIX,idcflare.com
 DOMAIN-SUFFIX,vpsxb.net
 DOMAIN-SUFFIX,sadidc.com
