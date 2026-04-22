@@ -1,7 +1,6 @@
 # ======================================================================================
 # ====================================== paypal贝宝 =====================================
 # ======================================================================================
-HOST-SUFFIX,account-paypal.info,PayPal
 HOST-SUFFIX,account-paypal.net,PayPal
 HOST-SUFFIX,account-paypal.org,PayPal
 HOST-SUFFIX,accountpaypal.com,PayPal
