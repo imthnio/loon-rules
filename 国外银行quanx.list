@@ -14,13 +14,12 @@ HOST-SUFFIX,beibao.com,PayPal
 HOST-SUFFIX,beibao.com.cn,PayPal
 HOST-SUFFIX,bill-safe.com,PayPal
 HOST-SUFFIX,billmelater.com,PayPal
-HOST-SUFFIX,billmelater.info,PayPal
 HOST-SUFFIX,billmelater.net,PayPal
-HOST-SUFFIX,bml.info,PayPal
+
 HOST-SUFFIX,braintreegateway.com,PayPal
 HOST-SUFFIX,braintreegateway.tv,PayPal
 HOST-SUFFIX,braintreepayments.com,PayPal
-HOST-SUFFIX,braintreepayments.info,PayPal
+
 HOST-SUFFIX,braintreepayments.org,PayPal
 HOST-SUFFIX,braintreepayments.tv,PayPal
 HOST-SUFFIX,braintreepaymentsolutions.com,PayPal
@@ -102,7 +101,7 @@ HOST-SUFFIX,paypal-labs.com,PayPal
 HOST-SUFFIX,paypal-latam.com,PayPal
 HOST-SUFFIX,paypal-learning.com,PayPal
 HOST-SUFFIX,paypal-login.com,PayPal
-HOST-SUFFIX,paypal-login.info,PayPal
+
 HOST-SUFFIX,paypal-login.org,PayPal
 HOST-SUFFIX,paypal-login.us,PayPal
 HOST-SUFFIX,paypal-luxury.com,PayPal
@@ -230,7 +229,6 @@ HOST-SUFFIX,thepaypalshop.com,PayPal
 HOST-SUFFIX,theshoppingexpresslane.net,PayPal
 HOST-SUFFIX,venmo-touch.com,PayPal
 HOST-SUFFIX,venmo.com,PayPal
-HOST-SUFFIX,venmo.info,PayPal
 HOST-SUFFIX,venmo.net,PayPal
 HOST-SUFFIX,venmo.org,PayPal
 HOST-SUFFIX,venmo.s3.amazonaws.com,PayPal
