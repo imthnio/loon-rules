@@ -34,22 +34,24 @@ DOMAIN-SUFFIX,api.sheep.cloud.brainiac.top
 # ======================================================================================
 #===================================安卓app软件下载======================================
 # ======================================================================================
-DOMAIN-SUFFIX,apkmirror.com,no-resolve
-DOMAIN-SUFFIX,aurora-store.cn.uptodown.com,no-resolve
-DOMAIN-SUFFIX,malavida.com,no-resolve
-DOMAIN-SUFFIX,androeed.ru,no-resolve
-DOMAIN-SUFFIX,uptodown.com,no-resolve
-DOMAIN-SUFFIX,apkcombo.com,no-resolve
-DOMAIN-SUFFIX,en.uptodown.com,no-resolve
-DOMAIN-SUFFIX,apkflash.com,no-resolve
-DOMAIN-SUFFIX,cloudflarestorage.com,no-resolve
-DOMAIN-SUFFIX,apk.support,no-resolve
-DOMAIN-SUFFIX,winudf.com,no-resolve
-DOMAIN-SUFFIX,apkmirror.com,no-resolve
-DOMAIN-SUFFIX,apkcdn.nyc3.cdn.digitaloceanspaces.com,no-resolve
-DOMAIN-SUFFIX,aptoide.com,no-resolve
-DOMAIN-SUFFIX,pejdw.com,no-resolve
-DOMAIN-SUFFIX,apkpure.com,no-resolve
+DOMAIN-SUFFIX,apkmirror.com
+DOMAIN-SUFFIX,aurora-store.cn.uptodown.com
+DOMAIN-SUFFIX,malavida.com
+DOMAIN-SUFFIX,androeed.ru
+DOMAIN-SUFFIX,uptodown.com
+DOMAIN-SUFFIX,apkcombo.com
+DOMAIN-SUFFIX,en.uptodown.com
+DOMAIN-SUFFIX,apkflash.com
+DOMAIN-SUFFIX,cloudflarestorage.com
+DOMAIN-SUFFIX,apk.support
+DOMAIN-SUFFIX,winudf.com
+DOMAIN-SUFFIX,apkmirror.com
+DOMAIN-SUFFIX,digitaloceanspaces.com
+DOMAIN-SUFFIX,aptoide.com
+DOMAIN-SUFFIX,pejdw.com
+DOMAIN-SUFFIX,apkpure.com
+DOMAIN-SUFFIX,91maihao.com
+DOMAIN-SUFFIX,humkt.com
 # ======================================================================================
 #==================================#维基百科======================================
 # ======================================================================================
