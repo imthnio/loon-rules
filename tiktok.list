@@ -1,82 +1,47 @@
-
-# =====================================
-
-# [新增] 字节出海基础设施 (直播/图片核心)
-DOMAIN-SUFFIX,ibyteoversea.com
+DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+DOMAIN,lf16-pkgcdn.pitaya-clientai.com
+DOMAIN,p16-tiktokcdn-com.akamaized.net
+DOMAIN,trae-api-sg.mchost.guru
+DOMAIN-SUFFIX,bytedapm.com
+DOMAIN-SUFFIX,bytegecko-i18n.com
+DOMAIN-SUFFIX,byteintlapi.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,capcut.com
 DOMAIN-SUFFIX,ibytedtos.com
-
-# [原有] 用户自定义/特殊直播CDN
-DOMAIN-SUFFIX,tiktokcdn.liveplay.myqcloud.com
-
-# -----------------
-# 1. TikTok 核心域名
-# -----------------
-DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,tiktokv.com
-DOMAIN-SUFFIX,tiktokcdn.com
-DOMAIN-SUFFIX,tiktok-d.net
-DOMAIN-SUFFIX,tiktok-d.org
-DOMAIN-SUFFIX,tiktokmusic.app
-DOMAIN-SUFFIX,tik-tokapi.com
-DOMAIN-SUFFIX,tiktokw.com
-DOMAIN-SUFFIX,ttdns2.com
-
-# -----------------
-# 2. Lemon8 核心域名
-# -----------------
-DOMAIN-SUFFIX,lemon8-app.com
-DOMAIN-SUFFIX,lemon8cdn.com
-DOMAIN-SUFFIX,bdurl.net
-
-# -----------------
-# 3. 区域加速与CDN (国际专用)
-# -----------------
-DOMAIN-SUFFIX,tiktokcdn-us.com
-DOMAIN-SUFFIX,tiktokcdn-eu.com
-DOMAIN-SUFFIX,tiktokv.us
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,marscode.com
 DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,tlivecdn.com
-
-# -----------------
-# 4. 字节跳动国际版API
-# -----------------
-# 仅保留 sg(新加坡)/i(国际) 开头的域名，避开 domestic(国内)
-DOMAIN-SUFFIX,isnssdk.com
 DOMAIN-SUFFIX,sgpstatp.com
-DOMAIN-SUFFIX,sgsnssdk.com
-
-# -----------------
-# 5. 关联国际产品 (CapCut 等)
-# -----------------
-DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokcdn-us.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokd.net
+DOMAIN-SUFFIX,tiktokd.org
+DOMAIN-SUFFIX,tiktokmusic.app
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokv.us
 DOMAIN-SUFFIX,trae.ai
-DOMAIN-SUFFIX,marscode.com
-
-# -----------------
-# 6. 关键词
-# -----------------
+DOMAIN-SUFFIX,ttwebview.com
 DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,tiktok
+USER-AGENT,TikTok*
+
+
+
+
+
+
+
+
+
+
+DOMAIN-KEYWORD,tiktok
 DOMAIN-KEYWORD,lemon8
-# -----------------
-
-
-USER-AGENT,musical_ly*
 USER-AGENT,*tikto*
-USER-AGENT,*musical*
-USER-AGENT,*trill*
 USER-AGENT,*lemon8*
 USER-AGENT,*CapCut*
-USER-AGENT,Helo*
-
-# -----------------
-# 8. 强力兜底 (IP-ASN)
-# -----------------
-# 仅涵盖 ByteDance 海外机房
-IP-ASN,396986
-IP-ASN,11862
-IP-ASN,134406
-
-# Akamai (国际直播流CDN)
-IP-ASN,32505
