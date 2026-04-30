@@ -98,73 +98,9 @@ IP-ASN,135431
 # ======================================================================================
 #=======================================腾讯所有游戏=======================================
 # ======================================================================================
-DOMAIN-SUFFIX,tencent.com
-DOMAIN-SUFFIX,tencent.com.cn
-DOMAIN-SUFFIX,qq.com
-DOMAIN-SUFFIX,game.qq.com
-DOMAIN-SUFFIX,pvp.qq.com
-DOMAIN-SUFFIX,smoba.qq.com
-DOMAIN-SUFFIX,gp.qq.com
-DOMAIN-SUFFIX,igamecj.com
-DOMAIN-SUFFIX,msdk.qq.com
-DOMAIN-SUFFIX,tpns.qq.com
-DOMAIN-SUFFIX,tencent-gcloud.com
-DOMAIN-SUFFIX,gcloudcs.com
-DOMAIN-SUFFIX,gcloud.com
-DOMAIN-SUFFIX,qpic.cn
-DOMAIN-SUFFIX,qlogo.cn
-DOMAIN-SUFFIX,gtimg.cn
-DOMAIN-SUFFIX,gtimg.com
-DOMAIN-SUFFIX,idqqimg.com
-DOMAIN-SUFFIX,myqcloud.com
-DOMAIN-SUFFIX,microfun.com
-DOMAIN-SUFFIX,tim.qq.com
-DOMAIN-SUFFIX,qzone.com
-DOMAIN-SUFFIX,tenpay.com
-DOMAIN-SUFFIX,wegame.com
-DOMAIN-SUFFIX,wegame.com.cn
-DOMAIN-SUFFIX,levelinfinite.com
-DOMAIN-SUFFIX,levelinfinite.net
-DOMAIN-SUFFIX,proximabeta.com
-DOMAIN-SUFFIX,pubgmobile.com
-DOMAIN-SUFFIX,pubgame.com
-DOMAIN-SUFFIX,riotgames.com
-DOMAIN-SUFFIX,honorofkings.com
-DOMAIN-SUFFIX,hok-global.com
-DOMAIN-SUFFIX,dlied1.qq.com
-DOMAIN-SUFFIX,wdl1.qq.com
-DOMAIN-SUFFIX,wup.imtt.qq.com
-DOMAIN-SUFFIX,ugc.qpic.cn
-DOMAIN-SUFFIX,aq.qq.com
-DOMAIN-SUFFIX,ins.guanjia.qq.com
-DOMAIN-SUFFIX,tpte.qq.com
-DOMAIN-SUFFIX,midas.gtimg.cn
-DOMAIN-SUFFIX,unipay.qq.com
-DOMAIN-SUFFIX,trace.qq.com
-DOMAIN-SUFFIX,btrace.qq.com
-DOMAIN-SUFFIX,m.qpic.cn
-DOMAIN-SUFFIX,servicewechat.com
-DOMAIN-KEYWORD,tencent
-DOMAIN-KEYWORD,qq.com
-DOMAIN-KEYWORD,smoba
-DOMAIN-KEYWORD,moba
-DOMAIN-KEYWORD,daolu
-DOMAIN-KEYWORD,levelinfinite
-DOMAIN-KEYWORD,wegame
-DOMAIN-KEYWORD,王者荣耀
-DOMAIN-KEYWORD,和平精英
-USER-AGENT,*Tencent*
-USER-AGENT,*WeChat*
-USER-AGENT,*SGame*
-USER-AGENT,*HoK*
-USER-AGENT,*PUBGM*
-USER-AGENT,*GCloud*
-USER-AGENT,*MSDK*
-USER-AGENT,*TencentMidasConnect*
-USER-AGENT,*TencentSecurity*
-USER-AGENT,*QQNews*
-USER-AGENT,*QQMail*
-USER-AGENT,*TIM*
+
+
+
 
 
 # ======================================================================================
@@ -1132,22 +1068,7 @@ DOMAIN-SUFFIX,zygvqivs.com
 
 
 
-IP-ASN,132203
-IP-ASN,45090
-IP-ASN,132591
-IP-ASN,37963
-IP-ASN,45102
-IP-ASN,137753
-IP-ASN,131486
-IP-ASN,137805
-IP-ASN,135061
-IP-ASN,55987
-IP-ASN,396986
-IP-ASN,138699
-IP-CIDR,192.168.0.0/16
-IP-CIDR,10.0.0.0/8
-IP-CIDR,172.16.0.0/12
-IP-CIDR,127.0.0.0/8
+
 
 
 # ======================================================================================
