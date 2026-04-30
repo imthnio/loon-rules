@@ -15,6 +15,6 @@ DOMAIN-SUFFIX, sgameglobal.com
 DOMAIN-SUFFIX, appsflyersdk.com
 DOMAIN-KEYWORD, sgameglobal.com
 DOMAIN-KEYWORD,honorofkings
-
+USER-AGENT,*honorofkings*
 
 DOMAIN-SUFFIX,lobby.igamecj.com
