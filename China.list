@@ -52,14 +52,12 @@ IP-ASN,132203
 # ======================================================================================
 #======================================小红书=========================================
 # ======================================================================================
-DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,fengkongcloud.com
 DOMAIN-SUFFIX,xhscdn.com
 DOMAIN-SUFFIX,xhscdn.net
-DOMAIN-SUFFIX,xhslink.com
-DOMAIN-SUFFIX,xycommunity.com
+DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-KEYWORD,xiaohongshu
 USER-AGENT,*Xiaohongshu*
-USER-AGENT,*xhs*
 
 
 
