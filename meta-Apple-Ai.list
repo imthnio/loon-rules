@@ -70,7 +70,11 @@ DOMAIN-SUFFIX, smoot.apple.com
 DOMAIN-SUFFIX, apple-relay.akamaized.net
 DOMAIN-SUFFIX, apple-relay.mask.apple-dns.net
 
+#通知推送
+DOMAIN-SUFFIX,push.apple.com
+IP-CIDR,17.0.0.0/8,no-resolve
 
+解决办法
 ##################################################
 #########################chatgpt#########################
 ##################################################
