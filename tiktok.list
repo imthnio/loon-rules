@@ -30,6 +30,10 @@ DOMAIN-SUFFIX,ttwebview.com
 DOMAIN-KEYWORD,musical.ly
 USER-AGENT,TikTok*
 
+DOMAIN-SUFFIX,capcutapi.com
+DOMAIN-KEYWORD,dreamina
+USER-AGENT,Dreamina*
+
 
 
 
