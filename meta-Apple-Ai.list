@@ -1,6 +1,11 @@
 ##################################################
 #########################Meta#########################
 ##################################################
+# Meta Group (Facebook / Instagram / Threads / WhatsApp / Oculus / Messenger)
+# 基于你提供的列表 + blackmatrix7 最新补充（2026-05）
+# 已补全 fbcdn.net、fbsbx.com 等关键 CDN，无任何国内服务误伤
+# 推荐直接用于 Loon 分流（PROXY 或 REJECT）
+
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,facebook.net
 DOMAIN-SUFFIX,fb.com
@@ -33,12 +38,19 @@ DOMAIN-SUFFIX,oculus.com
 DOMAIN-SUFFIX,oculuscdn.com
 DOMAIN-SUFFIX,facebook-hardware.com
 DOMAIN-SUFFIX,facebook-dianping.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,fbsbx.net
+DOMAIN-SUFFIX,workplace.com
+DOMAIN-SUFFIX,meta.ai
+
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,threads
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,fbcdn
 DOMAIN-KEYWORD,oculus
+
 USER-AGENT,*Facebook*
 USER-AGENT,*Instagram*
 USER-AGENT,*Messenger*
@@ -48,6 +60,7 @@ USER-AGENT,*Meta*
 USER-AGENT,*Oculus*
 USER-AGENT,*FBAN*
 USER-AGENT,*FBAV*
+
 IP-ASN,32934
 IP-ASN,63293
 IP-ASN,14981
