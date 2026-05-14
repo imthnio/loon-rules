@@ -359,6 +359,7 @@ USER-AGENT,*tevaupay*
 #======================================小红卡redotpay=======================================
 # ======================================================================================
 DOMAIN-SUFFIX,redotpay.com
+DOMAIN-KEYWORD,redotpay
 USER-AGENT,*redotpay*
 
 
