@@ -1,12 +1,81 @@
-# =======================================================
-# 规则名称: Google Universe (Ultimate / Clean International)
-# 核心来源: imthnio + Blackmatrix7 + Gemini（已移除全部 -cn 中国版域名）
-# 适用场景: 解决转圈、断流、卫星图黑屏、AI无响应（纯国际版）
-# 更新时间: 2026-05（清理版）
-# =======================================================
+#######################################################################################
+###########################推特+grok+spacex###########################################################
+#######################################################################################
+# X (Twitter) + Grok + xAI + SpaceX (Clean & Complete)
+# 基于你原列表 + blackmatrix7 最新版 + 必要补充
+# 已补全 abs.twimg.com、twtrdns.net 等关键域名 + SpaceX/Starlink
+# 更新时间：2026-05（无任何国内服务误伤）
 
-# [Part 0: 核心修复补丁 - Gemini AI & 地图卫星 & 系统底层]
-# ⚠️ 最优先匹配，解决"能打开网页但App不好用"的问题
+DOMAIN-SUFFIX,abs.twimg.com
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,cms-twdigitalassets.com
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grok.x.ai
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,tellapart.com
+DOMAIN-SUFFIX,tweetdeck.com
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twimg.org
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,twitter.biz
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,twittercommunity.com
+DOMAIN-SUFFIX,twitterflightschool.com
+DOMAIN-SUFFIX,twitterinc.com
+DOMAIN-SUFFIX,twitteroauth.com
+DOMAIN-SUFFIX,twitterstat.us
+DOMAIN-SUFFIX,twtrdns.net
+DOMAIN-SUFFIX,twttr.com
+DOMAIN-SUFFIX,twttr.net
+DOMAIN-SUFFIX,twvid.com
+DOMAIN-SUFFIX,vine.co
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,assets.x.ai
+DOMAIN-SUFFIX,challenge.x.ai
+DOMAIN-SUFFIX,auth.x.ai
+DOMAIN-SUFFIX,spacex.com
+DOMAIN-SUFFIX,starlink.com
+
+DOMAIN-KEYWORD,twitter
+DOMAIN-KEYWORD,twimg
+DOMAIN-KEYWORD,grok
+DOMAIN-KEYWORD,spacex
+DOMAIN-KEYWORD,starlink
+
+USER-AGENT,*Twitter*
+USER-AGENT,*Grok*
+USER-AGENT,*SpaceX*
+
+IP-ASN,13414
+
+##########################################################
+#############################snap#############################
+##########################################################
+
+DOMAIN-SUFFIX,sc-cdn.net
+DOMAIN-SUFFIX,snap-dev.net
+DOMAIN-SUFFIX,snap.com
+DOMAIN-SUFFIX,snapads.com
+DOMAIN-SUFFIX,snapchat.com
+DOMAIN-SUFFIX,snapkit.co
+
+
+
+
+
+
+
+
+
+
+#######################################################################################
+############################谷歌google#################################################
+#######################################################################################
 DOMAIN,gemini.google.com
 DOMAIN,bard.google.com
 DOMAIN,generativeai.google
@@ -866,3 +935,32 @@ IP-ASN,26684,no-resolve
 IP-ASN,26910,no-resolve
 IP-ASN,36561,no-resolve
 IP-ASN,55025,no-resolve
+
+
+
+#######################################################################################
+#############################line###########################################################
+#######################################################################################
+DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,line-apps.com
+DOMAIN-SUFFIX,line-cdn.net
+DOMAIN-SUFFIX,line-scdn.net
+DOMAIN-SUFFIX,line-stk.me
+DOMAIN-SUFFIX,lin.ee
+DOMAIN-SUFFIX,line.biz
+DOMAIN-SUFFIX,line-pay.com
+DOMAIN-SUFFIX,line-website.com
+DOMAIN-SUFFIX,linecorp.com
+DOMAIN-SUFFIX,lycorp.co.jp
+DOMAIN-SUFFIX,naver.jp
+DOMAIN-SUFFIX,naver.com
+DOMAIN-SUFFIX,nhncorp.jp
+DOMAIN-SUFFIX,pstatic.net
+DOMAIN-SUFFIX,nelo2.com
+DOMAIN-SUFFIX,nhn.jp
+DOMAIN-SUFFIX,yimg.jp
+DOMAIN-KEYWORD,line-apps
+DOMAIN-KEYWORD,line-scdn
+DOMAIN-KEYWORD,linetv
+DOMAIN-KEYWORD,line-static
+USER-AGENT,*line*
