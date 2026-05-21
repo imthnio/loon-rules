@@ -44,8 +44,10 @@ USER-AGENT,*tikto*
 USER-AGENT,*lemon8*
 USER-AGENT,*CapCut*
 
-
-
+USER-AGENT,*cici*
+USER-AGENT,*dola*
+DOMAIN-SUFFIX,dola.com
+DOMAIN-SUFFIX,cici.com
 
 
 ####################################################################
