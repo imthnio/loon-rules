@@ -44,7 +44,13 @@ USER-AGENT,*CapCut*
 
 
 
-
+USER-AGENT,*cici*
+USER-AGENT,*dola*
+DOMAIN-SUFFIX,dola.com
+DOMAIN-SUFFIX,cici.com
+DOMAIN-SUFFIX,dreamina.capcut.com
+DOMAIN-KEYWORD,dreamina
+USER-AGENT,Dreamina*
 
 
 ####################################################################
