@@ -51,13 +51,8 @@ USER-AGENT,Dreamina*
 
 
 
-
-
-
-
-
 ####################################################################
-###############YouTube + Google Search + Gmail#####################
+#########################YouTube + Googlee#####################
 ####################################################################
 
 DOMAIN-SUFFIX,youtube.com
@@ -136,12 +131,71 @@ DOMAIN-SUFFIX,pop.gmail.com
 DOMAIN-SUFFIX,mail-attachment.googleusercontent.com
 DOMAIN-KEYWORD,gmail
 
+# > Google Translate
+DOMAIN,translate.google.com
+DOMAIN,www.translate.google.com
+DOMAIN-SUFFIX,translate.google.com
+DOMAIN-SUFFIX,translate.goog
+DOMAIN,translate.googleapis.com
+DOMAIN,translate-pa.googleapis.com
+DOMAIN,translation.googleapis.com
+USER-AGENT,*GoogleTranslate*
+USER-AGENT,*Google Translate*
+USER-AGENT,*com.google.Translate*
+
+# > Google Maps
+DOMAIN,maps.google.com
+DOMAIN,www.maps.google.com
+DOMAIN,google.com/maps
+DOMAIN,maps.googleapis.com
+DOMAIN,maps.gstatic.com
+DOMAIN,kh.google.com
+DOMAIN,khm.google.com
+DOMAIN,khms.google.com
+DOMAIN,mt.google.com
+DOMAIN,mt0.google.com
+DOMAIN,mt1.google.com
+DOMAIN,mt2.google.com
+DOMAIN,mt3.google.com
+DOMAIN,streetviewpixels-pa.googleapis.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-KEYWORD,googlemaps
+DOMAIN-KEYWORD,google-maps
+USER-AGENT,*GoogleMaps*
+USER-AGENT,*Google Maps*
+USER-AGENT,*com.google.Maps*
+
+# > Google Drive
+DOMAIN,drive.google.com
+DOMAIN,www.drive.google.com
+DOMAIN,docs.google.com
+DOMAIN,sheets.google.com
+DOMAIN,slides.google.com
+DOMAIN,forms.google.com
+DOMAIN,script.google.com
+DOMAIN,drive-thirdparty.googleusercontent.com
+DOMAIN,lh3.googleusercontent.com
+DOMAIN,lh4.googleusercontent.com
+DOMAIN,lh5.googleusercontent.com
+DOMAIN,lh6.googleusercontent.com
+DOMAIN-SUFFIX,drive.google.com
+DOMAIN-SUFFIX,docs.google.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googledrive.com
+DOMAIN,googledrive.com
+DOMAIN,www.googledrive.com
+DOMAIN-KEYWORD,googledrive
+USER-AGENT,*GoogleDrive*
+USER-AGENT,*Google Drive*
+USER-AGENT,*com.google.Drive*
+
 # > Gmail App UA 兜底
 USER-AGENT,*Gmail*
 USER-AGENT,Gmail*
 USER-AGENT,*com.google.Gmail*
 USER-AGENT,*com.google.android.gm*
-
 
 
 
