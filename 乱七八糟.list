@@ -1,4 +1,44 @@
+# ======================================================================================
+#=====================================ip检测==========================================
+# ======================================================================================
 
+DOMAIN-SUFFIX,ping0.cc
+DOMAIN-SUFFIX,ippure.com
+DOMAIN-SUFFIX,ip2location.com
+DOMAIN-SUFFIX,iplocation.com
+DOMAIN-SUFFIX,iplocation.net
+DOMAIN-SUFFIX,test-ipv6.com
+DOMAIN-SUFFIX,ipv6-test.com
+DOMAIN-SUFFIX,ipw.cn
+DOMAIN-SUFFIX,ping.chinaz.com
+DOMAIN-SUFFIX,itdog.cn
+DOMAIN-SUFFIX,boce.com
+DOMAIN-SUFFIX,ipip.net
+DOMAIN-SUFFIX,ip.skk.moe
+DOMAIN-SUFFIX,ipcheck.ing
+DOMAIN-SUFFIX,whoer.net
+DOMAIN-SUFFIX,ipaddress.my
+DOMAIN-SUFFIX,scamalytics.com
+DOMAIN-SUFFIX,iplark.com
+DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,ip.net.coffee
+DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,browserscan.net
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,ifconfig.co
+DOMAIN-SUFFIX,ifconfig.me
+DOMAIN-SUFFIX,icanhazip.com
+DOMAIN-SUFFIX,ipify.org
+DOMAIN-SUFFIX,ident.me
+DOMAIN-SUFFIX,myip.com
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,ipwho.is
+DOMAIN-SUFFIX,ipwhois.io
+DOMAIN-SUFFIX,ipgeolocation.io
+DOMAIN-SUFFIX,ip-api.io
+DOMAIN-SUFFIX,dnsleaktest.com
+DOMAIN,checkip.amazonaws.com
 # ======================================================================================
 #=====================================乱七八糟===========================================
 # ======================================================================================
