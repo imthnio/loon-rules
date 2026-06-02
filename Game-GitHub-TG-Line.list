@@ -13,8 +13,6 @@ DOMAIN-KEYWORD,github
 #################王者荣耀国际服########################################################
 #######################################################################################
 
-IP-CIDR, 183.192.65.101/16, no-resolve
-IP-CIDR, 43.132.55.55/16, no-resolve
 DOMAIN-SUFFIX, intlgame.com
 DOMAIN-SUFFIX, sgameglobal.com
 DOMAIN-SUFFIX, appsflyersdk.com
@@ -81,6 +79,60 @@ IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23c::/47,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
 IP-CIDR6,2a0a:f280::/29,no-resolve
+
+
+#######################################################################################
+#############################WhatsApp###########################################################
+#######################################################################################
+
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,whatsapp.biz
+DOMAIN-SUFFIX,wa.me
+
+# > WhatsApp Web / API / 连接端点
+DOMAIN,web.whatsapp.com
+DOMAIN,www.whatsapp.com
+DOMAIN,api.whatsapp.com
+DOMAIN,chat.whatsapp.com
+DOMAIN,static.whatsapp.net
+DOMAIN,v.whatsapp.net
+DOMAIN,e1.whatsapp.net
+DOMAIN,e2.whatsapp.net
+DOMAIN,e3.whatsapp.net
+DOMAIN,e4.whatsapp.net
+DOMAIN,e5.whatsapp.net
+DOMAIN,e6.whatsapp.net
+DOMAIN,e7.whatsapp.net
+DOMAIN,e8.whatsapp.net
+DOMAIN,e9.whatsapp.net
+DOMAIN,e10.whatsapp.net
+DOMAIN,e11.whatsapp.net
+DOMAIN,e12.whatsapp.net
+DOMAIN,e13.whatsapp.net
+DOMAIN,e14.whatsapp.net
+DOMAIN,e15.whatsapp.net
+DOMAIN,e16.whatsapp.net
+
+# > WhatsApp Business / Meta Graph 相关
+DOMAIN,graph.facebook.com
+DOMAIN-SUFFIX,whatsappbrand.com
+DOMAIN-SUFFIX,whatsapp-plus.info
+DOMAIN-SUFFIX,whatsapp-plus.me
+DOMAIN-SUFFIX,whatsapp-plus.net
+DOMAIN-SUFFIX,whatsapp.cc
+DOMAIN-SUFFIX,whatsapp.info
+DOMAIN-SUFFIX,whatsapp.org
+DOMAIN-SUFFIX,whatsapp.tv
+
+# > 关键词兜底
+DOMAIN-KEYWORD,whatsapp
+
+# > WhatsApp App UA 兜底
+USER-AGENT,*WhatsApp*
+USER-AGENT,WhatsApp*
+USER-AGENT,*com.whatsapp*
+USER-AGENT,*net.whatsapp.WhatsApp*
 
 
 #######################################################################################
