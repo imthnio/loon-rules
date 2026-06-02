@@ -1,47 +1,51 @@
 ####################################################################
 #####################################tiktok#########################
 ####################################################################
-DOMAIN,lf16-effectcdn.byteeffecttos-g.com
-DOMAIN,lf16-pkgcdn.pitaya-clientai.com
-DOMAIN,p16-tiktokcdn-com.akamaized.net
 
-DOMAIN-SUFFIX,bytegecko-i18n.com
-DOMAIN-SUFFIX,byteintlapi.com
-DOMAIN-SUFFIX,byteoversea.com
-DOMAIN-SUFFIX,capcut.com
-DOMAIN-SUFFIX,capcutapi.com
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,ibyteimg.com
-DOMAIN-SUFFIX,muscdn.com
-DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN,www.tiktok.com
+DOMAIN,tiktok.com
 DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX,tiktokcdn-eu.com
-DOMAIN-SUFFIX,tiktokcdn-eu.net
-DOMAIN-SUFFIX,tiktokcdn-in.com
-DOMAIN-SUFFIX,tiktokcdn-us.com
+
+# > TikTok 国际版 CDN / 视频 / 静态资源
 DOMAIN-SUFFIX,tiktokcdn.com
-DOMAIN-SUFFIX,tiktokd.net
-DOMAIN-SUFFIX,tiktokd.org
-DOMAIN-SUFFIX,tiktokmusic.app
-DOMAIN-SUFFIX,tiktokrow-cdn.com
+DOMAIN-SUFFIX,tiktokcdn-us.com
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.us
-DOMAIN-SUFFIX,ttapis.com
-DOMAIN-SUFFIX,ttwebview.com
-DOMAIN-SUFFIX,v16-tiktokcdn-com.akamaized.net
-
-DOMAIN-KEYWORD,musical.ly
+DOMAIN-SUFFIX,tiktokd.net
+DOMAIN-SUFFIX,tiktokd.org
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN,p16-tiktokcdn-com.akamaized.net
 DOMAIN-KEYWORD,tiktok
-DOMAIN-KEYWORD,capcut
-DOMAIN-KEYWORD,capcut
-DOMAIN-KEYWORD,lemon8
-DOMAIN-KEYWORD,dreamina
+DOMAIN-KEYWORD,-tiktokcdn-com
+DOMAIN-KEYWORD,musical.ly
+
+# > TikTok App UA 兜底
 USER-AGENT,TikTok*
-USER-AGENT,*tikto*
-USER-AGENT,*lemon8*
+USER-AGENT,*TikTok*
+USER-AGENT,*com.zhiliaoapp.musically*
+
+# > CapCut 主体
+DOMAIN,www.capcut.com
+DOMAIN,capcut.com
+DOMAIN-SUFFIX,capcut.com
+DOMAIN-SUFFIX,capcutapi.com
+DOMAIN-SUFFIX,capcutvod.com
+
+# > CapCut / TikTok 国际资源兜底
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,byteintlapi.com
+DOMAIN-SUFFIX,bytegecko-i18n.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ibyteimg.com
+
+# > CapCut App UA 兜底
 USER-AGENT,*CapCut*
+USER-AGENT,CapCut*
+USER-AGENT,*com.lemon.lvoverseas*
+DOMAIN-KEYWORD,dreamina
+
 USER-AGENT,Dreamina*
 
 
@@ -50,7 +54,7 @@ USER-AGENT,Dreamina*
 
 
 
-DOMAIN-SUFFIX,pipopayment.us
+
 
 ####################################################################
 ###############YouTube + Google Search + Gmail#####################
@@ -252,59 +256,88 @@ USER-AGENT,*com.facebook.Messenger*
 
 
 #######################################################################################
-###########################推特+grok+spacex###########################################################
+###########################Twitter + Grok##########################################################
 #######################################################################################
-# X (Twitter) + Grok + xAI + SpaceX (Clean & Complete)
-# 基于你原列表 + blackmatrix7 最新版 + 必要补充
-# 已补全 abs.twimg.com、twtrdns.net 等关键域名 + SpaceX/Starlink
-# 更新时间：2026-05（无任何国内服务误伤）
 
-DOMAIN-SUFFIX,abs.twimg.com
-DOMAIN-SUFFIX,ads-twitter.com
-DOMAIN-SUFFIX,cms-twdigitalassets.com
-DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,grok.x.ai
-DOMAIN-SUFFIX,periscope.tv
-DOMAIN-SUFFIX,pscp.tv
-DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,tellapart.com
-DOMAIN-SUFFIX,tweetdeck.com
-DOMAIN-SUFFIX,twimg.co
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,twimg.org
-DOMAIN-SUFFIX,twitpic.com
-DOMAIN-SUFFIX,twitter.biz
+DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twttr.com
+DOMAIN-SUFFIX,twttr.net
+DOMAIN-SUFFIX,twitter.biz
 DOMAIN-SUFFIX,twitter.jp
-DOMAIN-SUFFIX,twittercommunity.com
-DOMAIN-SUFFIX,twitterflightschool.com
 DOMAIN-SUFFIX,twitterinc.com
 DOMAIN-SUFFIX,twitteroauth.com
 DOMAIN-SUFFIX,twitterstat.us
-DOMAIN-SUFFIX,twtrdns.net
-DOMAIN-SUFFIX,twttr.com
-DOMAIN-SUFFIX,twttr.net
-DOMAIN-SUFFIX,twvid.com
-DOMAIN-SUFFIX,vine.co
-DOMAIN-SUFFIX,x.com
-DOMAIN-SUFFIX,x.ai
-DOMAIN-SUFFIX,assets.x.ai
-DOMAIN-SUFFIX,challenge.x.ai
-DOMAIN-SUFFIX,auth.x.ai
-DOMAIN-SUFFIX,spacex.com
-DOMAIN-SUFFIX,starlink.com
+DOMAIN-SUFFIX,twittercommunity.com
+DOMAIN-SUFFIX,twitterflightschool.com
 
+# > X / Twitter 图片 / 视频 / 静态资源
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.org
+DOMAIN-SUFFIX,twvid.com
+DOMAIN-SUFFIX,twtrdns.net
+DOMAIN,pbs.twimg.com
+DOMAIN,video.twimg.com
+DOMAIN,abs.twimg.com
+DOMAIN,ton.twimg.com
+DOMAIN,api.twitter.com
+DOMAIN,api.x.com
+DOMAIN,upload.twitter.com
+DOMAIN,upload.x.com
+
+# > X / Twitter 旧服务 / 兼容
+DOMAIN-SUFFIX,tweetdeck.com
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,vine.co
+
+# > X / Twitter 广告 / 商业相关
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,tellapart.com
+DOMAIN-SUFFIX,cms-twdigitalassets.com
+
+# > X / Twitter 关键词兜底
+# 不建议写 DOMAIN-KEYWORD,x，太宽，会误伤大量普通网站。
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,twimg
-DOMAIN-KEYWORD,grok
-DOMAIN-KEYWORD,spacex
-DOMAIN-KEYWORD,starlink
 
+# > X / Twitter App UA 兜底
+USER-AGENT,Twitter*
 USER-AGENT,*Twitter*
-USER-AGENT,*Grok*
-USER-AGENT,*SpaceX*
+USER-AGENT,*Tweetbot*
+USER-AGENT,*TweetDeck*
+USER-AGENT,*com.twitter*
+USER-AGENT,*com.atebits.Tweetie2*
 
-IP-ASN,13414
+# > Grok 主体
+DOMAIN-SUFFIX,grok.com
+DOMAIN,www.grok.com
+DOMAIN,grok.com
+
+# > xAI / Grok API / 控制台 / 文档
+DOMAIN-SUFFIX,x.ai
+DOMAIN,api.x.ai
+DOMAIN,console.x.ai
+DOMAIN,docs.x.ai
+DOMAIN,status.x.ai
+DOMAIN-SUFFIX,grokipedia.com
+
+# > Grok on X
+DOMAIN,grok.x.com
+DOMAIN-SUFFIX,grok.x.com
+
+# > Grok / xAI 关键词兜底
+DOMAIN-KEYWORD,grok
+DOMAIN-KEYWORD,xai
+
+# > Grok App UA 兜底
+USER-AGENT,Grok*
+USER-AGENT,*Grok*
+USER-AGENT,*xAI*
+USER-AGENT,*com.xai*
 
 
 
@@ -632,9 +665,7 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-KEYWORD,openai
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
-IP-ASN,20473,no-resolve
+
 
 
 ##################################################
@@ -657,6 +688,4 @@ DOMAIN-SUFFIX,krakenstatus.com
 DOMAIN-SUFFIX,payward.com
 DOMAIN-SUFFIX,inkonchain.com
 DOMAIN-KEYWORD,kraken
-IP-ASN,1072,no-resolve
-IP-ASN,209274,no-resolve
 USER-AGENT,*Krak*
