@@ -737,9 +737,13 @@ DOMAIN-KEYWORD,claude
 #======================================kraken======================================
 # ======================================================================================
 DOMAIN-SUFFIX,kraken.com
-DOMAIN-SUFFIX,krakenfutures.com
-DOMAIN-SUFFIX,krakenstatus.com
 DOMAIN-SUFFIX,payward.com
-DOMAIN-SUFFIX,inkonchain.com
-DOMAIN-KEYWORD,kraken
-USER-AGENT,*Krak*
+DOMAIN-SUFFIX,krakenpro.app.link
+DOMAIN-SUFFIX,kwallet.app.link
+DOMAIN-SUFFIX,kwallet.onelink.me
+PROCESS-NAME,com.kraken.invest.app
+PROCESS-NAME,com.kraken.trade
+PROCESS-NAME,com.kraken.pay.app
+PROCESS-NAME,com.kraken.superwallet
+USER-AGENT,Kraken*
+USER-AGENT,KrakenPro*
