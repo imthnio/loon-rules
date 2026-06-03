@@ -54,6 +54,8 @@ USER-AGENT,Dreamina*
 ####################################################################
 #########################YouTube + Googlee#####################
 ####################################################################
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-KEYWORD,gemini
 
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtu.be
