@@ -370,3 +370,13 @@ DOMAIN-KEYWORD,yahoo
 #======================================================================================
 DOMAIN-KEYWORD,Lycamobile
 DOMAIN-KEYWORD,topcashback
+
+#======================================================================================
+#=======================================百度百科=========================================
+#======================================================================================
+
+DOMAIN-SUFFIX,baike.baidu.com
+DOMAIN-SUFFIX,baike.baidu.hk
+DOMAIN,baikebcs.bdimg.com
+DOMAIN,bkssl.bdimg.com
+DOMAIN,bkimg.cdn.bcebos.com
