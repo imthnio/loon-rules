@@ -46,6 +46,7 @@ DOMAIN,checkip.amazonaws.com
 # ======================================================================================
 #=====================================乱七八糟===========================================
 # ======================================================================================
+DOMAIN-SUFFIX,loon-plugin.vercel.app
 DOMAIN-SUFFIX,karlchannel.com
 DOMAIN-SUFFIX,wallpaperwaifu.com
 DOMAIN-SUFFIX,freedidi.com
