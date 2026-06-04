@@ -82,13 +82,9 @@ DOMAIN-SUFFIX,cloud.mail.ru
 DOMAIN-SUFFIX,jottacloud.com
 DOMAIN-SUFFIX,downloadhd.net
 DOMAIN-SUFFIX,freshbulkacc.com
-DOMAIN-SUFFIX,91maihao.com
 DOMAIN-SUFFIX,api.sheep.cloud.brainiac.top
 DOMAIN-SUFFIX,taohao.me
 DOMAIN-SUFFIX,appdo.xyz
-
-
-
 
 
 
@@ -153,7 +149,6 @@ DOMAIN-SUFFIX,idc.888644.xyz
 DOMAIN-SUFFIX,pinhao.cloud
 DOMAIN-SUFFIX,incudal.com
 DOMAIN-SUFFIX,vmrack.net
-DOMAIN-SUFFIX,sadidc.com
 DOMAIN-SUFFIX,robovps.biz
 DOMAIN-SUFFIX,rocket.chat
 DOMAIN-SUFFIX,aeza.net
@@ -221,13 +216,11 @@ DOMAIN-KEYWORD,shop.ii00.cc
 DOMAIN-SUFFIX,qdav.top
 DOMAIN-SUFFIX,emby.yun
 DOMAIN-SUFFIX,emos.lol
-DOMAIN-KEYWORD,lemby.886223.xyz
 DOMAIN-SUFFIX,stream-1.miraiemby.com
 DOMAIN-KEYWORD,miraiemby.com
 DOMAIN-SUFFIX,emby.dnscf.dpdns.org
 DOMAIN-KEYWORD,gy.emby.yun
 DOMAIN-SUFFIX,eu-it-1.vds.qzz.io
-DOMAIN-SUFFIX,hgemby.qzz.io
 
 USER-AGENT,*senplay*
 USER-AGENT,*vidh*
@@ -244,7 +237,6 @@ DOMAIN-SUFFIX,apkflash.com
 DOMAIN-SUFFIX,cloudflarestorage.com
 DOMAIN-SUFFIX,apk.support
 DOMAIN-SUFFIX,winudf.com
-DOMAIN-SUFFIX,apkmirror.com
 DOMAIN-SUFFIX,digitaloceanspaces.com
 DOMAIN-SUFFIX,aptoide.com
 DOMAIN-SUFFIX,pejdw.com
@@ -270,7 +262,6 @@ DOMAIN-SUFFIX,jjdd666.cc
 DOMAIN-SUFFIX,idaohang123.com
 DOMAIN-SUFFIX,easydown.or
 DOMAIN-SUFFIX,ytdn.netlify.app
-DOMAIN-SUFFIX,savenow.to
 
 # ======================================================================================
 #===================================#刷粉丝刷粉刷赞======================================
