@@ -1327,3 +1327,16 @@ DOMAIN-SUFFIX,xoom.us
 DOMAIN-SUFFIX,xoomcom.com
 DOMAIN-KEYWORD,paypal
 USER-AGENT,PayPal*
+
+
+
+####################################################################
+###################paypal+贝宝######################
+####################################################################
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,payward.com
+DOMAIN-SUFFIX,krakenpro.app.link
+DOMAIN-SUFFIX,kwallet.app.link
+DOMAIN-SUFFIX,kwallet.onelink.me
+USER-AGENT,*Krak*
+USER-AGENT,*Kraken*
