@@ -6,6 +6,16 @@ DOMAIN,www.ecosia.org
 DOMAIN,ac.ecosia.org
 DOMAIN,cdn.ecosia.org
 
+#######################################################################################
+#############################DuckDuckGo###########################################################
+#######################################################################################
+DOMAIN,duckduckgo.com
+DOMAIN,www.duckduckgo.com
+DOMAIN,html.duckduckgo.com
+DOMAIN,lite.duckduckgo.com
+DOMAIN,links.duckduckgo.com
+DOMAIN,r.duckduckgo.com
+DOMAIN,icons.duckduckgo.com
 
 #######################################################################################
 #############################github###########################################################
