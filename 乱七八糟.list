@@ -385,6 +385,23 @@ DOMAIN,rousseau.redtea.dev
 USER-AGENT,*redteago*
 
 
+
+
+#======================================================================================
+#==============================vodafone沃达丰德国-esim==================================================================
+#======================================================================================
+DOMAIN-SUFFIX,vodafone.de
+DOMAIN-SUFFIX,vodafone.com
+DOMAIN,epdg.epc.mnc002.mcc262.pub.3gppnetwork.org
+DOMAIN,epdg.epc.mnc004.mcc262.pub.3gppnetwork.org
+DOMAIN,epdg.epc.mnc009.mcc262.pub.3gppnetwork.org
+DOMAIN,epdg.epc.drz1.vodafone-ip.de
+DOMAIN-SUFFIX,vodafone-ip.de
+IP-CIDR,139.7.117.160/28,DIRECT,no-resolve
+IP-CIDR,148.252.188.96/32,DIRECT,no-resolve
+USER-AGENT,*Vodafone*
+USER-AGENT,*MeinVodafone*
+USER-AGENT,*VodafoneDE*
 #======================================================================================
 #===============================topcashback/Lycamobile USA==================================================================
 #======================================================================================
