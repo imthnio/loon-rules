@@ -403,10 +403,27 @@ USER-AGENT,*Vodafone*
 USER-AGENT,*MeinVodafone*
 USER-AGENT,*VodafoneDE*
 #======================================================================================
-#===============================topcashback/Lycamobile USA==================================================================
+#===============================Lycamobile USA==================================================================
 #======================================================================================
-DOMAIN-KEYWORD,Lycamobile
-DOMAIN-KEYWORD,topcashback
+
+DOMAIN-SUFFIX,lycamobile.us
+DOMAIN-SUFFIX,prepay.lycamobile.us
+DOMAIN-SUFFIX,lycamobile.com
+
+DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
+IP-CIDR,208.54.0.0/16,no-resolve
+IP-CIDR,66.94.0.0/19,no-resolve
+DOMAIN,crl.t-mobile.com
+DOMAIN,epdg.epc.att.net
+DOMAIN,sentitlement2.mobile.att.net
+DOMAIN,vvm.mobile.att.net
+IP-CIDR,107.122.31.0/24,no-resolve
+USER-AGENT,*Lycamobile*
+USER-AGENT,*Lyca*
+# > ASN fallback - 排障时再开，不建议常开
+# IP-ASN,21928,LycaUS
+# IP-ASN,7018,LycaUS
 
 
 
