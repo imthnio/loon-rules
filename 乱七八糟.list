@@ -397,8 +397,8 @@ DOMAIN,epdg.epc.mnc004.mcc262.pub.3gppnetwork.org
 DOMAIN,epdg.epc.mnc009.mcc262.pub.3gppnetwork.org
 DOMAIN,epdg.epc.drz1.vodafone-ip.de
 DOMAIN-SUFFIX,vodafone-ip.de
-IP-CIDR,139.7.117.160/28,DIRECT,no-resolve
-IP-CIDR,148.252.188.96/32,DIRECT,no-resolve
+IP-CIDR,139.7.117.160/28,no-resolve
+IP-CIDR,148.252.188.96/32,no-resolve
 USER-AGENT,*Vodafone*
 USER-AGENT,*MeinVodafone*
 USER-AGENT,*VodafoneDE*
@@ -408,6 +408,26 @@ USER-AGENT,*VodafoneDE*
 DOMAIN-KEYWORD,Lycamobile
 DOMAIN-KEYWORD,topcashback
 
+
+
+#======================================================================================
+#===========================giffgaff UK-esim-英国esim==================================
+#======================================================================================
+
+
+DOMAIN-SUFFIX,giffgaff.com
+DOMAIN-SUFFIX,giffgaff.io
+DOMAIN,epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
+DOMAIN,ss.epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
+DOMAIN,ss.epdg.epc.geo.mnc010.mcc234.pub.3gppnetwork.org
+
+IP-CIDR,87.194.8.8/32,no-resolve
+IP-CIDR,87.194.9.8/32,no-resolve
+IP-CIDR,87.194.88.8/32,no-resolve
+IP-CIDR,87.194.89.8/32,no-resolve
+IP-CIDR,87.194.0.0/16,no-resolve
+
+USER-AGENT,*giffgaff*
 #======================================================================================
 #=======================================百度百科=========================================
 #======================================================================================
