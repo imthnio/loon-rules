@@ -328,3 +328,13 @@ DOMAIN-SUFFIX,bybit-exchange.github.io
 DOMAIN-SUFFIX,bybit.co.kr
 DOMAIN-SUFFIX,bybit.com.br
 USER-AGENT,*Bybit*
+
+
+####################################################################
+##############################revolut######################
+####################################################################
+DOMAIN-SUFFIX,revolut.com
+DOMAIN-SUFFIX,revolut.me
+DOMAIN-SUFFIX,rev.money
+DOMAIN-SUFFIX,revolut.codes
+DOMAIN-SUFFIX,revolutlabs.com
