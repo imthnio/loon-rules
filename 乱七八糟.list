@@ -47,7 +47,7 @@ DOMAIN,checkip.amazonaws.com
 #=====================================乱七八糟===========================================
 # ======================================================================================
 DOMAIN-SUFFIX,nsloon.app
-
+DOMAIN-SUFFIX,xishuai.org
 DOMAIN-SUFFIX,loon-plugin.vercel.app
 DOMAIN-SUFFIX,karlchannel.com
 DOMAIN-SUFFIX,wallpaperwaifu.com
