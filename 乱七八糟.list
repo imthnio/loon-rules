@@ -474,3 +474,11 @@ DOMAIN-SUFFIX,baike.baidu.hk
 DOMAIN,baikebcs.bdimg.com
 DOMAIN,bkssl.bdimg.com
 DOMAIN,bkimg.cdn.bcebos.com
+
+
+#======================================================================================
+#=====================================tailscale========================================
+#======================================================================================
+DOMAIN-SUFFIX,tailscale.com
+DOMAIN,controlplane.tailscale.com
+DOMAIN,login.tailscale.com
