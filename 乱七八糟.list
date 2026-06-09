@@ -480,5 +480,4 @@ DOMAIN,bkimg.cdn.bcebos.com
 #=====================================tailscale========================================
 #======================================================================================
 DOMAIN-SUFFIX,tailscale.com
-DOMAIN,controlplane.tailscale.com
-DOMAIN,login.tailscale.com
+
