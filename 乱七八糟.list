@@ -199,10 +199,9 @@ DOMAIN-SUFFIX,cdn.nodeimage.com
 DOMAIN-SUFFIX,nsloon.com
 
 # ======================================================================================
-#=====================================emby===========================================
+#===============================emby=================================================
 # ======================================================================================
 
-DOMAIN-SUFFIX,hgemby.帝acg.xyz
 DOMAIN-SUFFIX,111660.xyz
 DOMAIN-SUFFIX,hgemby.qzz.io
 DOMAIN-SUFFIX,111848.xyz
@@ -220,8 +219,9 @@ DOMAIN-KEYWORD,shop.ii00.cc
 DOMAIN-SUFFIX,qdav.top
 DOMAIN-SUFFIX,emby.yun
 DOMAIN-SUFFIX,emos.lol
-DOMAIN-SUFFIX,stream-1.miraiemby.com
-DOMAIN-KEYWORD,miraiemby.com
+DOMAIN,mi.miraiemby.com
+DOMAIN,dm.moxiuu.com/dkvnGMoeve
+DOMAIN,vip1.miraiemby.com
 DOMAIN-SUFFIX,emby.dnscf.dpdns.org
 DOMAIN-KEYWORD,gy.emby.yun
 DOMAIN-SUFFIX,eu-it-1.vds.qzz.io
