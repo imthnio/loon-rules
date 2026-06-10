@@ -202,9 +202,9 @@ DOMAIN-SUFFIX,nsloon.com
 #===============================emby=================================================
 # ======================================================================================
 
-DOMAIN-SUFFIX,111660.xyz
-DOMAIN-SUFFIX,hgemby.qzz.io
-DOMAIN-SUFFIX,111848.xyz
+DOMAIN,111660.xyz
+DOMAIN,hgemby.qzz.io
+DOMAIN,111848.xyz
 DOMAIN-SUFFIX,emby.n150.asia
 DOMAIN-SUFFIX,nangua.de
 DOMAIN-SUFFIX,akile-hinet-d3f923.645781.xyz
