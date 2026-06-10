@@ -211,23 +211,15 @@ DOMAIN-SUFFIX,akile-hinet-d3f923.645781.xyz
 DOMAIN,vip.886223.xyz
 DOMAIN,emby.88618.xyz
 DOMAIN-KEYWORD,link00.okemby.org
-DOMAIN-SUFFIX,cf.lemby.me
-DOMAIN-KEYWORD,yinhai.aiinyue.com
-DOMAIN-KEYWORD,docs.mefun.org
-DOMAIN-KEYWORD,music.mefun.org
-DOMAIN-KEYWORD,shop.ii00.cc
-DOMAIN-SUFFIX,qdav.top
-DOMAIN-SUFFIX,emby.yun
-DOMAIN-SUFFIX,emos.lol
+
+DOMAIN,qdav.top
+DOMAIN,emby.yun
+DOMAIN,emos.lol
 DOMAIN,mi.miraiemby.com
 DOMAIN,dm.moxiuu.com/dkvnGMoeve
 DOMAIN,vip1.miraiemby.com
-DOMAIN-SUFFIX,emby.dnscf.dpdns.org
-DOMAIN-KEYWORD,gy.emby.yun
-DOMAIN-SUFFIX,eu-it-1.vds.qzz.io
 
-USER-AGENT,*senplay*
-USER-AGENT,*vidh*
+
 
 # ======================================================================================
 #===================================安卓app软件下载======================================
