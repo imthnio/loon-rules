@@ -36,7 +36,7 @@ USER-AGENT,TikTok*
 USER-AGENT,*CapCut*
 USER-AGENT,Dreamina*
 DOMAIN-SUFFIX,dreamina.capcut.com
-
+DOMAIN-SUFFIX,ttwstatic.com
 
 
 ####################################################################
