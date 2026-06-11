@@ -183,22 +183,18 @@ IP-CIDR,91.236.248.31/32
 ########################################################################################
 ###########################################论坛############################################
 ########################################################################################
-DOMAIN-SUFFIX,nodeseek.com
-DOMAIN-SUFFIX,linux.docom
-DOMAIN-SUFFIX,nodeloc.com
-DOMAIN-SUFFIX,shuzijumin.com
+DOMAIN,nodeseek.com
+DOMAIN,linux.do
+DOMAIN,nodeloc.com
+DOMAIN,shuzijumin.com
 DOMAIN-SUFFIX,banknav.com
-DOMAIN-SUFFIX,v2ex.com
-DOMAIN-SUFFIX,hostloc.com
-DOMAIN-SUFFIX,apepine.com
-DOMAIN-SUFFIX,legacyvps.com
-DOMAIN-SUFFIX,greasyfork.org
-DOMAIN-SUFFIX,linux.do
-DOMAIN-SUFFIX,s.rmimg.com
-DOMAIN-SUFFIX,meowvps.com
-DOMAIN-SUFFIX,cstonecloud.com
-DOMAIN-SUFFIX,cdn.nodeimage.com
-DOMAIN-SUFFIX,nsloon.com
+DOMAIN,v2ex.com
+DOMAIN,hostloc.com
+DOMAIN,apepine.com
+DOMAIN,legacyvps.com
+DOMAIN,greasyfork.org
+
+DOMAIN,nsloon.com
 
 # ======================================================================================
 #===============================emby=================================================
