@@ -1,17 +1,3 @@
-####################################################################
-#############################yahoo mail雅虎邮箱######################
-####################################################################
-DOMAIN,mail.yahoo.com
-DOMAIN,login.yahoo.com
-DOMAIN,api.login.yahoo.com
-DOMAIN,udc.yahoo.com
-DOMAIN,geo.yahoo.com
-DOMAIN,mail.yahooapis.com
-DOMAIN,apple.imap.mail.yahoo.com
-DOMAIN,apple.smtp.mail.yahoo.com
-DOMAIN,imap.mail.yahoo.com
-DOMAIN,smtp.mail.yahoo.com
-DOMAIN,pop.mail.yahoo.com
 
 
 ####################################################################
