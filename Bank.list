@@ -419,53 +419,9 @@ DOMAIN-SUFFIX,bybit.com.br
 USER-AGENT,*Bybit*
 
 
-####################################################################
-##############################revolut######################
-####################################################################
-DOMAIN-SUFFIX,revolut.com
-DOMAIN-SUFFIX,revolut.me
-DOMAIN-SUFFIX,rev.money
-DOMAIN-SUFFIX,revolut.codes
-DOMAIN-SUFFIX,revolutlabs.com
 
 
 
 
 
-
-####################################################################
-###################亚马逊商城amazon######################
-####################################################################
-DOMAIN-SUFFIX,amazon.com
-DOMAIN-SUFFIX,amazon.ca
-DOMAIN-SUFFIX,amazon.com.mx
-DOMAIN-SUFFIX,amazon.com.br
-DOMAIN-SUFFIX,amazon.co.uk
-DOMAIN-SUFFIX,amazon.de
-DOMAIN-SUFFIX,amazon.fr
-DOMAIN-SUFFIX,amazon.it
-DOMAIN-SUFFIX,amazon.es
-DOMAIN-SUFFIX,amazon.nl
-DOMAIN-SUFFIX,amazon.se
-DOMAIN-SUFFIX,amazon.pl
-DOMAIN-SUFFIX,amazon.com.be
-DOMAIN-SUFFIX,amazon.ie
-DOMAIN-SUFFIX,amazon.com.tr
-DOMAIN-SUFFIX,amazon.ae
-DOMAIN-SUFFIX,amazon.sa
-DOMAIN-SUFFIX,amazon.eg
-DOMAIN-SUFFIX,amazon.co.za
-DOMAIN-SUFFIX,amazon.co.jp
-DOMAIN-SUFFIX,amazon.in
-DOMAIN-SUFFIX,amazon.sg
-DOMAIN-SUFFIX,amazon.com.au
-DOMAIN-SUFFIX,images-amazon.com
-DOMAIN-SUFFIX,media-amazon.com
-DOMAIN-SUFFIX,ssl-images-amazon.com
-DOMAIN-SUFFIX,amazonimages.com
-DOMAIN-SUFFIX,amazon-adsystem.com
-DOMAIN-SUFFIX,amazonpay.com
-DOMAIN-SUFFIX,amazonpay.in
-DOMAIN-SUFFIX,amzn.com
-DOMAIN-SUFFIX,amzn.to
-DOMAIN-SUFFIX,amzn.asia
+、
