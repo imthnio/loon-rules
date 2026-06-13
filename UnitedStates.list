@@ -1620,57 +1620,15 @@ IP-CIDR,64.23.132.171/32,no-resolve
 
 
 
-####################################################################
-###############################krak######################
-####################################################################
-
-DOMAIN-SUFFIX,kraken.com
-DOMAIN-SUFFIX,payward.com
-DOMAIN-SUFFIX,krakenpro.app.link
-DOMAIN-SUFFIX,kwallet.app.link
-DOMAIN-SUFFIX,kwallet.onelink.me
-PROCESS-NAME,com.kraken.invest.app
-PROCESS-NAME,com.kraken.trade
-PROCESS-NAME,com.kraken.pay.app
-PROCESS-NAME,com.kraken.superwallet
-USER-AGENT,*Krak*
-USER-AGENT,Kraken*
-
-####################################################################
-##############################coinbase######################
-####################################################################
-
-DOMAIN-SUFFIX,coinbase.com
-DOMAIN-SUFFIX,coinbasecdn.net
-DOMAIN-SUFFIX,cbhq.net
-DOMAIN-SUFFIX,coinbase-corp.com
-DOMAIN-SUFFIX,base.org
-USER-AGENT,Coinbase*
-USER-AGENT,CoinbasePro*
-USER-AGENT,Base*
-
-
-####################################################################
-##############################redotpay######################
-####################################################################
-DOMAIN-SUFFIX,redotpay.com
-DOMAIN-SUFFIX,rp-2023app.com
-DOMAIN,redot.onelink.me
-DOMAIN,helpcenter.redotpay.com
-DOMAIN,redotpay.readme.io
-USER-AGENT,redotpay*
 
 
 
 
-####################################################################
-##############################Tevau######################
-####################################################################
 
-DOMAIN-SUFFIX,tevau.io
-DOMAIN-SUFFIX,tevau.tawk.help
-DOMAIN-SUFFIX,tevau.in
-USER-AGENT,Tevau*
+
+
+
+
 
 
 
@@ -1929,27 +1887,6 @@ USER-AGENT,PayPal*
 
 
 
-
-
-####################################################################
-##############################bybit######################
-####################################################################
-DOMAIN-SUFFIX,bybit.com
-DOMAIN-SUFFIX,bybit.eu
-DOMAIN-SUFFIX,bybit.biz
-DOMAIN-SUFFIX,bybit.cloud
-DOMAIN-SUFFIX,bybit.global
-DOMAIN-SUFFIX,bybitapi.com
-DOMAIN-SUFFIX,bybit.net
-DOMAIN-SUFFIX,bybits.org
-DOMAIN-SUFFIX,byapps.net
-DOMAIN-SUFFIX,bybdc6.com
-DOMAIN-SUFFIX,byabcde.com
-DOMAIN-SUFFIX,byd3c3.com
-DOMAIN-SUFFIX,bybit-exchange.github.io
-DOMAIN-SUFFIX,bybit.co.kr
-DOMAIN-SUFFIX,bybit.com.br
-USER-AGENT,*Bybit*
 
 
 ####################################################################
