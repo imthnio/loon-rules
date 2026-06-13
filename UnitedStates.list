@@ -1624,14 +1624,6 @@ IP-CIDR,64.23.132.171/32,no-resolve
 
 
 
-
-
-
-
-
-
-
-
 ####################################################################
 ###############################paypal#######################
 ####################################################################
@@ -1884,17 +1876,4 @@ DOMAIN-SUFFIX,xoom.us
 DOMAIN-SUFFIX,xoomcom.com
 DOMAIN-KEYWORD,paypal
 USER-AGENT,PayPal*
-
-
-
-
-
-####################################################################
-##############################revolut######################
-####################################################################
-DOMAIN-SUFFIX,revolut.com
-DOMAIN-SUFFIX,revolut.me
-DOMAIN-SUFFIX,rev.money
-DOMAIN-SUFFIX,revolut.codes
-DOMAIN-SUFFIX,revolutlabs.com
 
