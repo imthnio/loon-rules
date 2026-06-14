@@ -45,18 +45,6 @@ DOMAIN-SUFFIX,tiktokw.us
 ####################################################################
 ####################meta/Instagram#######################
 ####################################################################
-
-# NAME: Meta
-# UPDATED: 2026-06-15
-# FORMAT: classical DOMAIN / DOMAIN-SUFFIX rules
-# SCOPE: Meta family, curated for practical routing.
-# SOURCES:
-# - https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Instagram
-# - https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Facebook
-# - https://github.com/v2fly/domain-list-community/tree/master/data
-# - https://github.com/MetaCubeX/meta-rules-dat/tree/meta/geo/geosite
-# NOTES: Instagram is curated explicitly; follower/scam typo domains, ads, tracking, and broad DOMAIN-KEYWORD rules removed.
-# TOTAL: 62
 # Instagram
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,ig.me
@@ -129,41 +117,33 @@ DOMAIN-SUFFIX,oculusvr.com
 ####################################################################
 ####################Twitter推特#######################
 ####################################################################
-DOMAIN-SUFFIX,ads-twitter.com
-DOMAIN-SUFFIX,cms-twdigitalassets.com
-DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,periscope.tv
-DOMAIN-SUFFIX,pscp.tv
-DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,tellapart.com
-DOMAIN-SUFFIX,tweetdeck.com
-DOMAIN-SUFFIX,twimg.co
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,twimg.org
-DOMAIN-SUFFIX,twitpic.com
-DOMAIN-SUFFIX,twitter.biz
+
+DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.biz
 DOMAIN-SUFFIX,twitter.jp
 DOMAIN-SUFFIX,twittercommunity.com
 DOMAIN-SUFFIX,twitterflightschool.com
 DOMAIN-SUFFIX,twitterinc.com
 DOMAIN-SUFFIX,twitteroauth.com
 DOMAIN-SUFFIX,twitterstat.us
-DOMAIN-SUFFIX,twtrdns.net
+DOMAIN-SUFFIX,tweetdeck.com
+DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,twttr.com
 DOMAIN-SUFFIX,twttr.net
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twimg.org
+DOMAIN-SUFFIX,twtrdns.net
 DOMAIN-SUFFIX,twvid.com
+DOMAIN-SUFFIX,twitter.map.fastly.net
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,vine.co
-DOMAIN-SUFFIX,x.com
-DOMAIN-SUFFIX,x.ai.com
-DOMAIN-KEYWORD,twitter
-IP-CIDR,192.133.76.0/22,no-resolve
-IP-CIDR,199.59.148.0/22,no-resolve
-IP-CIDR,199.96.56.0/21,no-resolve
-IP-CIDR,202.160.128.0/22,no-resolve
-IP-CIDR,209.237.192.0/19,no-resolve
-IP-CIDR,69.195.160.0/19,no-resolve
-
+# Grok / xAI
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,x.ai
 
 
 
