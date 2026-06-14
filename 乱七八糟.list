@@ -384,20 +384,21 @@ USER-AGENT,*redteago*
 #==============================vodafone沃达丰德国-esim==================================================================
 #======================================================================================
 DOMAIN-SUFFIX,vodafone.de
-DOMAIN-SUFFIX,vodafone.com
-DOMAIN,epdg.epc.mnc002.mcc262.pub.3gppnetwork.org
-DOMAIN,epdg.epc.mnc004.mcc262.pub.3gppnetwork.org
-DOMAIN,epdg.epc.mnc009.mcc262.pub.3gppnetwork.org
-DOMAIN,epdg.epc.drz1.vodafone-ip.de
 DOMAIN-SUFFIX,vodafone-ip.de
+DOMAIN-SUFFIX,mnc002.mcc262.pub.3gppnetwork.org
+DOMAIN-SUFFIX,mnc004.mcc262.pub.3gppnetwork.org
+DOMAIN-SUFFIX,mnc009.mcc262.pub.3gppnetwork.org
+DOMAIN-SUFFIX,mnc042.mcc262.pub.3gppnetwork.org
 IP-CIDR,139.7.117.160/28,no-resolve
-IP-CIDR,148.252.188.96/32,no-resolve
-USER-AGENT,*Vodafone*
-USER-AGENT,*MeinVodafone*
-USER-AGENT,*VodafoneDE*
 
-
-
+#======================================================================================
+#==============================vodafone沃达丰英国-esim==================================================================
+#======================================================================================
+DOMAIN-SUFFIX,vodafone.co.uk
+DOMAIN-SUFFIX,mnc015.mcc234.pub.3gppnetwork.org
+DOMAIN-SUFFIX,entsrv-uk.vodafone.com
+DOMAIN-SUFFIX,vuk-gto.prod.ondemandconnectivity.com
+IP-CIDR,88.82.0.0/19,no-resolve
 
 #======================================================================================
 #===============================saily-esim==================================================================
