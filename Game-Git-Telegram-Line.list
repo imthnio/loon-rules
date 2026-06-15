@@ -24,14 +24,19 @@ DOMAIN,raw.githubusercontent.com
 #######################################################################################
 #################王者荣耀国际服########################################################
 #######################################################################################
-
-DOMAIN-SUFFIX, intlgame.com
-DOMAIN-SUFFIX, sgameglobal.com
-DOMAIN-SUFFIX, appsflyersdk.com
-DOMAIN-KEYWORD,honorofkings
-USER-AGENT,*honorofking*
-DOMAIN-SUFFIX,lobby.igamecj.com
-USER-AGENT,*pubg*
+DOMAIN,hok.intlgame.com
+DOMAIN,hok-dr.intlgame.com
+DOMAIN,hok-lbs.intlgame.com
+DOMAIN,hok-gcloudctrl.iegcom.com
+DOMAIN,hokgcloudv6.iegcom.com
+DOMAIN,download.2.687247097.hokglobalgcloud.iegcom.com
+DOMAIN,atm-broker-tcp-hok.vasdgame.com
+DOMAIN,sg.voice.gcloudcs.com
+DOMAIN,static.hok5v5.com
+DOMAIN,oalstv-inapps.appsflyersdk.com
+DOMAIN,oalstv-skadsdkless.appsflyersdk.com
+DOMAIN-SUFFIX,honorofkings.com
+DOMAIN-SUFFIX,sgameglobal.com
 
 
 
