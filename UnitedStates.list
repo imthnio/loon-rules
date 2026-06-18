@@ -548,8 +548,12 @@ DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
 
 
-
-
+####################################################################
+##############################kling可灵#######################
+####################################################################
+DOMAIN,klingai.kuaishou.com
+DOMAIN-SUFFIX,kling.ai
+DOMAIN-SUFFIX,klingai.com
 
 
 
