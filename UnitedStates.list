@@ -585,6 +585,12 @@ DOMAIN-SUFFIX,krak.app
 DOMAIN-SUFFIX,kraken.com
 
 
+#apple支持苹果支持苹果客服
+DOMAIN,checkcoverage.apple.com
+DOMAIN,diagassets.apple.com
+DOMAIN,getsupport.apple.com
+DOMAIN,mysupport.apple.com
+DOMAIN-SUFFIX,support.apple.com
 
 
 #Appstore
