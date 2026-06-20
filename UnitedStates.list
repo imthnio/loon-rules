@@ -548,23 +548,11 @@ DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
 
 
-####################################################################
-##############################kling可灵#######################
-####################################################################
-DOMAIN,klingai.kuaishou.com
-DOMAIN-SUFFIX,kling.ai
-DOMAIN-SUFFIX,klingai.com
 
 
 
 
-####################################################################
-###############################paypal#######################
-####################################################################
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypal.me
-DOMAIN-SUFFIX,paypal-mktg.com
-DOMAIN-SUFFIX,paypalobjects.com
+
 
 
 
@@ -598,21 +586,3 @@ DOMAIN-SUFFIX,kraken.com
 
 
 
-
-####################################################################
-######################币安/binance#######################
-####################################################################
-DOMAIN,binance.onelink.me
-DOMAIN,zftksc.cdn-settings.appsflyersdk.com
-DOMAIN,zftksc.launches.appsflyersdk.com
-DOMAIN-SUFFIX,binance.com
-DOMAIN-SUFFIX,binance.cloud
-DOMAIN-SUFFIX,binance.info
-DOMAIN-SUFFIX,binance.me
-DOMAIN-SUFFIX,binance.vision
-DOMAIN-SUFFIX,binanceapi.com
-DOMAIN-SUFFIX,binancecnt.com
-DOMAIN-SUFFIX,binancefuture.com
-DOMAIN-SUFFIX,bnbstatic.com
-DOMAIN-SUFFIX,bntrace.com
-DOMAIN-SUFFIX,saasexch.com
