@@ -514,8 +514,6 @@ DOMAIN-SUFFIX,whatsapp.net
 ####################Twitter推特#######################
 ####################################################################
 
-DOMAIN,client-api.arkoselabs.com
-DOMAIN,iframe.arkoselabs.com
 DOMAIN,t.co
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,grok.com
