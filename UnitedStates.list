@@ -558,41 +558,9 @@ DOMAIN-SUFFIX,openai.com
 
 
 
-
-
-
-
-
-#######################################################################################
-#############################line###########################################################
-#######################################################################################
-
-DOMAIN,nelo2-col.linecorp.com
-DOMAIN-SUFFIX,gcld-line.com
-DOMAIN-SUFFIX,lin.ee
-DOMAIN-SUFFIX,line-apps.com
-DOMAIN-SUFFIX,line-cdn.net
-DOMAIN-SUFFIX,line-scdn.net
-DOMAIN-SUFFIX,line.biz
-DOMAIN-SUFFIX,line.me
-DOMAIN-SUFFIX,line.naver.jp
-IP-CIDR,103.2.28.0/24,no-resolve
-IP-CIDR,103.2.30.0/23,no-resolve
-IP-CIDR,119.235.224.0/24,no-resolve
-IP-CIDR,119.235.232.0/24,no-resolve
-IP-CIDR,119.235.235.0/24,no-resolve
-IP-CIDR,119.235.236.0/23,no-resolve
-IP-CIDR,125.209.252.103/32,no-resolve
-IP-CIDR,125.209.252.208/32,no-resolve
-
 ####################################################################
-############################kraken#########################
+###########################apple支持苹果支持苹果客服####################
 ####################################################################
-DOMAIN-SUFFIX,krak.app
-DOMAIN-SUFFIX,kraken.com
-
-
-#apple支持苹果支持苹果客服
 DOMAIN,checkcoverage.apple.com
 DOMAIN,diagassets.apple.com
 DOMAIN,getsupport.apple.com
@@ -600,7 +568,9 @@ DOMAIN,mysupport.apple.com
 DOMAIN-SUFFIX,support.apple.com
 
 
-#Appstore
+####################################################################
+########################Appstore苹果商店####################
+####################################################################
 DOMAIN,account.apple.com
 DOMAIN,amp-account.apps.apple.com
 DOMAIN,amp-api.apps.apple.com
@@ -703,8 +673,9 @@ DOMAIN,se-edge.itunes.apple.com
 DOMAIN,sf-api-token-service.itunes.apple.com
 DOMAIN,store.mzstatic.com
 
-
-#paypal
+####################################################################
+######################paypal贝宝####################
+####################################################################
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypal.me
 DOMAIN-SUFFIX,paypalobjects.com
