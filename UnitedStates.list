@@ -514,14 +514,23 @@ DOMAIN-SUFFIX,whatsapp.net
 ####################Twitter推特#######################
 ####################################################################
 
+DOMAIN,client-api.arkoselabs.com
+DOMAIN,iframe.arkoselabs.com
 DOMAIN,t.co
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grokusercontent.com
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,twimg.co
 DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twimg.org
 DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitteroauth.com
+DOMAIN-SUFFIX,twtrdns.net
+DOMAIN-SUFFIX,twttr.com
+DOMAIN-SUFFIX,twttr.net
+DOMAIN-SUFFIX,twvid.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,x.com
 
