@@ -77,48 +77,6 @@ IP-CIDR6,2a0a:f280::/32,no-resolve
 
 
 
-####################################################################
-############################kraken#########################
-####################################################################
-DOMAIN-SUFFIX,krak.app
-DOMAIN-SUFFIX,kraken.com
-
-
-
-
-####################################################################
-###########################bybit交易所##################
-####################################################################
-DOMAIN-SUFFIX,bybit.com
-DOMAIN-SUFFIX,bybit.eu
-DOMAIN-SUFFIX,bytick.com
-
-
-####################################################################
-###########################coinbase交易所##################
-####################################################################
-DOMAIN-SUFFIX,coinbase.com
-
-
-DOMAIN-SUFFIX,n26.com
-DOMAIN-SUFFIX,n26.de
-DOMAIN-SUFFIX,n26.at
-DOMAIN-SUFFIX,n26.ch
-DOMAIN-SUFFIX,n26.es
-DOMAIN-SUFFIX,n26.fr
-DOMAIN-SUFFIX,n26.it
-DOMAIN-SUFFIX,number26.de
-DOMAIN-SUFFIX,tech26.de
-DOMAIN,n26.kontenwechsel.de
-
-
-
-DOMAIN-SUFFIX,wise.com
-DOMAIN-SUFFIX,transferwise.com
-DOMAIN-SUFFIX,wi.se
-DOMAIN-SUFFIX,wise-sandbox.com
-
-
 
 
 
