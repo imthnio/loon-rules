@@ -386,24 +386,14 @@ DOMAIN-SUFFIX,x.com
 #######################################################################################
 #############################line###########################################################
 #######################################################################################
-
-DOMAIN,nelo2-col.linecorp.com
-DOMAIN-SUFFIX,gcld-line.com
-DOMAIN-SUFFIX,lin.ee
+DOMAIN,api.line-status.info
+DOMAIN-SUFFIX,developers.line.biz
 DOMAIN-SUFFIX,line-apps.com
 DOMAIN-SUFFIX,line-cdn.net
 DOMAIN-SUFFIX,line-scdn.net
-DOMAIN-SUFFIX,line.biz
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,line.naver.jp
-IP-CIDR,103.2.28.0/24,no-resolve
-IP-CIDR,103.2.30.0/23,no-resolve
-IP-CIDR,119.235.224.0/24,no-resolve
-IP-CIDR,119.235.232.0/24,no-resolve
-IP-CIDR,119.235.235.0/24,no-resolve
-IP-CIDR,119.235.236.0/23,no-resolve
-IP-CIDR,125.209.252.103/32,no-resolve
-IP-CIDR,125.209.252.208/32,no-resolve
+DOMAIN-SUFFIX,lin.ee
 
 
 ####################################################################
@@ -431,10 +421,3 @@ DOMAIN-SUFFIX,openai.com
 
 
 
-
-####################################################################
-######################paypal贝宝####################
-####################################################################
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypal.me
-DOMAIN-SUFFIX,paypalobjects.com
