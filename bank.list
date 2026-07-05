@@ -46,3 +46,16 @@ DOMAIN-SUFFIX,wi.se
 DOMAIN-SUFFIX,wise-sandbox.com
 
 
+
+
+####################################################################
+############################paypal贝宝##########################
+####################################################################
+DOMAIN-SUFFIX,braintree-api.com
+DOMAIN-SUFFIX,braintreegateway.com
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.com.hk
+DOMAIN-SUFFIX,paypal.jp
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypal-status.com
+DOMAIN-SUFFIX,paypalobjects.com
