@@ -42,7 +42,7 @@ DOMAIN,oalstv-inapps.appsflyersdk.com
 DOMAIN,oalstv-skadsdkless.appsflyersdk.com
 DOMAIN-SUFFIX,honorofkings.com
 DOMAIN-SUFFIX,sgameglobal.com
-
+USER-AGENT,*honorofkings*
 #######################################################################################
 ###########################Telegram##########################################################
 #######################################################################################
@@ -88,7 +88,7 @@ IP-CIDR6,2001:b28:f23c::/47,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
 IP-CIDR6,2a0a:f280::/29,no-resolve
 
-
+USER-AGENT,*telegram*
 
 
 
