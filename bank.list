@@ -4,7 +4,7 @@
 ####################################################################
 DOMAIN-SUFFIX,krak.app
 DOMAIN-SUFFIX,kraken.com
-
+USER-AGENT,*krak*
 
 
 
@@ -14,13 +14,13 @@ DOMAIN-SUFFIX,kraken.com
 DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,bybit.eu
 DOMAIN-SUFFIX,bytick.com
-
+USER-AGENT,*bybit*
 
 ####################################################################
 ###########################coinbase交易所##################
 ####################################################################
 DOMAIN-SUFFIX,coinbase.com
-
+USER-AGENT,*coinbase*
 
 ####################################################################
 ##############################n26银行############################
@@ -35,7 +35,7 @@ DOMAIN-SUFFIX,n26.it
 DOMAIN-SUFFIX,number26.de
 DOMAIN-SUFFIX,tech26.de
 DOMAIN,n26.kontenwechsel.de
-
+USER-AGENT,*n26*
 
 ####################################################################
 ##############################wise############################
@@ -43,8 +43,8 @@ DOMAIN,n26.kontenwechsel.de
 DOMAIN-SUFFIX,transferwise.com
 DOMAIN-SUFFIX,wise.com
 DOMAIN-SUFFIX,wise-sandbox.com
-
-
+USER-AGENT,*wise*
+USER-AGENT,*transferwise*
 
 
 ####################################################################
@@ -58,3 +58,4 @@ DOMAIN-SUFFIX,paypal.jp
 DOMAIN-SUFFIX,paypal.me
 DOMAIN-SUFFIX,paypal-status.com
 DOMAIN-SUFFIX,paypalobjects.com
+USER-AGENT,*paypal*
