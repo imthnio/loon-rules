@@ -40,9 +40,8 @@ DOMAIN,n26.kontenwechsel.de
 ####################################################################
 ##############################wise############################
 ####################################################################
-DOMAIN-SUFFIX,wise.com
 DOMAIN-SUFFIX,transferwise.com
-DOMAIN-SUFFIX,wi.se
+DOMAIN-SUFFIX,wise.com
 DOMAIN-SUFFIX,wise-sandbox.com
 
 
