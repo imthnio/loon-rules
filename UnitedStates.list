@@ -362,21 +362,11 @@ DOMAIN-SUFFIX,whatsappbusiness.com
 ####################Twitter推特#######################
 ####################################################################
 
-DOMAIN,t.co
-DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,grokusercontent.com
-DOMAIN-SUFFIX,periscope.tv
-DOMAIN-SUFFIX,pscp.tv
-DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,tweetdeck.com
 DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,twimg.org
 DOMAIN-SUFFIX,twitter.com
-DOMAIN-SUFFIX,twitteroauth.com
-DOMAIN-SUFFIX,twtrdns.net
-DOMAIN-SUFFIX,twttr.com
-DOMAIN-SUFFIX,twttr.net
-DOMAIN-SUFFIX,twvid.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,x.com
 
