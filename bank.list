@@ -44,7 +44,7 @@ DOMAIN-SUFFIX,transferwise.com
 DOMAIN-SUFFIX,wise.com
 DOMAIN-SUFFIX,wise-sandbox.com
 USER-AGENT,*wise*
-USER-AGENT,*transferwise*
+
 
 
 ####################################################################
