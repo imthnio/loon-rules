@@ -1,7 +1,6 @@
 ####################################################################
 #####################################google#########################
 ####################################################################
-依据：YouTube 核心常见域包括 youtube.com / youtu.be / ytimg.com / googlevideo.com，Google Workspace/Maps/官方资料也常见 googleapis / gstatic / googleusercontent 等，但你已经用 DOMAIN-KEYWORD,google 覆盖了所有含 google 的域名，所以这里删掉了重复项，只保留不含 google/youtube 但仍常用于 Google / YouTube 的域名。 
 
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,youtube
