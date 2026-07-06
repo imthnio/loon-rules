@@ -150,12 +150,14 @@ IP-CIDR,204.15.20.0/22,no-resolve
 ####################Twitter推特#######################
 ####################################################################
 
-DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,twitter.com
-DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,starlink.com
+DOMAIN-SUFFIX,spacex.com
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twimg.com
 
 #######################################################################################
 #############################line###########################################################
