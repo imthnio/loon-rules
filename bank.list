@@ -4,7 +4,8 @@
 ####################################################################
 DOMAIN-SUFFIX,krak.app
 DOMAIN-SUFFIX,kraken.com
-USER-AGENT,*krak*
+DOMAIN-SUFFIX,monavate.com
+DOMAIN-SUFFIX,entravel.com
 
 
 
