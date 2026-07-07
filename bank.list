@@ -12,10 +12,22 @@ DOMAIN-SUFFIX,entravel.com
 ####################################################################
 ###########################bybit交易所##################
 ####################################################################
+DOMAIN-SUFFIX,bitverse.zone
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,bybit-aws.com
+DOMAIN-SUFFIX,bybit-global.com
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,bybit.cloud
 DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,bybit.eu
-DOMAIN-SUFFIX,bytick.com
-USER-AGENT,*bybit*
+DOMAIN-SUFFIX,bybit.global
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,byffbb.com
+
 
 ####################################################################
 ###########################coinbase交易所##################
