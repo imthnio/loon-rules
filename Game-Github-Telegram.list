@@ -3,7 +3,15 @@
 #######################################################################################
 #############################github###########################################################
 #######################################################################################
-DOMAIN-KEYWORD,github
+DOMAIN-SUFFIX,ghcr.io
+
+DOMAIN-SUFFIX,github.com
+
+DOMAIN-SUFFIX,github.blog
+
+DOMAIN-SUFFIX,githubcopilot.com
+
+DOMAIN-SUFFIX,githubusercontent.com
 
 
 
