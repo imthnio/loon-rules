@@ -219,8 +219,9 @@ IP-CIDR,172.214.226.198/32
 IP-CIDR,191.233.251.27/32
 
 
-
-# Apple Intelligence / Siri / Relay 建议走美国节点规则
+####################################################################
+#############################Apple Intelligence#########################
+####################################################################
 DOMAIN,guzzoni.apple.com
 DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-SUFFIX,apple-relay.apple.com
