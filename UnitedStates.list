@@ -97,17 +97,14 @@ DOMAIN,graph.m-freeway.com
 ####################################################################
 ####################Twitter推特#######################
 ####################################################################
-
-
-
-
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grokusercontent.com
+DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,grokusercontent.com
-DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,pscp.tv
 
 #######################################################################################
 #############################line###########################################################
