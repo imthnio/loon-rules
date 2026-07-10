@@ -4,8 +4,6 @@
 ####################################################################
 DOMAIN-SUFFIX,krak.app
 DOMAIN-SUFFIX,kraken.com
-DOMAIN-SUFFIX,monavate.com
-DOMAIN-SUFFIX,entravel.com
 
 
 
@@ -38,9 +36,7 @@ DOMAIN-SUFFIX,coinbase.com
 ##############################n26银行############################
 ####################################################################
 DOMAIN-SUFFIX,n26.com
-DOMAIN-SUFFIX,number26.de
 DOMAIN-SUFFIX,tech26.de
-DOMAIN-SUFFIX,tech26.us
 
 ####################################################################
 ##############################wise############################
