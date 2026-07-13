@@ -37,31 +37,25 @@ DOMAIN-SUFFIX,redditstatic.com
 #######################################################################################
 #################王者荣耀国际服########################################################
 #######################################################################################
-# DOMAIN,hok.intlgame.com
-# DOMAIN,hok-dr.intlgame.com
-# DOMAIN,hok-lbs.intlgame.com
-# DOMAIN,hok-gcloudctrl.iegcom.com
-# DOMAIN,hokgcloudv6.iegcom.com
-# DOMAIN,download.2.687247097.hokglobalgcloud.iegcom.com
-# DOMAIN,atm-broker-tcp-hok.vasdgame.com
-# DOMAIN,sg.voice.gcloudcs.com
-# DOMAIN,static.hok5v5.com
-# DOMAIN,oalstv-inapps.appsflyersdk.com
-# DOMAIN,oalstv-skadsdkless.appsflyersdk.com
-# DOMAIN-SUFFIX,honorofkings.com
-# DOMAIN-SUFFIX,sgameglobal.com
 
+DOMAIN,hok.intlgame.com
+DOMAIN,hok-dr.intlgame.com
+DOMAIN,hok-lbs.intlgame.com
+DOMAIN,hok-gcloudctrl.iegcom.com
+DOMAIN,hokgcloudv6.iegcom.com
+DOMAIN,download.2.687247097.hokglobalgcloud.iegcom.com
+DOMAIN,atm-broker-tcp-hok.vasdgame.com
+DOMAIN,sg.voice.gcloudcs.com
+DOMAIN,static.hok5v5.com
+DOMAIN,oalstv-inapps.appsflyersdk.com
+DOMAIN,oalstv-skadsdkless.appsflyersdk.com
 DOMAIN-SUFFIX,honorofkings.com
 DOMAIN-SUFFIX,sgameglobal.com
 DOMAIN-SUFFIX,pubgmobile.com
 DOMAIN-SUFFIX,igamecj.com
-DOMAIN,hok.intlgame.com
-DOMAIN,hok-dr.intlgame.com
-DOMAIN,hok-lbs.intlgame.com
 DOMAIN,pubgmobile.proximabeta.com
 DOMAIN,pubgmpdrcdn.intlgame.com
 DOMAIN,qos.hk.gcloudcs.com
-DOMAIN,sg.voice.gcloudcs.com
 #######################################################################################
 ###########################Telegram##########################################################
 #######################################################################################
