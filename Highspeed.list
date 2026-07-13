@@ -3,16 +3,28 @@
 #######################################################################################
 #############################github###########################################################
 #######################################################################################
-DOMAIN-SUFFIX,ghcr.io
-
 DOMAIN-SUFFIX,github.com
-
-DOMAIN-SUFFIX,github.blog
-
+DOMAIN-SUFFIX,github.dev
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubcopilot.com
-
+DOMAIN-SUFFIX,githubstatus.com
 DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,octocaptcha.com
 DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,gitlab.io
+DOMAIN-SUFFIX,gitlab-static.net
+DOMAIN,github-api.arkoselabs.com
+DOMAIN,github-cloud.s3.amazonaws.com
+DOMAIN,github-production-release-asset-2e65be.s3.amazonaws.com
+DOMAIN,github-production-repository-file-5c1aeb.s3.amazonaws.com
+DOMAIN,github-production-repository-image-32fea6.s3.amazonaws.com
+DOMAIN,github-production-upload-manifest-file-7fdce7.s3.amazonaws.com
+DOMAIN,github-production-user-asset-6210df.s3.amazonaws.com
+DOMAIN,copilotprodattachments.blob.core.windows.net
+DOMAIN,production-copilot-host.webpubsub.azure.com
 
 
 #######################################################################################
