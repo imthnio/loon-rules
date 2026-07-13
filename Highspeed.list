@@ -25,7 +25,14 @@ DOMAIN,github-production-upload-manifest-file-7fdce7.s3.amazonaws.com
 DOMAIN,github-production-user-asset-6210df.s3.amazonaws.com
 DOMAIN,copilotprodattachments.blob.core.windows.net
 DOMAIN,production-copilot-host.webpubsub.azure.com
-
+#######################################################################################
+############################reddit###########################################################
+#######################################################################################
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditspace.com
+DOMAIN-SUFFIX,redditstatic.com
 
 #######################################################################################
 #################王者荣耀国际服########################################################
