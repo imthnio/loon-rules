@@ -1,0 +1,11 @@
+#!name=HTTP Response 调试
+#!desc=仅用于已获授权的接口测试
+
+
+[Script]
+http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(?:h\d\/vip|vip|user)\/ requires-body=1,script-path=https://example.com/your-authorized-script.js,timeout=10,tag=接口响应处理-1
+
+http-response ^https:\/\/api\.xiuxiu\.meitu\.com\/v1(?:\/|$) requires-body=1,script-path=https://example.com/your-authorized-script.js,timeout=10,tag=接口响应处理-2
+
+[MITM]
+hostname = *.xiuxiu.meitu.com,api.xiuxiu.meitu.com
