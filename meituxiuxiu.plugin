@@ -1,11 +1,10 @@
-#!name=HTTP Response 调试
-#!desc=仅用于已获授权的接口测试
-
+#!name=美图秀秀接口开发测试
+#!desc=将原响应脚本规则转换为 Loon 插件格式，仅用于已获授权的开发测试。
+#!author=Moli-X
 
 [Script]
-http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(?:h\d\/vip|vip|user)\/ requires-body=1,script-path=https://example.com/your-authorized-script.js,timeout=10,tag=接口响应处理-1
-
-http-response ^https:\/\/api\.xiuxiu\.meitu\.com\/v1(?:\/|$) requires-body=1,script-path=https://example.com/your-authorized-script.js,timeout=10,tag=接口响应处理-2
+http-response ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MeiTu.js, requires-body=true, timeout=60, tag=美图接口开发测试-VIP, enable=true
+http-response ^https:\/\/api\.xiuxiu\.meitu\.com\/v1 script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MTxiuxiu.js, requires-body=true, timeout=60, tag=美图接口开发测试-v1, enable=true
 
 [MITM]
-hostname = *.xiuxiu.meitu.com,api.xiuxiu.meitu.com
+hostname = *.xiuxiu.meitu.com, api.xiuxiu.meitu.com
