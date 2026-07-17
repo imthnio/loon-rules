@@ -102,7 +102,8 @@ DOMAIN-SUFFIX,api.sheep.cloud.brainiac.top
 DOMAIN-SUFFIX,taohao.me
 DOMAIN-SUFFIX,appdo.xyz
 
-
+DOMAIN,mirrors.ustc.edu.cn,DIRECT
+DOMAIN-SUFFIX,openwrt.org
 
 ########################################################################################
 ############################################vps############################################
