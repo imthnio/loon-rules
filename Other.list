@@ -1,50 +1,8 @@
 # ======================================================================================
 #=====================================ip检测==========================================
 # ======================================================================================
-
 DOMAIN-SUFFIX,ping0.cc
-DOMAIN-SUFFIX,ippure.com
-DOMAIN-SUFFIX,ip2location.com
-DOMAIN-SUFFIX,iplocation.com
-DOMAIN-SUFFIX,iplocation.net
-
-DOMAIN-SUFFIX,ipw.cn
-DOMAIN-SUFFIX,ping.chinaz.com
-DOMAIN-SUFFIX,itdog.cn
-DOMAIN-SUFFIX,boce.com
-DOMAIN-SUFFIX,ipip.net
-DOMAIN-SUFFIX,ip.skk.moe
-DOMAIN-SUFFIX,ipcheck.ing
-DOMAIN-SUFFIX,whoer.net
-DOMAIN-SUFFIX,ipaddress.my
-DOMAIN-SUFFIX,scamalytics.com
-
-
 DOMAIN-SUFFIX,iplark.com
-
-
-
-
-
-DOMAIN-SUFFIX,browserleaks.com
-DOMAIN-SUFFIX,ip.net.coffee
-DOMAIN-SUFFIX,ipleak.net
-DOMAIN-SUFFIX,browserscan.net
-DOMAIN-SUFFIX,ip.sb
-DOMAIN-SUFFIX,ifconfig.co
-DOMAIN-SUFFIX,ifconfig.me
-DOMAIN-SUFFIX,icanhazip.com
-DOMAIN-SUFFIX,ipify.org
-DOMAIN-SUFFIX,ident.me
-DOMAIN-SUFFIX,myip.com
-DOMAIN-SUFFIX,ipinfo.io
-DOMAIN-SUFFIX,ip-api.com
-DOMAIN-SUFFIX,ipwho.is
-DOMAIN-SUFFIX,ipwhois.io
-DOMAIN-SUFFIX,ipgeolocation.io
-DOMAIN-SUFFIX,ip-api.io
-DOMAIN-SUFFIX,dnsleaktest.com
-DOMAIN,checkip.amazonaws.com
 # ======================================================================================
 #=====================================乱七八糟===========================================
 # ======================================================================================
@@ -381,23 +339,7 @@ DOMAIN-SUFFIX,daisysms.com
 #======================================================================================
 DOMAIN-SUFFIX,solid.xyz
 
-#======================================================================================
-#===============================雅虎yahoo==================================================================
-#======================================================================================
-DOMAIN,search.yahoo.com
-DOMAIN-SUFFIX,search.yahoo.com
-DOMAIN,mail.yahoo.com
-DOMAIN-SUFFIX,mail.yahoo.com
-DOMAIN,imap.mail.yahoo.com
-DOMAIN,smtp.mail.yahoo.com
-DOMAIN,pop.mail.yahoo.com
-DOMAIN,login.yahoo.com
-DOMAIN,api.login.yahoo.com
-DOMAIN,guce.yahoo.com
-DOMAIN,mail.yimg.com
-DOMAIN,login.yahoo.net
-DOMAIN,udc.yahoo.com
-DOMAIN,geo.yahoo.com
+
 #======================================================================================
 #==============================RedteaGO==================================================================
 #======================================================================================
