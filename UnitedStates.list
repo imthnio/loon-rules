@@ -117,6 +117,7 @@ DOMAIN-SUFFIX,line.naver.jp
 ####################################################################
 ###############################chatgpt######################
 ####################################################################
+DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.site
 DOMAIN-SUFFIX,oaistatic.com
