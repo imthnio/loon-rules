@@ -25,6 +25,27 @@ DOMAIN-SUFFIX,bycsi.com
 DOMAIN-SUFFIX,byd3c3.com
 DOMAIN-SUFFIX,byffbb.com
 
+
+
+
+####################################################################
+########################OKX欧意交易所##################
+####################################################################
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,okx-httpdns.com
+DOMAIN-SUFFIX,okx-dns.com
+DOMAIN-SUFFIX,okx-dns1.com
+DOMAIN-SUFFIX,okx-dns2.com
+DOMAIN-SUFFIX,okx.cab
+DOMAIN-SUFFIX,okex.org
+DOMAIN-SUFFIX,coinall.ltd
+DOMAIN,d1stg7nxvupg0p.cloudfront.net
+DOMAIN,wallet.ouxyi.cash
+IP-CIDR,8.210.73.205/32,no-resolve
+IP-CIDR,47.97.124.22/32,no-resolve
+IP-CIDR,47.98.188.132/32,no-resolve
+IP-CIDR,47.99.54.158/32,no-resolve
+IP-CIDR,47.242.92.56/32,no-resolve
 ####################################################################
 #########################币安交易所##################
 ####################################################################
