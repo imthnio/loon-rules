@@ -5,20 +5,7 @@
 DOMAIN-SUFFIX,krak.app
 DOMAIN-SUFFIX,kraken.com
 
-####################################################################
-##########################okx欧意#########################
-####################################################################
 
-DOMAIN-SUFFIX,coinall.ltd
-DOMAIN-SUFFIX,okx.com
-DOMAIN-SUFFIX,okx.ac
-DOMAIN-SUFFIX,okx.cab
-DOMAIN-SUFFIX,okx-dns.com
-DOMAIN-SUFFIX,okx-dns1.com
-DOMAIN-SUFFIX,okx-dns2.com
-DOMAIN-SUFFIX,okx-httpdns.com
-DOMAIN,wallet.okex.org
-DOMAIN,wallet.ouxyi.cash
 ####################################################################
 ###########################bybit交易所##################
 ####################################################################
