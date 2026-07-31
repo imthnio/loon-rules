@@ -80,8 +80,6 @@ DOMAIN-SUFFIX,stripe.network
 ####################################################################
 ############################paypal贝宝##########################
 ####################################################################
-
 DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,paypal.me
-DOMAIN-SUFFIX,py.pl
+DOMAIN-SUFFIX,paypalobjects.com
