@@ -25,8 +25,24 @@ DOMAIN-SUFFIX,bycsi.com
 DOMAIN-SUFFIX,byd3c3.com
 DOMAIN-SUFFIX,byffbb.com
 
-
-
+####################################################################
+######################maya菲律宾银行##################
+####################################################################
+DOMAIN,api.paymaya.com
+DOMAIN,api.mayabank.ph
+DOMAIN,app.maya.ph
+DOMAIN,assets.paymaya.com
+DOMAIN,iam-api.maya.ph
+DOMAIN,mfa-api.maya.ph
+DOMAIN,push-api.maya.ph
+DOMAIN,cpm.paymaya.com
+DOMAIN,cpm-private.paymaya.com
+DOMAIN,filemgmt.paymaya.com
+DOMAIN,kyc.paymaya.com
+DOMAIN,kyc-private.paymaya.com
+DOMAIN,userprofiles-rdm.paymaya.com
+DOMAIN,split-proxy-base-app.nest.maya.ph
+DOMAIN,online.maya.ph
 
 ####################################################################
 ########################OKX欧意交易所##################
