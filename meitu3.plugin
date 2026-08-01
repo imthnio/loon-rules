@@ -1,0 +1,8 @@
+#!name=美颜相机
+#!desc=粉钻解锁
+
+[Script]
+http-response https://test.example.invalid/v2/user/vip_info.json script-path=https://test.example.invalid/loon/member-test.js,requires-body=1,max-size=0
+
+[MITM]
+hostname = test.example.invalid
