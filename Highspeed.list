@@ -19,18 +19,7 @@ DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditspace.com
 DOMAIN-SUFFIX,redditstatic.com
 
-#######################################################################################
-#################王者荣耀国际服########################################################
-#######################################################################################
-DOMAIN-SUFFIX,honorofkings.com
-DOMAIN-SUFFIX,sgameglobal.com
-DOMAIN,hok.intlgame.com
-DOMAIN,hok-dr.intlgame.com
-DOMAIN,hok-lbs.intlgame.com
-DOMAIN,hok-tl.intlgame.com
-DOMAIN,li-sg.intlgame.com
-DOMAIN,download.2.687247097.hokglobalgcloud.iegcom.com
-DOMAIN,hok.singaporepaya.com
+
 #######################################################################################
 ###########################Telegram##########################################################
 #######################################################################################
