@@ -381,42 +381,12 @@ DOMAIN-SUFFIX,mnc009.mcc262.pub.3gppnetwork.org
 DOMAIN-SUFFIX,mnc042.mcc262.pub.3gppnetwork.org
 IP-CIDR,139.7.117.160/28,no-resolve
 
-#======================================================================================
-#==============================vodafone沃达丰英国-esim==================================================================
-#======================================================================================
-DOMAIN-SUFFIX,vodafone.co.uk
-DOMAIN-SUFFIX,mnc015.mcc234.pub.3gppnetwork.org
-DOMAIN-SUFFIX,entsrv-uk.vodafone.com
-DOMAIN-SUFFIX,vuk-gto.prod.ondemandconnectivity.com
-IP-CIDR,88.82.0.0/19,no-resolve
 
 #======================================================================================
 #===============================saily-esim==================================================================
 #======================================================================================
 
 DOMAIN-SUFFIX,saily.com
-#======================================================================================
-#===============================Lycamobile USA==================================================================
-#======================================================================================
-
-DOMAIN-SUFFIX,lycamobile.us
-DOMAIN-SUFFIX,prepay.lycamobile.us
-DOMAIN-SUFFIX,lycamobile.com
-
-DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
-DOMAIN-SUFFIX,epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
-IP-CIDR,208.54.0.0/16,no-resolve
-IP-CIDR,66.94.0.0/19,no-resolve
-DOMAIN,crl.t-mobile.com
-DOMAIN,epdg.epc.att.net
-DOMAIN,sentitlement2.mobile.att.net
-DOMAIN,vvm.mobile.att.net
-IP-CIDR,107.122.31.0/24,no-resolve
-USER-AGENT,*Lycamobile*
-USER-AGENT,*Lyca*
-# > ASN fallback - 排障时再开，不建议常开
-# IP-ASN,21928,LycaUS
-# IP-ASN,7018,LycaUS
 
 
 
@@ -428,9 +398,6 @@ USER-AGENT,*Lyca*
 #======================================================================================
 DOMAIN-SUFFIX,eskimo.travel
 
-#======================================================================================
-#===========================eskimo-esim流量卡==================================
-#======================================================================================
 DOMAIN-SUFFIX,esim.cc
 DOMAIN-SUFFIX,s.ee
 
@@ -469,8 +436,6 @@ DOMAIN,user.nexsms.net
 #======================================================================================
 
 DOMAIN,wloc-spoofer.wloc.workers.dev
-
-
 
 
 #======================================================================================
