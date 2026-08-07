@@ -86,3 +86,10 @@ DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypal.me
 DOMAIN-SUFFIX,paypalobjects.com
+
+####################################################################
+##########################bunq银行荷兰银行bunq##########################
+####################################################################
+DOMAIN-SUFFIX,bunq.com
+DOMAIN-SUFFIX,bunq.me
+DOMAIN-SUFFIX,bunq.to
