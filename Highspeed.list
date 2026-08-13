@@ -54,9 +54,12 @@ IP-CIDR6,2a0a:f280:203::/48,no-resolve
 ###########################王者荣耀国际服#########################################################
 #######################################################################################
 
-IP-CIDR, 183.192.65.101/16, no-resolve
-IP-CIDR, 43.132.55.55/16, no-resolve
-DOMAIN-SUFFIX,intlgame.com
+DOMAIN-SUFFIX,honorofkings.com
 DOMAIN-SUFFIX,sgameglobal.com
-DOMAIN-SUFFIX,appsflyersdk.com
-DOMAIN-KEYWORD,sgameglobal.com
+DOMAIN,download.2.687247097.hokglobalgcloud.iegcom.com
+DOMAIN,g-client-prod.cloud-control.smoba.qq.com
+DOMAIN,hok-dr.intlgame.com
+DOMAIN,hok-lbs.intlgame.com
+DOMAIN,hok.intlgame.com
+DOMAIN,hok.singaporepaya.com
+DOMAIN,li-sg.intlgame.com
