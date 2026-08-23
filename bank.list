@@ -105,7 +105,13 @@ DOMAIN-SUFFIX,taptapsend.com
 
 
 
-
+####################################################################
+########################paypal##########################
+####################################################################
 DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypal.me
 DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypal.biz
+DOMAIN-SUFFIX,paypal-ads.com
+DOMAIN-SUFFIX,py.pl
+DOMAIN-SUFFIX,xoom.com
