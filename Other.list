@@ -80,7 +80,8 @@ DOMAIN-SUFFIX,openwrt.org
 ########################################################################################
 ############################################vps############################################
 ########################################################################################
-
+DOMAIN,miha.ftykh.top
+DOMAIN,wuyoucloud.de
 DOMAIN,radonet.co.uk
 DOMAIN,verification.wanghaotian-andy.workers.dev
 DOMAIN-SUFFIX,lazycat.wiki
