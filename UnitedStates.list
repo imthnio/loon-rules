@@ -134,6 +134,8 @@ DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grokusercontent.com
 DOMAIN-SUFFIX,spacex.com
 DOMAIN-SUFFIX,starlink.com
+DOMAIN,iframe.arkoselabs.com
+DOMAIN,client-api.arkoselabs.com
 
 
 ####################################################################
