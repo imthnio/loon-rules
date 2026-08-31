@@ -163,3 +163,16 @@ DOMAIN,epdg.epc.mnc008.mcc204.pub.3gppnetwork.org
 IP-CIDR,62.133.76.249/32
 IP-CIDR,62.133.76.250/32
 IP-CIDR,62.133.76.251/32
+
+####################################################################
+#######################Lebara uk——Wi-Ficalling##########################
+####################################################################
+
+DOMAIN,epdg.epc.mnc087.mcc234.pub.3gppnetwork.org
+IP-CIDR,84.246.113.151/32
+IP-CIDR,84.246.115.151/32
+DOMAIN,epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
+DOMAIN,epdg.vodafone.co.uk
+IP-CIDR,88.82.11.208/32
+IP-CIDR,88.82.11.221/32
+IP-CIDR,148.252.188.96/32
