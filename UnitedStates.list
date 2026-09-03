@@ -139,13 +139,7 @@ DOMAIN,client-api.arkoselabs.com
 DOMAIN,inquiry.withpersona.com
 
 
-DOMAIN-SUFFIX,digitalelement.com
-DOMAIN-SUFFIX,digitalenvoy.com
-DOMAIN-SUFFIX,netacuity.com
-DOMAIN-SUFFIX,castle.io
-DOMAIN-SUFFIX,neustar.biz
-DOMAIN-SUFFIX,home.neustar
-DOMAIN-SUFFIX,transunion.com
+
 
 ####################################################################
 ###############################chatgpt######################
@@ -215,5 +209,35 @@ DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,claudemcpcontent.com
+
+####################################################################
+################ip检测公司###################
+####################################################################
+
+DOMAIN-SUFFIX,digitalelement.com
+DOMAIN-SUFFIX,digitalenvoy.com
+DOMAIN-SUFFIX,netacuity.com
+DOMAIN-SUFFIX,castle.io
+DOMAIN-SUFFIX,neustar.biz
+DOMAIN-SUFFIX,home.neustar
+DOMAIN-SUFFIX,transunion.com
+DOMAIN,api.ip2location.io
+DOMAIN,bulk.ip2location.io
+DOMAIN,api.ip2location.com
+DOMAIN,api.ip2proxy.com
+DOMAIN,api.ipapi.is
+DOMAIN,ipregistry.co
+DOMAIN-SUFFIX,api.ipregistry.co
+DOMAIN,ipqualityscore.com
+DOMAIN,www.ipqualityscore.com
+DOMAIN-SUFFIX,scamalytics.com
+DOMAIN,api.ipdata.co
+DOMAIN,eu-api.ipdata.co
+DOMAIN,ipinfo.io
+DOMAIN,v6.ipinfo.io
+DOMAIN-SUFFIX,api.ipinfo.io
+DOMAIN,db-ip.com
+DOMAIN,api.db-ip.com
+DOMAIN,ipinfo.check.place
 
 
