@@ -138,6 +138,15 @@ DOMAIN,iframe.arkoselabs.com
 DOMAIN,client-api.arkoselabs.com
 DOMAIN,inquiry.withpersona.com
 
+
+DOMAIN-SUFFIX,digitalelement.com
+DOMAIN-SUFFIX,digitalenvoy.com
+DOMAIN-SUFFIX,netacuity.com
+DOMAIN-SUFFIX,castle.io
+DOMAIN-SUFFIX,neustar.biz
+DOMAIN-SUFFIX,home.neustar
+DOMAIN-SUFFIX,transunion.com
+
 ####################################################################
 ###############################chatgpt######################
 ####################################################################
