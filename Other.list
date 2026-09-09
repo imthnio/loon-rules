@@ -82,6 +82,8 @@ DOMAIN-SUFFIX,openwrt.org
 ########################################################################################
 ############################################vps############################################
 ########################################################################################
+DOMAIN-SUFFIX,bahnhof.cloud
+DOMAIN-SUFFIX,sasktel.com
 DOMAIN-SUFFIX,vpsoso.com
 DOMAIN,miha.ftykh.top
 DOMAIN,wuyoucloud.de
