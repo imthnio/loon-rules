@@ -76,9 +76,20 @@ DOMAIN-SUFFIX,transferwise.co.uk
 ####################################################################
 #############################stripe############################
 ####################################################################
+DOMAIN-SUFFIX,link.co
+DOMAIN-SUFFIX,link.com
+DOMAIN-SUFFIX,stripe-terminal-local-reader.net
 DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,stripecdn.com
+DOMAIN-SUFFIX,stripe.dev
+DOMAIN-SUFFIX,stripe.events
+DOMAIN-SUFFIX,stripe.global
+DOMAIN-SUFFIX,stripe.me
 DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,stripecdn.com
+IP-CIDR,198.137.150.0/24,no-resolve
+IP-CIDR,198.202.176.0/24,no-resolve
+IP-ASN,5091,no-resolve
+IP-ASN,394562,no-resolve
 
 
 
