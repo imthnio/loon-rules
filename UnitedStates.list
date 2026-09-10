@@ -541,14 +541,6 @@ IP-CIDR6,2400:dcc0::/32,no-resolve
 
 
 
-####################################################################
-################claude#####################
-####################################################################
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claude.com
-DOMAIN-SUFFIX,claudeusercontent.com
-DOMAIN-SUFFIX,claudemcpcontent.com
 
 
 
