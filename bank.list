@@ -59,8 +59,10 @@ DOMAIN-SUFFIX,coinbase.com
 ##############################n26银行############################
 ####################################################################
 DOMAIN-SUFFIX,n26.com
-DOMAIN-SUFFIX,tech26.de
+DOMAIN-SUFFIX,n26.de
+DOMAIN-SUFFIX,n26.eu
 DOMAIN-SUFFIX,number26.de
+DOMAIN-SUFFIX,tech26.de
 
 ####################################################################
 ############################ifastgb############################
