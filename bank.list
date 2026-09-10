@@ -9,8 +9,10 @@ DOMAIN-SUFFIX,kraken.com
 ####################################################################
 ###########################bybit交易所##################
 ####################################################################
-DOMAIN-SUFFIX,bitverse.zone
+DOMAIN,bybit-exchange.github.io
+DOMAIN,bybit.ada.support
 DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byapis.com
 DOMAIN-SUFFIX,byapps.net
 DOMAIN-SUFFIX,bybdc6.com
 DOMAIN-SUFFIX,bybit-aws.com
@@ -19,11 +21,12 @@ DOMAIN-SUFFIX,bybit.biz
 DOMAIN-SUFFIX,bybit.cloud
 DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,bybit.eu
-DOMAIN-SUFFIX,bybit.global
 DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bycbe.com
 DOMAIN-SUFFIX,bycsi.com
 DOMAIN-SUFFIX,byd3c3.com
-DOMAIN-SUFFIX,byffbb.com
+DOMAIN-SUFFIX,bymj.io
+DOMAIN-SUFFIX,bytick.com
 
 
 
