@@ -52,10 +52,11 @@ IP-CIDR6,2a0a:f280::/32,no-resolve
 
 DOMAIN-SUFFIX,honorofkings.com
 DOMAIN-SUFFIX,sgameglobal.com
-DOMAIN,download.2.687247097.hokglobalgcloud.iegcom.com
-DOMAIN,g-client-prod.cloud-control.smoba.qq.com
-DOMAIN,hok-dr.intlgame.com
-DOMAIN,hok-lbs.intlgame.com
+DOMAIN-SUFFIX,singaporepaya.com
 DOMAIN,hok.intlgame.com
-DOMAIN,hok.singaporepaya.com
+DOMAIN,hok-lbs.intlgame.com
+DOMAIN,hok-dr.intlgame.com
+DOMAIN,hok-tl.intlgame.com
 DOMAIN,li-sg.intlgame.com
+DOMAIN,image.intlgame.com
+DOMAIN-KEYWORD,hokglobalgcloud
