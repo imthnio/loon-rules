@@ -70,8 +70,12 @@ DOMAIN,communication-services-igb-ai-cs-prod.uk.communication.azure.com
 ####################################################################
 ##############################wise############################
 ####################################################################
-DOMAIN-SUFFIX,transferwise.com
 DOMAIN-SUFFIX,wise.com
+DOMAIN-SUFFIX,transferwise.com
+DOMAIN-SUFFIX,wise-sandbox.com
+DOMAIN-SUFFIX,transferwise.tech
+DOMAIN-SUFFIX,wi.se
+DOMAIN-SUFFIX,transferwise.co.uk
 
 ####################################################################
 #############################stripe############################
