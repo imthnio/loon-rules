@@ -129,13 +129,36 @@ DOMAIN-SUFFIX,taptapsend.com
 ####################################################################
 ########################paypal##########################
 ####################################################################
+DOMAIN-SUFFIX,braintree-api.com
+DOMAIN-SUFFIX,braintreegateway.com
+DOMAIN-SUFFIX,paypal.ca
+DOMAIN-SUFFIX,paypal.cn
 DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,paypal.com.cn
+DOMAIN-SUFFIX,paypal.com.hk
+DOMAIN-SUFFIX,paypal.com.sg
+DOMAIN-SUFFIX,paypal.jp
 DOMAIN-SUFFIX,paypal.me
-DOMAIN-SUFFIX,paypal.biz
-DOMAIN-SUFFIX,paypal-ads.com
+DOMAIN-SUFFIX,paypalcredit.com
+DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-SUFFIX,py.pl
+DOMAIN-SUFFIX,venmo.com
 DOMAIN-SUFFIX,xoom.com
+USER-AGENT,PayPal*
+IP-CIDR,64.4.240.0/21,no-resolve
+IP-CIDR,64.4.248.0/22,no-resolve
+IP-CIDR,66.211.168.0/22,no-resolve
+IP-CIDR,91.243.72.0/23,no-resolve
+IP-CIDR,159.242.240.0/21,no-resolve
+IP-CIDR,173.0.80.0/20,no-resolve
+IP-CIDR,185.177.52.0/22,no-resolve
+IP-CIDR,192.160.215.0/24,no-resolve
+IP-CIDR,198.54.216.0/23,no-resolve
+IP-CIDR,198.199.247.0/24,no-resolve
+IP-CIDR,204.109.13.0/24,no-resolve
+IP-CIDR,205.189.102.0/23,no-resolve
+IP-CIDR,208.76.140.0/22,no-resolve
+IP-CIDR6,2620:110:f000::/44,no-resolve
 
 
 
