@@ -2,8 +2,22 @@
 ####################################################################
 ############################kraken#########################
 ####################################################################
+DOMAIN-SUFFIX,getkrak.com
 DOMAIN-SUFFIX,krak.app
 DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,kraken.onl
+DOMAIN-SUFFIX,krakenbank.io
+DOMAIN-SUFFIX,krakenfx.com
+DOMAIN-SUFFIX,krakenfutures.com
+DOMAIN-SUFFIX,krakenpro.onl
+DOMAIN-SUFFIX,payward.com
+IP-CIDR,67.208.234.0/24,no-resolve
+IP-CIDR,193.118.169.0/24,no-resolve
+IP-CIDR,204.63.171.0/24,no-resolve
+IP-CIDR,204.137.31.0/24,no-resolve
+IP-CIDR,208.185.210.0/24,no-resolve
+IP-ASN,1072,no-resolve
+IP-ASN,33016,no-resolve
 
 
 ####################################################################
