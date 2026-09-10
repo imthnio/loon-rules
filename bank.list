@@ -94,6 +94,13 @@ DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,bunq.com
 DOMAIN-SUFFIX,bunq.me
 DOMAIN-SUFFIX,bunq.to
+DOMAIN-SUFFIX,bunq.nl
+DOMAIN-SUFFIX,bunq.de
+DOMAIN-SUFFIX,bunq.es
+DOMAIN-SUFFIX,bunq.fr
+DOMAIN-SUFFIX,bunq.ie
+DOMAIN-SUFFIX,bunq.it
+IP-CIDR,185.40.108.0/22,no-resolve
 
 
 
