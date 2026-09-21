@@ -10,10 +10,4 @@
 
 ## 用法
 
-订阅单个规则文件（以 China.list 为例）：
-
-```
-https://raw.githubusercontent.com/imthnio/loon-rules/main/China.list
-```
-
-在 Loon「规则」里添加远程规则，绑定到对应策略组即可。
+订阅单个规则文件，然后在 Loon「规则」里添加远程规则。
