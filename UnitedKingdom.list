@@ -551,6 +551,13 @@ IP-CIDR,173.252.64.0/18
 ####################################################################
 ####################Twitter推特#######################
 ####################################################################
+DOMAIN,cursor.blob.core.windows.net
+DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursorvm.com
 DOMAIN,dishy.starlink.com
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twitter.com
@@ -594,6 +601,7 @@ IP-CIDR6,2606:1f80:f000::/36,no-resolve
 IP-CIDR6,2a04:9d40:f000::/36,no-resolve
 IP-CIDR,31.207.0.0/24,no-resolve
 IP-CIDR,192.31.242.0/24,no-resolve
+
 
 
 
