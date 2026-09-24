@@ -664,28 +664,6 @@ IP-CIDR6,2400:dcc0::/32,no-resolve
 
 
 
-#######################################################################################
-############################Siri-Ai#######################################################
-#######################################################################################
-
-DOMAIN,guzzoni.apple.com
-DOMAIN,mask-api.fe.apple-dns.net
-DOMAIN,mask-api.icloud.com
-DOMAIN,mask-t.apple-dns.net
-DOMAIN,mask.apple-dns.net
-DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN-SUFFIX,apple-relay.apple.com
-DOMAIN-SUFFIX,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,apple-relay.fastly-edge.com
-DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
-DOMAIN-SUFFIX,cp4.cloudflare.com
-DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
-DOMAIN-SUFFIX,gateway.icloud.com
-DOMAIN-SUFFIX,ls.apple.com
-DOMAIN-SUFFIX,mask-h2.icloud.com
-DOMAIN-SUFFIX,mask.icloud.com
-DOMAIN-SUFFIX,apps.mzstatic.com
-DOMAIN-KEYWORD,siri
 
 
 
@@ -772,33 +750,9 @@ DOMAIN-SUFFIX,tech26.de
 ####################################################################
 DOMAIN-SUFFIX,ifastgb.com
 DOMAIN-SUFFIX,ifast-aws.com
-####################################################################
-##############################wise############################
-####################################################################
-DOMAIN-SUFFIX,wise.com
-DOMAIN-SUFFIX,transferwise.com
-DOMAIN-SUFFIX,wise-sandbox.com
-DOMAIN-SUFFIX,transferwise.tech
-DOMAIN-SUFFIX,wi.se
-DOMAIN-SUFFIX,transferwise.co.uk
 
-####################################################################
-#############################stripe############################
-####################################################################
-DOMAIN-SUFFIX,link.co
-DOMAIN-SUFFIX,link.com
-DOMAIN-SUFFIX,stripe-terminal-local-reader.net
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,stripe.dev
-DOMAIN-SUFFIX,stripe.events
-DOMAIN-SUFFIX,stripe.global
-DOMAIN-SUFFIX,stripe.me
-DOMAIN-SUFFIX,stripe.network
-DOMAIN-SUFFIX,stripecdn.com
-IP-CIDR,198.137.150.0/24,no-resolve
-IP-CIDR,198.202.176.0/24,no-resolve
-IP-ASN,5091,no-resolve
-IP-ASN,394562,no-resolve
+
+
 
 
 
@@ -825,10 +779,7 @@ DOMAIN-SUFFIX,neverless.com
 
 
 
-####################################################################
-#########################taptapsend##########################
-####################################################################
-DOMAIN-SUFFIX,taptapsend.com
+
 
 
 
