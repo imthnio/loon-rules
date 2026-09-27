@@ -1020,9 +1020,39 @@ IP-CIDR,185.40.108.0/22,no-resolve
 ####################################################################
 DOMAIN-SUFFIX,neverless.com
 
+####################################################################
+######################monzo########################
+####################################################################
 
-
-
+DOMAIN,5017571bdae0.eu-west-1.sdk.awswaf.com
+DOMAIN,5017571bdae0.f7114d96.eu-west-1.token.awswaf.com
+DOMAIN,57dca9cb5ac7.33995df2.eu-west-1.token.awswaf.com
+DOMAIN,57dca9cb5ac7.eu-west-1.sdk.awswaf.com
+DOMAIN,mondo-image-uploads.s3.amazonaws.com
+DOMAIN,mondo-image-uploads.s3.eu-west-1.amazonaws.com
+DOMAIN,mondo-production-image-uploads.s3.amazonaws.com
+DOMAIN,mondo-production-image-uploads.s3.eu-west-1.amazonaws.com
+DOMAIN,monzo-prod-business-images.imgix.net
+DOMAIN,monzo-prod-product-images.imgix.net
+DOMAIN,monzo-prod-qr-challenge.s3.eu-west-1.amazonaws.com
+DOMAIN,monzo-prod-s3bucketcreator-bereavement-files.s3.eu-west-1.amazonaws.com
+DOMAIN,monzo-prod-s3bucketcreator-bills-and-receipts-store-files.s3.eu-west-1.amazonaws.com
+DOMAIN,monzo-prod-s3bucketcreator-bookkeeping-transaction-attachments.s3.eu-west-1.amazonaws.com
+DOMAIN,monzo-prod-s3bucketcreator-business-bulk-payment-files.s3.eu-west-1.amazonaws.com
+DOMAIN,monzo-prod-s3bucketcreator-business-images.s3.eu-west-1.amazonaws.com
+DOMAIN,monzo-prod-s3bucketcreator-business-invoice-compliance-files.s3.eu-west-1.amazonaws.com
+DOMAIN,monzo-prod-s3bucketcreator-business-invoice-files.s3.eu-west-1.amazonaws.com
+DOMAIN,monzo-prod-s3bucketcreator-cheque-submission-images.s3.eu-west-1.amazonaws.com
+DOMAIN,monzo-prod-s3bucketcreator-dynamic-form-files.s3.eu-west-1.amazonaws.com
+DOMAIN,monzo-prod-s3bucketcreator-ffs-web-export.s3-eu-west-1.amazonaws.com
+DOMAIN,monzo-prod-user-images.imgix.net
+DOMAIN,monzo.statuspage.io
+DOMAIN,o23827.ingest.sentry.io
+DOMAIN,o23827.ingest.us.sentry.io
+DOMAIN-SUFFIX,monzo-alt.net
+DOMAIN-SUFFIX,monzo.co.uk
+DOMAIN-SUFFIX,monzo.com
+DOMAIN-SUFFIX,monzo.me
 
 
 
