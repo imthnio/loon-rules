@@ -1189,11 +1189,10 @@ IP-CIDR,87.194.89.8/32
 ####################################################################
 #######################德国Vodafone——Wi-Ficalling##########################
 ####################################################################
-DOMAIN,epdg.epc.mnc002.mcc262.pub.3gppnetwork.org
 DOMAIN,epdg.epc.drz1.vodafone-ip.de
-IP-CIDR,139.7.117.168/32
-IP-CIDR,139.7.117.169/32
-IP-CIDR,139.7.117.170/32
+DOMAIN-SUFFIX,mnc002.mcc262.pub.3gppnetwork.org
+DOMAIN-SUFFIX,mnc009.mcc262.pub.3gppnetwork.org
+IP-CIDR,139.7.117.160/28
 
 
 
