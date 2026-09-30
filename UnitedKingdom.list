@@ -2,17 +2,24 @@
 #########################google-app全家桶+youtube#########################
 ####################################################################
 DOMAIN,chromiumdash.appspot.com
-DOMAIN,crl.pki.goog
-DOMAIN,meet.turns.goog
-DOMAIN,ocsp.pki.goog
-DOMAIN,pki.goog
-DOMAIN,workspace.turns.goog
 DOMAIN-SUFFIX,2mdn.net
+DOMAIN-SUFFIX,ai.studio
 DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,blogger.com
+DOMAIN-SUFFIX,blogspot.com
+DOMAIN-SUFFIX,chrome.com
+DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,g.co
+DOMAIN-SUFFIX,g.page
 DOMAIN-SUFFIX,ggpht.cn
 DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,gle
 DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,goog
+DOMAIN-SUFFIX,google
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,google.ad
 DOMAIN-SUFFIX,google.ae
@@ -124,6 +131,7 @@ DOMAIN-SUFFIX,google.com.vn
 DOMAIN-SUFFIX,google.cv
 DOMAIN-SUFFIX,google.cz
 DOMAIN-SUFFIX,google.de
+DOMAIN-SUFFIX,google.dev
 DOMAIN-SUFFIX,google.dj
 DOMAIN-SUFFIX,google.dk
 DOMAIN-SUFFIX,google.dm
@@ -390,24 +398,38 @@ DOMAIN-SUFFIX,ytimg.com
 IP-CIDR,64.15.112.0/20,no-resolve
 IP-CIDR,64.233.160.0/19,no-resolve
 IP-CIDR,66.102.0.0/20,no-resolve
+IP-CIDR,70.32.128.0/19,no-resolve
 IP-CIDR,72.14.192.0/18,no-resolve
+IP-CIDR,74.114.24.0/21,no-resolve
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,104.237.160.0/19,no-resolve
 IP-CIDR,108.170.192.0/18,no-resolve
 IP-CIDR,108.177.0.0/17,no-resolve
+IP-CIDR,136.22.160.0/20,no-resolve
+IP-CIDR,136.23.48.0/20,no-resolve
 IP-CIDR,142.250.0.0/15,no-resolve
+IP-CIDR,162.120.128.0/17,no-resolve
 IP-CIDR,172.110.32.0/21,no-resolve
 IP-CIDR,172.217.0.0/16,no-resolve
 IP-CIDR,172.253.0.0/16,no-resolve
 IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,192.104.160.0/23,no-resolve
 IP-CIDR,192.178.0.0/15,no-resolve
+IP-CIDR,193.186.4.0/24,no-resolve
+IP-CIDR,207.223.160.0/20,no-resolve
+IP-CIDR,208.65.152.0/22,no-resolve
+IP-CIDR,208.68.108.0/22,no-resolve
+IP-CIDR,208.117.224.0/19,no-resolve
 IP-CIDR,209.85.128.0/17,no-resolve
 IP-CIDR,216.58.192.0/19,no-resolve
 IP-CIDR,216.73.80.0/20,no-resolve
 IP-CIDR,216.239.32.0/19,no-resolve
 IP-CIDR6,2404:6800::/32,no-resolve
 IP-CIDR6,2404:f340::/32,no-resolve
+IP-CIDR6,2605:ef80::/32,no-resolve
+IP-CIDR6,2606:40::/32,no-resolve
 IP-CIDR6,2607:f8b0::/32,no-resolve
+IP-CIDR6,2620:11a:a000::/40,no-resolve
 IP-CIDR6,2620:120:e000::/40,no-resolve
 IP-CIDR6,2800:3f0::/32,no-resolve
 IP-CIDR6,2a00:1450::/32,no-resolve
@@ -437,10 +459,13 @@ DOMAIN,p16-tiktokcdn-com.akamaized.net
 DOMAIN-SUFFIX,byteeffecttos-g.com
 DOMAIN-SUFFIX,bytefcdn-oversea.com
 DOMAIN-SUFFIX,bytegecko-i18n.com
+DOMAIN-SUFFIX,byteintl.com
+DOMAIN-SUFFIX,byteintlapi.com
 DOMAIN-SUFFIX,bytelemon.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,byteoversea.net
 DOMAIN-SUFFIX,bytevcloudapi.com
 DOMAIN-SUFFIX,capcut-app.com
-DOMAIN-SUFFIX,capcut.cn
 DOMAIN-SUFFIX,capcut.com
 DOMAIN-SUFFIX,capcut.net
 DOMAIN-SUFFIX,capcutapi.com
@@ -451,9 +476,12 @@ DOMAIN-SUFFIX,capcutvod.com
 DOMAIN-SUFFIX,capcutw.us
 DOMAIN-SUFFIX,dreamina.ai
 DOMAIN-SUFFIX,dreamina.com
+DOMAIN-SUFFIX,faceueditor.com
 DOMAIN-SUFFIX,faceueditorv.com
 DOMAIN-SUFFIX,faceulv.com
+DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-SUFFIX,isnssdk.com
 DOMAIN-SUFFIX,lemon8-app.com
 DOMAIN-SUFFIX,lemon8-app.eu
@@ -466,6 +494,7 @@ DOMAIN-SUFFIX,pipopay.eu
 DOMAIN-SUFFIX,pipopayment.com
 DOMAIN-SUFFIX,pipopayment.eu
 DOMAIN-SUFFIX,pipopayment.us
+DOMAIN-SUFFIX,sgpstatp.com
 DOMAIN-SUFFIX,sgsnssdk.com
 DOMAIN-SUFFIX,sharee.com
 DOMAIN-SUFFIX,tik-tokapi.com
@@ -477,6 +506,7 @@ DOMAIN-SUFFIX,tiktok.in
 DOMAIN-SUFFIX,tiktok.ru
 DOMAIN-SUFFIX,tiktokapis.com
 DOMAIN-SUFFIX,tiktokcdn-eu.com
+DOMAIN-SUFFIX,tiktokcdn-eu.net
 DOMAIN-SUFFIX,tiktokcdn-in.com
 DOMAIN-SUFFIX,tiktokcdn-row.com
 DOMAIN-SUFFIX,tiktokcdn-us.com
@@ -494,6 +524,7 @@ DOMAIN-SUFFIX,tiktokrow-cdn.com
 DOMAIN-SUFFIX,tiktokshop.com
 DOMAIN-SUFFIX,tiktokstaticb.com
 DOMAIN-SUFFIX,tiktokus.info
+DOMAIN-SUFFIX,tiktokv-eu.com
 DOMAIN-SUFFIX,tiktokv-us.com
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.eu
@@ -502,8 +533,11 @@ DOMAIN-SUFFIX,tiktokvapp.com
 DOMAIN-SUFFIX,tiktokvapp.eu
 DOMAIN-SUFFIX,tiktokw.eu
 DOMAIN-SUFFIX,tiktokw.us
+DOMAIN-SUFFIX,tt.site
+DOMAIN-SUFFIX,ttapis.com
 DOMAIN-SUFFIX,ttcdn-row.com
 DOMAIN-SUFFIX,ttcdn-us.com
+DOMAIN-SUFFIX,ttlimgs.com
 DOMAIN-SUFFIX,ttlivecdn.com
 DOMAIN-SUFFIX,ttlstatic.com
 DOMAIN-SUFFIX,ttoverseaus.net
@@ -536,6 +570,7 @@ DOMAIN-SUFFIX,fbsbx.net
 DOMAIN-SUFFIX,fburl.com
 DOMAIN-SUFFIX,fbwat.ch
 DOMAIN-SUFFIX,ig.me
+DOMAIN-SUFFIX,igsonar.com
 DOMAIN-SUFFIX,instagr.am
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,internalfb.com
@@ -788,12 +823,12 @@ IP-CIDR6,2c0f:ef78:11::/48,no-resolve
 ####################################################################
 DOMAIN,cursor.blob.core.windows.net
 DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
+DOMAIN,sxcontent9668.azureedge.us
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursorvm.com
-DOMAIN,dishy.starlink.com
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twimg.com
@@ -816,7 +851,11 @@ DOMAIN-SUFFIX,grokusercontent.com
 DOMAIN-SUFFIX,groktpcontent.com
 DOMAIN-SUFFIX,spacex.com
 DOMAIN-SUFFIX,starlink.com
-IP-CIDR,8.25.194.0/22,no-resolve
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,grok-sandbox.com
+DOMAIN-SUFFIX,spacex.ai
+IP-CIDR,8.25.194.0/23,no-resolve
+IP-CIDR,8.25.196.0/23,no-resolve
 IP-CIDR,64.63.0.0/18,no-resolve
 IP-CIDR,69.12.56.0/21,no-resolve
 IP-CIDR,103.252.112.0/22,no-resolve
@@ -843,19 +882,25 @@ IP-CIDR,192.31.242.0/24,no-resolve
 ####################################################################
 ###############################chatgpt######################
 ####################################################################
-DOMAIN,android.chat.openai.com
-DOMAIN,ios.chat.openai.com
-DOMAIN,auth0.openai.com
-DOMAIN,chat.openai.com
-DOMAIN,api.openai.com
-DOMAIN,cdn.openai.com
+DOMAIN,cdn.openaimerge.com
+DOMAIN,chatgpt.livekit.cloud
+DOMAIN,o207216.ingest.sentry.io
+DOMAIN,o33249.ingest.sentry.io
 DOMAIN,openaiassets.blob.core.windows.net
 DOMAIN,prod1pstatic.blob.core.windows.net
-DOMAIN-SUFFIX,auth.openai.com
+DOMAIN-SUFFIX,chatgpt-team.site
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.site
+DOMAIN-SUFFIX,featureassets.org
+DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openai.org
+DOMAIN-SUFFIX,prodregistryv2.org
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,statsigapi.net
 IP-CIDR,102.37.57.54/32,no-resolve
 IP-CIDR,13.71.25.29/32,no-resolve
 IP-CIDR,135.220.40.201/32,no-resolve
@@ -884,6 +929,7 @@ IP-CIDR,74.248.148.7/32,no-resolve
 #######################################################################################
 #############################line###########################################################
 #######################################################################################
+DOMAIN,line-billinggw.naver.jp
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,lin.ee
 DOMAIN-SUFFIX,line-apps.com
@@ -903,6 +949,7 @@ IP-CIDR,203.104.144.0/21,no-resolve
 IP-CIDR,203.104.152.0/22,no-resolve
 IP-CIDR,203.104.156.0/23,no-resolve
 IP-CIDR,203.104.158.0/24,no-resolve
+IP-CIDR,43.223.0.0/16,no-resolve
 IP-CIDR6,2400:dcc0::/32,no-resolve
 
 
@@ -938,6 +985,7 @@ IP-ASN,33016,no-resolve
 ####################################################################
 DOMAIN,bybit-exchange.github.io
 DOMAIN,bybit.ada.support
+DOMAIN-SUFFIX,byabcd.com
 DOMAIN-SUFFIX,byabcde.com
 DOMAIN-SUFFIX,byapis.com
 DOMAIN-SUFFIX,byapps.net
@@ -954,6 +1002,7 @@ DOMAIN-SUFFIX,bycsi.com
 DOMAIN-SUFFIX,byd3c3.com
 DOMAIN-SUFFIX,bymj.io
 DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,seabit.net
 
 
 
@@ -972,6 +1021,9 @@ DOMAIN-SUFFIX,binancefuture.com
 DOMAIN-SUFFIX,bnbstatic.com
 DOMAIN-SUFFIX,bnbzh.ac
 DOMAIN-SUFFIX,bntrace.com
+DOMAIN-SUFFIX,bsappapi.cc
+DOMAIN-SUFFIX,bscdnweb.com
+DOMAIN-SUFFIX,nftstatic.com
 DOMAIN-SUFFIX,saasexch.cc
 DOMAIN-SUFFIX,saasexch.co
 DOMAIN-SUFFIX,saasexch.com
@@ -982,6 +1034,8 @@ DOMAIN-SUFFIX,saasexch.io
 ####################################################################
 ##############################n26银行############################
 ####################################################################
+DOMAIN,n26-live-fra-contract-templates.s3.eu-central-1.amazonaws.com
+DOMAIN,n26-pdfgenerator-live.s3.eu-central-1.amazonaws.com
 DOMAIN-SUFFIX,n26.com
 DOMAIN-SUFFIX,n26.de
 DOMAIN-SUFFIX,n26.eu
@@ -991,6 +1045,7 @@ DOMAIN-SUFFIX,tech26.de
 ####################################################################
 ############################ifastgb银行############################
 ####################################################################
+DOMAIN,communication-services-igb-ai-cs-prod.uk.communication.azure.com
 DOMAIN-SUFFIX,ifastgb.com
 DOMAIN-SUFFIX,ifast-aws.com
 
@@ -1063,6 +1118,7 @@ DOMAIN-SUFFIX,braintree-api.com
 DOMAIN-SUFFIX,braintreegateway.com
 DOMAIN-SUFFIX,paypal.ca
 DOMAIN-SUFFIX,paypal.cn
+DOMAIN-SUFFIX,paypal.co.uk
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypal.com.cn
 DOMAIN-SUFFIX,paypal.com.hk
