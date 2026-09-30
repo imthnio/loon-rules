@@ -75,7 +75,6 @@ DOMAIN-SUFFIX,appdo.xyz
 DOMAIN-SUFFIX,pinatapin.com
 DOMAIN-SUFFIX,shop.kingemby.com
 DOMAIN-SUFFIX,tgnav.org
-DOMAIN,mirrors.ustc.edu.cn,DIRECT
 DOMAIN-SUFFIX,openwrt.org
 DOMAIN-SUFFIX,store.qu8.ru
 ########################################################################################
@@ -225,7 +224,6 @@ DOMAIN,emby.886318.xyz
 DOMAIN,link00.okemby.org
 DOMAIN,vip1.miraiemby.com
 DOMAIN,dm.moxiuu.com
-DOMAIN,emby.syemby.com
 DOMAIN,hgemby.qzz.io
 DOMAIN,od.emby.fan
 
@@ -243,10 +241,8 @@ DOMAIN-SUFFIX,uptodown.com
 DOMAIN-SUFFIX,utdstc.com
 DOMAIN-SUFFIX,apkcombo.com
 DOMAIN-SUFFIX,apkflash.com
-DOMAIN-SUFFIX,cloudflarestorage.com
 DOMAIN-SUFFIX,apk.support
 DOMAIN-SUFFIX,winudf.com
-DOMAIN-SUFFIX,digitaloceanspaces.com
 DOMAIN-SUFFIX,aptoide.com
 DOMAIN-SUFFIX,pejdw.com
 DOMAIN-SUFFIX,apkpure.com
@@ -272,7 +268,6 @@ DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,en.loader.to
 DOMAIN-SUFFIX,savenow.to
 DOMAIN-SUFFIX,downcloud.cc
-DOMAIN-SUFFIX,traefik.me
 DOMAIN-SUFFIX,cutcut.top
 DOMAIN-SUFFIX,jjdd666.cc
 DOMAIN-SUFFIX,idaohang123.com
@@ -476,7 +471,6 @@ DOMAIN,wloc-spoofer.wloc.workers.dev
 #======================================================================================
 DOMAIN-SUFFIX,wetransfer.com
 DOMAIN-SUFFIX,wetransfer.net
-DOMAIN-SUFFIX,iosninja.io
 DOMAIN-SUFFIX,ipalibrary.me
 DOMAIN-SUFFIX,iappstores.com
 DOMAIN-SUFFIX,dropboxusercontent.com
