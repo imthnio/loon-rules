@@ -547,6 +547,16 @@ DOMAIN-SUFFIX,vodupload.com
 DOMAIN-SUFFIX,worldfcdn2.com
 
 ####################################################################
+####################coze+cici+dola（字节国际版AI）######################
+####################################################################
+DOMAIN-SUFFIX,cici.com
+DOMAIN-SUFFIX,ciciai.com
+DOMAIN-SUFFIX,ciciaicdn.com
+DOMAIN-SUFFIX,coze.com
+DOMAIN-SUFFIX,dola.com
+DOMAIN-SUFFIX,oceanapi-i18n.com
+
+####################################################################
 ####################meta-app全家桶######################
 ####################################################################
 DOMAIN,meta-ohttp-config-prod.fastly-edge.com
