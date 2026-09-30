@@ -9,26 +9,23 @@ DOMAIN-SUFFIX,iplark.com
 DOMAIN-SUFFIX,v98store.com
 DOMAIN-SUFFIX,cryptoawaz.com
 IP-CIDR,117.147.93.21/32
-DOMAIN-SUFFIX,momo8.top
-DOMAIN,wemcef.it.com
 DOMAIN,uscardforum.com
+DOMAIN,uscardforum-files.s3.dualstack.us-west-2.amazonaws.com
 DOMAIN-SUFFIX,smartphoneaisettlement.com
 DOMAIN-SUFFIX,aplsconnect.com
 DOMAIN-SUFFIX,5sim.net
 DOMAIN-SUFFIX,longsms.net
-DOMAIN-SUFFIX,yezi55.net
-DOMAIN-SUFFIX,yezi79.com
 DOMAIN-SUFFIX,tqsms.xyz
 DOMAIN-SUFFIX,qc86.shop
 DOMAIN-SUFFIX,kitesim.com
 DOMAIN-SUFFIX,attorial.com
 DOMAIN-SUFFIX,d3al.xyz
 DOMAIN,netify.ai
-DOMAIN,telegra.ph
 DOMAIN,appstorrent.ru
 DOMAIN,nodebits.xyz
 DOMAIN,opentherank.com
 DOMAIN-SUFFIX,seagm.com
+DOMAIN-SUFFIX,seagmcdn.com
 DOMAIN,web.archive.org
 DOMAIN-SUFFIX,didima.cn
 DOMAIN-SUFFIX,file.kiwi
@@ -41,10 +38,9 @@ DOMAIN-SUFFIX,loon-plugin.vercel.app
 DOMAIN-SUFFIX,karlchannel.com
 DOMAIN-SUFFIX,wallpaperwaifu.com
 DOMAIN-SUFFIX,freedidi.com
-DOMAIN-SUFFIX,fix.qiaomu.ai
 DOMAIN-SUFFIX,kelee.one
-DOMAIN-SUFFIX,1nf.top
 DOMAIN-SUFFIX,ganjingworld.com
+DOMAIN-SUFFIX,ganjing.com
 DOMAIN-SUFFIX,beiyoujiang.com
 DOMAIN-SUFFIX,starvm.top
 DOMAIN-SUFFIX,feijipan.com
@@ -52,7 +48,7 @@ DOMAIN-SUFFIX,xinstore.org
 DOMAIN-SUFFIX,jzbk.net
 DOMAIN-SUFFIX,wiki.repcz.link
 DOMAIN-SUFFIX,baicai.xlog.app
-DOMAIN-SUFFIX,Report.Check.Place
+DOMAIN-SUFFIX,report.check.place
 DOMAIN-SUFFIX,akirabox.com
 DOMAIN-SUFFIX,mediafire.com
 DOMAIN-SUFFIX,aplxs.com
@@ -69,6 +65,7 @@ DOMAIN-SUFFIX,bhwa233.com
 DOMAIN-SUFFIX,ddgksf2013.top
 DOMAIN-SUFFIX,acgndog.com
 DOMAIN-SUFFIX,cloud.mail.ru
+DOMAIN-SUFFIX,datacloudmail.ru
 DOMAIN-SUFFIX,jottacloud.com
 DOMAIN-SUFFIX,downloadhd.net
 DOMAIN-SUFFIX,freshbulkacc.com
@@ -96,8 +93,7 @@ DOMAIN-SUFFIX,56idc.net
 DOMAIN,radonet.co.uk
 DOMAIN,verification.wanghaotian-andy.workers.dev
 DOMAIN-SUFFIX,lazycat.wiki
-DOMAIN,wawo.wiki
-DOMAIN,CA238BELLBM.VGRAPI.XYZ
+DOMAIN,ca238bellbm.vgrapi.xyz
 DOMAIN,geelinx.com
 DOMAIN,yonggekkk.github.io
 DOMAIN-SUFFIX,shlii.io
@@ -113,7 +109,6 @@ DOMAIN-SUFFIX,sadidc.com
 DOMAIN-SUFFIX,disxcloud.com
 DOMAIN-SUFFIX,my.virtury.com
 DOMAIN-SUFFIX,my.flapjacks.it
-DOMAIN-SUFFIX,jiavps.com
 DOMAIN-SUFFIX,idc.jjfly.cloud
 DOMAIN-SUFFIX,starvm.cn
 DOMAIN-SUFFIX,lxc.wiki
@@ -140,9 +135,11 @@ DOMAIN-SUFFIX,akkocloud.com
 DOMAIN-SUFFIX,akile.io
 DOMAIN-SUFFIX,wise.uzu.ma
 DOMAIN-SUFFIX,uzuma.ru
-DOMAIN-SUFFIX,uzumaru
 DOMAIN-SUFFIX,aethercloud.io
 DOMAIN-SUFFIX,netcup.com
+DOMAIN-SUFFIX,netcup.de
+DOMAIN-SUFFIX,customercontrolpanel.de
+DOMAIN-SUFFIX,servercontrolpanel.de
 DOMAIN-SUFFIX,yin-net.com
 DOMAIN-SUFFIX,cdn.bootcdn.net
 DOMAIN-SUFFIX,cravatar.cn
@@ -152,9 +149,7 @@ DOMAIN-KEYWORD,xuezhangvps
 DOMAIN-KEYWORD,ping0.ipyard.com
 DOMAIN-SUFFIX,nodequality.com
 DOMAIN-SUFFIX,idc.viie.io
-DOMAIN-SUFFIX,nathost.top
 DOMAIN-SUFFIX,idc.888644.xyz
-DOMAIN-SUFFIX,pinhao.cloud
 DOMAIN-SUFFIX,incudal.com
 DOMAIN-SUFFIX,vmrack.net
 DOMAIN-SUFFIX,robovps.biz
@@ -206,16 +201,20 @@ IP-CIDR,23.94.180.2/32
 ###########################################论坛############################################
 ########################################################################################
 DOMAIN-SUFFIX,nodeseek.com
+DOMAIN-SUFFIX,22112211.xyz
+DOMAIN-SUFFIX,nodeimage.com
 DOMAIN,linux.do
-DOMAIN,nodeloc.com
+DOMAIN-SUFFIX,ldstatic.com
+DOMAIN-SUFFIX,nodeloc.com
 DOMAIN,shuzijumin.com
 DOMAIN-SUFFIX,banknav.com
-DOMAIN,v2ex.com
+DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,v2ex.co
 DOMAIN,hostloc.com
 DOMAIN,apepine.com
 DOMAIN,legacyvps.com
-DOMAIN,greasyfork.org
-DOMAIN,nsloon.com
+DOMAIN-SUFFIX,greasyfork.org
+DOMAIN-SUFFIX,nsloon.com
 
 # ======================================================================================
 #===============================emby=================================================
@@ -225,7 +224,7 @@ DOMAIN,111660.xyz
 DOMAIN,emby.886318.xyz
 DOMAIN,link00.okemby.org
 DOMAIN,vip1.miraiemby.com
-DOMAIN,dm.moxiuu.com/dkvnGMoeve
+DOMAIN,dm.moxiuu.com
 DOMAIN,emby.syemby.com
 DOMAIN,hgemby.qzz.io
 DOMAIN,od.emby.fan
@@ -241,6 +240,7 @@ DOMAIN-SUFFIX,apkmirror.com
 DOMAIN-SUFFIX,malavida.com
 DOMAIN-SUFFIX,androeed.ru
 DOMAIN-SUFFIX,uptodown.com
+DOMAIN-SUFFIX,utdstc.com
 DOMAIN-SUFFIX,apkcombo.com
 DOMAIN-SUFFIX,apkflash.com
 DOMAIN-SUFFIX,cloudflarestorage.com
@@ -250,6 +250,7 @@ DOMAIN-SUFFIX,digitaloceanspaces.com
 DOMAIN-SUFFIX,aptoide.com
 DOMAIN-SUFFIX,pejdw.com
 DOMAIN-SUFFIX,apkpure.com
+DOMAIN-SUFFIX,cdnpure.com
 DOMAIN-SUFFIX,91maihao.com
 DOMAIN-SUFFIX,humkt.com
 DOMAIN-SUFFIX,desktophut.com
@@ -263,6 +264,7 @@ DOMAIN-SUFFIX,desktophut.com
 # ======================================================================================
 
 DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikimedia.org
 
 # ======================================================================================
 #=====================================视频解析下载======================================
@@ -274,7 +276,7 @@ DOMAIN-SUFFIX,traefik.me
 DOMAIN-SUFFIX,cutcut.top
 DOMAIN-SUFFIX,jjdd666.cc
 DOMAIN-SUFFIX,idaohang123.com
-DOMAIN-SUFFIX,easydown.or
+DOMAIN-SUFFIX,easydown.org
 DOMAIN-SUFFIX,ytdn.netlify.app
 
 # ======================================================================================
@@ -284,7 +286,6 @@ DOMAIN-SUFFIX,home.ff31.shop
 DOMAIN-SUFFIX,2786.3q888.top
 DOMAIN-SUFFIX,smm1ok.com
 DOMAIN-SUFFIX,kssq.net
-DOMAIN-SUFFIX,huosq.top
 DOMAIN-SUFFIX,9889.ren
 
 # ======================================================================================
@@ -320,7 +321,6 @@ DOMAIN-SUFFIX,wss1.cn
 #=======================================证件psd=====================================
 # ======================================================================================
 DOMAIN-SUFFIX,psdstencil.cc,no-resolve
-DOMAIN-SUFFIX,shop.xishuai.org,no-resolve
 DOMAIN-SUFFIX,dumuzhou.org,no-resolve
 DOMAIN-SUFFIX,cxctt.com,no-resolve
 DOMAIN-SUFFIX,shop.davinci-pay.com,no-resolve
@@ -343,6 +343,8 @@ DOMAIN-SUFFIX,695402.xyz
 DOMAIN-SUFFIX,111666.best
 DOMAIN-SUFFIX,img.baisi.ru
 DOMAIN-SUFFIX,imgbb.com
+DOMAIN-SUFFIX,ibb.co
+DOMAIN-SUFFIX,simgbb.com
 DOMAIN-SUFFIX,img.remit.ee
 
 
@@ -384,7 +386,12 @@ DOMAIN,esim.redteago.com
 DOMAIN,static.redteago.com
 DOMAIN,partner.redteago.com
 DOMAIN,api.redteago.com
+DOMAIN,einstein.redtea.io
+DOMAIN,static.redtea.io
+DOMAIN,images.redteamobile.com
+DOMAIN,redteago.firebaseio.com
 DOMAIN,rousseau.redtea.dev
+DOMAIN,nobel.redtea.dev
 USER-AGENT,*redteago*
 #======================================================================================
 #===========================菲律宾esim==================================
@@ -398,20 +405,11 @@ DOMAIN-SUFFIX,eshop.dito.ph
 
 DOMAIN-SUFFIX,giffgaff.com
 DOMAIN-SUFFIX,giffgaff.io
-DOMAIN,epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
-DOMAIN,ss.epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
-DOMAIN,ss.epdg.epc.geo.mnc010.mcc234.pub.3gppnetwork.org
 
 #======================================================================================
 #==============================vodafone沃达丰德国-esim==================================================================
 #======================================================================================
 DOMAIN-SUFFIX,vodafone.de
-DOMAIN-SUFFIX,vodafone-ip.de
-DOMAIN-SUFFIX,mnc002.mcc262.pub.3gppnetwork.org
-DOMAIN-SUFFIX,mnc004.mcc262.pub.3gppnetwork.org
-DOMAIN-SUFFIX,mnc009.mcc262.pub.3gppnetwork.org
-DOMAIN-SUFFIX,mnc042.mcc262.pub.3gppnetwork.org
-IP-CIDR,139.7.117.160/28,no-resolve
 
 
 #======================================================================================
@@ -429,6 +427,7 @@ DOMAIN-SUFFIX,saily.com
 #===========================eskimo-esim流量卡==================================
 #======================================================================================
 DOMAIN-SUFFIX,eskimo.travel
+DOMAIN,steskimoprodsea.blob.core.windows.net
 
 DOMAIN-SUFFIX,esim.cc
 DOMAIN-SUFFIX,s.ee
@@ -447,6 +446,8 @@ DOMAIN-SUFFIX,tailscale.com
 #======================================================================================
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pximg.net
+DOMAIN-SUFFIX,pixiv.me
+DOMAIN-SUFFIX,pixiv.org
 
 
 
@@ -474,6 +475,7 @@ DOMAIN,wloc-spoofer.wloc.workers.dev
 #=================================苹果app ipa=====================================
 #======================================================================================
 DOMAIN-SUFFIX,wetransfer.com
+DOMAIN-SUFFIX,wetransfer.net
 DOMAIN-SUFFIX,iosninja.io
 DOMAIN-SUFFIX,ipalibrary.me
 DOMAIN-SUFFIX,iappstores.com
@@ -495,4 +497,5 @@ DOMAIN-SUFFIX,topcashback.de
 DOMAIN-SUFFIX,topcashback.es
 DOMAIN-SUFFIX,topcashback.fr
 DOMAIN-SUFFIX,topcashback.it
+DOMAIN-SUFFIX,tcb-cdn.com
 
