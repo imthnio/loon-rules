@@ -888,6 +888,31 @@ IP-CIDR,31.207.0.0/24,no-resolve
 IP-CIDR,192.31.242.0/24,no-resolve
 
 
+####################################################################
+#############################claude####################
+####################################################################
+
+DOMAIN-SUFFIX,agentskills.io
+DOMAIN-SUFFIX,anthropic.ai
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.app
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claude.dev
+DOMAIN-SUFFIX,claude.md
+DOMAIN-SUFFIX,claude.new
+DOMAIN-SUFFIX,claude.site
+DOMAIN-SUFFIX,claudegov.ai
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudemcpcontent.com
+DOMAIN-SUFFIX,claudepages.dev
+DOMAIN-SUFFIX,claudestudio.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,skill.md
+IP-CIDR,160.79.104.0/23,no-resolve
+IP-CIDR6,2607:6bc0::/48,no-resolve
+IP-CIDR6,2607:6bc0:11::/48,no-resolve
 
 
 ####################################################################
