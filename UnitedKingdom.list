@@ -1,6 +1,9 @@
 ####################################################################
 #########################google-app全家桶+youtube#########################
 ####################################################################
+
+
+
 DOMAIN-SUFFIX,0emm.com
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,1ucrs.com
@@ -1209,6 +1212,10 @@ IP-CIDR6,2620:120:e000::/40,no-resolve
 IP-CIDR6,2800:3f0::/32,no-resolve
 IP-CIDR6,2a00:1450::/32,no-resolve
 IP-CIDR6,2c0f:fb50::/32,no-resolve
+USER-AGENT,YouTube*
+USER-AGENT,YouTubeMusic*
+USER-AGENT,Gmail*
+
 
 
 
@@ -1490,8 +1497,9 @@ IP-CIDR6,2605:340:f0cd::/48,no-resolve
 IP-CIDR6,2605:340:f0d2::/48,no-resolve
 IP-CIDR6,2605:340:f0d9::/48,no-resolve
 IP-CIDR6,2605:340:f0da::/48,no-resolve
-
-
+USER-AGENT,CapCut*
+USER-AGENT,Tiktok*
+USER-AGENT,lemon8*
 
 
 
@@ -1830,6 +1838,8 @@ IP-CIDR,202.160.128.0/22,no-resolve
 IP-CIDR6,2400:6680:f000::/36,no-resolve
 IP-CIDR6,2606:1f80:f000::/36,no-resolve
 IP-CIDR6,2a04:9d40:f000::/36,no-resolve
+USER-AGENT,Twitter*
+USER-AGENT,Starlink*
 
 
 
@@ -2040,6 +2050,7 @@ DOMAIN,n26-ios-live.appspot.com
 DOMAIN,m-n26.kontenwechsel.de
 DOMAIN,m-n26.kontenwechsel.at
 DOMAIN,m-n26.cambiodecuenta.es
+USER-AGENT,N26*
 
 ####################################################################
 ############################ifastgb银行############################
@@ -2085,6 +2096,7 @@ DOMAIN,monzo-android-production.appspot.com
 DOMAIN,monzo-android-production.firebaseio.com
 DOMAIN,monzo-android-staging.appspot.com
 DOMAIN,monzo-android-staging.firebaseio.com
+USER-AGENT,Monzo*
 
 
 
