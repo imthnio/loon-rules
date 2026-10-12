@@ -1265,7 +1265,6 @@ DOMAIN-SUFFIX,tiktok-us.org
 DOMAIN-SUFFIX,tiktok-usts.net
 DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktok.me
-DOMAIN-SUFFIX,tiktok.us
 DOMAIN-SUFFIX,tiktokapis.com
 DOMAIN-SUFFIX,tiktokapis.us
 DOMAIN-SUFFIX,tiktokcdn-eu.com
@@ -1410,13 +1409,8 @@ IP-CIDR,147.160.180.0/24,no-resolve
 IP-CIDR,147.160.182.0/24,no-resolve
 IP-CIDR,147.160.184.0/24,no-resolve
 IP-CIDR,147.160.190.0/24,no-resolve
-IP-CIDR,180.240.234.0/23,no-resolve
 IP-CIDR,192.64.15.0/24,no-resolve
 IP-CIDR,199.103.24.0/23,no-resolve
-IP-CIDR,202.52.240.0/21,no-resolve
-IP-CIDR6,2001:fb0:1056::/48,no-resolve
-IP-CIDR6,2404:8d04:2643::/48,no-resolve
-IP-CIDR6,2404:8d04:4642::/48,no-resolve
 IP-CIDR6,2404:9dc0:c000::/48,no-resolve
 IP-CIDR6,2404:9dc0:c002::/48,no-resolve
 IP-CIDR6,2404:9dc0:cd01::/48,no-resolve
@@ -2472,9 +2466,16 @@ USER-AGENT,N26*
 ####################################################################
 ############################ifastgb银行############################
 ####################################################################
-DOMAIN,communication-services-igb-ai-cs-prod.uk.communication.azure.com
 DOMAIN-SUFFIX,ifastgb.com
-DOMAIN-SUFFIX,ifast-aws.com
+DOMAIN-SUFFIX,ifastgb.co.uk
+DOMAIN-SUFFIX,ifastglobalbank.com
+DOMAIN-SUFFIX,ifastglobalbank.co.uk
+DOMAIN,ifast-global-bank.appspot.com
+DOMAIN,dtb-mobile.appspot.com
+DOMAIN,regional.ifastcorp.com
+DOMAIN,www.ifastcorp.com
+DOMAIN-SUFFIX,ezremit.com
+
 
 
 
