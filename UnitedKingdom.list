@@ -1212,23 +1212,20 @@ IP-CIDR6,2c0f:fb50::/32,no-resolve
 
 
 
+
 ####################################################################
 ########tiktok+capcut+dreamina+lemon8+coze+cici+dola#########################
 ####################################################################
-DOMAIN-SUFFIX,bytedapm.com
 DOMAIN-SUFFIX,byteeffecttos-g.com
 DOMAIN-SUFFIX,bytegecko-i18n.com
-DOMAIN-SUFFIX,byteglb.com
 DOMAIN-SUFFIX,bytehwm-row.com
 DOMAIN-SUFFIX,byteicdn.com
-DOMAIN-SUFFIX,byteingress.com
 DOMAIN-SUFFIX,byteintl.com
 DOMAIN-SUFFIX,byteintl.net
 DOMAIN-SUFFIX,byteintlapi.com
 DOMAIN-SUFFIX,byteintlstatic.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,byteoversea.net
-DOMAIN-SUFFIX,bytevcloudapi.com
 DOMAIN-SUFFIX,capcut.com
 DOMAIN-SUFFIX,capcut.net
 DOMAIN-SUFFIX,capcut.us
@@ -1246,7 +1243,6 @@ DOMAIN-SUFFIX,ciciaicdn.com
 DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,dola.com
 DOMAIN-SUFFIX,dreamina.com
-DOMAIN-SUFFIX,faceulv.com
 DOMAIN-SUFFIX,hypic.com
 DOMAIN-SUFFIX,hypicapi-us.com
 DOMAIN-SUFFIX,hypicstatic-us.com
@@ -1322,10 +1318,9 @@ DOMAIN-SUFFIX,ttlimgs.com
 DOMAIN-SUFFIX,ttlivecdn-row.com
 DOMAIN-SUFFIX,ttlivecdn.com
 DOMAIN-SUFFIX,ttlstatic.com
-DOMAIN-SUFFIX,ttnet.org
 DOMAIN-SUFFIX,ttoverseaus.net
-DOMAIN-SUFFIX,ttwebview.com
 DOMAIN-SUFFIX,ttwstatic.com
+DOMAIN,ocean-20230516.appspot.com
 IP-CIDR,71.18.1.0/24,no-resolve
 IP-CIDR,71.18.2.0/23,no-resolve
 IP-CIDR,71.18.4.0/22,no-resolve
@@ -1820,6 +1815,8 @@ DOMAIN,spacex-starlink.appspot.com
 DOMAIN,spacex-starlink.firebaseio.com
 DOMAIN,grok-for-android.firebasestorage.app
 DOMAIN,xai-prod-grokbot-for-playstore.firebasestorage.app
+DOMAIN,twttr-release-eng-ios.appspot.com
+DOMAIN,twttr-release-eng-ios.firebaseio.com
 IP-CIDR,64.63.0.0/18,no-resolve
 IP-CIDR,103.252.112.0/22,no-resolve
 IP-CIDR,104.244.42.0/24,no-resolve
@@ -2084,6 +2081,11 @@ DOMAIN-SUFFIX,monzo.com
 DOMAIN-SUFFIX,monzo.co.uk
 DOMAIN-SUFFIX,monzo.me
 DOMAIN,monzo.statuspage.io
+DOMAIN,monzo-android-production.appspot.com
+DOMAIN,monzo-android-production.firebaseio.com
+DOMAIN,monzo-android-staging.appspot.com
+DOMAIN,monzo-android-staging.firebaseio.com
+
 
 
 
