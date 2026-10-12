@@ -1614,6 +1614,7 @@ DOMAIN-SUFFIX,twttr.com
 DOMAIN-SUFFIX,twttr.net
 DOMAIN-SUFFIX,twvid.com
 DOMAIN-SUFFIX,vine.co
+DOMAIN-SUFFIX,twitterfeedback.com
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
@@ -1646,6 +1647,7 @@ IP-CIDR,202.160.128.0/22,no-resolve
 IP-CIDR6,2400:6680:f000::/36,no-resolve
 IP-CIDR6,2606:1f80:f000::/36,no-resolve
 IP-CIDR6,2a04:9d40:f000::/36,no-resolve
+
 
 
 ####################################################################
