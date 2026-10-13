@@ -154,7 +154,6 @@ DOMAIN-SUFFIX,fastlane.ci
 DOMAIN-SUFFIX,feedburner.com
 DOMAIN-SUFFIX,fflick.com
 DOMAIN-SUFFIX,financeleadsonline.com
-DOMAIN-SUFFIX,firebaseapp.com
 DOMAIN-SUFFIX,flutter.dev
 DOMAIN-SUFFIX,flutterapp.com
 DOMAIN-SUFFIX,foofle.com
@@ -2498,7 +2497,8 @@ DOMAIN-SUFFIX,mnc240.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,giffgaff.com
 DOMAIN-SUFFIX,giffgaff.io
 DOMAIN-SUFFIX,epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
-IP-CIDR,87.194.0.0/16,no-resolve
+IP-CIDR,87.194.8.0/23,no-resolve
+IP-CIDR,87.194.88.0/23,no-resolve
 
 ####################################################################
 #######################德国Vodafone——Wi-Ficalling##########################
