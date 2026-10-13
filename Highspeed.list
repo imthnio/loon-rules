@@ -8,6 +8,18 @@ DOMAIN-SUFFIX,ghcr.io
 DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,github.blog
 DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,dependabot.com
+DOMAIN-SUFFIX,github.ai
+DOMAIN-SUFFIX,github.career
+DOMAIN-SUFFIX,github.community
+DOMAIN-SUFFIX,githubnext.com
+DOMAIN-SUFFIX,githubhackathon.com
+DOMAIN-SUFFIX,githubsupport.com
+DOMAIN-SUFFIX,githubpreview.dev
+DOMAIN-SUFFIX,myoctocat.com
+DOMAIN-SUFFIX,opensource.guide
+DOMAIN-SUFFIX,repo.new
+DOMAIN-SUFFIX,ghe.com
 DOMAIN-SUFFIX,github.app
 DOMAIN-SUFFIX,githubuniverse.com
 DOMAIN-SUFFIX,github.dev
@@ -25,6 +37,7 @@ DOMAIN,default.exp-tas.com
 #######################################################################################
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditblog.com
 DOMAIN-SUFFIX,redditforcommunity.com
 DOMAIN-SUFFIX,reddithelp.com
 DOMAIN-SUFFIX,redditinc.com
