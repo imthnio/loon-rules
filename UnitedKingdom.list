@@ -1251,7 +1251,6 @@ DOMAIN-SUFFIX,facebook-studio.com
 DOMAIN-SUFFIX,facebook-support.org
 DOMAIN-SUFFIX,facebook-texas-holdem.com
 DOMAIN-SUFFIX,facebook-texas-holdem.net
-DOMAIN-SUFFIX,facebook.br
 DOMAIN-SUFFIX,facebook.ca
 DOMAIN-SUFFIX,facebook.cc
 DOMAIN-SUFFIX,facebook.com
@@ -1875,7 +1874,6 @@ DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicom.imgix.net
 DOMAIN,openai-api.arkoselabs.com
 DOMAIN,chatgpt.livekit.cloud
-DOMAIN,sora-android-475721.firebasestorage.app
 DOMAIN,o33249.ingest.sentry.io
 DOMAIN,openai.qualtrics.com
 USER-AGENT,ChatGPT/*
@@ -2047,7 +2045,6 @@ DOMAIN-SUFFIX,opbnbscan.com
 DOMAIN-SUFFIX,trustwallet.com
 DOMAIN-SUFFIX,trustwalletapp.com
 DOMAIN-SUFFIX,twnodes.com
-DOMAIN,fiat.binance.app
 DOMAIN,binance-us.onelink.me
 DOMAIN,binance.zendesk.com
 DOMAIN,binanceussupport.zendesk.com

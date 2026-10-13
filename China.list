@@ -128,8 +128,6 @@ DOMAIN,p9-webcast-game-sign.byteimg.com
 DOMAIN,p9-xg.byteimg.com
 DOMAIN,lf6-dycdn-tos.pstatp.com
 DOMAIN,p3-xg.pstatp.com
-DOMAIN,sf1-hscdn-tos.pstatp.com
-DOMAIN,sf1-xgcdn-tos.pstatp.com
 DOMAIN,sf3-crc-eecdn-tos.pstatp.com
 DOMAIN,sf3-dycdn-tos.pstatp.com
 DOMAIN,sf3-eecdn-tos.pstatp.com
@@ -188,7 +186,6 @@ DOMAIN,monsetting.toutiao.com
 DOMAIN,mp.toutiao.com
 DOMAIN,nativeapp.toutiao.com
 DOMAIN,open.toutiao.com
-DOMAIN,share.toutiao.com
 DOMAIN,so.toutiao.com
 DOMAIN,temai.toutiao.com
 DOMAIN,tmaservice.developer.toutiao.com
