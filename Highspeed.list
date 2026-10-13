@@ -8,6 +8,8 @@ DOMAIN-SUFFIX,ghcr.io
 DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,github.blog
 DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.app
+DOMAIN-SUFFIX,githubuniverse.com
 DOMAIN-SUFFIX,github.dev
 DOMAIN-SUFFIX,githubapp.com
 DOMAIN-SUFFIX,githubassets.com
@@ -32,7 +34,6 @@ DOMAIN-SUFFIX,redditspace.com
 DOMAIN-SUFFIX,redditstatic.com
 DOMAIN-SUFFIX,redditstatus.com
 DOMAIN-SUFFIX,reddituploads.com
-DOMAIN,reddit.app.link
 
 
 #######################################################################################
