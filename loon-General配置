@@ -9,7 +9,7 @@ ip-mode = ipv4-preferred
 ipv6-vif = auto
 udp-fallback-mode = REJECT
 domain-reject-mode = DNS
-dns-reject-mode = LoopbackIP
+dns-reject-mode = LOOPBACKIP
 disable-stun = true
 sni-sniffing = true
 
@@ -21,7 +21,7 @@ doh-server = https://dns.alidns.com/dns-query,https://doh.pub/dns-query
 hijack-dns = *:53
 real-ip = *.apple.com,*.icloud.com,*.icloud-content.com,*.mzstatic.com,localhost,*.local
 
-interface-mode = auto
+interface-mode = Auto
 allow-wifi-access = false
 wifi-access-http-port = 7222
 wifi-access-socks5-port = 7221
@@ -52,7 +52,7 @@ ip-mode = dual
 ipv6-vif = auto
 udp-fallback-mode = REJECT
 domain-reject-mode = DNS
-dns-reject-mode = LoopbackIP
+dns-reject-mode = LOOPBACKIP
 disable-stun = true
 sni-sniffing = true
 
@@ -64,7 +64,7 @@ doh-server = https://cloudflare-dns.com/dns-query
 hijack-dns = *:53
 real-ip = *.apple.com,*.icloud.com,*.icloud-content.com,*.mzstatic.com,localhost,*.local
 
-interface-mode = auto
+interface-mode = Auto
 allow-wifi-access = false
 wifi-access-http-port = 7222
 wifi-access-socks5-port = 7221
