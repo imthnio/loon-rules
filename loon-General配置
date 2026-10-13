@@ -2,6 +2,8 @@
 ###########################中国版本###########################
 ##############################################################
 
+# 注意：本文件有两段 [General]（中国版 / 海外版），只复制其中一段到你的配置里，不要两段都复制
+# 建议：在 [Remote Rule] 里把 Highspeed 和 Other 规则集放在 UnitedKingdom 前面，具体规则先生效
 [General]
 ip-mode = ipv4-preferred
 ipv6-vif = auto
@@ -43,6 +45,8 @@ ipasn-url = https://raw.githubusercontent.com/P3TERX/GeoLite.mmdb/download/GeoLi
 
 
 
+# 注意：本文件有两段 [General]（中国版 / 海外版），只复制其中一段到你的配置里，不要两段都复制
+# 建议：在 [Remote Rule] 里把 Highspeed 和 Other 规则集放在 UnitedKingdom 前面，具体规则先生效
 [General]
 ip-mode = dual
 ipv6-vif = auto

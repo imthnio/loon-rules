@@ -85,7 +85,6 @@ DOMAIN-SUFFIX,bytemaimg.com
 DOMAIN-SUFFIX,bytetcc.com
 DOMAIN-SUFFIX,zijieimg.com
 DOMAIN-SUFFIX,zijiecdn.com
-DOMAIN,aweme-lab.bytedance.com
 DOMAIN,lark-plugin.bytedance.com
 DOMAIN,lvc-hl.bytedance.com
 DOMAIN,moment-china.bytedance.com
@@ -127,11 +126,8 @@ DOMAIN,p9-dy.byteimg.com
 DOMAIN,p9-webcast-dycdn.byteimg.com
 DOMAIN,p9-webcast-game-sign.byteimg.com
 DOMAIN,p9-xg.byteimg.com
-DOMAIN,lf1-xgcdn-tos.pstatp.com
-DOMAIN,lf3-eecdn-tos.pstatp.com
 DOMAIN,lf6-dycdn-tos.pstatp.com
 DOMAIN,p3-xg.pstatp.com
-DOMAIN,sf1-dycdn-tos.pstatp.com
 DOMAIN,sf1-hscdn-tos.pstatp.com
 DOMAIN,sf1-xgcdn-tos.pstatp.com
 DOMAIN,sf3-crc-eecdn-tos.pstatp.com
@@ -166,7 +162,6 @@ DOMAIN,lf-lq.snssdk.com
 DOMAIN,lf.snssdk.com
 DOMAIN,luckycat-ameboon.snssdk.com
 DOMAIN,novel.snssdk.com
-DOMAIN,pay-douyin.snssdk.com
 DOMAIN,toutiao-frontier.snssdk.com
 DOMAIN,vas-hl-x.snssdk.com
 DOMAIN,vas-lf-x.snssdk.com
@@ -186,7 +181,6 @@ DOMAIN,dm-hl.toutiao.com
 DOMAIN,dm.toutiao.com
 DOMAIN,fangchan.toutiao.com
 DOMAIN,h5.toutiao.com
-DOMAIN,libra.toutiao.com
 DOMAIN,m-doc.toutiao.com
 DOMAIN,m.toutiao.com
 DOMAIN,mon.toutiao.com
