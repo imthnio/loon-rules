@@ -2508,6 +2508,7 @@ DOMAIN,epdg.epc.drz1.vodafone-ip.de
 DOMAIN-SUFFIX,mnc002.mcc262.pub.3gppnetwork.org
 DOMAIN-SUFFIX,mnc009.mcc262.pub.3gppnetwork.org
 IP-CIDR,139.7.117.160/28,no-resolve
+DOMAIN-SUFFIX,meinvodafone.de
 
 
 
@@ -2522,6 +2523,8 @@ IP-CIDR,62.133.76.251/32,no-resolve
 
 ####################################################################
 #######################Lebara uk——Wi-Ficalling##########################
+DOMAIN-SUFFIX,lebara.de
+DOMAIN-SUFFIX,lebara.nl
 DOMAIN-SUFFIX,lebara.com
 DOMAIN-SUFFIX,lebara.co.uk
 ####################################################################
