@@ -279,6 +279,19 @@ DOMAIN-SUFFIX,desktophut.com
 # ======================================================================================
 
 DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,mediawiki.org
+DOMAIN-SUFFIX,w.wiki
+DOMAIN-SUFFIX,wikibooks.org
+DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,wikinews.org
+DOMAIN-SUFFIX,wikiquote.org
+DOMAIN-SUFFIX,wikisource.org
+DOMAIN-SUFFIX,wikiversity.org
+DOMAIN-SUFFIX,wikivoyage.org
+DOMAIN-SUFFIX,wiktionary.org
+DOMAIN-SUFFIX,wikipedia.com
+DOMAIN-SUFFIX,wmfusercontent.org
+DOMAIN-SUFFIX,wikimediafoundation.org
 DOMAIN-SUFFIX,wikimedia.org
 
 # ======================================================================================
@@ -455,6 +468,8 @@ DOMAIN-SUFFIX,tailscale.com
 #=====================================p站/Pixiv========================================
 #======================================================================================
 DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,booth.pm
+DOMAIN-SUFFIX,pixiv.co.jp
 DOMAIN-SUFFIX,pixivision.net
 DOMAIN-SUFFIX,fanbox.cc
 DOMAIN-SUFFIX,ads-pixiv.net
