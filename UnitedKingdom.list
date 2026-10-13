@@ -1887,6 +1887,9 @@ DOMAIN,line-billinggw.naver.jp
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,lin.ee
 DOMAIN-SUFFIX,line-apps.com
+DOMAIN-SUFFIX,line-objects.com
+DOMAIN-SUFFIX,linepluscorp.com
+DOMAIN-SUFFIX,line-website.com
 DOMAIN-SUFFIX,line-cdn.net
 DOMAIN-SUFFIX,line-scdn.net
 DOMAIN-SUFFIX,linecorp.com
@@ -2480,6 +2483,8 @@ USER-AGENT,HoneyMobile*
 
 ####################################################################
 ########################1psim——Wi-Ficalling##########################
+IP-CIDR,208.54.32.35/32,no-resolve
+IP-CIDR,208.54.2.195/32,no-resolve
 ####################################################################
 DOMAIN-SUFFIX,mnc260.mcc310.pub.3gppnetwork.org
 DOMAIN-SUFFIX,mnc240.mcc310.pub.3gppnetwork.org
@@ -2490,6 +2495,7 @@ DOMAIN-SUFFIX,mnc240.mcc310.pub.3gppnetwork.org
 ####################################################################
 
 DOMAIN-SUFFIX,giffgaff.com
+DOMAIN-SUFFIX,giffgaffrecycle.com
 DOMAIN-SUFFIX,giffgaff.io
 DOMAIN-SUFFIX,epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
 IP-CIDR,87.194.8.0/23,no-resolve
@@ -2507,6 +2513,7 @@ IP-CIDR,139.7.117.160/28,no-resolve
 
 ####################################################################
 #######################simyo荷兰——Wi-Ficalling##########################
+DOMAIN-SUFFIX,simyo.nl
 ####################################################################
 DOMAIN,epdg.epc.mnc008.mcc204.pub.3gppnetwork.org
 IP-CIDR,62.133.76.249/32,no-resolve
@@ -2515,6 +2522,8 @@ IP-CIDR,62.133.76.251/32,no-resolve
 
 ####################################################################
 #######################Lebara uk——Wi-Ficalling##########################
+DOMAIN-SUFFIX,lebara.com
+DOMAIN-SUFFIX,lebara.co.uk
 ####################################################################
 
 DOMAIN,epdg.epc.mnc087.mcc234.pub.3gppnetwork.org

@@ -236,6 +236,8 @@ DOMAIN-SUFFIX,nsloon.com
 
 # ======================================================================================
 #===============================emby=================================================
+DOMAIN-SUFFIX,emby.media
+DOMAIN-SUFFIX,mb3admin.com
 # ======================================================================================
 DOMAIN,eb.zzm.li
 DOMAIN,111660.xyz
@@ -401,7 +403,6 @@ DOMAIN,api.redteago.com
 DOMAIN,einstein.redtea.io
 DOMAIN,static.redtea.io
 DOMAIN,images.redteamobile.com
-DOMAIN,redteago.firebaseio.com
 DOMAIN,rousseau.redtea.dev
 DOMAIN,nobel.redtea.dev
 USER-AGENT,*redteago*
@@ -427,6 +428,7 @@ DOMAIN-SUFFIX,vodafone.de
 #======================================================================================
 
 DOMAIN-SUFFIX,saily.com
+DOMAIN,sb.nordcdn.com
 
 
 
@@ -439,8 +441,6 @@ DOMAIN-SUFFIX,saily.com
 DOMAIN-SUFFIX,eskimo.travel
 DOMAIN,steskimoprodsea.blob.core.windows.net
 
-DOMAIN-SUFFIX,esim.cc
-DOMAIN-SUFFIX,s.ee
 
 
 
@@ -455,6 +455,9 @@ DOMAIN-SUFFIX,tailscale.com
 #=====================================p站/Pixiv========================================
 #======================================================================================
 DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,pixivision.net
+DOMAIN-SUFFIX,fanbox.cc
+DOMAIN-SUFFIX,ads-pixiv.net
 DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,pixiv.me
 DOMAIN-SUFFIX,pixiv.org
@@ -506,7 +509,6 @@ DOMAIN-SUFFIX,topcashback.de
 DOMAIN-SUFFIX,topcashback.es
 DOMAIN-SUFFIX,topcashback.fr
 DOMAIN-SUFFIX,topcashback.it
-DOMAIN-SUFFIX,tcb-cdn.com
 
 #======================================================================================
 #===============================中转=====================================
