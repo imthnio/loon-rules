@@ -2525,6 +2525,8 @@ DOMAIN,epdg.vodafone.co.uk
 IP-CIDR,88.82.11.208/32,no-resolve
 IP-CIDR,88.82.11.221/32,no-resolve
 IP-CIDR,148.252.188.96/32,no-resolve
+IP-CIDR,34.3.3.0/24,no-resolve
+IP-CIDR,34.3.16.0/20,no-resolve
 
 
 ####################################################################
