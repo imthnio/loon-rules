@@ -19,7 +19,7 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 dns-server = system
 doh-server = https://dns.alidns.com/dns-query,https://doh.pub/dns-query
 hijack-dns = *:53
-real-ip = *.apple.com,*.icloud.com,*.icloud-content.com,*.mzstatic.com,localhost,*.local
+real-ip = *.apple.com,*.icloud.com,*.icloud-content.com,*.mzstatic.com,localhost,*.local,*.3gppnetwork.org
 
 interface-mode = Auto
 allow-wifi-access = false
@@ -62,7 +62,7 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 dns-server = system
 doh-server = https://cloudflare-dns.com/dns-query
 hijack-dns = *:53
-real-ip = *.apple.com,*.icloud.com,*.icloud-content.com,*.mzstatic.com,localhost,*.local
+real-ip = *.apple.com,*.icloud.com,*.icloud-content.com,*.mzstatic.com,localhost,*.local,*.3gppnetwork.org
 
 interface-mode = Auto
 allow-wifi-access = false
