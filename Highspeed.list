@@ -159,3 +159,12 @@ DOMAIN,api-6414577526685413251-707161.appspot.com
 DOMAIN,api-6414577526685413251-707161.firebaseio.com
 DOMAIN-SUFFIX,pubgmobile.jp
 
+
+#======================================================================================
+#===============================api-中转=====================================
+#======================================================================================
+
+DOMAIN-SUFFIX,xuedingtoken.com
+DOMAIN-SUFFIX,remix.codes
+DOMAIN-SUFFIX,ai.clol.site
+DOMAIN-SUFFIX,ai.bcol.c
