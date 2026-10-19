@@ -773,41 +773,22 @@ DOMAIN-SUFFIX,fitbit.com
 DOMAIN-SUFFIX,googlezip.net
 DOMAIN-SUFFIX,plus.codes
 DOMAIN-SUFFIX,tenor.com
-DOMAIN,2mdn-cn.net
 DOMAIN,2mdn.net
 DOMAIN,app-analytics-services.com
-DOMAIN,app-measurement-cn.com
 DOMAIN,app-measurement.com
 DOMAIN,apps5.oingo.com
 DOMAIN,avail.googleflights.net
 DOMAIN,clickserve.cc-dt.com
-DOMAIN,dartsearch-cn.net
-DOMAIN,doubleclick-cn.net
 DOMAIN,doubleclick.net
-DOMAIN,gongyichuangyi.net
-DOMAIN,google-analytics-cn.com
 DOMAIN,google-analytics.com
-DOMAIN,googleadservices-cn.com
 DOMAIN,googleadservices.com
 DOMAIN,googleanalytics.com
-DOMAIN,googleapis-cn.com
-DOMAIN,googleapps-cn.com
-DOMAIN,googleflights-cn.net
-DOMAIN,googleoptimize-cn.com
 DOMAIN,googleoptimize.com
-DOMAIN,googlesyndication-cn.com
 DOMAIN,googlesyndication.com
-DOMAIN,googletagmanager-cn.com
 DOMAIN,googletagmanager.com
-DOMAIN,googletagservices-cn.com
 DOMAIN,googletagservices.com
-DOMAIN,googletraveladservices-cn.com
 DOMAIN,googletraveladservices.com
-DOMAIN,googlevads-cn.com
-DOMAIN,gstatic-cn.com
-DOMAIN,qiao-cn.com
 DOMAIN,qpx.googleflights.net
-DOMAIN,recaptcha-cn.net
 DOMAIN,recaptcha.net
 DOMAIN,www.destinationurl.com
 DOMAIN,www.pxcc.com
@@ -889,6 +870,8 @@ DOMAIN-SUFFIX,capcut.net
 DOMAIN-SUFFIX,capcut.us
 DOMAIN-SUFFIX,capcutapi-us.com
 DOMAIN-SUFFIX,capcutapi.com
+DOMAIN-SUFFIX,capcutapi.us
+DOMAIN-SUFFIX,ttwebview.com
 DOMAIN-SUFFIX,capcutcdn-us.com
 DOMAIN-SUFFIX,capcutimg.com
 DOMAIN-SUFFIX,capcutstatic-us.com
@@ -1817,6 +1800,7 @@ IP-CIDR6,2606:1f80:f000::/36,no-resolve
 IP-CIDR6,2a04:9d40:f000::/36,no-resolve
 USER-AGENT,Twitter*
 USER-AGENT,Starlink*
+IP-CIDR,199.96.56.0/23,no-resolve
 
 
 
