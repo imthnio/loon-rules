@@ -774,7 +774,7 @@ DOMAIN-SUFFIX,googlezip.net
 DOMAIN-SUFFIX,plus.codes
 DOMAIN-SUFFIX,tenor.com
 DOMAIN-SUFFIX,2mdn.net
-DOMAIN,app-analytics-services.com
+DOMAIN-SUFFIX,app-analytics-services.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN,apps5.oingo.com
 DOMAIN,avail.googleflights.net
@@ -782,7 +782,7 @@ DOMAIN,clickserve.cc-dt.com
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,googleadservices.com
-DOMAIN,googleanalytics.com
+DOMAIN-SUFFIX,googleanalytics.com
 DOMAIN-SUFFIX,googleoptimize.com
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googletagmanager.com
