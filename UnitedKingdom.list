@@ -1876,7 +1876,7 @@ DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicom.imgix.net
 DOMAIN,openai-api.arkoselabs.com
 DOMAIN,chatgpt.livekit.cloud
-DOMAIN,host.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN,turn.livekit.cloud
 DOMAIN,o33249.ingest.sentry.io
 DOMAIN,openai.qualtrics.com
@@ -2567,4 +2567,6 @@ DOMAIN-SUFFIX,aa.net.uk
 #####################德国代收扫描#########################
 ####################################################################
 DOMAIN-SUFFIX,clevver.io
+DOMAIN-SUFFIX,clevvermail.com
+DOMAIN,clevver.eu.auth0.com
 DOMAIN-SUFFIX,dropscan.de
