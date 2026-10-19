@@ -1767,12 +1767,14 @@ DOMAIN-SUFFIX,twitterfeedback.com
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
+USER-AGENT,Grok*
 DOMAIN-SUFFIX,grokipedia.com
 DOMAIN-SUFFIX,grokusercontent.com
 DOMAIN-SUFFIX,grok.me
 DOMAIN-SUFFIX,spacex.com
 DOMAIN-SUFFIX,starlink.com
 DOMAIN-SUFFIX,cursor.com
+USER-AGENT,Cursor*
 DOMAIN-SUFFIX,cursorvm.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursorapi.com
@@ -1799,7 +1801,6 @@ IP-CIDR6,2606:1f80:f000::/36,no-resolve
 IP-CIDR6,2a04:9d40:f000::/36,no-resolve
 USER-AGENT,Twitter*
 USER-AGENT,Starlink*
-IP-CIDR,199.96.56.0/23,no-resolve
 
 
 
@@ -1874,6 +1875,11 @@ USER-AGENT,codex_vscode/*
 #######################################################################################
 DOMAIN,line-billinggw.naver.jp
 DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,linebk.com
+DOMAIN-SUFFIX,linebank.com.tw
+DOMAIN-SUFFIX,linefriends.com
+DOMAIN-SUFFIX,linegame.jp
+USER-AGENT,LINE*
 DOMAIN-SUFFIX,lin.ee
 DOMAIN-SUFFIX,line-apps.com
 DOMAIN-SUFFIX,line.biz
@@ -1941,6 +1947,7 @@ USER-AGENT,Kraken*
 ###########################bybit交易所##################
 ####################################################################
 DOMAIN-SUFFIX,bybit.com
+USER-AGENT,Bybit*
 DOMAIN-SUFFIX,bybit.cloud
 DOMAIN-SUFFIX,bybit.eu
 DOMAIN-SUFFIX,bybit.nl
@@ -1990,6 +1997,7 @@ DOMAIN,bybit.ada.support
 #########################币安交易所##################
 ####################################################################
 DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.sg
 DOMAIN-SUFFIX,binance.charity
 DOMAIN-SUFFIX,binance.cloud
 DOMAIN-SUFFIX,binance.co
@@ -2114,6 +2122,7 @@ DOMAIN-SUFFIX,ezremit.com
 ##########################bunq银行荷兰银行bunq##########################
 ####################################################################
 DOMAIN-SUFFIX,bunq.com
+DOMAIN-SUFFIX,bunq.to
 DOMAIN-SUFFIX,bunq.me
 DOMAIN-SUFFIX,bunq.net
 DOMAIN-SUFFIX,bunq.app
@@ -2332,6 +2341,7 @@ DOMAIN-SUFFIX,paypal.ca
 DOMAIN-SUFFIX,paypal.co
 DOMAIN-SUFFIX,paypal.co.uk
 DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.biz
 DOMAIN-SUFFIX,paypal.com.ar
 DOMAIN-SUFFIX,paypal.com.au
 DOMAIN-SUFFIX,paypal.com.br
