@@ -423,6 +423,7 @@ DOMAIN-SUFFIX,google.vu
 DOMAIN-SUFFIX,google.ws
 DOMAIN-SUFFIX,googleacquisitionmigration.com
 DOMAIN-SUFFIX,googleapis.com
+DOMAIN,google-ohttp-relay-safebrowsing.fastly-edge.com
 DOMAIN-SUFFIX,googleapps.com
 DOMAIN-SUFFIX,googlearth.com
 DOMAIN-SUFFIX,googleblog.com
@@ -459,7 +460,6 @@ DOMAIN-SUFFIX,gridaware.app
 DOMAIN-SUFFIX,gsrc.io
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gsuite.com
-DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1-cn.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2-cn.com
@@ -560,7 +560,6 @@ DOMAIN-SUFFIX,thinkwithgoogle.com
 DOMAIN-SUFFIX,tiltbrush.com
 DOMAIN-SUFFIX,txcloud.net
 DOMAIN-SUFFIX,txvia.com
-DOMAIN-SUFFIX,unfiltered.news
 DOMAIN-SUFFIX,useplannr.com
 DOMAIN-SUFFIX,usvimosquito.com
 DOMAIN-SUFFIX,usvimosquitoproject.com
@@ -592,9 +591,6 @@ DOMAIN-SUFFIX,x.company
 DOMAIN-SUFFIX,x.team
 DOMAIN-SUFFIX,xn--9kr7l.com
 DOMAIN-SUFFIX,xn--9trs65b.com
-DOMAIN-SUFFIX,xn--flw351e.com
-DOMAIN-SUFFIX,xn--ggle-55da.com
-DOMAIN-SUFFIX,xn--gogl-0nd52e.com
 DOMAIN-SUFFIX,xn--gogl-1nd42e.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c
@@ -941,6 +937,7 @@ DOMAIN-SUFFIX,tiktokcdn-in.com
 DOMAIN-SUFFIX,tiktokcdn-row.com
 DOMAIN-SUFFIX,tiktokcdn-us.com
 DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN,p16-tiktokcdn-com.akamaized.net
 DOMAIN-SUFFIX,tiktokd.net
 DOMAIN-SUFFIX,tiktokd.org
 DOMAIN-SUFFIX,tiktokeds.com
@@ -1189,7 +1186,6 @@ DOMAIN-SUFFIX,china-facebook.com
 DOMAIN-SUFFIX,click-url.com
 DOMAIN-SUFFIX,como-hackearfacebook.com
 DOMAIN-SUFFIX,componentkit.org
-DOMAIN-SUFFIX,crowdtangle.com
 DOMAIN-SUFFIX,dacebook.com
 DOMAIN-SUFFIX,dlfacebook.com
 DOMAIN-SUFFIX,dotfacebook.com
@@ -1249,7 +1245,6 @@ DOMAIN-SUFFIX,facebooik.com
 DOMAIN-SUFFIX,facebooik.org
 DOMAIN-SUFFIX,facebooj.com
 DOMAIN-SUFFIX,facebook-corp.com
-DOMAIN-SUFFIX,facebook-covid-19.com
 DOMAIN-SUFFIX,facebook-dns.com
 DOMAIN-SUFFIX,facebook-ebook.com
 DOMAIN-SUFFIX,facebook-forum.com
@@ -1306,7 +1301,6 @@ DOMAIN-SUFFIX,facebookclub.com
 DOMAIN-SUFFIX,facebookcom.com
 DOMAIN-SUFFIX,facebookconnect.com
 DOMAIN-SUFFIX,facebookconsultant.org
-DOMAIN-SUFFIX,facebookcoronavirus.com
 DOMAIN-SUFFIX,facebookcovers.org
 DOMAIN-SUFFIX,facebookcredits.info
 DOMAIN-SUFFIX,facebookdating.net
@@ -1462,7 +1456,6 @@ DOMAIN-SUFFIX,fbbmarket.com
 DOMAIN-SUFFIX,fbboostyourbusiness.com
 DOMAIN-SUFFIX,fbcdn.com
 DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,fbf8.com
 DOMAIN-SUFFIX,fbfeedback.com
 DOMAIN-SUFFIX,fbhome.com
 DOMAIN-SUFFIX,fbidb.io
@@ -1475,14 +1468,10 @@ DOMAIN-SUFFIX,fbmessenger.com
 DOMAIN-SUFFIX,fbpaytesting.com
 DOMAIN-SUFFIX,fbpigeon.com
 DOMAIN-SUFFIX,fbredex.com
-DOMAIN-SUFFIX,fbreg.com
 DOMAIN-SUFFIX,fbrell.com
-DOMAIN-SUFFIX,fbrpms.com
 DOMAIN-SUFFIX,fbsbx.com
 DOMAIN-SUFFIX,fbsbx.net
-DOMAIN-SUFFIX,fbsupport-covid.net
 DOMAIN-SUFFIX,fbthirdpartypixel.com
-DOMAIN-SUFFIX,fbthirdpartypixel.net
 DOMAIN-SUFFIX,fbthirdpartypixel.org
 DOMAIN-SUFFIX,fburl.com
 DOMAIN-SUFFIX,fbwat.ch
@@ -1551,16 +1540,13 @@ DOMAIN-SUFFIX,hackfacebookid.com
 DOMAIN-SUFFIX,hacklang.org
 DOMAIN-SUFFIX,hhvm.com
 DOMAIN-SUFFIX,hifacebook.info
-DOMAIN-SUFFIX,howtohackfacebook-account.com
 DOMAIN-SUFFIX,hsfacebook.com
 DOMAIN-SUFFIX,httpfacebook.com
 DOMAIN-SUFFIX,httpsfacebook.com
 DOMAIN-SUFFIX,httpwwwfacebook.com
 DOMAIN-SUFFIX,i.org
 DOMAIN-SUFFIX,ig.me
-DOMAIN-SUFFIX,igcdn.com
 DOMAIN-SUFFIX,igsonar.com
-DOMAIN-SUFFIX,igtv.com
 DOMAIN-SUFFIX,imstagram.com
 DOMAIN-SUFFIX,imtagram.com
 DOMAIN-SUFFIX,instaadder.com
@@ -1687,7 +1673,6 @@ DOMAIN-SUFFIX,tfbnw.net
 DOMAIN-SUFFIX,thefacebook.com
 DOMAIN-SUFFIX,thefacebook.net
 DOMAIN-SUFFIX,thefind.com
-DOMAIN-SUFFIX,theinstagramhack.com
 DOMAIN-SUFFIX,threads.com
 DOMAIN-SUFFIX,threads.net
 DOMAIN-SUFFIX,toplayerserver.com
@@ -1806,6 +1791,7 @@ DOMAIN-SUFFIX,grok.me
 DOMAIN-SUFFIX,spacex.com
 DOMAIN-SUFFIX,starlink.com
 DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursorvm.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursor-cdn.com
@@ -1890,6 +1876,8 @@ DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicom.imgix.net
 DOMAIN,openai-api.arkoselabs.com
 DOMAIN,chatgpt.livekit.cloud
+DOMAIN,host.livekit.cloud
+DOMAIN,turn.livekit.cloud
 DOMAIN,o33249.ingest.sentry.io
 DOMAIN,openai.qualtrics.com
 USER-AGENT,ChatGPT/*
@@ -1970,6 +1958,7 @@ USER-AGENT,Kraken*
 ###########################bybit交易所##################
 ####################################################################
 DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybit.cloud
 DOMAIN-SUFFIX,bybit.eu
 DOMAIN-SUFFIX,bybit.nl
 DOMAIN-SUFFIX,bybit.ae
@@ -2430,7 +2419,6 @@ DOMAIN-SUFFIX,pypl.tv
 DOMAIN-SUFFIX,s-xoom.com
 DOMAIN-SUFFIX,secure-paypal.info
 DOMAIN-SUFFIX,securepaypal.info
-DOMAIN-SUFFIX,simility.com
 DOMAIN-SUFFIX,sslpaypal.org
 DOMAIN-SUFFIX,swiftbank.info
 DOMAIN-SUFFIX,swiftbank.us
@@ -2579,4 +2567,4 @@ DOMAIN-SUFFIX,aa.net.uk
 #####################德国代收扫描#########################
 ####################################################################
 DOMAIN-SUFFIX,clevver.io
-DOMAIN-SUFFIX,Dropscan.de
+DOMAIN-SUFFIX,dropscan.de
