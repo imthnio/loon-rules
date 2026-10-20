@@ -2564,13 +2564,7 @@ DOMAIN,nnrs-d.cdn.telefonica.com
 
 
 
-####################################################################
-########################1psim——Wi-Ficalling##########################
-IP-CIDR,208.54.32.35/32,no-resolve
-IP-CIDR,208.54.2.195/32,no-resolve
-####################################################################
-DOMAIN-SUFFIX,mnc260.mcc310.pub.3gppnetwork.org
-DOMAIN-SUFFIX,mnc240.mcc310.pub.3gppnetwork.org
+
 
 
 ####################################################################
@@ -2598,12 +2592,17 @@ DOMAIN-SUFFIX,vodafone.com
 
 ####################################################################
 #######################simyo荷兰——Wi-Ficalling##########################
-DOMAIN-SUFFIX,simyo.nl
 ####################################################################
+DOMAIN-SUFFIX,simyo.nl
 DOMAIN,epdg.epc.mnc008.mcc204.pub.3gppnetwork.org
+DOMAIN,epdgexp.epc.mnc008.mcc204.pub.3gppnetwork.org
+DOMAIN,epdg.epc.mnc069.mcc204.pub.3gppnetwork.org
 IP-CIDR,62.133.76.249/32,no-resolve
 IP-CIDR,62.133.76.250/32,no-resolve
 IP-CIDR,62.133.76.251/32,no-resolve
+IP-CIDR,83.232.33.106/32,no-resolve
+IP-CIDR,83.232.33.107/32,no-resolve
+USER-AGENT,MijnSimyo*
 
 ####################################################################
 #######################Lebara uk——Wi-Ficalling##########################
