@@ -2639,3 +2639,20 @@ DOMAIN-SUFFIX,clevver.io
 DOMAIN-SUFFIX,clevvermail.com
 DOMAIN,clevver.eu.auth0.com
 DOMAIN-SUFFIX,dropscan.de
+
+####################################################################
+###################identity online######################
+####################################################################
+DOMAIN-SUFFIX,identity.tm
+DOMAIN-SUFFIX,idvos.de
+DOMAIN-SUFFIX,idnow.de
+DOMAIN-SUFFIX,idnow.io
+DOMAIN-SUFFIX,idnow.eu
+IP-CIDR,213.95.145.0/27,no-resolve
+IP-CIDR,212.211.191.96/29,no-resolve
+IP-CIDR,212.211.189.136/29,no-resolve
+IP-CIDR,212.211.181.64/29,no-resolve
+USER-AGENT,AllInOne_Example*
+USER-AGENT,IdentityVideo_Example*
+USER-AGENT,IDnow*
+USER-AGENT,AutoIdent*
