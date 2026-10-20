@@ -2529,7 +2529,38 @@ USER-AGENT,HoneyMobile*
 #======================================================================================
 #===========================德国o2====================================
 #======================================================================================
+DOMAIN-SUFFIX,mnc003.mcc262.pub.3gppnetwork.org
+DOMAIN-SUFFIX,mnc007.mcc262.pub.3gppnetwork.org
+IP-CIDR,62.52.52.30/32,no-resolve
+IP-CIDR,213.20.31.8/32,no-resolve
+IP-CIDR,213.20.151.16/32,no-resolve
+IP-CIDR,213.20.175.56/32,no-resolve
 DOMAIN-SUFFIX,o2online.de
+DOMAIN-SUFFIX,o2.de
+DOMAIN-SUFFIX,o2business.de
+DOMAIN-SUFFIX,o2service.de
+DOMAIN-SUFFIX,o9.de
+DOMAIN-SUFFIX,telefonica.de
+DOMAIN-SUFFIX,blau.de
+DOMAIN-SUFFIX,fonic.de
+DOMAIN-SUFFIX,alditalk.de
+DOMAIN-SUFFIX,alditalk-kundenbetreuung.de
+DOMAIN-SUFFIX,alditalk-kundenportal.de
+DOMAIN-SUFFIX,meinalditalk.de
+DOMAIN-SUFFIX,ayyildiz.de
+DOMAIN-SUFFIX,nettokom.de
+DOMAIN-SUFFIX,whatsappsim.de
+DOMAIN-SUFFIX,aetkasmart.de
+DOMAIN-SUFFIX,eplus.de
+DOMAIN-SUFFIX,ortelmobile.de
+DOMAIN,api-o2de.mytelco.io
+DOMAIN,api-blaude.mytelco.io
+DOMAIN,gvp.telefonica.com
+DOMAIN,media.gvp.telefonica.com
+DOMAIN,wvcypherdrm.gvp.telefonica.com
+DOMAIN,contentapi-de.cdn.telefonica.com
+DOMAIN,canoway-de.cdn.telefonica.com
+DOMAIN,nnrs-d.cdn.telefonica.com
 
 
 
