@@ -2571,12 +2571,16 @@ DOMAIN,nnrs-d.cdn.telefonica.com
 ########################giffgaff——Wi-Ficalling##########################
 ####################################################################
 
+DOMAIN-SUFFIX,mnc010.mcc234.pub.3gppnetwork.org
+IP-CIDR,87.194.8.8/32,no-resolve
+IP-CIDR,87.194.9.8/32,no-resolve
+IP-CIDR,87.194.88.8/32,no-resolve
+IP-CIDR,87.194.89.8/32,no-resolve
 DOMAIN-SUFFIX,giffgaff.com
+DOMAIN-SUFFIX,giffgaff.co.uk
+DOMAIN-SUFFIX,giffgaff.design
 DOMAIN-SUFFIX,giffgaffrecycle.com
-DOMAIN-SUFFIX,giffgaff.io
-DOMAIN-SUFFIX,epdg.epc.mnc010.mcc234.pub.3gppnetwork.org
-IP-CIDR,87.194.8.0/23,no-resolve
-IP-CIDR,87.194.88.0/23,no-resolve
+USER-AGENT,giffgaff*
 
 ####################################################################
 #######################德国Vodafone——Wi-Ficalling##########################
