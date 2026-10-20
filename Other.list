@@ -437,14 +437,7 @@ IP-CIDR,83.232.33.107/32,no-resolve
 USER-AGENT,MijnSimyo*
 
 
-####################################################################
-#######################爱沙尼亚esim-##########################
-####################################################################
-DOMAIN,epdg.epc.mnc002.mcc248.pub.3gppnetwork.org
-DOMAIN,entitlement1.ses.elisa.ee
-IP-CIDR,194.204.13.252/32,no-resolve
-IP-CIDR,194.204.13.253/32,no-resolve
-IP-CIDR,194.204.13.254/32,no-resolve
+
 
 
 
