@@ -2610,22 +2610,17 @@ USER-AGENT,MijnSimyo*
 
 ####################################################################
 #######################Lebara uk——Wi-Ficalling##########################
-DOMAIN-SUFFIX,lebara.de
-DOMAIN-SUFFIX,lebara.nl
-DOMAIN-SUFFIX,lebara.com
-DOMAIN-SUFFIX,lebara.co.uk
-####################################################################
-
-DOMAIN,epdg.epc.mnc087.mcc234.pub.3gppnetwork.org
-IP-CIDR,84.246.113.151/32,no-resolve
-IP-CIDR,84.246.115.151/32,no-resolve
+########################################################################
 DOMAIN,epdg.epc.mnc015.mcc234.pub.3gppnetwork.org
 DOMAIN,epdg.vodafone.co.uk
 IP-CIDR,88.82.11.208/32,no-resolve
 IP-CIDR,88.82.11.221/32,no-resolve
 IP-CIDR,148.252.188.96/32,no-resolve
-IP-CIDR,34.3.3.0/24,no-resolve
-IP-CIDR,34.3.16.0/20,no-resolve
+DOMAIN,epdg.epc.mnc087.mcc234.pub.3gppnetwork.org
+IP-CIDR,84.246.113.151/32,no-resolve
+IP-CIDR,84.246.115.151/32,no-resolve
+DOMAIN-SUFFIX,lebara.co.uk
+DOMAIN-SUFFIX,lebara.com
 
 
 ####################################################################
