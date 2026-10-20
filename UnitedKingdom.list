@@ -2659,13 +2659,21 @@ USER-AGENT,AutoIdent*
 
 
 
-####################################################################
-##################英国royalmail#####################
-####################################################################
-DOMAIN-SUFFIX,royalmail.com
 
 
 ####################################################################
-##################英国ukpostbox英国皇家邮政#####################
+##################英国royalmail英国皇家邮政+英国ukpostbox##############
 ####################################################################
 DOMAIN-SUFFIX,ukpostbox.com
+DOMAIN-SUFFIX,ipostalmail.net
+USER-AGENT,UKPostbox*
+DOMAIN-SUFFIX,royalmail.com
+DOMAIN-SUFFIX,royalmail.net
+DOMAIN-SUFFIX,royalmail.co.uk
+DOMAIN-SUFFIX,royalmail.uk
+DOMAIN-SUFFIX,royalmailgroup.com
+DOMAIN-SUFFIX,parcelforce.com
+DOMAIN-SUFFIX,internationaldistributionservices.com
+IP-CIDR,77.95.81.224/28,no-resolve
+
+
