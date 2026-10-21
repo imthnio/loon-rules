@@ -168,3 +168,12 @@ DOMAIN-SUFFIX,xuedingtoken.com
 DOMAIN-SUFFIX,remix.codes
 DOMAIN-SUFFIX,ai.clol.site
 DOMAIN-SUFFIX,ai.bcol.c
+
+
+
+#======================================================================================
+#============================deepseek==================================
+#======================================================================================
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,deepseeksvc.com
+USER-AGENT,DeepSeek*
