@@ -2523,7 +2523,28 @@ USER-AGENT,XoomApp*
 USER-AGENT,HoneyMobile*
 
 
-
+#======================================================================================
+#==========================英国小狐狸钱包metamask交易所====================================
+#======================================================================================
+DOMAIN-SUFFIX,metamask.io
+DOMAIN-SUFFIX,metamask.com
+DOMAIN-SUFFIX,infura.io
+DOMAIN,api.relay.link
+DOMAIN,eth.merkle.io
+DOMAIN,arb1.arbitrum.io
+DOMAIN,mainnet.optimism.io
+DOMAIN,polygon-rpc.com
+DOMAIN,bsc-dataseed.binance.org
+DOMAIN,api.avax.network
+DOMAIN,mainnet.era.zksync.io
+DOMAIN,api.trongrid.io
+DOMAIN,mainnet.helius-rpc.com
+DOMAIN,blockstream.info
+DOMAIN,esplora.rivet.link
+DOMAIN,carrot.megaeth.com
+DOMAIN,timothy.megaeth.com
+DOMAIN,chainid.network
+DOMAIN,www.4byte.directory
 
 
 #======================================================================================
