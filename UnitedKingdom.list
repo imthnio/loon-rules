@@ -1955,7 +1955,38 @@ IP-CIDR6,2400:dcc0::/32,no-resolve
 
 
 
-
+####################################################################
+####################亚马逊商城amazon######################
+####################################################################
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazon.ae
+DOMAIN-SUFFIX,amazon.at
+DOMAIN-SUFFIX,amazon.ca
+DOMAIN-SUFFIX,amazon.co.jp
+DOMAIN-SUFFIX,amazon.co.uk
+DOMAIN-SUFFIX,amazon.com.au
+DOMAIN-SUFFIX,amazon.com.be
+DOMAIN-SUFFIX,amazon.com.br
+DOMAIN-SUFFIX,amazon.com.mx
+DOMAIN-SUFFIX,amazon.com.tr
+DOMAIN-SUFFIX,amazon.de
+DOMAIN-SUFFIX,amazon.eg
+DOMAIN-SUFFIX,amazon.es
+DOMAIN-SUFFIX,amazon.fr
+DOMAIN-SUFFIX,amazon.ie
+DOMAIN-SUFFIX,amazon.in
+DOMAIN-SUFFIX,amazon.it
+DOMAIN-SUFFIX,amazon.jp
+DOMAIN-SUFFIX,amazon.nl
+DOMAIN-SUFFIX,amazon.pl
+DOMAIN-SUFFIX,amazon.sa
+DOMAIN-SUFFIX,amazon.se
+DOMAIN-SUFFIX,amazon.sg
+DOMAIN-SUFFIX,a2z.com
+DOMAIN-SUFFIX,amazon-adsystem.com
+DOMAIN-SUFFIX,amazontrust.com
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,ssl-images-amazon.com
 
 
 
