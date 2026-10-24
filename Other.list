@@ -176,46 +176,8 @@ DOMAIN-SUFFIX,aaitr.com
 DOMAIN-SUFFIX,usvps24.com
 DOMAIN-SUFFIX,vps.mc666.top
 DOMAIN-SUFFIX,residential-service.com
-IP-CIDR,47.178.34.151/32,no-resolve
-IP-CIDR,104.168.56.25/32,no-resolve
-IP-CIDR,79.175.118.59/32,no-resolve
-IP-CIDR,66.235.104.175/32,no-resolve
-IP-CIDR,104.28.222.43/32,no-resolve
-IP-CIDR,216.122.186.135/32,no-resolve
-IP-CIDR,104.168.120.141/32,no-resolve
-IP-CIDR,130.162.167.138/32,no-resolve
-IP-CIDR,69.12.91.20/32,no-resolve
-IP-CIDR,168.110.218.236/32,no-resolve
-IP-CIDR,155.94.164.219/32,no-resolve
-IP-CIDR,45.196.97.124/32,no-resolve
-IP-CIDR,138.2.99.229/32,no-resolve
-IP-CIDR,207.211.143.117/32,no-resolve
-IP-CIDR,45.207.35.52/32,no-resolve
-IP-CIDR,23.80.91.245/32,no-resolve
-IP-CIDR,192.255.172.131/32,no-resolve
-IP-CIDR,78.159.110.6/32,no-resolve
-IP-CIDR,149.118.156.106/32,no-resolve
-IP-CIDR,155.117.188.91/32,no-resolve
-IP-CIDR,85.155.176.71/32,no-resolve
-IP-CIDR,91.236.248.31/32,no-resolve
-IP-CIDR,85.93.10.154/32,no-resolve
-IP-CIDR,2.27.132.214/32,no-resolve
-IP-CIDR,80.75.218.223/32,no-resolve
-IP-CIDR,142.181.129.91/32,no-resolve
-IP-CIDR,162.192.190.160/32,no-resolve
-IP-CIDR,87.229.95.246/32,no-resolve
-IP-CIDR,82.47.32.85/32,no-resolve
-IP-CIDR,210.16.163.59/32,no-resolve
-IP-CIDR,193.122.140.194/32,no-resolve
-IP-CIDR,185.153.55.164/32,no-resolve
-IP-CIDR,45.38.210.81/32,no-resolve
-IP-CIDR,45.196.97.215/32,no-resolve
-IP-CIDR,193.160.221.202/32,no-resolve
-IP-CIDR,147.79.59.51/32,no-resolve
-IP-CIDR,150.129.9.164/32,no-resolve
-IP-CIDR,23.95.231.81/32,no-resolve
-IP-CIDR,23.94.180.2/32,no-resolve
 IP-CIDR,108.165.213.162,no-resolve
+
 ########################################################################################
 ###########################################论坛############################################
 ########################################################################################
@@ -236,41 +198,7 @@ DOMAIN,legacyvps.com
 DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,nsloon.com
 
-# ======================================================================================
-#===============================emby=================================================
-DOMAIN-SUFFIX,emby.media
-DOMAIN-SUFFIX,mb3admin.com
-# ======================================================================================
-DOMAIN,eb.zzm.li
-DOMAIN,111660.xyz
-DOMAIN,emby.886318.xyz
-DOMAIN,link00.okemby.org
-DOMAIN,vip1.miraiemby.com
-DOMAIN,dm.moxiuu.com
-DOMAIN,hgemby.qzz.io
-DOMAIN,od.emby.fan
 
-# ======================================================================================
-#===================================安卓app软件下载======================================
-# ======================================================================================
-DOMAIN-SUFFIX,ldplayer.tw
-DOMAIN-SUFFIX,apkpure.net
-DOMAIN-SUFFIX,apkcube.com
-DOMAIN-SUFFIX,apps.evozi.com
-DOMAIN-SUFFIX,apkmirror.com
-DOMAIN-SUFFIX,malavida.com
-DOMAIN-SUFFIX,androeed.ru
-DOMAIN-SUFFIX,uptodown.com
-DOMAIN-SUFFIX,utdstc.com
-DOMAIN-SUFFIX,apk.support
-DOMAIN-SUFFIX,winudf.com
-DOMAIN-SUFFIX,aptoide.com
-DOMAIN-SUFFIX,pejdw.com
-DOMAIN-SUFFIX,apkpure.com
-DOMAIN-SUFFIX,cdnpure.com
-DOMAIN-SUFFIX,91maihao.com
-DOMAIN-SUFFIX,humkt.com
-DOMAIN-SUFFIX,desktophut.com
 
 
 
@@ -296,17 +224,7 @@ DOMAIN-SUFFIX,wmfusercontent.org
 DOMAIN-SUFFIX,wikimediafoundation.org
 DOMAIN-SUFFIX,wikimedia.org
 
-# ======================================================================================
-#=====================================视频解析下载======================================
-# ======================================================================================
-DOMAIN-SUFFIX,en.loader.to
-DOMAIN-SUFFIX,savenow.to
-DOMAIN-SUFFIX,downcloud.cc
-DOMAIN-SUFFIX,cutcut.top
-DOMAIN-SUFFIX,jjdd666.cc
-DOMAIN-SUFFIX,idaohang123.com
-DOMAIN-SUFFIX,easydown.org
-DOMAIN-SUFFIX,ytdn.netlify.app
+
 
 # ======================================================================================
 #===================================#刷粉丝刷粉刷赞======================================
@@ -334,17 +252,6 @@ DOMAIN-SUFFIX,cycani.org
 # ======================================================================================
 DOMAIN-SUFFIX,cryptgeon.org
 
-
-# ======================================================================================
-#=======================================文件传送传输=====================================
-# ======================================================================================
-DOMAIN-SUFFIX,share.dedyn.io
-DOMAIN-SUFFIX,tuitehao.cc
-DOMAIN-SUFFIX,ww6559.com
-DOMAIN-SUFFIX,easychuan.cn
-DOMAIN-SUFFIX,c.wss.ink
-DOMAIN-SUFFIX,wenshushu.cn
-DOMAIN-SUFFIX,wss1.cn
 
 # ======================================================================================
 #=======================================证件psd=====================================
@@ -399,28 +306,8 @@ DOMAIN-SUFFIX,abestesim.com
 #======================================================================================
 DOMAIN-SUFFIX,daisysms.com
 
-#======================================================================================
-#=================================尼日利亚卡===================================================================
-#======================================================================================
-DOMAIN-SUFFIX,solid.xyz
 
 
-#======================================================================================
-#==============================RedteaGO==================================================================
-#======================================================================================
-
-DOMAIN,redteago.com
-DOMAIN,www.redteago.com
-DOMAIN,esim.redteago.com
-DOMAIN,static.redteago.com
-DOMAIN,partner.redteago.com
-DOMAIN,api.redteago.com
-DOMAIN,einstein.redtea.io
-DOMAIN,static.redtea.io
-DOMAIN,images.redteamobile.com
-DOMAIN,rousseau.redtea.dev
-DOMAIN,nobel.redtea.dev
-USER-AGENT,*redteago*
 
 
 ####################################################################
@@ -481,18 +368,6 @@ DOMAIN,user.nexsms.net
 
 
 
-#======================================================================================
-#=================================苹果app ipa=====================================
-#======================================================================================
-DOMAIN-SUFFIX,wetransfer.com
-DOMAIN-SUFFIX,wetransfer.net
-DOMAIN-SUFFIX,ipalibrary.me
-DOMAIN-SUFFIX,iappstores.com
-DOMAIN-SUFFIX,dropboxusercontent.com
-DOMAIN-SUFFIX,iosboom.com
-DOMAIN-SUFFIX,decrypt.day
-DOMAIN,downloads.iosgods.com
-DOMAIN,app.iosgods.com
 
 
 #======================================================================================
