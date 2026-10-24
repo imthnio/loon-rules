@@ -1608,14 +1608,14 @@ USER-AGENT,N26*
 ############################ifastgb银行############################
 ####################################################################
 DOMAIN-SUFFIX,ifastgb.com
-DOMAIN-SUFFIX,ifastgb.co.uk
-DOMAIN-SUFFIX,ifastglobalbank.com
-DOMAIN-SUFFIX,ifastglobalbank.co.uk
-DOMAIN,ifast-global-bank.appspot.com
-DOMAIN,dtb-mobile.appspot.com
-DOMAIN,regional.ifastcorp.com
-DOMAIN,www.ifastcorp.com
+DOMAIN-SUFFIX,ifast-aws.com
+DOMAIN-SUFFIX,ifastglobalview.com
+DOMAIN-SUFFIX,ifastcorp.com
+DOMAIN-SUFFIX,fundsupermart.com
 DOMAIN-SUFFIX,ezremit.com
+DOMAIN,communication-services-igb-ai-cs-prod.uk.communication.azure.com
+DOMAIN,igb-ai-cs-communication-app-prod.azurewebsites.net
+DOMAIN,eu01-cdn.zimperium.com
 
 
 
