@@ -1677,14 +1677,22 @@ USER-AGENT,neverless*
 ######################monzo银行########################
 ####################################################################
 DOMAIN-SUFFIX,monzo.com
-DOMAIN-SUFFIX,monzo.co.uk
 DOMAIN-SUFFIX,monzo.me
+DOMAIN-SUFFIX,monzo.co.uk
+DOMAIN-SUFFIX,monzo-alt.net
+DOMAIN-SUFFIX,monzo-prod.com
+DOMAIN-SUFFIX,prod-ffs.io
 DOMAIN,monzo.statuspage.io
-DOMAIN,monzo-android-production.appspot.com
+DOMAIN,o23827.ingest.sentry.io
 DOMAIN,monzo-android-production.firebaseio.com
-DOMAIN,monzo-android-staging.appspot.com
-DOMAIN,monzo-android-staging.firebaseio.com
-USER-AGENT,Monzo*
+DOMAIN,monzo-android-production.appspot.com
+DOMAIN,we83.adj.st
+DOMAIN,68aa7b45-ga.spatialbuzz.net
+IP-CIDR,13.248.178.82/32,no-resolve
+IP-CIDR,76.223.40.168/32,no-resolve
+IP-CIDR,35.190.116.68/32,no-resolve
+IP-CIDR,185.102.244.0/22,no-resolve
+IP-CIDR6,2a00:e4e0::/32,no-resolve
 
 
 
