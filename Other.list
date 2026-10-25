@@ -102,7 +102,7 @@ DOMAIN-SUFFIX,vpsoso.com
 DOMAIN,miha.ftykh.top
 DOMAIN,wuyoucloud.de
 DOMAIN-SUFFIX,56idc.net
-DOMAIN-SUFFIX,tk2-cp.lxd.pp.ua
+DOMAIN-SUFFIX,tk2-cp.
 DOMAIN,radonet.co.uk
 
 DOMAIN-SUFFIX,bero-host.de
@@ -178,6 +178,9 @@ DOMAIN-SUFFIX,aaitr.com
 DOMAIN-SUFFIX,usvps24.com
 DOMAIN-SUFFIX,vps.mc666.top
 DOMAIN-SUFFIX,residential-service.com
+
+
+DOMAIN-SUFFIX,lxd.pp.ua
 IP-CIDR,108.165.213.162,no-resolve
 IP-CIDR,23.94.180.2,no-resolve
 IP-CIDR,142.91.108.200,no-resolve
