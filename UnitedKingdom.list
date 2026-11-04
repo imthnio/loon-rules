@@ -2193,6 +2193,11 @@ DOMAIN-SUFFIX,lebara.co.uk
 DOMAIN-SUFFIX,lebara.com
 
 
+
+
+
+
+
 ####################################################################
 #######################aa- uk##########################
 ####################################################################
@@ -2246,6 +2251,25 @@ DOMAIN-SUFFIX,parcelforce.com
 DOMAIN-SUFFIX,internationaldistributionservices.com
 IP-CIDR,77.95.81.224/28,no-resolve
 
+####################################################################
+##########################topcashback#################################
+####################################################################
+
+DOMAIN-SUFFIX,topcashback.com
+DOMAIN-SUFFIX,topcashback.co.uk
+DOMAIN-SUFFIX,topcashback.com.au
+DOMAIN-SUFFIX,topcashback.de
+DOMAIN-SUFFIX,topcashback.fr
+DOMAIN-SUFFIX,topcashback.es
+DOMAIN-SUFFIX,topcashback.it
+DOMAIN-SUFFIX,topcashback.cn
+DOMAIN-SUFFIX,topcashback.in
+DOMAIN-SUFFIX,tcb-cdn.com
+DOMAIN-SUFFIX,tcb.systems
+DOMAIN,topcashback.onelink.me
+DOMAIN,api-project-130061409586.firebaseio.com
+DOMAIN,api.onsleek.io
+DOMAIN,api.onsleek.ai
 
 ####################################################################
 #################apple siri ai##############
