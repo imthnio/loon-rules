@@ -38,10 +38,20 @@ DOMAIN,default.exp-tas.com
 #######################################################################################
 ############################reddit###########################################################
 #######################################################################################
+DOMAIN,dualstack.reddit.map.fastly.net
+DOMAIN,reddit-alternate.app.link
+DOMAIN,reddit-android.appspot.com
+DOMAIN,reddit-android.firebaseio.com
+DOMAIN,reddit.app.link
+DOMAIN,reddit.map.fastly.net
+DOMAIN,reddit.onelink.me
+DOMAIN-SUFFIX,devvit.net
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditblog.com
+DOMAIN-SUFFIX,redditforbusiness.com
 DOMAIN-SUFFIX,redditforcommunity.com
+DOMAIN-SUFFIX,redditgifts.com
 DOMAIN-SUFFIX,reddithelp.com
 DOMAIN-SUFFIX,redditinc.com
 DOMAIN-SUFFIX,redditmail.com
@@ -50,6 +60,7 @@ DOMAIN-SUFFIX,redditspace.com
 DOMAIN-SUFFIX,redditstatic.com
 DOMAIN-SUFFIX,redditstatus.com
 DOMAIN-SUFFIX,reddituploads.com
+
 
 
 #######################################################################################
