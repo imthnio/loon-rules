@@ -96,6 +96,44 @@ IP-CIDR6,2a0a:f280::/32,no-resolve
 
 
 #######################################################################################
+########################################discord##################################
+#######################################################################################
+
+DOMAIN,adept-ethos-91518.appspot.com
+DOMAIN,adept-ethos-91518.firebaseio.com
+DOMAIN,discord-attachments-uploads-prd.storage.googleapis.com
+DOMAIN,discord.sjc1.qualtrics.com
+DOMAIN,discordapp.onelink.me
+DOMAIN,hammerandchisel.ssl.zendesk.com
+DOMAIN,o447951.ingest.sentry.io
+DOMAIN-SUFFIX,airhorn.solutions
+DOMAIN-SUFFIX,airhornbot.com
+DOMAIN-SUFFIX,bigbeans.solutions
+DOMAIN-SUFFIX,dis.gd
+DOMAIN-SUFFIX,discord-activities.com
+DOMAIN-SUFFIX,discord.co
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.design
+DOMAIN-SUFFIX,discord.dev
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.gift
+DOMAIN-SUFFIX,discord.gifts
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discord.new
+DOMAIN-SUFFIX,discord.store
+DOMAIN-SUFFIX,discord.tools
+DOMAIN-SUFFIX,discordactivities.com
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discordcdn.com
+DOMAIN-SUFFIX,discordmerch.com
+DOMAIN-SUFFIX,discordsays.com
+DOMAIN-SUFFIX,discordstatus.com
+DOMAIN-SUFFIX,watchanimeattheoffice.com
+IP-CIDR,66.22.192.0/18,no-resolve
+IP-CIDR6,2a0e:5940::/29,no-resolve
+
+#######################################################################################
 ###########################honorofkings+PUBG Mobile####################################
 #######################################################################################
 DOMAIN-SUFFIX,igamecj.com
