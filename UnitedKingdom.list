@@ -1919,7 +1919,20 @@ IP-CIDR,35.190.116.68/32,no-resolve
 IP-CIDR,185.102.244.0/22,no-resolve
 IP-CIDR6,2a00:e4e0::/32,no-resolve
 
-
+####################################################################
+######################zopa银行zopabank########################
+####################################################################
+DOMAIN,mcy3by64m9q8cbw9sx8d81xstm6m.device.marketingcloudapis.com
+DOMAIN,o205295.ingest.sentry.io
+DOMAIN,zopa-acf7f.firebaseio.com
+DOMAIN,zopa-ai-prod-9drayigz.livekit.cloud
+DOMAIN,zopa.my-budget.co.uk
+DOMAIN,zopa.onelink.me
+DOMAIN-SUFFIX,zopa-broadband.com
+DOMAIN-SUFFIX,zopa-energy.com
+DOMAIN-SUFFIX,zopa.co.uk
+DOMAIN-SUFFIX,zopa.com
+DOMAIN-SUFFIX,zopa.me
 
 
 ####################################################################
