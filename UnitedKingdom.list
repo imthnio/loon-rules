@@ -1329,6 +1329,34 @@ IP-CIDR6,2a04:9d40::/29,no-resolve
 
 
 
+####################################################################
+##################################snapchat#############################
+####################################################################
+DOMAIN,cognac-prod.appspot.com
+DOMAIN,community-lens.storage.googleapis.com
+DOMAIN,d2oimfooui977r.cloudfront.net
+DOMAIN,feelinsonice-hrd.appspot.com
+DOMAIN,geofilter.storage.googleapis.com
+DOMAIN,lens-storage.storage.googleapis.com
+DOMAIN,snap.api.mapbox.com
+DOMAIN,snapchat-commerce-public-readable.storage.googleapis.com
+DOMAIN,snapchat-proxy.appspot.com
+DOMAIN,snapchat.hyperwallet.com
+DOMAIN,snapchat.media.giphy.com
+DOMAIN,snapchat.onelink.me
+DOMAIN-SUFFIX,bitmoji.com
+DOMAIN-SUFFIX,pixy.com
+DOMAIN-SUFFIX,sc-cdn.net
+DOMAIN-SUFFIX,sc-gw.com
+DOMAIN-SUFFIX,sc-jpl.com
+DOMAIN-SUFFIX,sc-prod.net
+DOMAIN-SUFFIX,sc-static.net
+DOMAIN-SUFFIX,snap-dev.net
+DOMAIN-SUFFIX,snap.com
+DOMAIN-SUFFIX,snapads.com
+DOMAIN-SUFFIX,snapchat.com
+DOMAIN-SUFFIX,snapkit.com
+DOMAIN-SUFFIX,spectacles.com
 
 ####################################################################
 #############################claude####################
