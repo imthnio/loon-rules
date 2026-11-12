@@ -465,6 +465,24 @@ DOMAIN-SUFFIX,spreadprivacy.com
 
 
 
+#======================================================================================
+#==============================aol邮箱aolmail===================================
+#======================================================================================
+DOMAIN,aol-aolcom-20166.firebaseio.com
+DOMAIN,aol.uservoice.com
+DOMAIN,aolapp.onelink.me
+DOMAIN-SUFFIX,aim.com
+DOMAIN-SUFFIX,aol.ca
+DOMAIN-SUFFIX,aol.co.uk
+DOMAIN-SUFFIX,aol.com
+DOMAIN-SUFFIX,aol.de
+DOMAIN-SUFFIX,aol.fr
+DOMAIN-SUFFIX,aol.in
+DOMAIN-SUFFIX,aol.it
+DOMAIN-SUFFIX,aol.jp
+DOMAIN-SUFFIX,aol.net
+DOMAIN-SUFFIX,aolcdn.com
+DOMAIN-SUFFIX,aolmail.com
 
 
 
@@ -472,5 +490,3 @@ DOMAIN-SUFFIX,spreadprivacy.com
 
 
 
-
-DOMAIN-SUFFIX,smart.com.ph
