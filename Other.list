@@ -339,16 +339,15 @@ DOMAIN-SUFFIX,daisysms.com
 ####################################################################
 #######################simyo荷兰——Wi-Ficalling##########################
 ####################################################################
+DOMAIN,simyo-nl-community.insided.com
+DOMAIN,simyo.imgkit.net
+DOMAIN-SUFFIX,mijnsimyo.nl
+DOMAIN-SUFFIX,mnc008.mcc204.pub.3gppnetwork.org
 DOMAIN-SUFFIX,simyo.nl
-DOMAIN,epdg.epc.mnc008.mcc204.pub.3gppnetwork.org
-DOMAIN,epdgexp.epc.mnc008.mcc204.pub.3gppnetwork.org
-DOMAIN,epdg.epc.mnc069.mcc204.pub.3gppnetwork.org
-IP-CIDR,62.133.76.249/32,no-resolve
-IP-CIDR,62.133.76.250/32,no-resolve
-IP-CIDR,62.133.76.251/32,no-resolve
-IP-CIDR,83.232.33.106/32,no-resolve
-IP-CIDR,83.232.33.107/32,no-resolve
-USER-AGENT,MijnSimyo*
+DOMAIN-SUFFIX,simyo.prod.aws.kpn.com
+IP-CIDR,62.133.76.250/31,no-resolve
+IP-CIDR,194.45.70.2/31,no-resolve
+IP-CIDR,194.45.70.130/31,no-resolve
 
 
 
