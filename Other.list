@@ -133,6 +133,7 @@ DOMAIN-SUFFIX,yt1s.biz
 DOMAIN-SUFFIX,pu.gy
 DOMAIN-SUFFIX,v98store.com
 DOMAIN-SUFFIX,cryptoawaz.com
+DOMAIN-SUFFIX,doro.dorocloud.xyz
 IP-CIDR,117.147.93.21/32,no-resolve
 DOMAIN,uscardforum.com
 DOMAIN,uscardforum-files.s3.dualstack.us-west-2.amazonaws.com
