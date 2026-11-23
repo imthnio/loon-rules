@@ -1906,6 +1906,20 @@ DOMAIN-SUFFIX,payzilch.com
 DOMAIN-SUFFIX,zilch.com
 
 
+####################################################################
+#################taptapsend###########################
+####################################################################
+DOMAIN,74e8622e6464.us-east-1.sdk.awswaf.com
+DOMAIN,d37z0xceaa6eiu.cloudfront.net
+DOMAIN,d3flmtd9xkn7p2.cloudfront.net
+DOMAIN,dukc4bsimuxts.cloudfront.net
+DOMAIN,segovia-appian.appspot.com
+DOMAIN,segovia-appian.firebaseio.com
+DOMAIN,taptapsend.onelink.me
+DOMAIN,taptapsend.page.link
+DOMAIN,taptapsend.zendesk.com
+DOMAIN-SUFFIX,taptapsend.co.uk
+DOMAIN-SUFFIX,taptapsend.com
 
 ####################################################################
 #################lloydsbank劳埃德银行小马银行###########################
