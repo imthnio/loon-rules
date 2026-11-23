@@ -2157,16 +2157,8 @@ DOMAIN,nnrs-d.cdn.telefonica.com
 
 
 
-####################################################################
-########################asdamobile uk##########################
-####################################################################
 
-DOMAIN-SUFFIX,mobile.asda.com
 
-####################################################################
-#######################voxi######################
-####################################################################
-voxi.co.uk
 ####################################################################
 ########################giffgaff——Wi-Ficalling##########################
 ####################################################################
@@ -2208,7 +2200,7 @@ IP-CIDR,84.246.113.151/32,no-resolve
 IP-CIDR,84.246.115.151/32,no-resolve
 DOMAIN-SUFFIX,lebara.co.uk
 DOMAIN-SUFFIX,lebara.com
-
+DOMAIN-SUFFIX,voxi.co.uk
 
 
 
@@ -2232,22 +2224,6 @@ DOMAIN-SUFFIX,clevvermail.com
 DOMAIN,clevver.eu.auth0.com
 DOMAIN-SUFFIX,dropscan.de
 
-####################################################################
-###################identity online######################
-####################################################################
-DOMAIN-SUFFIX,identity.tm
-DOMAIN-SUFFIX,idvos.de
-DOMAIN-SUFFIX,idnow.de
-DOMAIN-SUFFIX,idnow.io
-DOMAIN-SUFFIX,idnow.eu
-IP-CIDR,213.95.145.0/27,no-resolve
-IP-CIDR,212.211.191.96/29,no-resolve
-IP-CIDR,212.211.189.136/29,no-resolve
-IP-CIDR,212.211.181.64/29,no-resolve
-USER-AGENT,AllInOne_Example*
-USER-AGENT,IdentityVideo_Example*
-USER-AGENT,IDnow*
-USER-AGENT,AutoIdent*
 
 
 
