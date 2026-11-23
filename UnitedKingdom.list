@@ -2110,20 +2110,7 @@ DOMAIN-SUFFIX,bunq.uk
 
 
 
-####################################################################
-########################metamask小狐狸钱包##########################
-####################################################################
-DOMAIN,metamask-alternate.app.link
-DOMAIN,metamask.app.link
-DOMAIN,metamask.github.io
-DOMAIN,notifications-faf39.appspot.com
-DOMAIN-SUFFIX,consensys.io
-DOMAIN-SUFFIX,consensys.net
-DOMAIN-SUFFIX,infura.io
-DOMAIN-SUFFIX,metamask.com
-DOMAIN-SUFFIX,metamask.io
-DOMAIN-SUFFIX,metaswap.codefi.network
-DOMAIN-SUFFIX,web3auth.io
+
 
 #======================================================================================
 #===========================德国o2====================================
