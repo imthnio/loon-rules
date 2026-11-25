@@ -11,6 +11,7 @@ IP-CIDR,23.95.231.81/32,no-resolve
 IP-CIDR,217.60.237.64/32,no-resolve
 IP-CIDR,2.27.132.214/32,no-resolve
 IP-CIDR,154.88.65.100/32,no-resolve
+DOMAIN-SUFFIX,vpshostingservice.co
 DOMAIN-SUFFIX,deu.xx.kg
 DOMAIN-SUFFIX,Mizuku.net
 DOMAIN-SUFFIX,ovhcloud.com
