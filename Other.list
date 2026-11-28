@@ -5,6 +5,7 @@ IP-CIDR,45.207.153.208/32,no-resolve
 IP-CIDR,82.152.166.149/32,no-resolve
 IP-CIDR,162.35.170.195/32,no-resolve
 IP-CIDR,108.165.213.162/32,no-resolve
+IP-CIDR,140.238.75.180,no-resolve
 IP-CIDR,23.94.180.2/32,no-resolve
 IP-CIDR,142.91.108.200/32,no-resolve
 IP-CIDR,23.95.231.81/32,no-resolve
